@@ -5,7 +5,11 @@ Research roadmap proposal (open for comments) is here: https://docs.google.com/d
 
 We've submitted issues in this repo for each chunk of research listed in the proposal above. Have a look at them and please comment on the existing deliverables, add any relevant resources, comment on the approach you think should be taken and most importantly indicate whether you are interested in taking one or multiple issues on!
 
- 📖  Ship Vault: 📖
+-----------------------------------------------------------
+
+Ship Vault
+-----
+  
 
 Flash Boys 2.0: Frontrunning, Transaction Reordering, and Consensus Instability in Decentralized Exchanges by Daian et. al. https://arxiv.org/abs/1904.05234
 
@@ -35,7 +39,8 @@ TEX – A Securely Scalable Trustless Exchange by Khalil et. al.  https://eprint
 
 Spam resistant block creator selection via burn auction by Barry Whitehat https://ethresear.ch/t/spam-resistant-block-creator-selection-via-burn-auction/5851
 
-💎  Miscellaneous Gems: 💎
+Miscellaneous Gems
+--- 
 
 Ethereum is a Dark Forest by Dan Robinson https://medium.com/@danrobinson/ethereum-is-a-dark-forest-ecc5f0505dff
 
