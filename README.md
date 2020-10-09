@@ -1,4 +1,4 @@
-# research
+# Research
 Hello :)
 
 Research roadmap proposal (open for comments) is here: https://docs.google.com/document/d/1VSzERf8CF1M26hdv89CS0JlxaKajHxRjme9680piItQ/edit?usp=sharing
