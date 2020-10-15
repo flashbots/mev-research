@@ -48,6 +48,10 @@ Escaping the Dark Forest by Sam Sun https://samczsun.com/escaping-the-dark-fores
 
 Dark Forest Escape Route Starkware whiteboard session video recording https://www.crowdcast.io/e/dark-forest-escape-route
 
+ETHOnline - 'Phil & Georgios Talk Miner Extractable Value' https://youtu.be/tv0CkmcoGkM
+
+IC3 Blockchain Camp 2020 - Phil Daian - "DeFi Composability - Friend or Foe?" https://youtu.be/55o-1On5a2U
+
 Gas Wars: Understanding Ethereum’s Mempool & Miner Extractable Value by Uncommon Core podcast https://anchor.fm/uncommoncore/episodes/9-Gas-Wars-Understanding-Ethereums-Mempool--Miner-Extractable-Value-ejtp3j
 
 The Alchemy of Hashpower (Part II) by Leo Zhang https://www.aniccaresearch.tech/blog/the-alchemy-of-hashpower-part-ii
