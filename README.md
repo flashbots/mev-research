@@ -20,7 +20,9 @@ We intend Flashbots to be an open research organization where FRPs are the prima
 Propose yourself to work on an FRP
 
 **Initial Research Fellows:**
-Phil Daian, Alejo Salles, Alex Obadia, Tina Zhen, Surya Bakshi
+* Phil Daian, 
+* Alejo Salles, 
+* Surya Bakshi
 
 **Resources:**
 </br> Flashbots Medium [add link]
