@@ -1,6 +1,6 @@
 # FRP-2: Negative Externalities and Bot Metrics Around MEV
 
-**Fellow:** Alejo Salles
+**Fellow:** @fiiiu
 </br> **Contributors:** @bogatyy, @andrei-anisimov, @austin-williams, @gakonst
 </br> **Status:** In Progress
 </br> **Type:** Data collection & analysis
