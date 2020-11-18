@@ -1,8 +1,8 @@
 # FRP-4: Flashbots Design
 
 **Fellow:** @pdaian
-</br> **Contributors:** 
-</br> **Status:** 
+</br> **Contributors:** @thegostep @jparyani 
+</br> **Status:** In Progress
 </br> **Type:** 
 </br> **Updated:** 18.11.2020
 
