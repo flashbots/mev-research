@@ -19,6 +19,9 @@ We intend Flashbots to be an open research organization where FRPs are the prima
 </br> Comment on an existing FRP by submitting an edit to it through a pull request or by creating an issue in the Research repo to open a discussion on a particular point of the FRP.
 Propose yourself to work on an FRP
 
+**Authorship**
+</br> Our research efforts will output research papers that will be shaped by Research Fellows. Anyone (including entities) can be an author of these papers as long as they meet one of the criteria for authorship we follow, as described in the Association for Computing Machinery's [Criteria for Authorship](https://www.acm.org/publications/policies/authorship).
+
 **Research Fellows:**
 * @pdaian
 * @fiiiu
