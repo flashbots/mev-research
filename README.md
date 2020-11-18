@@ -23,6 +23,7 @@ Propose yourself to work on an FRP
 * @pdaian
 * @fiiiu
 * @sbaks0820
+* @sikkatech
 
 **Resources:**
 </br> Flashbots Medium [add link]
