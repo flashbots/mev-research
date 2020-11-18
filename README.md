@@ -19,10 +19,10 @@ We intend Flashbots to be an open research organization where FRPs are the prima
 </br> Comment on an existing FRP by submitting an edit to it through a pull request or by creating an issue in the Research repo to open a discussion on a particular point of the FRP.
 Propose yourself to work on an FRP
 
-**Initial Research Fellows:**
-* Phil Daian
-* Alejo Salles
-* Surya Bakshi
+**Research Fellows:**
+* @pdaian
+* @fiiiu
+* @sbaks0820
 
 **Resources:**
 </br> Flashbots Medium [add link]
