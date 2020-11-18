@@ -16,7 +16,7 @@ We intend Flashbots to be an open research organization where FRPs are the prima
 </br> Initially, we are a lean and fast-moving organization with clear short-term research goals. With that in mind, we have submitted X FRPs which are core to our research efforts in the next months. FRPs will be open for community submissions in early 2021, until then we’d like to collaborate with the community on our existing FRPs.
 
 **Current Asks:**
-Comment on an existing FRP by submitting an edit to it through a pull request or by creating an issue in the Research repo to open a discussion on a particular point of the FRP.
+</br> Comment on an existing FRP by submitting an edit to it through a pull request or by creating an issue in the Research repo to open a discussion on a particular point of the FRP.
 Propose yourself to work on an FRP
 
 **Initial Research Fellows:**
