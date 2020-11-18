@@ -29,7 +29,7 @@ Phil Daian, Alejo Salles, Alex Obadia, Tina Zhen, Surya Bakshi
 
 
 
-**Ship Vault**
+## **Ship Vault**
 </br> [Flash Boys 2.0: Frontrunning, Transaction Reordering, and Consensus Instability in Decentralized Exchanges by Daian et. al.](https://arxiv.org/abs/1904.05234)
 
 [High-Frequency Trading on Decentralized On-Chain Exchanges by Zhou et. al](https://arxiv.org/abs/2009.14021)
