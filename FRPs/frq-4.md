@@ -21,12 +21,6 @@ where there is no-collusion assumption from the auctioneer.
 * Develop early thoughts around mempool auction theory
 * In the current POC version, the bundle auction favors small bundles. What is the full impact othis design? 
 
-**Proposed Approach:**
-</br> Looking at the assumptions of existing techniques might disqualify subsets of them, for example the auctions where there is a no-collusion assumption from the auctioneer.
-</br> It might be helpful to try to enumerate the assumptions that we can make for bidders in our context. 
-Things such as budget constraints, participation in repeated games. I arrived at this paper from another RTB paper I was reading: http://wnzhang.net/share/rtb-papers/repeat-auction.pdf. 
-It introduces this idea of Fluid Mean Field Equilibrium, which is a computationally feasible alternative to Bayesian equilibrium, for repeated auctions. 
-It also makes some specific assumptions about bidders valuing each auction equally and their budget constraints. It think it could be promising direction.
 
 **Resources:**
 * https://arxiv.org/pdf/1901.06830.pdf
@@ -36,3 +30,11 @@ It also makes some specific assumptions about bidders valuing each auction equal
 * https://www.cs.cmu.edu/~sandholm/cs15-892F13/algorithmic-game-theory.pdf (Chapter 11 on Combinatorial Auctions)
 * Here is the POC version of the bundle auction: Flashbots miners select the most valuable bundle per unit of gas used and place it at the beginning of the list of transactions included in a block at the given blockheight. Miners determine the value of a bundle based on the following equation where the change in block.coinbase balance represents a direct transfer of ETH through a smart contract.
 ![Alt Text](https://user-images.githubusercontent.com/15959632/99228128-7c883b00-27ec-11eb-8b95-3896b21e0b08.png)
+
+
+-----
+**Proposed Approach:**
+</br> It might be helpful to try to enumerate the assumptions that we can make for bidders in our context. 
+Things such as budget constraints, participation in repeated games. I arrived at this paper from another RTB paper I was reading: http://wnzhang.net/share/rtb-papers/repeat-auction.pdf. 
+It introduces this idea of Fluid Mean Field Equilibrium, which is a computationally feasible alternative to Bayesian equilibrium, for repeated auctions. 
+It also makes some specific assumptions about bidders valuing each auction equally and their budget constraints. It think it could be promising direction.
