@@ -6,7 +6,7 @@
 </br> **Type:** Survey
 </br> **Updated:** 18.11.2020
 
-**Simple summary:** 
+**Summary:** 
 </br> This is a survey of what the Flashbots architecture would look like on other chains and of other potential solutions to the negative externalities caused by MEV.
 
 
