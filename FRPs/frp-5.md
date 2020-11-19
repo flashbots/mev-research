@@ -20,6 +20,11 @@ FRP-5 is a research proposal to that effect.
 * Theory for when miners should run client A over client B?
 * Feasibility of A/B testing? What metrics matter?
 * How to compare in limited trials?
+* Measure miner latency: assuming both no Flashbots txs / saturation
+* Measure required resources on miner side
+* Measure latency penalty of minimal viable switching algorithm [critical]
+* Academic definition for "strictly dominating" client in game theory?
+
 
 **Proposed Approach:**
 </br> 
