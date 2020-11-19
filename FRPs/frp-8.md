@@ -6,7 +6,7 @@
 </br> **Type:** 
 </br> **Updated:** 
 
-**Simple summary:** 
+**Summary:** 
 </br> This is an exploratory question where by no means we are looking for a definitive answer, rather to survey existing academic literature and think through the implications of what is being built.
 Are we facilitating parasitic arbitrage and would it be better to have a system where MEV is not extracted maximally or where there isn’t a lot of MEV.
 
