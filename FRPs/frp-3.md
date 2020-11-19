@@ -6,7 +6,7 @@
 </br> **Type:** 
 </br> **Updated:** *18.09.2020*
 
-**Simple summary:** 
+**Summary:** 
 </br> A survey of the logic bots are doing on-chain that doesn't have to do with direct execution. Such logic (eg. bot checks) doesn't necessarily need to exist on-chain.
 
 **Motivation:**
