@@ -6,7 +6,7 @@
 </br> **Type:** 
 </br> **Updated:** 18.11.2020
 
-**Simple summary:** 
+**Summary:** 
 </br> Collecting relevant miner metrics and anticipating questions miners and mining pools considering adopting Flashbots would ask.
 
 **Motivation:**
