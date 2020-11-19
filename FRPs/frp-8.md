@@ -12,8 +12,6 @@ Are we facilitating parasitic arbitrage and would it be better to have a system 
 
 **Motivation:**
 </br> The ethical implications of the infrastructure we are building are not an afterthought and are at the forefront of our exploration.
-As Ian said in Jurassic Park
-> *Your scientists were so preoccupied with whether or not they could, they didn't stop to think if they should.*
 
 **Proposed deliverable:**
 * What is the state-of-the-art in discussions on parasitic vs helpful arbitrage?
