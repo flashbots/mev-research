@@ -21,5 +21,3 @@ This is a living document that is intentionally left nearly empty. For the time 
 </br> 
 
 **Resources:**
-
-</br> *Updated: 18.09.2020*
