@@ -6,7 +6,7 @@
 </br> **Type:** Survey
 </br> **Updated:** 18.11.2020
 
-**Simple summary:** 
+**Summary:** 
 </br> A survey of ad auctions, other priority auctions games and computational game theory papers.
 This is a survey of existing auction techniques and the beginning of a longer process of developing mempool auction theory.
 
