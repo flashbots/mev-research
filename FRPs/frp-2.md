@@ -6,7 +6,7 @@
 </br> **Type:** Data collection & analysis
 </br> **Updated:** 18.11.2020
 
-**Simple summary:** 
+**Summary:** 
 </br> Data collection and analysis of Ethereum data using Flashbots monitoring infrastructure in order to 1) quantify the negative externalities caused by current techniques used for MEV-extraction and 2) quantify the related current trading bot activity on Ethereum.
 
 **Motivation:**
