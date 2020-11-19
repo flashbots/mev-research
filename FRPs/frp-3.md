@@ -17,6 +17,8 @@ Additionally, by potentially bringing more bot logic off-chain we hope to allevi
 </br> 
 * Survey of the logic bots are doing on-chain that includes how much of it can be moved off-chain
 * Enumerate order types
+* Formalize trade-off between on-chain / off-chain arb computation
+  * Is there any computation we should move off-chain (into bundle processing/switching)?	
 
 **Proposed Approach:**
 </br> 
