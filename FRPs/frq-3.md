@@ -1,4 +1,4 @@
-# FRQ-3: What does a formal mathematical definition look like for a 'good' auction mechanism?
+# FRQ-2: What does a formal mathematical definition look like for a 'good' auction mechanism?
 
 
 **Fellow:** 
