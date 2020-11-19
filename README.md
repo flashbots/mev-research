@@ -1,32 +1,29 @@
 # MEV-Research
 
-Welcome! In this repo, you can **suggest an edit to any parts of a FRP, start a conversation on any point of a FRP or join a research team working on a FRP.**  
+Welcome! In this repo, you can **suggest an edit to any parts of a FRQ, contribute to an open issue related to one of the FRQs or open your own issue relevant to one of the FRQs**  
 
 Our FRP teams are coordinated by our Research Fellows, who will be reviewing your edit suggestions, respond to your comments and on-board you as a research contributor should you mutually like working together. 
 
 **What is a Research Fellow?**
 </br> A Research Fellow is part of our core research team and explores research directions. Learn more about becoming a Research Fellow here.
 
-**What is a FRP?**
-</br> FRP stands for Flashbots Research Proposal. An FRP is a design document proposing a new research question to the Flashbots research community.
+**What is a FRQ?**
+</br> FRQ stands for Flashbots Research Question. An FRQ is a document proposing a new research question to the Flashbots research community. Each FRQ is broken down into chunks linked in the FRQ as issues.
 
-We intend Flashbots to be an open research organization where FRPs are the primary mechanism for anyone in the ecosystem to suggest and contribute to research.
+We intend Flashbots to be an open research organization where FRQs and the underlying issues they generate are the primary mechanism for anyone in the ecosystem to suggest and contribute to research.
 
 **Bootstrapping FRPs**
-</br> Initially, we are a lean and fast-moving organization with clear short-term research goals. With that in mind, we have submitted 12 FRPs which are core to our research efforts in the next months. FRPs will be open for community submissions in early 2021, until then we’d like to collaborate with the community on our existing FRPs.
+</br> Initially, we are a lean and fast-moving organization with clear short-term research goals. With that in mind, we have submitted 8 FRQs which are core to our research efforts in the next months. FRQs will be open for community submissions in early 2021, until then we’d like to collaborate with the community on our existing FRQs and their related issues.
 
-* FRP-1:
-* FRP-2:
-* FRP-3:
-* FRP-4:
-* FRP-5:
-* FRP-6:
-* FRP-7:
-* FRP-8:
-* FRP-9:
-* FRP-10:
-* FRP-11:
-* FRP-12:
+* FRQ-1:
+* FRQ-2:
+* FRQ-3:
+* FRQ-4:
+* FRQ-5:
+* FRQ-6:
+* FRQ-7:
+* FRQ-8:
+* FRQ-9:
 
 
 **Current Asks:**
@@ -45,6 +42,7 @@ Propose yourself to work on an FRP
 **Resources:**
 </br> Flashbots Medium [add link]
 </br> Flashbots EthR post [add link]
+</br> Research roadmap
 </br> [Research Fellowship](https://github.com/flashbots/mev-research/blob/main/research_fellowship.md)
 
 
