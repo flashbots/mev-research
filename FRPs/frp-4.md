@@ -6,7 +6,7 @@
 </br> **Type:** 
 </br> **Updated:** 18.11.2020
 
-**Simple summary:** 
+**Summary:** 
 </br> This is the core of paper 1, explaining the design of our architecture and the tradeoffs we went with.
 
 **Motivation:**
