@@ -13,14 +13,14 @@ We expect the research questions to evolve over time and to most likely lead to 
 <br />The grant is  $20k per fellowship for which you or your organization. Its payment will be on a case by case basis but generally, we expect to be paying it in two halves, a first one at the beginning and the second one at the end.
 
 **What are the research questions available for Fellowship?**
-<br /> How can we build a ‘good’ auction mechanism for validator priority ‘bribes’? @fiiiu
-<br /> What does a formal mathematical definition look like for a good auction mechanism?
-<br /> How can we leverage existing auction literature to create a mempool auction theory? @sbaks0820
-<br /> How would such a mechanism differ across chain architectures and across layers? @sikkatech
-<br /> Should we build a ‘good’ auction mechanism for validator priority ‘bribes’?
-<br /> How do we minimize possible user harm of priority bribe incentives?
-<br /> How do we minimize possible consensus harms of priority bribe incentives?
-<br /> Should we allow for any MEV on the system?  Should we bound the MEV?
+* How can we build a ‘good’ auction mechanism for validator priority ‘bribes’? @fiiiu
+* What does a formal mathematical definition look like for a good auction mechanism?
+* How can we leverage existing auction literature to create a mempool auction theory? @sbaks0820
+* How would such a mechanism differ across chain architectures and across layers? @sikkatech
+* Should we build a ‘good’ auction mechanism for validator priority ‘bribes’?
+* How do we minimize possible user harm of priority bribe incentives?
+* How do we minimize possible consensus harms of priority bribe incentives?
+* Should we allow for any MEV on the system?  Should we bound the MEV?
 
 **Aside from financial support, does Flashbots support fellows in other ways?**
 <br /> As a Research Fellow, you will have full access to the Flashbots core team as well as Flashbots contributors who will be able to help you depending on their bandwidth. Additionally, you will have access to our monitoring and tech infrastructure which includes an Ethereum full archival node with regular Parity RPC API with tracing and archive features enabled, and a MEV-Geth node that you’ll be able to use for testing the Flashbots bundles.
