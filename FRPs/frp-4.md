@@ -18,6 +18,13 @@
 * Permissionless nature?
 * Privacy?
 * Why are permissionless/privacy important? How to achieve?
+* Efficiently express preferences of all network actors
+  * Enumerate current arb use cases, show that system covers all of them
+  * Discuss trade-offs in order type complexity vs. latency
+* Permissionless: no KYC / ad-hoc trust required in design
+  * Create security criteria for users not needing to trust miners/pools in PGA
+  * Enumerate where current design falls short, implications of shortcomings
+
 
 **Proposed Approach:**
 </br> 
