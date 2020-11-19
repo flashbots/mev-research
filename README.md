@@ -13,7 +13,21 @@ Our FRP teams are coordinated by our Research Fellows, who will be reviewing you
 We intend Flashbots to be an open research organization where FRPs are the primary mechanism for anyone in the ecosystem to suggest and contribute to research.
 
 **Bootstrapping FRPs**
-</br> Initially, we are a lean and fast-moving organization with clear short-term research goals. With that in mind, we have submitted X FRPs which are core to our research efforts in the next months. FRPs will be open for community submissions in early 2021, until then we’d like to collaborate with the community on our existing FRPs.
+</br> Initially, we are a lean and fast-moving organization with clear short-term research goals. With that in mind, we have submitted 12 FRPs which are core to our research efforts in the next months. FRPs will be open for community submissions in early 2021, until then we’d like to collaborate with the community on our existing FRPs.
+
+* FRP-1:
+* FRP-2:
+* FRP-3:
+* FRP-4:
+* FRP-5:
+* FRP-6:
+* FRP-7:
+* FRP-8:
+* FRP-9:
+* FRP-10:
+* FRP-11:
+* FRP-12:
+
 
 **Current Asks:**
 </br> Comment on an existing FRP by submitting an edit to it through a pull request or by creating an issue in the Research repo to open a discussion on a particular point of the FRP.
