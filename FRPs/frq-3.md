@@ -12,8 +12,8 @@ We anticipate a lot of the existing literature can be disqualified given the ass
 where there is no-collusion assumption from the auctioneer.
 
 **Related research questions:**
-* FRQ-2: How can we build a 'good' auction mechanism for validator priority 'bribes'? [link]
-* FRQ-4: How can we leverage existing auction literature? [link]
+* FRQ-1: How can we build a 'good' auction mechanism for validator priority 'bribes'? [link]
+* FRQ-2: What does a formal mathematical definition of a 'good' auction mechanism for validatory priority 'bribes' look like? [link]
 
 **Related issues**
 * Survey of ad auctions/other priority bidding games. Known pathologies / design trade-offs
