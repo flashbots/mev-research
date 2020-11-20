@@ -12,7 +12,7 @@ Our FRP teams are coordinated by our Research Fellows, who will be reviewing you
 
 We intend Flashbots to be an open research organization where FRQs and the underlying issues they generate are the primary mechanism for anyone in the ecosystem to suggest and contribute to research.
 
-**Bootstrapping FRPs**
+**Bootstrapping FRQs**
 </br> Initially, we are a lean and fast-moving organization with clear short-term research goals. With that in mind, we have submitted 8 FRQs which are core to our research efforts in the next months. FRQs will be open for community submissions in early 2021, until then we’d like to collaborate with the community on our existing FRQs and their related issues.
 
 * FRQ-1:
