@@ -3,17 +3,12 @@
 **Fellow:** 
 </br> **Contributors:** Ethereum Foundation? @cnoyes? @gakonst?
 </br> **Status:** 
-</br> **Type:** 
 </br> **Updated:** 
 
 **Summary:** 
-</br> This is an exploratory question where by no means we are looking for a definitive answer, rather to survey existing academic literature and think through the implications of what is being built.
-Are we facilitating parasitic arbitrage and would it be better to have a system where MEV is not extracted maximally or where there isn’t a lot of MEV.
+</br> This is an exploratory question where by no means we are looking for a definitive answer, rather to survey existing academic literature and think through the implications of what is being built. The ethical implications of the infrastructure we are building are not an afterthought and are at the forefront of our exploration.
 
-**Motivation:**
-</br> The ethical implications of the infrastructure we are building are not an afterthought and are at the forefront of our exploration.
-
-**Proposed deliverable:**
+**Related Issues**
 * What is the state-of-the-art in discussions on parasitic vs helpful arbitrage?
 * What are market designs that synergise with Flashbots / provide benefits to users other than arbers?
 * Comparing various systems: high MEV+maximal extraction vs. low MEV + maximal extraction vs. no extraction @ L1
