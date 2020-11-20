@@ -16,11 +16,6 @@
 * Meta-game analysis: how should protocols design around MEV? should they negotiate w miners? encourage users?
 * Minimizing MEV vs. Inevitable MEV? How much MEV can we minimize w app design and L1?
 
-**Proposed Approach:**
-</br> Surveying existing financial literature around parasitic arbitrage + market designs that synergise with Flashbots.
-</br> Comparing various systems high MEV + max extraction, vs low MEV + max extraction etc
-
-
 **Resources:**
 
 
