@@ -1,4 +1,4 @@
-# FRQ-4: How Can We Leverage Existing Auction Literature?
+# FRQ-3: How Can We Leverage Existing Auction Literature?
 
 **Fellow:** @sbaks0820
 </br> **Contributors:** 
