@@ -1,4 +1,4 @@
-# FRP-8: Should We Build A 'Good' Auction Mechanism for Validator Priority Bribes?
+# FRQ-5: Should We Build A 'Good' Auction Mechanism for Validator Priority Bribes?
 
 **Fellow:** 
 </br> **Contributors:** Ethereum Foundation? @cnoyes? @gakonst?
