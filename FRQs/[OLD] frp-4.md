@@ -1,16 +1,16 @@
 # FRP-4: Flashbots Design
 
 **Fellow:** @pdaian
-</br> **Contributors:** @thegostep @jparyani 
+</br> **Contributors:** @thegostep @jparyani
 </br> **Status:** In Progress
-</br> **Type:** 
+</br> **Type:**
 </br> **Updated:** 18.11.2020
 
-**Summary:** 
-</br> This is the core of paper 1, explaining the design of our architecture and the tradeoffs we went with.
+**Summary:**
+</br> This is the core of paper 1, explaining the design of our architecture and the tradeoffs we went with.s
 
 **Motivation:**
-</br> 
+</br>
 
 **Proposed deliverable:**
 * Describing the code that we're releasing
@@ -27,7 +27,6 @@
 
 
 **Proposed Approach:**
-</br> 
+</br>
 
 **Resources:**
-
