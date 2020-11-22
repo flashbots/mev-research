@@ -1,29 +1,63 @@
 # MEV-Research
 
-Welcome! In this repo, you can **suggest an edit to any parts of a FRQ, contribute to an open issue related to one of the FRQs or open your own issue relevant to one of the FRQs**  
+## Flashbots Research Process
+Flashbots research is an open, transparent and iterative collective creation process taking inspiration from both academic and applied research, and modelled upon Ethereum Improvement Proposal (EIP) process. Anyone can contribute to Flashbots Research through opening or answering a Github issue in this repo, and/or writing a Flashbots Research Proposal (FRP) by proposing to answer a Research Question specified on the Flashbots Research Roadmap, and/or create a pull request to revise a particular FRP. 
+ 
+#### Flashbots Research Proposals (FRPs)
+FRPs stands for Flashbots Research Proposal. It is a markdown document describing the approach to answering a core Research Question specified on the Flashbots Research Roadmap. Similar to a research proposal for academic writing, it entails introducing what the research proposes to do and/or prove. It should incorporate systematic breakdown of the research question. It will also give an in-depth account of the methodologies, approaches or theories that will be used to support the hypothesis within the project, including a review of the relevant literature.
+Please review FRP-0[add link] for the process of creating an FRP, and FRP-1 as an example FRP.
+If a Research Question you deem as important and would like to create an FRP but is not currently on the Flashbots Research Roadmap, you may open an Issue in this repository and propose your specific Research Question for consideration, FRP editors will review and update the Flashbots Research Roadmap periodically. 
 
-Our FRP teams are coordinated by our Research Fellows, who will be reviewing your edit suggestions, respond to your comments and on-board you as a research contributor should you mutually like working together. 
+#### Issues
+If you would like to raise a new Research Question to be incorporated into the Flashbots Research Roadmap, or you are a (prospective) MEV Fellow who would like to breakdown a particular Research Question into addressable sub questions to seek community contributions, you may open an Issue in this repository and link it to the relevant FRP Draft.
+An Issue will be closed by FRP editors if the newly proposed Research Question has been reviewed and acted upon, or a FRP has been completed, or the Issue is no longer relevant.
 
-**What is a Research Fellow?**
-</br> A Research Fellow is part of our core research team and explores research directions. Learn more about becoming a Research Fellow here.
+#### MEV Research Fellows
+An MEV Research Fellow (or MEV Fellows) is a MEV Fellowship grant recipient whose FRP has been accepted upon review and undertake answering the Research Questions specified in the Flashbots Research Roadmap. In addition to delivering the FRPs, the MEV fellows, can be either a natural person, or an organization, will act as co-authors of the Flashbots research papers, who are responsible for collaborating with other MEV Fellows in architecting, coordinating and delivering the Flashbots research papers and presentations. 
 
-**What is a FRQ?**
-</br> FRQ stands for Flashbots Research Question. An FRQ is a document proposing a new research question to the Flashbots research community. Each FRQ is broken down into chunks linked in the FRQ as issues.
+#### MEV Research Contributors
+If you are interested in contributing but do not want to commit to the responsibility of drafting and getting necessary alignment for an FRP, you can easily become a MEV Research Contributor (or Contributor). An Contributor is anyone who is not an MEV Fellow but contributed meaningful artifacts to FRPs that ended up being included in the Flashbots research papers. Contributors can be either invited by respective MEV Fellow for particular FRP throughout its lifecycle of the research, or request to join an MEV Fellow to work on a particular FRP before its review, to collaborate on a particular Research Question. 
+Opening or answering Github Issues in this repos or creating meaningful pull request to draft FRPs are ways to signal interest and demonstrate qualification as a Contributor. Contributors will be recognized in the papers for their contribution.
 
-We intend Flashbots to be an open research organization where FRQs and the underlying issues they generate are the primary mechanism for anyone in the ecosystem to suggest and contribute to research.
+## Flashbots Research Phase I
+For full Flashbots Research Roadmap (WIP), please refer to here. Phase I of Flashbots Research consist of two research papers:
+Phase 1 is practical/ultra-applied research akin to 'industry' R&D, in close loop with development. We expect Flashbots developers to be heavily involved in this phase.
+Phase 1 has 2 research papers as a deliverable, the first draft of the papers will be due at the end of January, and publication targeting Q1 2021. 
+The outcome of Phase 1 is immediately relevant to providing MVP and communicating our intentions to the community. We expect to be able to describe the remainder of the research roadmap in-depth in our first research document under 'Future Work'.
 
-**Bootstrapping FRQs**
-</br> Initially, we are a lean and fast-moving organization with clear short-term research goals. With that in mind, we have submitted 8 FRQs which are core to our research efforts in the next months. FRQs will be open for community submissions in early 2021, until then we’d like to collaborate with the community on our existing FRQs and their related issues.
+#### Phase I Timeline
+The tentative timeline for Flashbots Research Phase I is as follows, subject to adjustment by FRP editors
 
-* FRQ-1:
-* FRQ-2:
-* FRQ-3:
-* FRQ-4:
-* FRQ-5:
-* FRQ-6:
-* FRQ-7:
-* FRQ-8:
-* FRQ-9:
+#### Paper 1: Whitepaper / proof-of-concept
+Paper style/field: Cryptocurrency systems paper, short paper/PoC (9pgs)
+Similar papers: bloxroute, Thunderella, FlyClient
+Venue: FC22? USENIX?
+- Research Question: How can we build a "good" auction mechanism for validator priority "bribes"?
+  - Related FRP: to be updated
+  - Related Issues: to be updated
+- Research question: How can we leverage existing auction literature?
+  - Related FRP: to be updated
+  - Related Issues: to be updated
+- Research question: How does architecture differ across PoW/PoS/leaderless?
+  - Related FRP: to be updated
+  - Related Issues: to be updated
+
+#### Paper 2: Ethical / community charter
+Paper style/field: CS ethics / social sciences paper, short paper (10-12pgs)
+Similar papers: On the Moral Character of Cryptographic Work, Will the Market Fix the Market
+Venue: IEEE S&B?  Ledger journal?
+- Research question: Should we build a "good" auction mechanism for validator priority "bribes"?
+  - Related FRP: to be updated
+  - Related Issues: to be updated
+- Research question: How do we minimize possible user harm of priority bribe incentives?
+  - Related FRP: to be updated
+  - Related Issues: to be updated
+- Research question: How do we minimize possible consensus harms of priority bribe incentives?
+  - Related FRP: to be updated
+  - Related Issues: to be updated
+- Research question: Should we allow for any MEV on the system? Should we bound the MEV?
+  - Related FRP: to be updated
+  - Related Issues: to be updated
 
 
 **Current Asks:**
@@ -33,11 +67,6 @@ Propose yourself to work on an FRP
 **Authorship**
 </br> Our research efforts will output research papers that will be shaped by Research Fellows. Anyone (including entities) can be an author of these papers as long as they meet one of the criteria for authorship we follow, as described in the Association for Computing Machinery's [Criteria for Authorship](https://www.acm.org/publications/policies/authorship).
 
-**Research Fellows:**
-* @pdaian
-* @fiiiu
-* @sbaks0820
-* @sikkatech
 
 **Resources:**
 </br> Flashbots Medium [add link]
