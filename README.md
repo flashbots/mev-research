@@ -6,7 +6,7 @@ Flashbots research is an open, transparent and iterative collective creation pro
  
 #### Flashbots Research Proposals (FRPs)
 FRPs stands for Flashbots Research Proposal. It is a markdown document describing the approach to answering a core Research Question specified on the [Flashbots Research Roadmap (WIP)](research_roadmap.md). Similar to a research proposal for academic writing, it entails introducing what the research proposes to do and/or prove. It should incorporate systematic breakdown of the research question. It will also give an in-depth account of the methodologies, approaches or theories that will be used to support the hypothesis within the project, including a review of the relevant literature.
-Please review FRP-0[add link] for the process of creating an FRP, and FRP-1 as an example FRP.
+Please review [FRP-0](/FRP/FRP-0.md) for the process of creating an FRP, and [FRP-1](/FRP/FRP-1.md) as an example FRP.
 If a Research Question you deem as important and would like to create an FRP but is not currently on the Flashbots Research Roadmap, you may open an Issue in this repository and propose your specific Research Question for consideration, FRP editors will review and update the Flashbots Research Roadmap periodically. 
 
 #### Issues
@@ -34,7 +34,7 @@ Paper style/field: Cryptocurrency systems paper, short paper/PoC (9pgs)
 Similar papers: bloxroute, Thunderella, FlyClient
 Venue: FC22? USENIX?
 - **Research Question:** How can we build a "good" auction mechanism for validator priority "bribes"?
-  - Related FRP: to be updated
+  - Related FRP: [FRP-1](/FRP/FRP-0.md)
   - Related Issues: to be updated
 - **Research Question:** How can we leverage existing auction literature?
   - Related FRP: to be updated
