@@ -1,11 +1,11 @@
 # MEV-Research
 
 ## Flashbots Research Process
-Flashbots research is an open, transparent and iterative collective creation process taking inspiration from both academic and applied research, and modelled upon Ethereum Improvement Proposal (EIP) process. Anyone can contribute to Flashbots Research through opening or answering a Github issue in this repo, and/or writing a Flashbots Research Proposal (FRP) by proposing to answer a Research Question specified on the Flashbots Research Roadmap, and/or create a pull request to revise a particular FRP. 
+Flashbots research is an open, transparent and iterative collective creation process taking inspiration from both academic and applied research, and modelled upon Ethereum Improvement Proposal (EIP) process. Anyone can contribute to Flashbots Research through opening or answering a Github issue in this repo, and/or writing a Flashbots Research Proposal (FRP) by proposing to answer a Research Question specified on the [Flashbots Research Roadmap (WIP)](research_roadmap.md), and/or create a pull request to revise a particular FRP. 
 ![Flashbots Research Process Diagram](/assets/Flashbots_ResearchProcess.png)
  
 #### Flashbots Research Proposals (FRPs)
-FRPs stands for Flashbots Research Proposal. It is a markdown document describing the approach to answering a core Research Question specified on the Flashbots Research Roadmap. Similar to a research proposal for academic writing, it entails introducing what the research proposes to do and/or prove. It should incorporate systematic breakdown of the research question. It will also give an in-depth account of the methodologies, approaches or theories that will be used to support the hypothesis within the project, including a review of the relevant literature.
+FRPs stands for Flashbots Research Proposal. It is a markdown document describing the approach to answering a core Research Question specified on the [Flashbots Research Roadmap (WIP)](research_roadmap.md). Similar to a research proposal for academic writing, it entails introducing what the research proposes to do and/or prove. It should incorporate systematic breakdown of the research question. It will also give an in-depth account of the methodologies, approaches or theories that will be used to support the hypothesis within the project, including a review of the relevant literature.
 Please review FRP-0[add link] for the process of creating an FRP, and FRP-1 as an example FRP.
 If a Research Question you deem as important and would like to create an FRP but is not currently on the Flashbots Research Roadmap, you may open an Issue in this repository and propose your specific Research Question for consideration, FRP editors will review and update the Flashbots Research Roadmap periodically. 
 
@@ -21,10 +21,9 @@ If you are interested in contributing but do not want to commit to the responsib
 Opening or answering Github Issues in this repos or creating meaningful pull request to draft FRPs are ways to signal interest and demonstrate qualification as a Contributor. Contributors will be recognized in the papers for their contribution.
 
 ## Flashbots Research Phase I
-For full Flashbots Research Roadmap (WIP), please refer to here. Phase I of Flashbots Research consist of two research papers:
-Phase 1 is practical/ultra-applied research akin to 'industry' R&D, in close loop with development. We expect Flashbots developers to be heavily involved in this phase.
-Phase 1 has 2 research papers as a deliverable, the first draft of the papers will be due at the end of January, and publication targeting Q1 2021. 
-The outcome of Phase 1 is immediately relevant to providing MVP and communicating our intentions to the community. We expect to be able to describe the remainder of the research roadmap in-depth in our first research document under 'Future Work'.
+Phase I of [Flashbots Research Roadmap (WIP)](research_roadmap.md) is considered the proof-of-concept stage of Flashbots is practical/ultra-applied research akin to 'industry' R&D, in close loop with development. We expect Flashbots developers to be heavily involved in this phase.
+Phase I has 2 research papers as a deliverable, the first draft of the papers will be due at the end of January, and publication targeting Q1 2021. 
+The outcome of Phase I is immediately relevant to providing technical and economic evalution to Flashbots Proof-of-Concept (PoC) and communicating our design and intentions to the community.
 
 #### Phase I Timeline
 The tentative timeline for Flashbots Research Phase I is as follows, subject to adjustment by FRP editors.
@@ -34,13 +33,13 @@ The tentative timeline for Flashbots Research Phase I is as follows, subject to 
 Paper style/field: Cryptocurrency systems paper, short paper/PoC (9pgs)
 Similar papers: bloxroute, Thunderella, FlyClient
 Venue: FC22? USENIX?
-- Research Question: How can we build a "good" auction mechanism for validator priority "bribes"?
+- **Research Question:** How can we build a "good" auction mechanism for validator priority "bribes"?
   - Related FRP: to be updated
   - Related Issues: to be updated
-- Research question: How can we leverage existing auction literature?
+- **Research Question:** How can we leverage existing auction literature?
   - Related FRP: to be updated
   - Related Issues: to be updated
-- Research question: How does architecture differ across PoW/PoS/leaderless?
+- **Research Question:** How does architecture differ across PoW/PoS/leaderless?
   - Related FRP: to be updated
   - Related Issues: to be updated
 
@@ -48,16 +47,16 @@ Venue: FC22? USENIX?
 Paper style/field: CS ethics / social sciences paper, short paper (10-12pgs)
 Similar papers: On the Moral Character of Cryptographic Work, Will the Market Fix the Market
 Venue: IEEE S&B?  Ledger journal?
-- Research question: Should we build a "good" auction mechanism for validator priority "bribes"?
+- **Research Question:** Should we build a "good" auction mechanism for validator priority "bribes"?
   - Related FRP: to be updated
   - Related Issues: to be updated
-- Research question: How do we minimize possible user harm of priority bribe incentives?
+- **Research Question:** How do we minimize possible user harm of priority bribe incentives?
   - Related FRP: to be updated
   - Related Issues: to be updated
-- Research question: How do we minimize possible consensus harms of priority bribe incentives?
+- **Research Question:** How do we minimize possible consensus harms of priority bribe incentives?
   - Related FRP: to be updated
   - Related Issues: to be updated
-- Research question: Should we allow for any MEV on the system? Should we bound the MEV?
+- **Research question:** Should we allow for any MEV on the system? Should we bound the MEV?
   - Related FRP: to be updated
   - Related Issues: to be updated
 
