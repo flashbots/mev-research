@@ -2,6 +2,7 @@
 
 ## Flashbots Research Process
 Flashbots research is an open, transparent and iterative collective creation process taking inspiration from both academic and applied research, and modelled upon Ethereum Improvement Proposal (EIP) process. Anyone can contribute to Flashbots Research through opening or answering a Github issue in this repo, and/or writing a Flashbots Research Proposal (FRP) by proposing to answer a Research Question specified on the Flashbots Research Roadmap, and/or create a pull request to revise a particular FRP. 
+![Flashbots Research Process Diagram](/assets/Flashbots_ResearchProcess.png)
  
 #### Flashbots Research Proposals (FRPs)
 FRPs stands for Flashbots Research Proposal. It is a markdown document describing the approach to answering a core Research Question specified on the Flashbots Research Roadmap. Similar to a research proposal for academic writing, it entails introducing what the research proposes to do and/or prove. It should incorporate systematic breakdown of the research question. It will also give an in-depth account of the methodologies, approaches or theories that will be used to support the hypothesis within the project, including a review of the relevant literature.
@@ -26,7 +27,8 @@ Phase 1 has 2 research papers as a deliverable, the first draft of the papers wi
 The outcome of Phase 1 is immediately relevant to providing MVP and communicating our intentions to the community. We expect to be able to describe the remainder of the research roadmap in-depth in our first research document under 'Future Work'.
 
 #### Phase I Timeline
-The tentative timeline for Flashbots Research Phase I is as follows, subject to adjustment by FRP editors
+The tentative timeline for Flashbots Research Phase I is as follows, subject to adjustment by FRP editors.
+![Flashbots Research Phase I Timeline](/assets/Flashbots_ResearchPhaseITimeline.png)
 
 #### Paper 1: Whitepaper / proof-of-concept
 Paper style/field: Cryptocurrency systems paper, short paper/PoC (9pgs)
@@ -59,22 +61,14 @@ Venue: IEEE S&B?  Ledger journal?
   - Related FRP: to be updated
   - Related Issues: to be updated
 
-
-**Current Asks:**
-</br> Comment on an existing FRP by submitting an edit to it through a pull request or by creating an issue in the Research repo to open a discussion on a particular point of the FRP.
-Propose yourself to work on an FRP
-
 **Authorship**
 </br> Our research efforts will output research papers that will be shaped by Research Fellows. Anyone (including entities) can be an author of these papers as long as they meet one of the criteria for authorship we follow, as described in the Association for Computing Machinery's [Criteria for Authorship](https://www.acm.org/publications/policies/authorship).
-
 
 **Resources:**
 </br> Flashbots Medium [add link]
 </br> Flashbots EthR post [add link]
 </br> Research roadmap
 </br> [Research Fellowship](https://github.com/flashbots/mev-research/blob/main/research_fellowship.md)
-
-
 
 ## **Ship Vault**
 </br> [Flash Boys 2.0: Frontrunning, Transaction Reordering, and Consensus Instability in Decentralized Exchanges by Daian et. al.](https://arxiv.org/abs/1904.05234)
