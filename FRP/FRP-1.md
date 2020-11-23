@@ -15,8 +15,7 @@
 </br> We want to build an open, transparent sealed-bid block space auction mechanism for communicating transaction order preference in order to mitigate the negative externalities of current MEV extraction techniques. What is the most optimal design to make this mechanism efficient? Which design will have the biggest positive impact on the state of the Ethereum network? This research questions aims to tackle all these questions by surveying existing academic literature, collecting data and analyzing it and thoroughly studying design trade-offs we are considering.
 
 **Related research questions**:
-* FRQ-2: What is a formal mathematical definition for a 'good' auction mechanism for validator priority 'bribes'? [link]
-* FRQ-3: How can we leverage existing auction literature? [link]
+* FRP-X:
 
 **Related issues**
 * Gas efficiency for community
