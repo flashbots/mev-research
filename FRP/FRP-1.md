@@ -72,6 +72,7 @@
 
 
 **Proposed Methodology & Implementation:**
+</br> Data collection and analysis of Ethereum data using Flashbots monitoring infrastructure in order to 1) quantify the negative externalities caused by current techniques used for MEV-extraction and 2) quantify the related current trading bot activity on Ethereum.
 </br> Bottom-up approach of mechanical inspection of the Ethereum blockchain. This inspection is executed with simple scripts that scan Ethereum call and trace data. This essentially provides us with a lower bound estimate that becomes more accurate as the mechanical inspection efforts become more fleshed out. 
-Data collection and analysis of Ethereum data using Flashbots monitoring infrastructure in order to 1) quantify the negative externalities caused by current techniques used for MEV-extraction and 2) quantify the related current trading bot activity on Ethereum.
+
 
