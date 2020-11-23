@@ -64,9 +64,9 @@ Paper style/field: CS ethics / social sciences paper, short paper (10-12pgs)
 </br> Our research efforts will output research papers that will be shaped by Research Fellows. Anyone (including entities) can be an author of these papers as long as they meet one of the criteria for authorship we follow, as described in the Association for Computing Machinery's [Criteria for Authorship](https://www.acm.org/publications/policies/authorship).
 
 **Resources:**
-</br> Flashbots Medium [add link]
-</br> Flashbots EthR post [add link]
-</br> Research roadmap
+</br> [Flashbots Medium](https://medium.com/flashbots/frontrunning-the-mev-crisis-40629a613752)
+</br> [Flashbots EthResearch post](https://ethresear.ch/t/flashbots-frontrunning-the-mev-crisis/8251)
+</br> [Research roadmap](https://github.com/flashbots/mev-research)
 </br> [Research Fellowship](https://github.com/flashbots/mev-research/blob/main/research_fellowship.md)
 
 ## **Ship Vault**
