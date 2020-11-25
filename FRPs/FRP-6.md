@@ -19,6 +19,7 @@ such an auction it is crucial to understand current auction theory, current auct
 To design an auction mechanism, the first step is to define a security model for how actors behave, what their capabilities are, and whether they can collude. 
 It is necessary to first define a model for how participants behave as that motivates particular design choices over others. 
 Other relevant questions arising from a clear model definition:
+* Differentiate auction mechanisms on Layer 1/Layer 2 "fit".
 * Do current auctions designs in practice, such as those in digital adauctions, suffice for our purposes?
 * Can we leverage existing auction literature to design a "good" auction mechanism that fits with flashbots?
 * Which auction mechanisms have optimal strategies that participants are able to even compute? (see Betting on Permutations)
