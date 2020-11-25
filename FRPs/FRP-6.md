@@ -20,7 +20,7 @@ To design an auction mechanism, the first step is to define a security model for
 It is necessary to first define a model for how participants behave as that motivates particular design choices over others. 
 Other relevant questions arising from a clear model definition:
 * Do current auctions designs in practice, such as those in digital adauctions, suffice for our purposes?
-* FRP-1: which auctions mechanisms meet our requirements for "good" auctions?
+* Can we leverage existing auction literature to design a "good" auction mechanism that fits with flashbots?
 * Which auction mechanisms have optimal strategies that participants are able to even compute? (see Betting on Permutations)
 * In the current POC version, the bundle auction favors small bundles. What is the full impact of this design?
 * Do some auctions mechanisms assume non-malicious participants (gain utility by hurting other participants, dos the auction, ???)?
