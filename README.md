@@ -6,7 +6,7 @@ Flashbots Research is an open, transparent and iterative collective creation pro
  
 #### Flashbots Research Proposals (FRPs)
 FRPs stands for Flashbots Research Proposal. It is a markdown document describing the approach to answering a core Research Question specified on the [Flashbots Research Roadmap (WIP)](research_roadmap.md). Similar to a research proposal for academic writing, it entails introducing what the research proposes to do and/or prove. It should incorporate systematic breakdown of the research question. It will also give an in-depth account of the methodologies, approaches or theories that will be used to support the hypothesis within the project, including a review of the relevant literature.
-Please review [FRP-0](/FRP/FRP-0.md) for the process of creating an FRP, and [FRP-1](/FRP/FRP-1.md) as an example FRP.
+Please review [FRP-0](/FRPs/FRP-0.md) for the process of creating an FRP, and [FRP-1](/FRPs/FRP-1.md) as an example FRP.
 If there exists a Research Question you deem important that is not currently on the Flashbots Research Roadmap, we invite you to open an Issue in this repository and propose your specific Research Question for consideration. FRP editors will review and update the Flashbots Research Roadmap periodically. 
 
 #### Issues
@@ -34,7 +34,7 @@ Paper style/field: Cryptocurrency systems paper, short paper/PoC (9pgs)
 </br> Similar papers: bloxroute, Thunderella, FlyClient
 </br> Venue: FC22? USENIX?
 - **Research Question:** How can we build a "good" auction mechanism for validator priority "bribes"?
-  - Related FRP: [FRP-1](/FRP/FRP-0.md)
+  - Related FRP: [FRP-1](/FRPs/FRP-1.md)
   - Related Issues: to be updated
 - **Research Question:** How can we leverage existing auction literature?
   - Related FRP: to be updated
@@ -66,7 +66,7 @@ Paper style/field: CS ethics / social sciences paper, short paper (10-12pgs)
 **Resources:**
 </br> [Flashbots Medium](https://medium.com/flashbots/frontrunning-the-mev-crisis-40629a613752)
 </br> [Flashbots EthResearch post](https://ethresear.ch/t/flashbots-frontrunning-the-mev-crisis/8251)
-</br> [Research roadmap](https://github.com/flashbots/mev-research)
+</br> [Research Roadmap](https://github.com/flashbots/mev-research/blob/main/research_roadmap.md)
 </br> [Research Fellowship](https://github.com/flashbots/mev-research/blob/main/research_fellowship.md)
 
 ## **Ship Vault**

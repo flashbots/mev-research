@@ -10,7 +10,7 @@ The Flashbots Research Fellowship is a grants program to support high-quality re
 We expect the research questions to evolve over time and to most likely lead to more questions rather than answers. A Fellow should be comfortable working independently, leading research directions for others to follow and be familiar with the standards and rigour required for academic research.
 
 **How much is the grant?**
-<br />The grant is  $10-20k per fellowship for which you or your organization. The grants will be paid in two installments, the first installment at the time of MEV Fellows selection announcement, the remainder at the end of the program.
+<br />The grant is $10-20k per fellowship for you or your organization. The grants will be paid in two installments, the first installment at the time of MEV Fellows selection announcement, the remainder at the end of the program.
 
 **What are the research questions available for Fellowship?**
 1. How can we build a ‘good’ auction mechanism for validator priority ‘bribes’?
