@@ -82,8 +82,6 @@ Paper style/field: CS ethics / social sciences paper, short paper (10-12pgs)
 
 [Time, clocks, and the ordering of events in a distributed system by Leslie Lamport](https://amturing.acm.org/p558-lamport.pdf)
 
-[On The Instability Of Bitcoin Without The Block Reward by Carlsten et. al.](https://drive.google.com/file/d/1iD0G-7VEJDnnnQWrJ1_Xo_R8vMjCIppk/view?usp=sharing)
-
 [SoK: Transparent Dishonesty: Front-running Attacks on Blockchain by Eskandari et. al.](https://arxiv.org/pdf/1902.05164.pdf)
 
 [MEV auctions considered harmful by Ed Felten (Offchain Labs)](https://medium.com/offchainlabs/mev-auctions-considered-harmful-fa72f61a40ea)
