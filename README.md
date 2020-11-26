@@ -72,11 +72,16 @@ Paper style/field: CS ethics / social sciences paper, short paper (10-12pgs)
 ## **Ship Vault**
 </br> [Flash Boys 2.0: Frontrunning, Transaction Reordering, and Consensus Instability in Decentralized Exchanges by Daian et. al.](https://arxiv.org/abs/1904.05234)
 
+[Frontrunning in DEXs, Miner Extractable Value, and Consensus Instability by Phil Daian at IEEE Symposium on Security and Privacy](https://youtu.be/vR1v7AQ8i3k)
+
+[How To Get Front-Run on Ethereum mainnet by Scott Bigelow](https://youtu.be/UZ-NNd6yjFM)
+
 [High-Frequency Trading on Decentralized On-Chain Exchanges by Zhou et. al](https://arxiv.org/abs/2009.14021)
 
 [Fair Sequencing Services: Enabling a Provably Fair DeFi Ecosystem by Juels et. al. (Chainlink)](https://blog.chain.link/chainlink-fair-sequencing-services-enabling-a-provably-fair-defi-ecosystem/)
 
 [MEV Auction: Auctioning transaction ordering rights as a solution to Miner Extractable Value by Karl Floersch (Optimism)](https://ethresear.ch/t/mev-auction-auctioning-transaction-ordering-rights-as-a-solution-to-miner-extractable-value/6788)
+
 
 [Blinder: MPC Based Scalable and Robust Anonymous Committed Broadcast by Ittai Abraham et. al.](https://eprint.iacr.org/2020/248)
 
@@ -97,6 +102,7 @@ Paper style/field: CS ethics / social sciences paper, short paper (10-12pgs)
 [TEX – A Securely Scalable Trustless Exchange by Khalil et. al.](https://eprint.iacr.org/2019/265.pdf)
 
 [Spam resistant block creator selection via burn auction by Barry Whitehat](https://ethresear.ch/t/spam-resistant-block-creator-selection-via-burn-auction/5851)
+
 
 ## Miscellaneous Gems
 [Ethereum is a Dark Forest by Dan Robinson](https://medium.com/@danrobinson/ethereum-is-a-dark-forest-ecc5f0505dff)
