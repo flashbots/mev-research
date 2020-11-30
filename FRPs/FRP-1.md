@@ -24,8 +24,14 @@
 ## FRP-1-5: Finding solutions to objective functions delivered from FRP-1-3
 *  be computationally efficient and optimal strategies should should be computabel re:bidding on permutations and other NP-hard results --> for NP-hard results are there heuristic functions that approximate good/strong strategies)
 
+## FRP-1-6: Where is the current POC and what is the "ideal" implementation we are going towards?
+* Are the differences between POC and "ideal" large enough that they require *different* auction designs? Why and does what auction they *need* determine which implementation is the better one? --> is one of them more "good" (define!) than the other
+* Right now(?): sells the ordering of the entire blocks
+* Ideal (?): to be able to sell of block space before/after oracle updates and small tx bundles (2,3,4 txs in a specific ordering)
+* **IMPORTANT add to MEV reserch the current spec/auction mechanism in use in the POC.**
 
 
+**TASK**: someone (alexa or tina or phil) re-write this FRP or get rid of it. 
 
 ## Questions for clarification
 * DEFINE: How to exhibit spikes? Delays?
