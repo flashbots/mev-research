@@ -1,5 +1,36 @@
 # FRP-1: How can we build a "good" auction mechanism for validator priority "bribes"? 
 
+## FRP-1-1: Taxonomy of MEV Extraction Strategies (NECESSARY (?) FOR FRP-1-1)
+* enumerate and classify MEV extraction strategies
+* how many are currently covered by MEV inspect/frontrun.me?
+* *relates to evaluation MEV inspect in FRP-1-2*
+
+
+## FRP-1-2: Measure PGAs, other MEV extraction strategies, define and concretize measurement infrastructure (reliability and assumptions on data)
+* Use current inspect tools to find PGA's and meaure:
+* current gas cost of a single arbitrage (average) taking part in PGAs --> expect this to be a long tail distribution --> try to determine the entire distribution of bots being used --> validate long tail from measurement **FIRST**
+* For each extraction opportunity how many bots are showing up? (which ones are easier to find and whether some relatioship can be determined based on the profitability of these opportunities) 
+* General: evaluate assumption whether we are seeing lower/upper bounds with MEV inspect or something else entirely --> validate MEV inspect opportunities (*there is an issue in MEV inspect of arbitrage found when there isn't any*) --> **IMPORTANT: evaluate what assumptions an be made from MEV inspect** --> perhaps manual validation? (i think we have enough people involved to put them to work) --> **bring with Phil and stephane**
+* in what way is MEV inspect different from frontrun.me? --> cross validation with MEV inspect
+* ???
+
+## FRP-1-3: Layer 1 vs Layer 2 tx ordering auctions
+* TBD: discussion with Karl Floersch regarding MEV auctions in layer 2 (rollup, etc...)
+* **TODO: update after meeting with Karl**
+
+## FRP-1-4: "Good" should apply to different types of actors (bidders, miners, external projects that are impacted by it)
+* Define "good" for each of the actors involved in the auction --> for some if may mean gas cost/failure rate, for other may mean negative externalities of MEV extraction, (what about for miners, what do they care about here --> auction can be run preferrably several blocks before the block being bid for 
+
+## FRP-1-5: Finding solutions to objective functions delivered from FRP-1-3
+*  be computationally efficient and optimal strategies should should be computabel re:bidding on permutations and other NP-hard results --> for NP-hard results are there heuristic functions that approximate good/strong strategies)
+
+
+
+
+## Questions for clarification
+* DEFINE: How to exhibit spikes? Delays?
+* 
+
 
 **MEV Fellow:** @fiiiu
 </br> **Contributors:** @bogatyy, @andrei-anisimov, @austin-williams, @gakonst
