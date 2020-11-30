@@ -15,6 +15,10 @@
 </br> We want to build an open, transparent sealed-bid block space auction mechanism for communicating transaction order preference in order to mitigate the negative externalities of current MEV extraction techniques. What is the most optimal design to make this mechanism efficient? Which design will have the biggest positive impact on the state of the Ethereum network? This research questions aims to tackle all these questions by surveying existing academic literature, collecting data and analyzing it and thoroughly studying design trade-offs we are considering.
 
 **Related research questions**:
+* How much gas is currentlt spent in PGAs (including failed bids) and can we design an auction mechanism that's cheaper?
+* Is it easier to mitigate the negative externalities of MEV extraction in Layer 2 or Layer 1? Why? What about for more cost effective?
+* Auctioneers can simply reject bids that don't fit its policy of "good" MEV extraction. Is there a better strategy or better auction that can prevent gas waste? Can the auction take into account utility of the auctioneer to select the winning MEV extraction?
+* 
 * FRP-X:
 
 **Related issues**
