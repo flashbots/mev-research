@@ -15,17 +15,4 @@ FRPs stands for Flashbots Research Proposal. It is a markdown document describin
 - **Stagnant:** an FRP in Draft or Accepted if inactive for a period of 6 months or greater is moved to stagnant. An FRP may be resurrected from this stage by Authors through moving it back to Draft, Withdrawn, or by FRP editors through moving it to Draft or Completed.
 
 ### What belongs in a successful FRP?
-Each FRP is unique and depends on the nature of the research question, it can vary significantly in structure. However criteria for successful FRP are similar to that of an academic research proposal:
-
-#### Part 1: Abstract or Summary
-A 500 word paragraph that constitutes a simple straightforward statement of what your hypothesis is, what methodology you intend to use, what limitations those methods may have, what implications your results may have. 
-
-#### Part 2: Defining the research question and/or hypothesis
-Define the research questions and provide sufficient context or a systematic breakdown for understanding. Certain research questions can be formulate a testable, falsifiable claim through scientific methods.
-It should link to related or dependent Research Question(s) on Flashbots Research Roadmap, and reference relevant Github Issues in this repo. 
-
-#### Part 3: Literature Review
-Some of the Research Questions requires literature review, some others are optional. However, it is strongly encouraged to incorporate a brief literature review, or at least a reference list of current relevant literature or past work pertaining to the Research Question.
-
-#### Part 4: Artifacts / Deliverables / Outline
-Depending on the type of research questions, list the artifacts or clear deliverables, or a proposed outline for the particular Research Question.
+FRPs should be aligned with the general research questions listed in the [Research Roadmap](research_roadmap.md), and should articulate nicely with other successful FRPs. Each FRP is however unique, so tailored feedback will be provided on an individual basis. In terms of format, we encourage authors to follow the [FRP template](FRP-template.md).
