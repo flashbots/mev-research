@@ -15,4 +15,4 @@ FRPs stands for Flashbots Research Proposal. It is a markdown document describin
 - **Stagnant:** an FRP in Draft or Accepted if inactive for a period of 6 months or greater is moved to stagnant. An FRP may be resurrected from this stage by Authors through moving it back to Draft, Withdrawn, or by FRP editors through moving it to Draft or Completed.
 
 ### What belongs in a successful FRP?
-FRPs should be aligned with the general research questions listed in the [Research Roadmap](research_roadmap.md), and should articulate nicely with other successful FRPs. Each FRP is however unique, so tailored feedback will be provided on an individual basis. In terms of format, we encourage authors to follow the [FRP template](FRP-template.md).
+FRPs should be aligned with the general research questions listed in the [Research Roadmap](research_roadmap.md), and should articulate nicely with other successful FRPs. Each FRP is however unique, so tailored feedback will be provided on an individual basis. In terms of format, we encourage authors to follow the [FRP template](/FRP-template.md).
