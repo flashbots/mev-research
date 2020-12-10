@@ -63,10 +63,17 @@ Paper style/field: CS ethics / social sciences paper, short paper (10-12pgs)
 **Authorship**
 </br> Our research efforts will output research papers that will be shaped by Research Fellows. Anyone (including entities) can be an author of these papers as long as they meet one of the criteria for authorship we follow, as described in the Association for Computing Machinery's [Criteria for Authorship](https://www.acm.org/publications/policies/authorship), with modification to recognize contribution from anonymous authors.
 
-**Research Workshop**
-</br> Research workshops are held on a semi-monthly basis to address and set directions for resolving open issues or specific questions that arise from research-engineering coordination, within the scope specified in the [Flashbots Research Roadmap (WIP)](research_roadmap.md). Anyone can propose a topic to be discussed in the Research Workshop by opening a github issue with label "workshop", and linking it to related FRPs and github issues or research questions yet to be addressed (Example: [Issue 24](https://github.com/flashbots/mev-research/issues/24) on MEV taxonomy). Research workshop will be recorded and published after the call.
+## MEV Research Workshop
+### Purpose
+</br> Research workshop is a 60-minute weekly discussion that addresses specific research questions, Flashbots Research Proposals (FRPs) and/or open questions within the scope specified in the [Flashbots Research Roadmap (WIP)](research_roadmap.md), so to set directions for resolving open issues or specific questions that arise from research-engineering coordination. Anyone can propose a topic to be discussed in the Research Workshop by opening a github issue in Flashbots' [/mev-research repo](https://github.com/flashbots/mev-research/) and/or labeling an outstanding issue "workshop", and linking it to related FRPs and github issues or research questions yet to be addressed (Example: [Issue 24](https://github.com/flashbots/mev-research/issues/24) on MEV taxonomy). Research workshop will be recorded and published after the call.
 
-**Resources:**
+| No. |Date | Topic | Agenda | Notes | Recording |
+|:---|:---|:---|---|---|:---|
+1 | Nov 19 | Breaking down Research Roadmap into Research Questions | - | - | [video](https://drive.google.com/file/d/1_3ukmSFWq2qeucg00OUpOfdHQ-BOkBR1/view?usp=sharing) |
+2 | Dec 3 | Flashbots Research Proposals (FRPs) and Research Processs | - | - | [video](https://drive.google.com/file/d/18aH_2kYFFw3oyohDNidID4riR-fE5sIi/view?usp=sharing) |
+3 | Dec 10 | Developing an MEV Taxonomy | [Issue #24](https://github.com/flashbots/mev-research/issues/24) | to be updated | [video](https://drive.google.com/file/d/18aH_2kYFFw3oyohDNidID4riR-fE5sIi/view?usp=sharing) |
+
+## Resources:
 </br> [Flashbots Medium](https://medium.com/flashbots/frontrunning-the-mev-crisis-40629a613752)
 </br> [Flashbots EthResearch post](https://ethresear.ch/t/flashbots-frontrunning-the-mev-crisis/8251)
 </br> [Research Roadmap](https://github.com/flashbots/mev-research/blob/main/research_roadmap.md)
