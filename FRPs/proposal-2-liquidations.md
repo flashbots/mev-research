@@ -1,5 +1,3 @@
-proposal-id-short_title.md
-
 ---
 id: <number matching that of the Pull Request>
 title: MEV and Liquidations
