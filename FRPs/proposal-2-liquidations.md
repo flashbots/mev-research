@@ -40,7 +40,11 @@ The goal of this FRP is to study the past and current status of blockchain liqui
 
 ## References
 [Flash Boys 2.0: Frontrunning, Transaction Reordering, and Consensus Instability in Decentralized Exchanges](https://arxiv.org/pdf/1904.05234.pdf)
+
 [Liquidations: DeFi on a Knife-edge](https://arxiv.org/pdf/2009.13235.pdf)
+
 [On the Security and Performance of Proof of Work Blockchains](https://eprint.iacr.org/2016/555.pdf)
+
 [Optimal Bidding Strategy for Maker Auctions](https://arxiv.org/pdf/2009.07086.pdf)
+
 [https://zengo.com/defi-research-understanding-compound-liquidators/](https://zengo.com/defi-research-understanding-compound-liquidators/)
