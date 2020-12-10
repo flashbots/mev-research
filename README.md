@@ -61,7 +61,10 @@ Paper style/field: CS ethics / social sciences paper, short paper (10-12pgs)
   - Related Issues: to be updated
 
 **Authorship**
-</br> Our research efforts will output research papers that will be shaped by Research Fellows. Anyone (including entities) can be an author of these papers as long as they meet one of the criteria for authorship we follow, as described in the Association for Computing Machinery's [Criteria for Authorship](https://www.acm.org/publications/policies/authorship).
+</br> Our research efforts will output research papers that will be shaped by Research Fellows. Anyone (including entities) can be an author of these papers as long as they meet one of the criteria for authorship we follow, as described in the Association for Computing Machinery's [Criteria for Authorship](https://www.acm.org/publications/policies/authorship), with modification to recognize contribution from anonymous authors.
+
+**Research Workshop**
+</br> Research workshops are held on a semi-monthly basis to address and set directions for resolving open issues or specific questions that arise from research-engineering coordination, within the scope specified in the [Flashbots Research Roadmap (WIP)](research_roadmap.md). Anyone can propose a topic to be discussed in the Research Workshop by opening a github issue with label "workshop", and linking it to related FRPs and github issues or research questions yet to be addressed (Example: [Issue 24](https://github.com/flashbots/mev-research/issues/24) on MEV taxonomy). Research workshop will be recorded and published after the call.
 
 **Resources:**
 </br> [Flashbots Medium](https://medium.com/flashbots/frontrunning-the-mev-crisis-40629a613752)
