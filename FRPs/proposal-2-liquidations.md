@@ -1,5 +1,5 @@
 ---
-id: <number matching that of the Pull Request>
+id: 2
 title: MEV and Liquidations
 team: Kaihua Qin, Liyi Zhou, Arthur Gervais
 created: 2020-12-10
