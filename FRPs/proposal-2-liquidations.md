@@ -28,11 +28,12 @@ The goal of this FRP is to study the past and current status of blockchain liqui
 
 - We plan to write a comprehensive paper about liquidations in DeFi.
 - Our report is envisioned to contain multiple figures/quantitative results regarding: 
--> Monthly liquidation profits for MakerDAO/Aave/Compound/dYdX.
--> Understand the gas prices of liquidation events. Is there a way to avoid gas fee bidding contests in liquidations in an effort to preserve valuable block-space?
--> Quantify the liquidation sensitivity (how much collateral is liquidated given a % price decline of the collateral) for MakerDAO/Aave/Compound/dYdX and most of the assets on these platforms.
--> How many liquidation events are profitable to the liquidator?
--> How many liquidations make use of flash loans?
+  - Monthly liquidation profits for MakerDAO/Aave/Compound/dYdX.
+  - Understand the gas prices of liquidation events. Is there a way to avoid gas fee bidding contests in liquidations in an effort to preserve valuable block-space?
+  - Quantify the liquidation sensitivity (how much collateral is liquidated given a % price decline of the collateral) for MakerDAO/Aave/Compound/dYdX and most of the assets on these platforms.
+  - How many liquidation events are profitable to the liquidator?
+  - How many liquidations make use of flash loans?
+ 
 - We plan to systematize the different liquidation mechanisms in an effort to understand their strengths and weaknesses.
 - We would love to integrate with the inspectors of the flashbots dashboard to crawl our data. Yet, we haven’t been able to look into further technical details of how they work and what the current architecture is. If too complicated we can also proceed with our current geth-based infrastructure.
 - We plan to design a new liquidation mechanism that would prevent or mitigate MEV. There may be an inherent tension between a minimal MEV that must remain for the system to sustain, and we would like to better understand this tension.
