@@ -21,7 +21,8 @@ We expect the research questions to evolve over time and to most likely lead to 
 6. How do we minimize possible user harm of priority bribe incentives?
 7. How do we minimize possible consensus harms of priority bribe incentives?
 8. Should we allow for any MEV on the system?  Should we bound the MEV?
-(Do you think there are worthy Research Questions for Paper 1 and 2 that is currently not on this list? Create a Gitub Issue in this repository, and explain why you think the answer to the research question is absolutely crucial at this stage, and why it merits to be a standalone Research Question independent from the remaining question.)
+
+</br> (Do you think there are worthy Research Questions for Paper 1 and 2 that is currently not on this list? Create a Gitub Issue in this repository, and explain why you think the answer to the research question is absolutely crucial at this stage, and why it merits to be a standalone Research Question independent from the remaining question.)
 
 **Aside from financial support, does Flashbots support fellows in other ways?**
 <br /> As a Research Fellow, you will have full access to the Flashbots core team as well as Flashbots contributors who will be able to help you depending on their bandwidth. Additionally, you will have access to our monitoring and tech infrastructure which includes an Ethereum full archival node with regular Parity RPC API with tracing and archive features enabled, and a MEV-Geth node that you’ll be able to use for testing the Flashbots bundles.
