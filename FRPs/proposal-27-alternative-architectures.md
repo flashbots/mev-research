@@ -14,7 +14,7 @@ The Layer 1 MEV Auction design presented in Paper 1 (aka *Flashbots*) is particu
 By understanding what chains *Flashbots* (and other Layer 1 MEV Auction architectures) can be used to efficiently extract MEV, as well as the properties these chains share, we can better understand how to mitigate those properties in novel architectures to help minimize MEV in next-generation blockchains.
 
 ## Plan and Deliverables
-- Identify what forms of "attacks" *Flashbots* helps execute in order to extract MEV
+- Identify what types of MEV-extracting "actions" *Flashbots* helps enable
 - Describe the properties required of a blockchain architecture for different types of MEV to exist (be extractable)
 - Describe the properties required of a blockchain architecture to allow *Flashbots*'s Layer 1 MEV Auction architecture to function
 - Analyze alternative consensus systems of interest (with no state machine changes) to see which of the above properties they satisfy to determine if the Flashbots architecture would be compatible. Particularly:
