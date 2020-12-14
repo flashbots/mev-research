@@ -15,7 +15,7 @@ By understanding what chains *Flashbots* (and other Layer 1 MEV Auction architec
 
 ## Plan and Deliverables
 - Identify what types of MEV-extracting "actions" *Flashbots* helps enable
-- Describe properties required of a blockchain architecture for above MEV-extracting "actions" to be executed
+- Describe properties required of a blockchain architecture for above MEV-extracting "actions" to be executable
 - Describe properties required of a blockchain architecture to allow *Flashbots*'s Layer 1 MEV Auction architecture to function
 - Analyze alternative consensus systems of interest (with no state machine changes) to see which of the above properties they satisfy to determine if the Flashbots architecture would be compatible. Particularly:
   - Nakamoto-style Proof of Stake (Eth 2.0 Casper)
