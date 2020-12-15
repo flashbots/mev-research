@@ -22,6 +22,7 @@ In order to tackle this objects is to answer the following questions:
 * Does expanding the auction format (from a single winning bundle to potentially multipe winning bundles) make auction design much more difficult?
 * How do current implementation auctions in crypto deal with issues such as efficiency, security, privacy, and auditability?
 * In the field of combinatorial auctions: are there existing theoretical auctions that imply constraints on our setting in terms of computability of optimal strategy?
+* In the area of computational complexity: are there computationally difficult auctions with good enough heuristic, or sub-optimal, solutions?
 * How does auction theory reason about potentially colludin parties?
 * What are the computation bounds on miners in determining auction winner(s)?
 * How can we scale auctions to many bots/participants?
