@@ -18,6 +18,7 @@ The high-level research question is: What is a good auction mechanism for MEV-GE
 
 The first step in answering this broad question is first surveying and evaluating the existing literature and practice of auction mechanism design in a decentralized setting.
 In order to tackle this objects is to answer the following questions:
+* In what ways do crypto auctions differ from existing literature: what are the impact of easy collusion forming on cooperative strategies and does current literature fall short of addressing this concern? Ad auctions have a similar setting, perhaps a better survey of how they deal with it? (see Methodolody for survey of existing projects, i.e. industry anecdotes). 
 * What assumptions can be made about the participants and their capabilities (includes a potentially malicious miner)?
 * Does expanding the auction format (from a single winning bundle to potentially multipe winning bundles) make auction design much more difficult?
 * How do current implementation auctions in crypto deal with issues such as efficiency, security, privacy, and auditability?
@@ -33,7 +34,7 @@ FRP-1
 
 ### Resource List
 * [This great response by Tarun Chitra on an MEV Auction proposal](https://ethresear.ch/t/mev-auction-auctioning-transaction-ordering-rights-as-a-solution-to-miner-extractable-value/6788/3)
-* [digital add auctions paper](https://arxiv.org/pdf/1610.03013.pdf)
+* [digital ad auctions paper](https://arxiv.org/pdf/1610.03013.pdf)
 * [another real-time bidding paper](http://wnzhang.net/share/rtb-papers/repeat-auction.pdf)
 * [Prior attempt at a fee market for Ethereum](https://arxiv.org/pdf/1901.06830.pdf)
 * [Algorithmic Game Theory bible (especially chapter 11)](https://www.cs.cmu.edu/~sandholm/cs15-892F13/algorithmic-game-theory.pdf)
