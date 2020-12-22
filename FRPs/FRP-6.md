@@ -9,7 +9,7 @@
 The puspose of this isssue is to investigate and survey the existing literature of auction mechanism design to motivate the design of the block space and transaction ordering auctions enabled by MEV-GETH.
 An MEV-GETH auction is different from a traditional auction in that users submit and bid on tx sequences that are, potentially, non-overlapping.
 The current implementation of MEV-GETH accepts only a single transacton sequence into a block, however, a more sophisticated auction mechanism might permit multiple "bundles" with interaction between winning, non-overlapping bundles.
-Therefore carefull consideration is required to design a good auction mechanism for MEV-GETH.
+Therefore careful consideration is required to design a good auction mechanism for MEV-GETH.
 In addition to surveying existing literature, it is impotant to survey auction designs in existing crypto projects so understand the practical requirements of a decentralized auction such as privacy, security, auditability, and efficiency.
 
 ### Defining the Research Question
