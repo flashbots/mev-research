@@ -113,6 +113,7 @@ Paper style/field: CS ethics / social sciences paper, short paper (10-12pgs)
 
 [Spam resistant block creator selection via burn auction by Barry Whitehat](https://ethresear.ch/t/spam-resistant-block-creator-selection-via-burn-auction/5851)
 
+[Quantifying Blockchain Extractable Value: How dark is the forest? by Kaihua Qin et. al. (Imperial College London)](https://arxiv.org/pdf/2101.05511.pdf)
 
 ## Miscellaneous Gems
 [Ethereum is a Dark Forest by Dan Robinson](https://medium.com/@danrobinson/ethereum-is-a-dark-forest-ecc5f0505dff)
