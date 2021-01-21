@@ -1,4 +1,4 @@
-# FRP-1: How can we build a "good" auction mechanism for validator priority "bribes"? 
+# FRP-1: How can we build a "good" auction mechanism for validator priority "tips"? 
 
 
 **MEV Fellow:** @obadiaa
