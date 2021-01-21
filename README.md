@@ -72,15 +72,21 @@ Paper style/field: CS ethics / social sciences paper, short paper (10-12pgs)
 1 | Nov 19 | Breaking down Research Roadmap into Research Questions | - | - | [video](https://drive.google.com/file/d/1_3ukmSFWq2qeucg00OUpOfdHQ-BOkBR1/view?usp=sharing) |
 2 | Dec 3 | Flashbots Research Proposals (FRPs) and Research Processs | - | - | [video](https://drive.google.com/file/d/18aH_2kYFFw3oyohDNidID4riR-fE5sIi/view?usp=sharing) |
 3 | Dec 10 | Developing an MEV Taxonomy | [Issue #24](https://github.com/flashbots/mev-research/issues/24) | to be updated | [video](https://drive.google.com/file/d/18aH_2kYFFw3oyohDNidID4riR-fE5sIi/view?usp=sharing) |
+4 | Dec 22 | FRP Presentations & Review | [Issue #24](https://github.com/flashbots/mev-research/issues/24) | to be updated | [video](https://drive.google.com/file/d/1KAT-y4_0LqD4hyLljglebmIGkC7EQ8rQ/view?usp=sharing) |
+5 | Jan 21 | Quantifying MEV | [Issue #31](https://github.com/flashbots/mev-research/issues/31) | to be updated | [video](https://drive.google.com/file/d/1KjYZ_9yYBSuMaN4m1_Pd7EuVfknxuPE1/view?usp=sharing) |
+
 
 ## Resources:
 </br> [Flashbots Medium](https://medium.com/flashbots/frontrunning-the-mev-crisis-40629a613752)
 </br> [Flashbots EthResearch post](https://ethresear.ch/t/flashbots-frontrunning-the-mev-crisis/8251)
-</br> [Research Roadmap](https://github.com/flashbots/mev-research/blob/main/research_roadmap.md)
+</br> [MEV Research Roadmap](https://github.com/flashbots/mev-research/blob/main/research_roadmap.md)
+</br> [Flashbots OG Spec (with SGX)](https://docs.google.com/document/d/18YRVvCtlgirRtkcBk4rML5tAE_qt70LRX6rBrGT9zI0/edit)
 </br> [Research Fellowship](https://github.com/flashbots/mev-research/blob/main/research_fellowship.md)
 
 ## **Ship Vault**
 </br> [Flash Boys 2.0: Frontrunning, Transaction Reordering, and Consensus Instability in Decentralized Exchanges by Daian et. al.](https://arxiv.org/abs/1904.05234)
+
+[Quantifying Blockchain Extractable Value: How dark is the forest?](https://arxiv.org/abs/2101.05511)
 
 [Frontrunning in DEXs, Miner Extractable Value, and Consensus Instability by Phil Daian at IEEE Symposium on Security and Privacy](https://youtu.be/vR1v7AQ8i3k)
 
