@@ -27,7 +27,7 @@ The outcome of Phase I is immediately relevant to providing technical and econom
 
 #### Phase I Timeline
 The tentative timeline for Flashbots Research Phase I is as follows, subject to adjustment by FRP editors.
-![Flashbots Research Phase I Timeline](/assets/Flashbots_ResearchPhaseITimeline.png)
+![Flashbots Research Phase I Timeline](/assets/ResearchTimeline_20210121.jpg)
 
 #### Paper 1: Whitepaper / proof-of-concept
 Paper style/field: Cryptocurrency systems paper, short paper/PoC (9pgs)
