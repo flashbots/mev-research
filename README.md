@@ -99,7 +99,6 @@ Paper style/field: CS ethics / social sciences paper, short paper (10-12pgs)
 
 [MEV Auction: Auctioning transaction ordering rights as a solution to Miner Extractable Value by Karl Floersch (Optimism)](https://ethresear.ch/t/mev-auction-auctioning-transaction-ordering-rights-as-a-solution-to-miner-extractable-value/6788)
 
-
 [Blinder: MPC Based Scalable and Robust Anonymous Committed Broadcast by Ittai Abraham et. al.](https://eprint.iacr.org/2020/248)
 
 [Time, clocks, and the ordering of events in a distributed system by Leslie Lamport](https://amturing.acm.org/p558-lamport.pdf)
@@ -126,6 +125,8 @@ Paper style/field: CS ethics / social sciences paper, short paper (10-12pgs)
 [Ethereum is a Dark Forest by Dan Robinson](https://medium.com/@danrobinson/ethereum-is-a-dark-forest-ecc5f0505dff)
 
 [Escaping the Dark Forest by Sam Sun](https://samczsun.com/escaping-the-dark-forest/)
+
+[MEV and Me by Charlie Noyes](https://research.paradigm.xyz/MEV)
 
 [Dark Forest Escape Route Starkware whiteboard session video recording](https://www.crowdcast.io/e/dark-forest-escape-route)
 
