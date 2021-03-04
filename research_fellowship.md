@@ -2,7 +2,7 @@
 
 *Updated: 3.4.2021* 
 
-The MEV Fellowship is a grants program to support high-quality research on miner-extractable value (MEV). The program runs from late Nov 2020 to March 2021 and is open to anyone from the community to apply to.
+The MEV Fellowship is a grants program to support high-quality research on miner-extractable value (MEV). MEV Felllowship I reviewed FRP submissions and admitted MEV Fellows on Dec 2020, and MEV Fellowship II FRP submission deadline will be March 31, 2021. 
 
 **What does it mean to be a MEV Fellow?**
 <br /> As a MEV Fellow, you are the owner of research questions we’ve outlined on our research roadmap. You will shape their development, coordinate with research contributors on individual FRPs and collaborate with the core Flashbots research team on writing academic papers.
