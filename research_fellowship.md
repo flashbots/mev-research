@@ -1,6 +1,6 @@
 # MEV Fellowship Program
 
-*Updated: 3.4.2020* 
+*Updated: 3.4.2021* 
 
 The MEV Fellowship is a grants program to support high-quality research on miner-extractable value (MEV). The program runs from late Nov 2020 to March 2021 and is open to anyone from the community to apply to.
 
