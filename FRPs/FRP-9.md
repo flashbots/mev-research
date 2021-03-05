@@ -1,12 +1,13 @@
 ---
-id: 26
+id: 9
 title: Quantifying the Impact of MEV on blockchain consensus security
 team: Liyi Zhou, Kaihua Qin, Arthur Gervais
 created: 2020-12-10
 paper: 2
 ---
 
-# Summary
+# Quantifying the Impact of MEV on blockchain consensus security
+
 Multiple works have expressed the qualitative intuition that MEV deteriorates (PoW) blockchain consensus security. Yet, we’re not aware of any quantitative results supporting this hypothesis. The literature proposes various methods on quantifying (PoW) blockchain security. One common insight is that the stale block rate aggravates the risks of double spending and selfish mining. That means, the more forks we can observe on-chain, the easier game becomes for an adversary to defraud other blockchain participants. If MEV encourages miners to fork the blockchain, MEV would directly deteriorate the blockchain’s consensus security. In this FRP we aim to quantitatively reason about the impact of MEV on blockchain security.
 
 ## Background and Problem Statement
