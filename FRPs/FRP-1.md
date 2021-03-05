@@ -1,77 +1,31 @@
-# FRP-1: How can we build a "good" auction mechanism for validator priority "tips"? 
+---
+id: 1
+title: MEV Taxonomy
+team: @fiiiu
+created: 2021-03-04
+paper: 1
+---
+
+# MEV Taxonomy
+
+While the MEV concept as such was introduced in 2019 in the [Flashboys 2.0 paper](https://arxiv.org/abs/1904.05234), since which plenty of discussion has taken place on its quantification and its different sources, we still lack a clear classification of MEV. In this proposal, we aim at establishing a clear-cut taxonomy of MEV to which we can reference our engineering efforts.
+
+## Background and Problem Statement
+A lot has been said about the risks of MEV, and several attempts have been made at measuring it, each proposing a different classification strategy (see References section). While there's a priori no particular classification that trumps the rest, it is useful for our engineering efforts to have one that we can reference in order to avoid ambiguity. This is important in particular in our measurement dashboards, where different quantification strategies might yield widely different results. 
+
+## Plan and Deliverables
+We will tackle the issue along 4 dimensions:
+1. Naming: what to call each concept around MEV.
+2. Dynamics: how the different "parts" of MEV interact with each other.
+3. Sources: what are the various (known) sources of MEV.
+4. Ethics: what is good and what is bad MEV.
+
+We aim at delivering a blogpost tackling these 4 areas, acknowledging that this consists in just one among many valid approaches. In the case of MEV sources, in particular, there's always going to be room for further unforseen MEV extraction strategies. 
 
 
-**MEV Fellow:** @obadiaa
-</br> **Contributors:** @gaknost @epheph @fiiiu
-</br> **Status:** Draft
-</br> **Updated:** 22.11.2020
-
-### Abstract
-
-### Motivation
-</br> Flashbots is building an open, transparent sealed-bid block space auction mechanism for communicating transaction order preference in order to mitigate the negative externalities of current MEV extraction techniques. In order to better understand whether the Flashbot spec would improve the state of the network, it is important to first have a strong grasp of the current network impact of MEV extraction.
-
-### Defining the Research Question
-</br> We want to build an open, transparent sealed-bid block space auction mechanism for communicating transaction order preference in order to mitigate the negative externalities of current MEV extraction techniques. What is the most optimal design to make this mechanism efficient? Which design will have the biggest positive impact on the state of the Ethereum network? This research questions aims to tackle all these questions by surveying existing academic literature, collecting data and analyzing it and thoroughly studying design trade-offs we are considering.
-
-**Related research questions**:
-* FRP-X:
-
-**Related issues**
-* Gas efficiency for community
-  * Measure: gas saved with perfectly efficient arbs, gas currently wasted on-chain
-* Network overhead for community
-  * Measure: current arb bot network overhead, full node bandwidth wasted
-* Prefer off-chain computation whenever possible for equivalent security
-  * Formalize trade-off between on-chain / off-chain arb computation
-  * Is there any computation we should move off-chain (into bundle processing/switching)?
-* Efficiently express preferences of all network actors
-  * Enumerate current arb use cases, show that system covers all of them
-  * Discuss trade-offs in order type complexity vs latency
-* Permissionless: no KYC / ad-hoc trust required in design
-  * Create security criteria for users not needing to trust miners/pools in PGA
-  * Enumerate where current design falls short, implications of shortcomings
-* Better for miners unilaterally than vanilla Geth
-  * Measure miner latency: assuming both no Flashbots txs/saturation
-  * Measure required resources on miner side
-  * Measure latency penalty of minimal viable switching algorithm [critical]
-  * Academic definition for "strictly dominating" client in game theory?
-  * Negative Externalities and Bot Metrics Around MEV
-
-### Literature Review or List of Resource
-  * https://github.com/pdaian/flashboys2/tree/master/go-ethereum
-
-
-### Proposed deliverables
-</br> **Gas metrics**
-* Graph of gas wasted over time
-* Breakdown various protocols by gas/arb usage
-* Gas/arb usage vs. MEV profits
-* Upwards pressure on gas price?
-
-**Bot metrics**
-* Competition: # of bots per opportunity
-* From bot perspective: wasted efficiency for each bot (how often failing / burning gas vs succeeding)
-* Gas wasted conditioned on various events? e.g. certain auctions / rebases
-* How to exhibit spikes? Delays?
-* Backrunning / types of arbitrage? Breakdown by category?
-* Breakdown of arbs by protocol across all arbs
-* Validation against other dashboards? e.g. [this one](https://explore.duneanalytics.com/public/dashboards/FFFpCKoE41bvFpESiyjUIBJfEMt4GoMFwcidNcAh)
-* Breadth of analysis: What % of these are covered by inspectors?
-
-**Network metrics**
-* Percent of blockspace wasted over time 
-* What is the overhead of a single arb / PGA transaction?
-* What is the overhead for a miner? What is the overhead for a full node? How do we measure waste?
-* What happens to the p2p network / full nodes with much more priority auctions?
-* How many (arb) txs broadcast first time in a block?
-* How much worse is this in a stateless world? Or other proof-required-for-tx schemes?
-* How many deletions? How many messages came in we already saw (duplication)?
-* How spammy are various bots compared to other users? How much more duplication?
-
-
-**Proposed Methodology & Implementation:**
-</br> Data collection and analysis of Ethereum data using Flashbots monitoring infrastructure in order to 1) quantify the negative externalities caused by current techniques used for MEV-extraction and 2) quantify the related current trading bot activity on Ethereum.
-</br> Bottom-up approach of mechanical inspection of the Ethereum blockchain. This inspection is executed with simple scripts that scan Ethereum call and trace data. This essentially provides us with a lower bound estimate that becomes more accurate as the mechanical inspection efforts become more fleshed out. 
+## References
+- https://arxiv.org/abs/1904.05234
+- https://arxiv.org/abs/2101.05511
+- https://arxiv.org/abs/2102.03347
 
 
