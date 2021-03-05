@@ -1,5 +1,5 @@
 ---
-id: TBD
+id: 10
 title: Mempool Privacy
 team: HashCloak
 created: 2021-02-24
@@ -7,8 +7,6 @@ paper: 1
 ---
 
 # Mempool Privacy
-
-## Abstract
 
 A feature that is missing from MEV-Geth is complete privacy. That is, the ability to keep incoming transactions in the mempool private. As a result, certain kinds of censorship and ordering attacks are still possible despite MEV-Geth's ability to provide pre-trade and failed trade privacy.
 
