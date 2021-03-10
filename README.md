@@ -87,7 +87,9 @@ Paper style/field: CS ethics / social sciences paper, short paper (10-12pgs)
 ## **Ship Vault**
 </br> [Flash Boys 2.0: Frontrunning, Transaction Reordering, and Consensus Instability in Decentralized Exchanges by Daian et. al.](https://arxiv.org/abs/1904.05234)
 
-[Quantifying Blockchain Extractable Value: How dark is the forest?](https://arxiv.org/abs/2101.05511)
+[Quantifying Blockchain Extractable Value: How dark is the forest? by Qin et. al.](https://arxiv.org/abs/2101.05511)
+
+[Frontrunner Jones and the Raiders of the Dark Forest: An Empirical Study of Frontrunning on the Ethereum Blockchain by Torres et. al.](https://arxiv.org/pdf/2102.03347.pdf)
 
 [Frontrunning in DEXs, Miner Extractable Value, and Consensus Instability by Phil Daian at IEEE Symposium on Security and Privacy](https://youtu.be/vR1v7AQ8i3k)
 
@@ -129,6 +131,8 @@ Paper style/field: CS ethics / social sciences paper, short paper (10-12pgs)
 [Escaping the Dark Forest by Sam Sun](https://samczsun.com/escaping-the-dark-forest/)
 
 [MEV and Me by Charlie Noyes](https://research.paradigm.xyz/MEV)
+
+[Scaling DeFi: Layer One by Remco Bloemen](https://xn--2-umb.com/20/scaling-defi/#scaling-defi)
 
 [Dark Forest Escape Route Starkware whiteboard session video recording](https://www.crowdcast.io/e/dark-forest-escape-route)
 
