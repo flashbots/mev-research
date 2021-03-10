@@ -134,6 +134,8 @@ Paper style/field: CS ethics / social sciences paper, short paper (10-12pgs)
 
 [Scaling DeFi: Layer One by Remco Bloemen](https://xn--2-umb.com/20/scaling-defi/#scaling-defi)
 
+[ZK Podcast: Flashbots with Phil Daian and Stephane Gosselin](https://youtu.be/p5L39ab7n4k)
+
 [Dark Forest Escape Route Starkware whiteboard session video recording](https://www.crowdcast.io/e/dark-forest-escape-route)
 
 [ETHOnline - 'Phil & Georgios Talk Miner Extractable Value'](https://youtu.be/tv0CkmcoGkM)
