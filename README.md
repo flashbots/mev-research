@@ -125,6 +125,8 @@ Paper style/field: CS ethics / social sciences paper, short paper (10-12pgs)
 
 [Multi-Party Timed Commitments](https://arxiv.org/pdf/2005.04883.pdf)
 
+[SoK:Algorithmic Incentive Manipulation Attackson Permissionless PoW Cryptocurrencies](https://eprint.iacr.org/2020/1614.pdf). Financial Crypto 21 [video](https://youtu.be/Fa2DsZE99DM?t=1453)
+
 ## Miscellaneous Gems
 [Ethereum is a Dark Forest by Dan Robinson](https://medium.com/@danrobinson/ethereum-is-a-dark-forest-ecc5f0505dff)
 
