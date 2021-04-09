@@ -78,7 +78,8 @@ Paper style/field: CS ethics / social sciences paper, short paper (10-12pgs)
 
 
 ## Resources:
-</br> [Flashbots Medium](https://medium.com/flashbots/frontrunning-the-mev-crisis-40629a613752)
+</br> [Flashbots Research publication](https://hackmd.io/@flashbots?tags=%5B%22research%22%5D)
+</br> [Flashbots Medium publication](https://medium.com/flashbots)
 </br> [Flashbots EthResearch post](https://ethresear.ch/t/flashbots-frontrunning-the-mev-crisis/8251)
 </br> [MEV Research Roadmap](https://github.com/flashbots/mev-research/blob/main/research_roadmap.md)
 </br> [Flashbots OG Spec (with SGX)](https://docs.google.com/document/d/18YRVvCtlgirRtkcBk4rML5tAE_qt70LRX6rBrGT9zI0/edit)
