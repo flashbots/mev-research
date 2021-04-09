@@ -65,7 +65,7 @@ We expect Flashbots developers to be heavily involved in this phase.
 
 
 
-## Phase 2: Ethical Consideratons / Community Goals
+## Phase 2: Ethical Considerations / Community Goals
 
 **Paper style/field:** CS ethics / social sciences paper, short paper (10-12pgs)
 </br> **Similar papers:** On the Moral Character of Cryptographic Work, Will the Market Fix the Market
