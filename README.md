@@ -113,6 +113,12 @@ Paper style/field: CS ethics / social sciences paper, short paper (10-12pgs)
 
 [Order-Fairness for Byzantine Consensus by Kelkar et. al.](https://eprint.iacr.org/2020/269)
 
+[Order-Fair Consensus in the Permissionless Setting by Kelkar et. al.](https://eprint.iacr.org/2021/139.pdf)
+
+[Wendy, the Good Little Fairness Widget by Klaus Kursawe](https://eprint.iacr.org/2020/885.pdf)
+
+[MAD-HTLC: Because HTLC is Crazy-Cheap to Attack(extended version) by Tsabary et. al.](https://arxiv.org/pdf/2006.12031.pdf)
+
 [Tesseract: Real-Time Cryptocurrency Exchange Using Trusted Hardware by Bentov et. al](https://eprint.iacr.org/2017/1153.pdf)
 
 [Submarine Sends by Breidenbach et. al.](https://libsubmarine.org/)
