@@ -10,8 +10,10 @@ MEV is a pervasive issue to all decentralized systems. We are building Flashbots
 
 Read more about what we're building with Flashbots Research in our [manifesto](manifesto.md)
 
-## Topics & Roadmap
-[Alejo to fill]
+## Research Topics
+Flashbots research covers a wide array of topics centered about the MEV theme. Several of these topics are directly related to our auction system and are meant as initial explorations around problems that will eventually need to be solved for our project to ultimately succeed. Other topics are more loosely related, and are part of our wider effort to illuminate the MEV landscape to provide a more level playing field for all actors involved.
+
+A list of the research topics we are either currently working on, or on which we would like to advance our knowlegde can be found [here](topics.md).
 
 ## Community
 The Flashbots Research community is fully virtual. You can interact with it in several ways:
