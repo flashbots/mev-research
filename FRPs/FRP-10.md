@@ -3,7 +3,6 @@ id: 10
 title: Mempool Privacy
 team: HashCloak
 created: 2021-02-24
-paper: 1
 ---
 
 # Mempool Privacy
@@ -25,4 +24,3 @@ The goal of this RFP is to survey privacy solutions that can be used to provide 
 - [Thwarting Front-Running with Threshold Decryption and other Tendermint Shenanigans](https://www.crowdcast.io/e/interchain-conversations-II/13)
 - [Multi-Party Timed Commitments](https://arxiv.org/pdf/2005.04883.pdf)
 - [Tesseract: Real-Time Cryptocurrency Exchange Using Trusted Hardware](https://eprint.iacr.org/2017/1153.pdf)
-

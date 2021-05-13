@@ -3,7 +3,6 @@ id: 7
 title: Literature review of auction mechanism that fit in with Flashbots
 team: @sbaks0820
 created: 2020-11-24
-paper: 1
 ---
 
 # Literature review of auction mechanism that fit in with Flashbots.
@@ -16,11 +15,11 @@ In addition to surveying existing literature, it is impotant to survey auction d
 
 ## Background and Problem Statement
 
-The high-level research question is: What is a good auction mechanism for mev-geth auctions? 
+The high-level research question is: What is a good auction mechanism for mev-geth auctions?
 
 The first step in answering this broad question is first surveying and evaluating the existing literature and practice of auction mechanism design in a decentralized setting.
 In order to tackle this objects is to answer the following questions:
-* In what ways do crypto auctions differ from existing literature: what are the impact of easy collusion forming on cooperative strategies and does current literature fall short of addressing this concern? Ad auctions have a similar setting, perhaps a better survey of how they deal with it? (see Methodology for survey of existing projects, i.e. industry anecdotes). 
+* In what ways do crypto auctions differ from existing literature: what are the impact of easy collusion forming on cooperative strategies and does current literature fall short of addressing this concern? Ad auctions have a similar setting, perhaps a better survey of how they deal with it? (see Methodology for survey of existing projects, i.e. industry anecdotes).
 * What assumptions can be made about the participants and their capabilities (includes a potentially malicious miner)?
 * Does expanding the auction format (from a single winning bundle to potentially multipe winning bundles) make auction design much more difficult?
 * How do current implementation auctions in crypto deal with issues such as efficiency, security, privacy, and auditability?
@@ -34,7 +33,7 @@ In order to tackle this objects is to answer the following questions:
 ## Plan and Deliverables
 
 The proposed methodology is to first survey existing crypto projects that implement auctions and understand how the blockchain world constrains design choices in auctions and develop a classification system auctions based on their design.
-The next task is to survey existing combinatorial auction mechanisms and fit them into the current classiciation. 
+The next task is to survey existing combinatorial auction mechanisms and fit them into the current classiciation.
 This requires also iterating on the classification system as it becomes less useful in differentiating mechanisms.
 Finally, we shall arrive at a classification system for auction mechanisms on axis such as privacy, auditability, computational efficiency, and threat model to posit a few.
 

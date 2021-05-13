@@ -3,7 +3,6 @@ id: 9
 title: Quantifying the Impact of MEV on blockchain consensus security
 team: Liyi Zhou, Kaihua Qin, Arthur Gervais
 created: 2020-12-10
-paper: 2
 ---
 
 # Quantifying the Impact of MEV on blockchain consensus security
@@ -30,4 +29,3 @@ By parameterizing a blockchain through its stale block rate, we can capture any 
 [Optimal Bidding Strategy for Maker Auctions](https://arxiv.org/pdf/2009.07086.pdf)
 
 [https://zengo.com/defi-research-understanding-compound-liquidators/](https://zengo.com/defi-research-understanding-compound-liquidators/)
-

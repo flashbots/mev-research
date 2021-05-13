@@ -3,7 +3,6 @@ id: 8
 title: Architecture on Other Chains
 team: Sikka
 created: 2020-12-13
-paper: 1
 ---
 
 # Flashbots on Alternative Chain Architectures
