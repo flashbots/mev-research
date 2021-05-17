@@ -1,9 +1,8 @@
-## Resources Vault
+# Resources Vault
 
 The research vault is a collection of resources related to MEV research. We encourage you to contribute to this vault by submitting a PR with your own suggestions for additions to this list!
 
-### New to MEV?
-
+## New to MEV?
 Below is a selection of resources from our vault to get you started on your MEV journey:
 
 [Ethereum is a Dark Forest by Dan Robinson](https://medium.com/@danrobinson/ethereum-is-a-dark-forest-ecc5f0505dff)
@@ -18,10 +17,8 @@ Below is a selection of resources from our vault to get you started on your MEV 
 
 [MEV and Me by Charlie Noyes](https://research.paradigm.xyz/MEV)
 
-
-### Vault
-
-</br> [Flash Boys 2.0: Frontrunning, Transaction Reordering, and Consensus Instability in Decentralized Exchanges by Daian et. al.](https://arxiv.org/abs/1904.05234)
+## Vault
+[Flash Boys 2.0: Frontrunning, Transaction Reordering, and Consensus Instability in Decentralized Exchanges by Daian et. al.](https://arxiv.org/abs/1904.05234)
 
 [Quantifying Blockchain Extractable Value: How dark is the forest? by Qin et. al.](https://arxiv.org/abs/2101.05511)
 
@@ -69,7 +66,7 @@ Below is a selection of resources from our vault to get you started on your MEV 
 
 [SoK: Algorithmic Incentive Manipulation Attacks on Permissionless PoW Cryptocurrencies](https://eprint.iacr.org/2020/1614.pdf). Financial Crypto 21 [video](https://youtu.be/Fa2DsZE99DM?t=1453)
 
-### Miscellaneous Gems
+## Miscellaneous Gems
 [Ethereum is a Dark Forest by Dan Robinson](https://medium.com/@danrobinson/ethereum-is-a-dark-forest-ecc5f0505dff)
 
 [Escaping the Dark Forest by Sam Sun](https://samczsun.com/escaping-the-dark-forest/)

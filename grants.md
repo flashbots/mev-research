@@ -1,4 +1,4 @@
-#  grants
+#  Flashbots Grants
 
 The Flashbots fellowship is a grants program to support research on questions related to topics outlined in [topics.md]((https://github.com/flashbots/mev-research/topics.md).
 
@@ -9,7 +9,6 @@ As a Flashbots fellow, you are the owner of a research question(s) outlined in a
 We expect the research questions to evolve over time and to most likely lead to more questions rather than answers. However, we ask of all fellows a few key deliverables:
 - a short article published in our [HackMD research publication](https://hackmd.io/@flashbots?tags=%5B%22research%22%5D)
 - a presentation given at one of our community events
-
 
 **How much is the grant?**
 The grant is a total of $15k sent in two instalments. The first instalment of $10k is sent upfront, the second instalment of $5k is sent once the deliverables have been completed.  

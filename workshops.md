@@ -1,15 +1,10 @@
 ## Flashbots Research workshops
 
-We hold public bi-weekly research workshops to addresses any questions related to the topics outlined in the [topics.md document]((https://github.com/flashbots/mev-research/topics.md). These research workshops are held to encourage community discussions around important research questions, update the community on the research Flashbots has been working on (eg. FRPs), set directions for resolving open issues and collaborate with other projects on topics we both share an interest in.
+We hold frequent workshops to addresses any questions related to the research areas outlined in the topics [page](topics.md). These workshops are held to encourage community discussions around important research questions, update the community on the research Flashbots has been working on (e.g. FRPs), set directions for resolving open issues, and collaborate with other projects on topics we both share an interest in.
 
-Anyone can propose a topic to be discussed in a Research Workshop by opening a github issue in Flashbots' [/mev-research repo](https://github.com/flashbots/mev-research/) and/or labeling an outstanding issue "workshop", and linking it to related FRPs and github issues or research questions yet to be addressed (Example: [Issue 24](https://github.com/flashbots/mev-research/issues/24) on MEV taxonomy).
+Anyone can propose a topic to be discussed in a Research Workshop by opening a github issue in this repository, labeling an outstanding issue "workshop", or by suggesting it over Discord. All research workshops are recorded and published shortly after the call.
 
-All research workshops will be recorded and published shortly after the call.
-
-### Upcoming
-
-
-### Past
+### Past Workshops
 
 | No. |Date | Topic | Agenda | Notes | Recording |
 |:---|:---|:---|---|---|:---|
