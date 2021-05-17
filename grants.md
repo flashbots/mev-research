@@ -1,6 +1,6 @@
 #  Flashbots Grants
 
-The Flashbots fellowship is a grants program to support research on questions related to topics outlined in [topics.md](https://github.com/flashbots/mev-research/topics.md).
+The Flashbots fellowship is a grants program to support research on questions related to topics outlined in [topics.md](topics.md).
 
 **What does it mean to be a Flashbots fellow?**<br/>
 As a Flashbots fellow, you are the owner of a research question(s) outlined in a research proposal. You will shape their development, coordinate with research contributors and collaborate with the core Flashbots team on your research. A Fellow should be comfortable working independently, leading research directions for others to follow and be familiar with the standards and rigour required for academic research.
