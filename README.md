@@ -18,17 +18,17 @@ Find out more about our research [process](process.md), ongoing [FRPs](FRPs/), a
 
 ## Community
 Flashbots Research is community-centric and fully virtual. You can interact with us in several ways:
-* join us on our Discord #mev-research channel for conversations with the Flashbots community
-* open an issue on this repository to gather input on specific MEV-related topics
-* join our monthly MEV-Roasts where we present new ideas and get roasted by the community
-* join our reserch [workshops](workshops.md) and other ad hoc events such as research-a-thons, announced in our Discord
+- join us on our Discord #mev-research channel for conversations with the Flashbots community
+- open an issue on this repository to gather input on specific MEV-related topics
+- join our monthly MEV-Roasts where we present new ideas and get roasted by the community
+- join our reserch [workshops](workshops.md) and other ad hoc events such as research-a-thons, announced in our Discord
 
 We regularly collaborate with other research organizations. This can take many shapes such as a joint series of research workshops, a cross-organization team formation to work on a specific research question, or a joint grant program for questions that matter to both organizations. We encourage you to reach out if you'd like to discuss a collaboration. We are also actively recruiting for full-time research positions, check out the full job descriptions [here](https://github.com/flashbots/pm/tree/main/jobs).
 
 ## Resources
 Find out more about Flashbots and our research in this repository and our publications:
-</br> [Flashbots Research publication](https://hackmd.io/@flashbots?tags=%5B%22research%22%5D)
-</br> [Flashbots Medium publication](https://medium.com/flashbots)
-</br> [Original Flashbots EthResearch post](https://ethresear.ch/t/flashbots-frontrunning-the-mev-crisis/8251)
+- [Flashbots Research publication](https://hackmd.io/@flashbots?tags=%5B%22research%22%5D)
+- [Flashbots Medium publication](https://medium.com/flashbots)
+- [Original Flashbots EthResearch post](https://ethresear.ch/t/flashbots-frontrunning-the-mev-crisis/8251)
 
 A selection of research papers and posts about MEV-related topics can be found [here](resources.md).
