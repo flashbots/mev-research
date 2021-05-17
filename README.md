@@ -2,12 +2,12 @@
 
 Flashbots is a research and development organization focused on the impact MEV has on state-rich blockchains such as Ethereum. MEV (Maximal Extractable Value) is a complex research topic involving multiple fascinating disciplines, stakeholders, and tradeoffs. Our research and development operate hand in hand, and have been designed to closely feed into each-other forming a dual engine that propels Flashbots forward. In line with our organization's values, all our research efforts are open to the public and highly collaborative.
 
-We are building Flashbots Research as a research hub for MEV, tackling and uncovering questions relevant to the short, medium and long-term future of the industry. We view this research as essential to help the cryptocurrency industry better understand and deal with MEV. We are currently funded through venture capital but aim to build a sustainable self-funded independent research organization that can become a place where ambitious researchers can work amongst like-minded individuals on the most interesting research questions unencumbered from the usual friction of academia.
+We are building Flashbots Research as a research hub for MEV, tackling and uncovering questions relevant to the short, medium and long-term future of the ecosystem. We view this research as essential to help the cryptocurrency industry better understand and deal with MEV. We are currently funded through venture capital but aim to build a sustainable self-funded independent research organization that can become a place where ambitious researchers can work amongst like-minded individuals on the most interesting research questions unencumbered from the usual friction of academia.
 
 Read more about what we're building with Flashbots Research in our [manifesto](manifesto.md)
 
 ## Research Topics
-Our research covers a wide array of topics centered about the MEV theme. Several of these topics are directly related to our auction system and are meant as initial explorations around problems that will eventually need to be solved for our project to ultimately succeed. Other topics are more loosely related, and are part of our wider effort to illuminate the MEV landscape to provide a more level playing field for all actors involved.
+Our research covers a wide array of topics centered around the MEV theme. Several of these topics are directly related to our auction system and are meant as initial explorations around problems that will eventually need to be solved for our project to ultimately succeed. Other topics are more loosely related, and are part of our wider effort to illuminate the MEV landscape to level the playing field for all actors involved.
 
 A list of the research topics we are either currently working on, or on which we would like to advance our knowlegde can be found [here](topics.md).
 

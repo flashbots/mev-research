@@ -1,6 +1,6 @@
 ## Flashbots Research workshops
 
-We hold frequent workshops to addresses any questions related to the research areas outlined in the topics [page](topics.md). These workshops are held to encourage community discussions around important research questions, update the community on the research Flashbots has been working on (e.g. FRPs), set directions for resolving open issues, and collaborate with other projects on topics we both share an interest in.
+We hold frequent workshops to address any questions related to the research areas outlined in the topics [page](topics.md). These workshops are held to encourage community discussions around important research questions, update the community on the research Flashbots has been working on (e.g. FRPs), set directions for resolving open issues, and collaborate with other projects on topics we both share an interest in.
 
 Anyone can propose a topic to be discussed in a Research Workshop by opening a github issue in this repository, labeling an outstanding issue "workshop", or by suggesting it over Discord. All research workshops are recorded and published shortly after the call.
 
