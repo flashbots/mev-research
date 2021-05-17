@@ -1,11 +1,25 @@
 ## Resources Vault
 
-The research vault is a collection of research content related to MEV research. We encourage you to contribute to this vault by submitting a PR with your own suggestions for what could be added to this list!
+The research vault is a collection of resources related to MEV research. We encourage you to contribute to this vault by submitting a PR with your own suggestions for additions to this list!
 
 ### New to MEV?
-[to fill with 2-3 key links, with context]
 
-### Full List
+Below is a selection of resources from our vault to get you started on your MEV journey:
+
+[Ethereum is a Dark Forest by Dan Robinson](https://medium.com/@danrobinson/ethereum-is-a-dark-forest-ecc5f0505dff)
+
+[How To Get Front-Run on Ethereum mainnet by Scott Bigelow](https://youtu.be/UZ-NNd6yjFM)
+
+[Flash Boys 2.0: Frontrunning, Transaction Reordering, and Consensus Instability in Decentralized Exchanges by Daian et. al.](https://arxiv.org/abs/1904.05234)
+
+[On The Instability Of Bitcoin Without The Block Reward by Carlsten et. al.](https://www.cs.princeton.edu/~arvindn/publications/mining_CCS.pdf)
+
+[Quantifying MEV: Introducing MEV-Explore v0](https://medium.com/flashbots/quantifying-mev-introducing-mev-explore-v0-5ccbee0f6d02)
+
+[MEV and Me by Charlie Noyes](https://research.paradigm.xyz/MEV)
+
+
+### Vault
 
 </br> [Flash Boys 2.0: Frontrunning, Transaction Reordering, and Consensus Instability in Decentralized Exchanges by Daian et. al.](https://arxiv.org/abs/1904.05234)
 
@@ -55,7 +69,7 @@ The research vault is a collection of research content related to MEV research. 
 
 [SoK: Algorithmic Incentive Manipulation Attacks on Permissionless PoW Cryptocurrencies](https://eprint.iacr.org/2020/1614.pdf). Financial Crypto 21 [video](https://youtu.be/Fa2DsZE99DM?t=1453)
 
-## Miscellaneous Gems
+### Miscellaneous Gems
 [Ethereum is a Dark Forest by Dan Robinson](https://medium.com/@danrobinson/ethereum-is-a-dark-forest-ecc5f0505dff)
 
 [Escaping the Dark Forest by Sam Sun](https://samczsun.com/escaping-the-dark-forest/)

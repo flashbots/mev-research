@@ -36,4 +36,4 @@ Find out more information about the [grants](grants.md) we issue, our research [
 </br> [Flashbots Research publication](https://hackmd.io/@flashbots?tags=%5B%22research%22%5D)
 </br> [Flashbots Medium publication](https://medium.com/flashbots)
 </br> [Flashbots EthResearch post](https://ethresear.ch/t/flashbots-frontrunning-the-mev-crisis/8251)
-</br> [Research Fellowship](https://github.com/flashbots/mev-research/blob/main/research_fellowship.md)
+</br> [Research Fellowship](https://github.com/flashbots/mev-research/grants.md)

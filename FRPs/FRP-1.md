@@ -3,6 +3,7 @@ id: 1
 title: MEV Taxonomy
 team: @fiiiu
 created: 2021-03-04
+status: finished
 ---
 
 # MEV Taxonomy
