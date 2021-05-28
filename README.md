@@ -14,13 +14,13 @@ A list of the research topics we are either currently working on, or on which we
 ## Flashbots Research Proposals
 To fuel the collaborative nature of our research, we have a process in place for Flashbots Research Proposal (FRPs), where anybody can submit a research proposal for consideration. Upon community review, proposals will be considered for becoming part of our research, and might become eligible for a grant.
 
-Find out more about our research [process](process.md), ongoing [FRPs](FRPs/), and the [grants](grants.md) we issue.
+Find out more about our research [process](process.md), ongoing [FRPs](FRPs/), the [grants](grants.md) we issue and the [output](output.md) of the research organization so far.
 
 ## Community
 Flashbots Research is community-centric and fully virtual. You can interact with us in several ways:
-- join us on our Discord #mev-research channel for conversations with the Flashbots community
+- join us on our Discord [#mev-research](https://discord.gg/nuUvc24r) channel for conversations with the Flashbots community
 - open an issue on this repository to gather input on specific MEV-related topics
-- join our monthly MEV-Roasts where we present new ideas and get roasted by the community
+- join our monthly [MEV-Roasts](https://github.com/flashbots/pm#mev-roast-recordings) where we present new ideas and get roasted by the community
 - join our reserch [workshops](workshops.md) and other ad hoc events such as research-a-thons, announced in our Discord
 
 We regularly collaborate with other research organizations. This can take many shapes such as a joint series of research workshops, a cross-organization team formation to work on a specific research question, or a joint grant program for questions that matter to both organizations. We encourage you to reach out if you'd like to discuss a collaboration. We are also actively recruiting for full-time research positions, check out the full job descriptions [here](https://github.com/flashbots/pm/tree/main/jobs).
@@ -31,4 +31,4 @@ Find out more about Flashbots and our research in this repository and our public
 - [Flashbots Medium publication](https://medium.com/flashbots)
 - [Original Flashbots EthResearch post](https://ethresear.ch/t/flashbots-frontrunning-the-mev-crisis/8251)
 
-A selection of research papers and posts about MEV-related topics can be found [here](resources.md).
+A selection of research papers and posts about MEV-related topics can be found in our [research vault](resources.md).

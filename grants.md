@@ -1,9 +1,9 @@
 #  Flashbots Grants
 
-The Flashbots fellowship is a grants program to support research on questions related to topics outlined in [topics.md](topics.md).
+The MEV fellowship is a grants program to support research on questions related to topics outlined in [topics.md](topics.md).
 
-**What does it mean to be a Flashbots fellow?**<br/>
-As a Flashbots fellow, you are the owner of a research question(s) outlined in a research proposal. You will shape their development, coordinate with research contributors and collaborate with the core Flashbots team on your research. A Fellow should be comfortable working independently, leading research directions for others to follow and be familiar with the standards and rigour required for academic research.
+**What does it mean to be an MEV fellow?**<br/>
+As an MEV fellow, you are the owner of a research question(s) outlined in a research proposal. You will shape their development, coordinate with research contributors and collaborate with the core Flashbots team on your research. A Fellow should be comfortable working independently, leading research directions for others to follow and be familiar with the standards and rigour required for academic research.
 
 **What are expected deliverables?**<br/>
 We expect the research questions to evolve over time and to most likely lead to more questions rather than answers. However, we ask of all fellows a few key deliverables:
@@ -37,9 +37,9 @@ Yes, all the work you produce for the grant is owned by you. Flashbots is grante
 FRPs should be aligned with the general research questions listed in the [Research Roadmap](research_roadmap.md), and should articulate nicely with other successful FRPs. Each FRP is however unique, so tailored feedback will be provided on an individual basis. In terms of format, we encourage authors to follow the [FRP template](/FRP-template.md).
 
 **Aside from financial support, does Flashbots support MEV Fellows in other ways?**<br/>
-As a Flashbots fellow, you will have full access to the Flashbots extended team and to data that can be used for research.
+As an MEV fellow, you will have full access to the Flashbots extended team and to data that can be used for research.
 
-**Is there an opportunity to deepen my involvement with Flashbots?**<br/>
+**Is there an opportunity to deepen my involvement with Flashbots Research?**<br/>
 Absolutely! The fellowship is a great way to work part-time with the Flashbots team and for both Flashbots and yourself to decide whether we find mutual fit for working together more closely (eg. full-time researcher position). Every situation is different and we're happy to accomodate for bespoke levels of involvements - let's talk about it!
 
 **What’s the point of running this program?**<br/>
