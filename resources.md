@@ -66,6 +66,8 @@ Below is a selection of resources from our vault to get you started on your MEV 
 
 [SoK: Algorithmic Incentive Manipulation Attacks on Permissionless PoW Cryptocurrencies](https://eprint.iacr.org/2020/1614.pdf). Financial Crypto 21 [video](https://youtu.be/Fa2DsZE99DM?t=1453)
 
+[TXSPECTOR: Uncovering Attacks in Ethereum from Transactions](https://par.nsf.gov/servlets/purl/10211571)
+
 ## Miscellaneous Gems
 [Ethereum is a Dark Forest by Dan Robinson](https://medium.com/@danrobinson/ethereum-is-a-dark-forest-ecc5f0505dff)
 
