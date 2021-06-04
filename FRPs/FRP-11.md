@@ -10,7 +10,7 @@ status: in progress
 
 
 ## Background and Problem Statement
-The Merge is the long-awaited change in consensus mechanism of Ethereum from proof of work to proof of stake. PoS Ethereum, or eth2, is a major upgrade that will significantly change the flow of transaction inclusion and validation on the Ethereum chain. We propose to do an exhaustive survey of eth2, and to reason about MEV within it including in what form it may exist, how it could be extracted, whether any negative externalities are incurred from it and who are its stakeholders.
+The Merge is the long-awaited change in consensus mechanism of Ethereum from proof of work to proof of stake. PoS Ethereum, or eth2, is a major upgrade that will significantly change the flow of transaction inclusion and validation on the Ethereum chain. We propose to do an exhaustive survey of eth2, and to reason about MEV within it, including in what form it may exist, how it could be extracted, whether any negative externalities are incurred from it and who are its stakeholders.
 
 This proposal's core limitation is the fact eth2 in production may differ from the current picture of eth2 we have available, both with respect to what The Merge will entail and with respect to future updates to Ethereum after The Merge such as the addition of sharding or stateless clients.
 
