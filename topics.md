@@ -14,7 +14,7 @@ Aside from purely cryptographic solutions, another approach to ensuring auction 
 ## MEV in ETH 2
 Ethereum is beginning its move to Proof of Stake, which will substantially modify the landscape of MEV extraction. It will soon no longer be miners who have exclusive transaction ordering rights, but instead validators will be in charge of picking and ordering transactions for inclusion. This will introduce several differences to how MEV extraction takes place. Knowing which validator will propose a block ahead of time, to name one change, might substantially modify the MEV landscape. Work is already underway to identify how these changes will affect the Flashbots system, to be ready to adapt once The Merge takes place.
 
-## EIP-1159
+## EIP-1559
 Even sooner than Ethereum 2, a substantial modification to miner rewards will take place with EIP-1159, scheduled for the London hard fork set to occur in July. After this change, miners are expected to collect most of their revenue from block rewards as well as MEV extraction, with much less coming from transaction fees in the for of "miner tips". While the Flashbots system might continue operating without change, further investigation is needed to make sure the changes introduced by this EIP are gracefully accommodated by our system.
 
 ## MEV in L2
