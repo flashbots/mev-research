@@ -21,7 +21,7 @@ This initial FRP is an exploration of these themes to start wrapping our heads a
 Since this is a rather large topic, we will prioritize l2s with the most adoption and/or with technology and architecture relatively mature and speced out. The goal of this FRP is to come up with 2-3 deeper questions we'd like to study further and share the early results of our exploration in a post(s) that covers:
 
 - what will the liquidity landscape look like once l2s are adopted?
-  - survey of cross-chain l2s solutions (Optics, Hop, Connext, Exfil)
+  - survey of cross-l2s solutions (Optics, Hop, Connext, Exfil)
   - survey of different protocol architectures (cross-L2 liquidity pools vs isolated ones)
 
 - what are potential scenarios for how adoption of l2s will progress?
@@ -29,10 +29,10 @@ Since this is a rather large topic, we will prioritize l2s with the most adoptio
   - what does the content of eth1 blocks look like when l2s are adopted?
 
 - is there a need for transaction ordering across l2s (ie. can we anticipate a need for it)?
-  - study cross-L2 arbs
+  - study cross-l2 arbs
   - study probabilistic MEV & risk-scoring/weighting in an asynchronous world of l2s and shards, across different mechanisms of finality and ordering
 
-- are there new forms of MEV enabled/disabled by L2s?
+- are there new forms of MEV enabled/disabled by l2s?
   - pockets enabled by low tx high tps
   - l2 architectures with MEV mitigation technology
 
