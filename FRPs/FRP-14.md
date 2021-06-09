@@ -12,7 +12,7 @@ status: in progress
 ## Background and Problem Statement
 While Flashbots is exploring an SGX-based solution to provide complete pre-trade privacy as outlined in [this post](https://ethresear.ch/t/mev-sgx-a-sealed-bid-mev-auction-design/9677), we would like to explore in parallel if there are cryptoeconomic mechanisms that can reinforce, or substitute the relatively expensive and proprietary solution that is SGX, to achieve the same desirable result: namely a fully private way to submit txs to block proposers without having to reveal their content to them so they cannot tamper with it/act adversarially on it.
 
-The aim of this research is to collect internal thoughts on the topic, write up a short strawman spec and start building more thinking, especially how it relates to eth2 and mev-sgx.
+The aim of this research is to collect thoughts on the topic, write up a short strawman spec and start building more thinking, especially how it relates to eth2 and mev-sgx.
 
 
 ## Plan and Deliverables
