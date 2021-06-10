@@ -25,8 +25,10 @@ Since this is a rather large topic, we will prioritize l2s with the most adoptio
   - survey of different protocol architectures (cross-L2 liquidity pools vs isolated ones)
 
 - what are potential scenarios for how adoption of l2s will progress?
-  - how will l1 gas prices and l2 gas prices behave?
+  - how will l1 gas prices and l2 gas prices behave? can we model some rate of convergence between the two?
   - what does the content of eth1 blocks look like when l2s are adopted?
+
+- is there a need for transaction ordering preferences within l2s?
 
 - is there a need for transaction ordering across l2s (ie. can we anticipate a need for it)?
   - study cross-l2 arbs

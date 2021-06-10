@@ -35,6 +35,7 @@ We propose to start with a simple model and to iterate on its complexity as we p
 For b)
 - analysis of large validators controlling multiple contiguous slots
   - RANDAO manipulation
+  - block squashing attacks
   - assess multi-block MEV and potential malicious behaviour that could arise from it (eg. oracle manipulation)
 - study consensus security/finality threats that may arise from MEV (analogs to time-bandit attacks)
 
