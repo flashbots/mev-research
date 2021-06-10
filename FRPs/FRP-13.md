@@ -1,7 +1,7 @@
 ---
 id: 13
 title: Flashbots in eth2
-team: @obadiaa @tkstankacz @jparyani @fxfactorial
+team: @obadiaa @tkstankacz @taarushv
 created: 2021-06-04
 status: pending
 ---
