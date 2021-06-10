@@ -1,7 +1,7 @@
 ---
 id: 14
 title: Cryptoeconomic design exploration
-team: @pdaian @obadiaa
+team: @pdaian @fiiiu
 created: 2021-06-04
 status: in progress
 ---

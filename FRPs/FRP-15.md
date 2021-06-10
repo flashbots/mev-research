@@ -1,7 +1,7 @@
 ---
 id: 15
 title: MEV in eth2 - inequality & attack vectors analysis
-team: @obadiaa
+team: @fiiiu
 created: 2021-06-04
 status: pending
 ---
