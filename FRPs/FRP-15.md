@@ -4,45 +4,73 @@ title: MEV in eth2 - inequality & attack vectors analysis
 team: @fiiiu
 created: 2021-06-04
 status: pending
----
+--
 
 # MEV in eth2 - inequality & attack vectors analysis
 
-
 ## Background and Problem Statement
-Following our [early exploration of mev in eth2](https://hackmd.io/@flashbots/mev-in-eth2), we've raised a few concerns we'd like to study further:
-a) whether MEV amplifies and catalyzes oligopolistic dynamics in eth2
-b) whether there are new vectors of attacks opened by properties of eth2 such as the change in leader selection
 
-For a)
-We'd like to look into two potential forces of inequality which map onto the actual reward process of both i) the protocol and ii) the "utility functions" of various players. For instance, pools manage to pay out mostly constant income, while solo stakers are much more at the mercy of assignment randomness. Meanwhile, larger players will necessarily over time benefit from earning more and activating new validators faster.
+In the article [MEV in eth2 - an early exploration](https://hackmd.io/@flashbots/mev-in-eth2) several open questions are raised, some of which we would like to investigate further within the scope of this research proposal:
 
-We'd like to use the evolutionary game theory (EGT) framework to study this more closely. We have three types of players that have very different dynamics: solo stakers, pools and exchanges. EGT specifies utility functions for each player type as well as population dynamics that govern the relative size of each population of types over time. There are possibly formal results to be found there but to start even simple simulations could be giving us clues as to how the oligopolistic dynamics mentioned in the post could play out.
+#### 1. To what extent does Maximal Extractable Value (MEV) in eth2 amplify its inherent rich-get-richer dynamics?
 
-For b)
-Block proposers are known one epoch in advance in eth2 which may facilitate mechanisms such as deterministic multi-block MEV. There may be potential vectors of attacks opened by this possibility that warrant further study. In addition, the origin of MEV stems from the study of consensus security and we believe MEV in the context of finality should be explored further to understand if there are any analogs to time-bandit attacks in eth2.
+- The protocol provides rewards for validators, validation duties and transaction fees. Additionally, revenue may be received from MEV operations. Finally, all rewards received may be distributed according to some revenue-sharing scheme of the pool/exchange stakers are a part of. We intend to make precise how these dynamics inter-operate.
+- Consider the heterogeneity of validators in eth2: solo stakers vs. pooled staking (e.g. Kraken, Lido, etc.). What effect does a varying capability of MEV-extraction have on the equality of the system?
+
+#### 2. How does knowing the block proposers in advance change MEV extraction dynamics?
+
+- [Knowing the block proposer ahead of time](https://benjaminion.xyz/eth2-annotated-spec/phase0/beacon-chain/#compute_proposer_index) changes dynamics, but how does it differ if you have a one-epoch lookup for block proposers (see [here](https://github.com/ethereum/eth2.0-specs/pull/772#issuecomment-475574357) for more context)?
+- Are consensus attacks (e.g., time bandits/reorgs) due to new MEV extraction dynamics more likely?
 
 
-## Plan and Deliverables
-For a)
-- write down a model and build out simulations based on EGT to verify whether oligopolistic dynamics would play out depending on:
-  - initial conditions/initial population sizes
-  - whether e.g. some types can extract MEV or not and whether there are economies of scale wrt MEV extraction (e.g. multiblock MEV)
-  - system randomness
+## Proposed Approach
 
-We propose to start with a simple model and to iterate on its complexity as we progress with our analysis.
+We are interested in a dynamical systems approach to the problem. A staker with some amount of capital has multiple choices to participate in the staking game: solo staking or pooled staking. Each comes with its own threats and opportunities.
 
-For b)
-- analysis of large validators controlling multiple contiguous slots
-  - RANDAO manipulation
-  - block squashing attacks
-  - assess multi-block MEV and potential malicious behaviour that could arise from it (eg. oracle manipulation)
-- study consensus security/finality threats that may arise from MEV (analogs to time-bandit attacks)
+| | Solo staking | Pooled staking |
+|-|-|-|
+| **Opportunities** | Full reward, no staking fee | Low capital requirements, possibly offset by staking derivatives; lower reward variance |
+| **Threats** | Need 32 ETH + infra to stake | Anticorrelation penalties of the protocol increase risk of pooling; staking fee |
+
+Over time, we study the growth dynamics of staker types by applying methods from evolutionary game theory. Stakers have their own payoff function and risk preferences. The growth of any particular entity may be limited by the exposure to anticorrelation penalties/limited availability of insurance, deterring risk-averse agents.
+
+Additionally, the protocol introduces reward variance due to the randomness of the block proposer. This variance is possibly compounded by the availability and capability of MEV extraction, in particular for large entities who may be able to realise economies of scale due to multi-block extraction techniques.
+
+## Plan
+
+#### Re 1. To what extent does Maximal Extractable Value (MEV) in eth2 amplify its inherent rich-get-richer dynamics?
+
+- [ ] Specify a minimum viable model using the EGT framework
+    - [ ] Heterogeneous validator landscape (staking pools vs. individuals)
+    - [ ] Different scenarios: Perfectly democratized MEV extraction vs. economies of scale vs. (hypothetically) no MEV at all
+- [ ] Implement minimum viable model
+- [ ] Iteratively increase complexity of model until analysis is satisfied
+
+#### Re 2. How does knowing the block proposers in advance change MEV extraction dynamics?
+
+- [ ] Gain a deeper understanding of the RANDAO Game
+    - [ ] Confirm that block proposer one-epoch lookup only holds, if effective balances do not change across epochs.
+    - [ ] Establish to what extent an attacker may manipulate the RANDAO game and if this could be used advantageously to better extract MEV
+- [ ] Analyse block squashing attack
+- [ ] Assess potential multi-block strategies 
+- [ ] Study consensus security/finality threats that may arise from MEV (analogs to time-bandit attacks)
+
+## Expected Deliverables
+
+#### Re 1. To what extent does Maximal Extractable Value (MEV) in eth2 amplify its inherent rich-get-richer dynamics?
+
+- [ ] Publish a notebook with simulations and visualizations of said centralizing dynamics
+
+#### Re 2. How does knowing the block proposers in advance change MEV extraction dynamics?
+
+- [ ] Publish a note discussing and analysing said topics
 
 ## References
+
 - https://hackmd.io/@prysmaticlabs/finality
 - https://notes.ethereum.org/@barnabe/rk5ue1WF_
 - https://ethereum.github.io/beaconrunner/notebooks/naiveurn.html
 - https://ethresear.ch/t/rng-exploitability-analysis-assuming-pure-randao-based-main-chain/1825
 - https://twitter.com/tkstanczak/status/1396178139445927937?s=20
 - https://twitter.com/samuelshadrach4/status/1401965712223064064?s=21
+- https://twitter.com/kristofgazso/status/1396214165115744267
