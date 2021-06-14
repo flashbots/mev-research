@@ -1,7 +1,7 @@
 ---
 id: 15
 title: MEV in eth2 - inequality & attack vectors analysis
-team: @fiiiu
+team: @fiiiu @barnabemonnot @casparschwa
 created: 2021-06-04
 status: pending
 ---
@@ -52,7 +52,7 @@ Additionally, the protocol introduces reward variance due to the randomness of t
     - [ ] Confirm that block proposer one-epoch lookup only holds, if effective balances do not change across epochs.
     - [ ] Establish to what extent an attacker may manipulate the RANDAO game and if this could be used advantageously to better extract MEV
 - [ ] Analyse block squashing attack
-- [ ] Assess potential multi-block strategies 
+- [ ] Assess potential multi-block strategies
 - [ ] Study consensus security/finality threats that may arise from MEV (analogs to time-bandit attacks)
 
 ## Expected Deliverables
