@@ -4,7 +4,7 @@ title: MEV in eth2 - inequality & attack vectors analysis
 team: @fiiiu
 created: 2021-06-04
 status: pending
---
+---
 
 # MEV in eth2 - inequality & attack vectors analysis
 
