@@ -4,8 +4,6 @@ Flashbots is a research and development organization focused on the impact MEV h
 
 We are building Flashbots Research as a research hub for MEV, tackling and uncovering questions relevant to the short, medium and long-term future of the ecosystem. We view this research as essential to help the cryptocurrency industry better understand and deal with MEV. We are currently funded through venture capital but aim to build a sustainable self-funded independent research organization that can become a place where ambitious researchers can work amongst like-minded individuals on the most interesting research questions unencumbered from the usual friction of academia.
 
-Read more about what we're building with Flashbots Research in our [manifesto](manifesto.md)
-
 ## Research Topics
 Our research covers a wide array of topics centered around the MEV theme. Several of these topics are directly related to our auction system and are meant as initial explorations around problems that will eventually need to be solved for our project to ultimately succeed. Other topics are more loosely related, and are part of our wider effort to illuminate the MEV landscape to level the playing field for all actors involved.
 
