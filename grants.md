@@ -1,4 +1,4 @@
-#  Flashbots Grants
+#  MEV Fellowship Grants
 
 The MEV fellowship is a grants program to support research on questions related to topics outlined in [topics.md](topics.md).
 
