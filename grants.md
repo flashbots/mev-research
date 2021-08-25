@@ -25,7 +25,7 @@ No, grant fellows are accepted on a rolling basis.
 6) Once the contract is signed, the first instalment of the grant money is sent over
 
 **What is an FRP?**<br/>
-FRPs stands for Flashbots Research Proposal. It is a markdown document describing the approach to answering a question related to topics listed in topics.md. Similar to a research proposal for academic writing, it entails introducing what the research proposes to do and/or prove. It should incorporate systematic breakdown of the research question. It will also give an in-depth account of the methodologies, approaches or theories that will be used to support the hypothesis within the project, including a review of the relevant literature.
+FRPs stands for Flashbots Research Proposal. It is a markdown document describing the approach to answering a question related to topics listed in [topics.md](topics.md). Similar to a research proposal for academic writing, it entails introducing what the research proposes to do and/or prove. It should incorporate systematic breakdown of the research question. It will also give an in-depth account of the methodologies, approaches or theories that will be used to support the hypothesis within the project, including a review of the relevant literature.
 
 **Can the grant be given to an entity rather than an individual?**<br/>
 Yes!
