@@ -1,7 +1,7 @@
 ---
 id: 16
 title: MEV in l2 exploration
-team: @obadiaa @fxfactorial @vaibhavchellani @tcb0 @marcellobardus @forrestnorwood
+team: @obadiaa @lakshmansankar @vaibhavchellani @tcb0 @marcellobardus @forrestnorwood
 created: 2021-06-04
 status: in progress
 ---
