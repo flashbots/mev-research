@@ -34,7 +34,7 @@ Yes!
 Yes, all the work you produce for the grant is owned by you. Flashbots is granted a non-exclusive license to use it and we require that all grant work be shared publicly for anyone in the community to contribute to and learn from.
 
 **What belongs in a successful FRP?**<br/>
-FRPs should be aligned with the general research questions listed in the [Research Roadmap](research_roadmap.md), and should articulate nicely with other successful FRPs. Each FRP is however unique, so tailored feedback will be provided on an individual basis. In terms of format, we encourage authors to follow the [FRP template](/FRP-template.md).
+FRPs should be aligned with the general research questions listed in the [topics](topics.md), and should articulate nicely with other successful FRPs. Each FRP is however unique, so tailored feedback will be provided on an individual basis. In terms of format, we encourage authors to follow the [FRP template](/FRP-template.md).
 
 **Aside from financial support, does Flashbots support MEV Fellows in other ways?**<br/>
 As an MEV fellow, you will have full access to the Flashbots extended team and to data that can be used for research.
