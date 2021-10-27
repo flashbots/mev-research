@@ -1,3 +1,11 @@
+---
+id: 
+title: Bundle Clashing Analysis
+team: 
+created: 2021-10-27
+status: 
+---
+
 # Bundle Clashing Analysis
 The aim of this proposal is to continue and deepen the work done in the [Bundle Clashing Analysis](https://hackmd.io/@flashbots/Hkd8iBP8u). Bundle merging is currently running at the MEV-geth level, but no analysis about “incompatibility” of bundles has been done after this implementation. We want to expand the previous analysis with a larger dataset and separating reads from writes (read after read is not incompatible, previous work used generic "accesses").
 
