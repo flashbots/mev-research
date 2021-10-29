@@ -3,7 +3,7 @@ id: 7
 title: Literature review of auction mechanism that fit in with Flashbots
 team: @sbaks0820
 created: 2020-11-24
-status: in progress
+status: active
 ---
 
 # Literature review of auction mechanism that fit in with Flashbots.

@@ -3,7 +3,7 @@ id: 16
 title: MEV in l2 exploration
 team: @obadiaa @lakshmansankar @vaibhavchellani @tcb0 @marcellobardus @forrestnorwood
 created: 2021-06-04
-status: in progress
+status: active
 ---
 
 # MEV in l2 & sidechains early exploration

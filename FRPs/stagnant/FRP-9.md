@@ -3,7 +3,7 @@ id: 9
 title: Quantifying the Impact of MEV on blockchain consensus security
 team: Liyi Zhou, Kaihua Qin, Arthur Gervais
 created: 2020-12-10
-status: pending
+status: stagnant
 ---
 
 # Quantifying the Impact of MEV on blockchain consensus security

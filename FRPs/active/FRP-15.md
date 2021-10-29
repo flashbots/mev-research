@@ -3,7 +3,7 @@ id: 15
 title: MEV in eth2 - inequality & attack vectors analysis
 team: @fiiiu @barnabemonnot @casparschwa
 created: 2021-06-04
-status: in progress
+status: active
 ---
 
 # MEV in eth2 - inequality & attack vectors analysis
