@@ -11,7 +11,7 @@ The different stages of an FRP are as follows:
 - **Draft:** the first formally tracked stage of an FRP in development. An FRP is merged by an FRP editor into the FRP repository when properly formatted. At this stage the draft may be iterating and undergoing rapid changes.
 - **Review:** an FRP author marks an FRP as ready for and requesting peer review.
 - **Accepted:** accepted FRPs are work in progress until incorporated into the research papers.
-- **Withdrawn:** the FRP author(s) have withdrawn the proposed FRP. This state has finality and can no longer be resurrected using this EIP number. If the idea is pursued at later date it is considered a new proposal.
+- **Withdrawn:** the FRP author(s) have withdrawn the proposed FRP. This state has finality and can no longer be resurrected using this FRP number. If the idea is pursued at later date it is considered a new proposal.
 - **Completed:** the work associated with the FRP has been merged into Flashbots Research Paper and/or published independently, or otherwise deemed as completed by the FRP editors.
 - **Stagnant:** an FRP in Draft or Accepted if inactive for a period of 6 months or greater is moved to stagnant. An FRP may be resurrected from this stage by Authors through moving it back to Draft, Withdrawn, or by FRP editors through moving it to Draft or Completed.
 
