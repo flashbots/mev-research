@@ -3,7 +3,7 @@ id: 12
 title: MEV after EIP-1559
 team: @fiiiu @kristofgazso
 created: 2021-06-06
-status: finished
+status: completed
 ---
 
 # MEV after EIP-1559

@@ -3,7 +3,7 @@ id: 11
 title: MEV in eth2 early exploration
 team: @obadiaa @tkstankacz @fiiiu @taarushv @prysmaticlabs
 created: 2021-05-28
-status: finished
+status: completed
 ---
 
 # MEV in eth2 early exploration

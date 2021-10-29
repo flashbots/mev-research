@@ -3,7 +3,7 @@ id: 10
 title: Mempool Privacy
 team: HashCloak
 created: 2021-02-24
-status: in progress
+status: active
 ---
 
 # Mempool Privacy
