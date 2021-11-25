@@ -74,3 +74,12 @@ Additionally, the protocol introduces reward variance due to the randomness of t
 - https://twitter.com/tkstanczak/status/1396178139445927937?s=20
 - https://twitter.com/samuelshadrach4/status/1401965712223064064?s=21
 - https://twitter.com/kristofgazso/status/1396214165115744267
+
+
+## Output
+While some of the work here is still in progress (like getting more numbers on the impact of MEV rewards on centralization), FRP-15 is now being closed in favor of new efforts and collaborations.
+
+Below are some of the works that were influenced by FRP-15:
+
+MEV-boost: Merge ready Flashbots Architecture https://ethresear.ch/t/mev-boost-merge-ready-flashbots-architecture/11177
+Three Attacks on Proof-of-Stake Ethereum https://arxiv.org/abs/2110.10086
