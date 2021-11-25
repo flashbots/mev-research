@@ -24,3 +24,6 @@ The proposed deliverable is a blogpost that covers
 ## References
 Reference current relevant literature or past work pertaining to the research question(s) at stake.
 * [Transaction Fee Mechanism Design for the Ethereum Blockchain: An Economic Analysis of EIP-1559](https://timroughgarden.org/papers/eip1559.pdf)
+
+## Output
+- Post on MEV and 1559: https://hackmd.io/@flashbots/MEV-1559

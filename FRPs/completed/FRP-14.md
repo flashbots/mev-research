@@ -30,3 +30,5 @@ The aim of this research is to collect thoughts on the topic, write up a short s
 - [Proposer/block builder separation-friendly fee market designs](https://ethresear.ch/t/proposer-block-builder-separation-friendly-fee-market-designs/9725)
 - [ArcherDAO Private Bundler proposal](https://hackmd.io/uTptoEtLQwOrt9sm2fc2cw)
 - [DoS micro-fee and reputation proposals](https://hackmd.io/@flashbots/SJEKRgz5O)
+
+## Output

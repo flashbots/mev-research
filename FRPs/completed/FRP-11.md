@@ -33,3 +33,8 @@ Reference current relevant literature or past work pertaining to the research qu
 - https://github.com/flashbots/raytracing
 - https://ethresear.ch/t/high-confidence-single-block-confirmations-in-casper-ffg/8909?u=benjaminion
 - https://docs.google.com/spreadsheets/d/1FslqTnECKvi7_l4x6lbyRhNtzW9f6CVEzwDf04zprfA/edit#gid=0
+
+
+## Output
+- Post: https://hackmd.io/@flashbots/mev-in-eth2
+- Research repo with simulation work: https://github.com/flashbots/eth2-research
