@@ -87,4 +87,4 @@ Below are some of the works that were influenced by FRP-15:
 
 * RANDAO manipulation exploration notebook by @casparschwa and @barnabemonnot https://ethereum.github.io/beaconrunner/notebooks/randao/randao.html
 
-* Ethereum economic model extended to have per validator reward accounting, allowing to specify a custom MEV reward process (useful to e.g., look at validator balance distributions in various scenarios): barnabemonnot/ethereum-economic-model@b3a3e8d
+* Ethereum economic model extended to have per validator reward accounting, allowing to specify a custom MEV reward process (useful to e.g., look at validator balance distributions in various scenarios): https://barnabemonnot/ethereum-economic-model@b3a3e8d
