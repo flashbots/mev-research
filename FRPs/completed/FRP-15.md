@@ -81,5 +81,10 @@ While some of the work here is still in progress (like getting more numbers on t
 
 Below are some of the works that were influenced by FRP-15:
 
-MEV-boost: Merge ready Flashbots Architecture https://ethresear.ch/t/mev-boost-merge-ready-flashbots-architecture/11177
-Three Attacks on Proof-of-Stake Ethereum https://arxiv.org/abs/2110.10086
+* MEV-boost: Merge ready Flashbots Architecture https://ethresear.ch/t/mev-boost-merge-ready-flashbots-architecture/11177
+
+* Three Attacks on Proof-of-Stake Ethereum https://arxiv.org/abs/2110.10086
+
+* RANDAO manipulation exploration notebook by @casparschwa and @barnabemonnot https://ethereum.github.io/beaconrunner/notebooks/randao/randao.html
+
+* Ethereum economic model extended to have per validator reward accounting, allowing to specify a custom MEV reward process (useful to e.g., look at validator balance distributions in various scenarios): barnabemonnot/ethereum-economic-model@b3a3e8d
