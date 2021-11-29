@@ -81,5 +81,5 @@ While some of the work here is still in progress (like getting more numbers on t
 
 Below are some of the works that were influenced by FRP-15:
 
-MEV-boost: Merge ready Flashbots Architecture https://ethresear.ch/t/mev-boost-merge-ready-flashbots-architecture/11177
-Three Attacks on Proof-of-Stake Ethereum https://arxiv.org/abs/2110.10086
+- MEV-Boost: Merge-ready Flashbots Architecture by [thegostep](https://twitter.com/thegostep) https://ethresear.ch/t/mev-boost-merge-ready-flashbots-architecture/11177
+- Three Attacks on Proof-of-Stake Ethereum by [Caspar Schwarz](https://twitter.com/casparschwa) et. al. https://arxiv.org/abs/2110.10086

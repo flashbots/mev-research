@@ -50,5 +50,8 @@ The main deliverable of this FRP is to produce one, or multiple specs, of Flashb
 - https://github.com/ethereum/eth2.0-specs/pull/2454
 
 ## Output
-- Post on a proposed Flashbots architecture post-Merge: https://ethresear.ch/t/mev-boost-merge-ready-flashbots-architecture/11177
-- Carrier txs spec & PoC implementation by Nethermind
+- MEV-Boost: Merge-ready Flashbots Architecture by [thegostep](https://twitter.com/thegostep) https://ethresear.ch/t/mev-boost-merge-ready-flashbots-architecture/11177
+
+- Carrier transactions spec by [Tomasz Stankacz](https://twitter.com/tkstanczak) & [Alex Obadia](https://twitter.com/ObadiaAlex)
+
+- PoC implementation of carrier transactions by [Lucas Maninini (Nethermind)](https://github.com/lmanini) https://github.com/flashbots/ethers-provider-flashbots-bundle/pull/47

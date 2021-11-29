@@ -27,3 +27,6 @@ We aim at delivering a blogpost tackling these 4 areas, acknowledging that this 
 - https://arxiv.org/abs/1904.05234
 - https://arxiv.org/abs/2101.05511
 - https://arxiv.org/abs/2102.03347
+
+## Output
+- Quantifying Realized Extractable Value by [Alejo Salles](https://twitter.com/fiiiu_) https://hackmd.io/@flashbots/quantifying-REV

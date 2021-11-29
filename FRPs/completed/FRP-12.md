@@ -26,4 +26,6 @@ Reference current relevant literature or past work pertaining to the research qu
 * [Transaction Fee Mechanism Design for the Ethereum Blockchain: An Economic Analysis of EIP-1559](https://timroughgarden.org/papers/eip1559.pdf)
 
 ## Output
-- Post on MEV and 1559: https://hackmd.io/@flashbots/MEV-1559
+- MEV and 1559 by [Alejo Salles](https://twitter.com/fiiiu_) and [Kristof Gazso](https://twitter.com/kristofgazso) https://hackmd.io/@flashbots/MEV-1559
+
+- [MEV after EIP-1559 and the Merge](https://youtu.be/XhZ2FDMdVUM) by [Alejo Salles](https://twitter.com/fiiiu_) & [Alex Obadia](https://twitter.com/ObadiaAlex) (EthCC 4)
