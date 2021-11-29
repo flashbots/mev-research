@@ -1,7 +1,7 @@
 ---
 id: 13
 title: Flashbots in eth2
-team: @obadiaa @tkstankacz @taarushv
+team: @obadiaa @tkstankacz @taarushv @thegostep
 created: 2021-06-04
 status: completed
 ---
@@ -48,3 +48,10 @@ The main deliverable of this FRP is to produce one, or multiple specs, of Flashb
 - https://github.com/ethereum/eth2.0-specs/pull/2454
 - https://github.com/attestantio/vouch
 - https://github.com/ethereum/eth2.0-specs/pull/2454
+
+## Output
+- MEV-Boost: Merge-ready Flashbots Architecture by [thegostep](https://twitter.com/thegostep) https://ethresear.ch/t/mev-boost-merge-ready-flashbots-architecture/11177
+
+- Carrier transactions spec by [Tomasz Stankacz](https://twitter.com/tkstanczak) & [Alex Obadia](https://twitter.com/ObadiaAlex)
+
+- PoC implementation of carrier transactions by [Lucas Maninini (Nethermind)](https://github.com/lmanini) https://github.com/flashbots/ethers-provider-flashbots-bundle/pull/47
