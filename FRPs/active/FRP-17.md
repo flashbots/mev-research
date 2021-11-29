@@ -1,9 +1,9 @@
 ---
 id: 17
 title: Bundle Clashing Analysis
-team: 
+team:
 created: 2021-10-27
-status: 
+status:
 ---
 
 # Bundle Clashing Analysis
@@ -19,7 +19,7 @@ Detail of questions to covered in this FRP:
 * Can we find any insight on the current landscape that may help us on further algorithms developments?
 
 ## Plan and Deliverables
-The plan will be to develop a data analysis based on history data for a set of random equispaced blocks, to understand where the current “incompatibility” of bundles is taking place. The base analysis, as a start point, will consist on three different categories [(mirror as previous work done in the same topic)](https://hackmd.io/@flashbots/Hkd8iBP8u). 
+The plan will be to develop a data analysis based on history data for a set of random equispaced blocks, to understand where the current “incompatibility” of bundles is taking place. The base analysis, as a start point, will consist on three different categories [(mirror as previous work done in the same topic)](https://hackmd.io/@flashbots/Hkd8iBP8u).
 
 During the project we will rethink these categories, analyze which are the most useful ones and search for new alternatives.
 
@@ -27,7 +27,7 @@ During the project we will rethink these categories, analyze which are the most 
 2. “Contracts touched” means which addresses state would have been changed by the different bundles.
 3. “Compatibility” means whether processing pairs in different order would yield the same profit to the miner.
 
-What’s the additional contribution for this study? In comparison with previous work: 
+What’s the additional contribution for this study? In comparison with previous work:
 * Running the previous analysis on a new different landscape with updated data.
 * Use a larger dataset (previous work only used a few blocks).
 * Different approach on data visualization techniques (from a data science background perspective).
@@ -35,7 +35,7 @@ What’s the additional contribution for this study? In comparison with previous
 * Deep dive analysis on contracts touched: having a better understanding of the intersecting segment.
 * New findings and insights on the topic willing to be shared.
 
-The goal of this FRP is to come up with a data analysis markdown, answering all of the above questions. We aim at delivering a blogpost (short article published in our HackMD research publication) tackling this analysis with theoretical and conceptual introduction of the topic, description of the current landscape of the problem with status and characteristics of bundles in the relay, supportive graphs, quantitative analysis and respective conclusions. 
+The goal of this FRP is to come up with a data analysis markdown, answering all of the above questions. We aim at delivering a blogpost (short article published in our HackMD research publication) tackling this analysis with theoretical and conceptual introduction of the topic, description of the current landscape of the problem with status and characteristics of bundles in the relay, supportive graphs, quantitative analysis and respective conclusions.
 
 ## References
 * https://github.com/flashbots/bundle-clashing-analysis
