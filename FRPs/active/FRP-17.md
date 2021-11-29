@@ -1,9 +1,9 @@
 ---
 id: 17
 title: Bundle Clashing Analysis
-team:
+team: @ezetalamona @fiiiu
 created: 2021-10-27
-status:
+status: active
 ---
 
 # Bundle Clashing Analysis
