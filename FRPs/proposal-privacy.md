@@ -1,7 +1,7 @@
 ---
 id: <>
 title: Cryptographic primitives for complete privacy
-team: @JStearn
+team: @JBStearn
 created: 2021-12-16
 ---
 
