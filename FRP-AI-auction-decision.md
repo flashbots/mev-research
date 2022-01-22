@@ -1,7 +1,7 @@
 ---
 id: <leave blank -- will be assigned by reviewers>
 title: Auction decison using AI
-team: @avibrahms @qucko
+team: @avibrahms
 created: <date created on, in yyyy-mm-dd format>
 ---
 
@@ -18,4 +18,5 @@ Provide motivation and background for the proposal, and clearly state the resear
 Describe the planned approach to the problem, including potential time allocations and partitioning into phases. List the artifacts or intended deliverables of the proposal.
 
 ## References
-Reference current relevant literature or past work pertaining to the research question(s) at stake.
+https://ieeexplore.ieee.org/document/9120521
+https://cacm.acm.org/magazines/2021/8/254315-optimal-auctions-through-deep-learning/fulltext
