@@ -1,7 +1,7 @@
 ---
 id: <leave blank -- will be assigned by reviewers>
-title: Auction decison using AI
-team: @avibrahms @qucko
+title: <Auction decison using AI>
+team: <@avibrahms @qucko>
 created: <date created on, in yyyy-mm-dd format>
 ---
 
