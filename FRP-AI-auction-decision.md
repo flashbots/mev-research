@@ -5,11 +5,9 @@ team: @avibrahms
 created: <date created on, in yyyy-mm-dd format>
 ---
 
-# Auction decison using AI (Deep learning approach to Flashbots auctions)
+# Auction decison using deep learning approach
 
-Follow this template for new research proposals, removing this text and replacing the *Flashbots Research Proposal Template* title with your proposal's own. Open a pull request to submit your proposal, using an abbreviated title in the filename (`proposal-short_title.md`), and put the file under the `FRPs` folder.
-
-Use this initial section to provide a ~500 word summary of the proposal. The summary should consist in a simple straightforward statement of what your hypothesis is, what methodology you intend to use, what limitations those methods may have, what implications your results may have.
+The goal of this FRP is to improve the auction mechanism using deep learning. Recent breakthrough in action mechanisms have been achieve through deep learning and the purpose of this research is to extensively survey the deep learning approaches to auction mechanisms in general. Devise at least one mechanism applicable to Flashbots auctions, implement and test the viability such a solution, and compare the outcomes to Flashbots current first-price sealed-bid auction mechanism as well as the classical mempool auction mechanism. 
 
 ## Background and Problem Statement
 Provide motivation and background for the proposal, and clearly state the research questions it aims to tackle. Link to related or dependent Research Question(s) on the Flashbots Research Roadmap, and reference relevant Github Issues in this repository.
