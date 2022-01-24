@@ -7,7 +7,7 @@ created: <date created on, in yyyy-mm-dd format>
 
 # Auction decison using deep learning approach
 
-The goal of this FRP is to improve the auction mechanism using deep learning. Recent breakthroughs in auction mechanisms have been achieve through deep learning and the purpose of this research is to extensively survey the deep learning approaches to auction mechanisms in general. Devise at least one mechanism applicable to Flashbots auctions, implement and test the viability such a solution, and compare the outcomes to Flashbots current first-price sealed-bid auction mechanism as well as the classical mempool auction mechanism. 
+The goal of this FRP is to improve the auction mechanism using deep learning. Recent breakthroughs in auction mechanisms have been achieve through deep learning and the purpose of this research is to extensively survey the deep learning approaches to auction mechanisms in general. Devise at least one mechanism applicable to Flashbots auctions, implement and test the viability of such a solution, and compare the results to Flashbots current first-price sealed-bid auction mechanism as well as the classical mempool auction mechanism. 
 
 ## Background and Problem Statement
 Provide motivation and background for the proposal, and clearly state the research questions it aims to tackle. Link to related or dependent Research Question(s) on the Flashbots Research Roadmap, and reference relevant Github Issues in this repository.
