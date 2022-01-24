@@ -16,7 +16,11 @@ While the current auction mechanism is satisfying miners as well as for searcher
   * miners may benefit from a higher fee reward while searchers could further optimize their cost
 
 ## Plan and Deliverables
-Describe the planned approach to the problem, including potential time allocations and partitioning into phases. List the artifacts or intended deliverables of the proposal.
+In this FRP, we aim at:
+1) Survey the recent improvements of auction design due to deep learning, and extensively look at their application to flashbots auction.
+2) Set the requirements, and standards applicable to an improved version of flashbots auction mechanism.
+3) Design, implement and test the viability of at least one solution.
+4) Compare results to current first-price sealed-bid auction mechanism as well as traditonal mempool auction mechanism.
 
 ## References
 https://ieeexplore.ieee.org/document/9120521
