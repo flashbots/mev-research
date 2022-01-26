@@ -23,6 +23,8 @@ In this FRP, we aim at:
 4) Compare results to current first-price sealed-bid auction mechanism as well as traditonal mempool auction mechanism.
 
 ## References
+https://www.cs.princeton.edu/courses/archive/spr09/cos444/papers/myerson81.pdf
+ 
 https://cacm.acm.org/magazines/2021/8/254315-optimal-auctions-through-deep-learning/fulltext
  
 https://github.com/neeharperi/PreferenceNet
