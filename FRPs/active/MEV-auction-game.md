@@ -17,9 +17,8 @@ The goal of this FRP is to survey the games and the Nash equilibrium of MEV extr
 - Formalize the PGA in different domains and the Flashbots Auction game.
 - Try to provide a universal framework that parametrizes all standard MEV-auction games.
 - Try to find all Nash equilibrium strategies in the MEV auction game. Moreover, precise the existence of evolutionary stable Nash equilibrium strategies.
-- Provide data of different chains (Polygon, Bsc, AVAX, Arbitrum,...) and extractable value domains (Arbitrage, Liquidations,...) to contrast with the theoretical results obtained. 
 - Compare the negative externalities on users and searchers of these MEV auctions games.
-- If the results are accurate enough, provide a new tool in the MEV explorer that characterizes the competitiveness of MEV extraction in different domains and chains.
+- Provide an overview of the consequences of the MEV games on Livness, chain growth, and chain quality in general Blockchains.
 
 
 
