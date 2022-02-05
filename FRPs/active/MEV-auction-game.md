@@ -18,7 +18,7 @@ The goal of this FRP is to survey the games and the Nash equilibrium of MEV extr
 - Try to provide a universal framework that parametrizes all standard MEV-auction games.
 - Try to find all Nash equilibrium strategies in the MEV auction game. Moreover, precise the existence of evolutionary stable Nash equilibrium strategies.
 - Compare the negative externalities on users and searchers of these MEV auctions games.
-- Provide an overview of the consequences of the MEV games on Livness, chain growth, and chain quality in general Blockchains.
+- Provide an overview of the consequences of the MEV games on livness, chain growth, and chain quality in general Blockchains.
 
 
 
