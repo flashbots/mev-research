@@ -29,4 +29,8 @@ https://cacm.acm.org/magazines/2021/8/254315-optimal-auctions-through-deep-learn
  
 https://github.com/neeharperi/PreferenceNet
  
- https://arxiv.org/pdf/2106.03215.pdf
+https://arxiv.org/pdf/2106.03215.pdf
+ 
+https://arxiv.org/pdf/2010.06398.pdf
+
+https://arxiv.org/pdf/1706.03459.pdf
