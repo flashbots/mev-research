@@ -1,5 +1,5 @@
 ---
-id: 
+id: 19
 title: MEV Auction equilibrium
 team: @obadiaa @fiiiu @BrunoMazorra
 created: 2022-01-24
