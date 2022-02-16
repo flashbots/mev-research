@@ -11,7 +11,7 @@ Anyone can propose a topic to be discussed in a Research Workshop by opening a g
 1 | Nov 19 20 | Breaking down Research Roadmap into Research Questions | - | - | [video](https://youtu.be/KDpdktixG5w) |
 2 | Dec 3 20 | Flashbots Research Proposals (FRPs) and Research Processs | - | - | [video](https://youtu.be/M7Xd2vZXN7E) |
 3 | Dec 10 20 | Developing an MEV Taxonomy | [Issue #24](https://github.com/flashbots/mev-research/issues/24) | to be updated | [video](https://youtu.be/SCQsK25yZ88) |
-4 | Dec 22 20| FRP Presentations & Review | n.a. | to be updated | [video](https://drive.google.com/file/d/1KAT-y4_0LqD4hyLljglebmIGkC7EQ8rQ/view?usp=sharing) |
-5 | Jan 21 21 | Quantifying MEV | [Issue #31](https://github.com/flashbots/mev-research/issues/31) | to be updated | [video](https://drive.google.com/file/d/1KjYZ_9yYBSuMaN4m1_Pd7EuVfknxuPE1/view?usp=sharing) |
-6 | Feb 4 21 | Auction Mechanism Design | [Issue #32](https://github.com/flashbots/mev-research/issues/32) | to be updated | [video](https://drive.google.com/file/d/19n9Hs7XsdocC1zvlL6XnROTvP5ZLUAeZ/view?usp=sharing) |
+4 | Dec 22 20| FRP Presentations & Review | n.a. | to be updated | [video](https://youtu.be/9nFz_dswC7A) |
+5 | Jan 21 21 | Quantifying MEV | [Issue #31](https://github.com/flashbots/mev-research/issues/31) | to be updated | [video](https://youtu.be/ADuegeUVx3M) |
+6 | Feb 4 21 | Auction Mechanism Design | [Issue #32](https://github.com/flashbots/mev-research/issues/32) | to be updated | [video](https://youtu.be/Hc33irPGoL0) |
 7 | Dec 16 21 | Cross-domain MEV AMA | [Issue #66](https://github.com/flashbots/mev-research/issues/66) | to be updated | [video](https://youtu.be/uR0Z0nWXeFU) |
