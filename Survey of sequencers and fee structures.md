@@ -28,8 +28,8 @@ We will produce and submit a paper for peer-reviewd publication outlining our fi
 Describe the planned approach to the problem, including potential time allocations and partitioning into phases. List the artifacts or intended deliverables of the proposal.
 
 ## References
-[Flash Boys 2.0](https://arxiv.org/abs/1904.05234)
-[Early Exploration in Solana](https://utonium.medium.com/mev-in-solana-an-early-exploration-4d7421b1f49b)
-[Algorand White paper]()
+- [Flash Boys 2.0](https://arxiv.org/abs/1904.05234)
+- [Early Exploration in Solana](https://utonium.medium.com/mev-in-solana-an-early-exploration-4d7421b1f49b)
+- [Algorand White paper]()
 
 Can someone add the rest of the white papers from the listed protocols?
