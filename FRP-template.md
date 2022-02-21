@@ -1,7 +1,7 @@
 ---
 id: <leave blank -- will be assigned by reviewers>
 title: Consensus Stability Implications of Transaction Fee Structures and Sequencers
-team: Waylon Jepsen, (Add your name here) joint effort from Colorado State University and The University of Tennessee, Dr. Amani Alterweh will lead the study with Waylon Jepsen.
+team: Waylon Jepsen, (Add your name here) joint effort from Colorado State University and The University of Tennessee, Dr. Amani Alterweh will lead the study.
 created: 2022-02-21
 ---
 
