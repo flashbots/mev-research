@@ -7,9 +7,8 @@ created: 2022-02-21
 
 # Consensus Stability Implications of Transaction Fee Structures and Sequencers
   
-We will examine cost of sensorship, dominent strategies, and look for consensus stability implications similar to deep reorgs in other protocols. We will study avalanche, solana, Algorand, Cosmos, Starknet, and Polygon. We will identify trade offs from different sequencers mechanisms and publish a peer reviewed paper with our results.
+We will study the implications of different fee structures and transaction sequencer mechanisms. We will examine cost of sensorship, dominent strategies, and look for consensus stability implications similar to deep reorgs in other protocols. We will study avalanche, solana, Algorand, Cosmos, Starknet, and Polygon. We will identify trade offs from different sequencers mechanisms and fee strucutes. We will publish a paper with our results. 
 
-Follow this template for new research proposals, removing this text and replacing the *Flashbots Research Proposal Template* title with your proposal's own. Open a pull request to submit your proposal, using an abbreviated title in the filename (`proposal-short_title.md`), and put the file under the `FRPs` folder.
 
 Use this initial section to provide a ~500 word summary of the proposal. The summary should consist in a simple straightforward statement of what your hypothesis is, what methodology you intend to use, what limitations those methods may have, what implications your results may have.
 
