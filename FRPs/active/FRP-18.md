@@ -3,6 +3,7 @@ id: 18
 title: Cryptographic primitives for complete privacy
 team: @JBStearn
 created: 2021-12-16
+status: active
 ---
 
 # Cryptographic primitives for complete privacy
@@ -39,4 +40,4 @@ We will produce a paper and accompanying blog post(s) outlining research in the 
 - [Submarine Sends](https://eprint.iacr.org/2017/1090.pdf)
 - [Dark Pools](https://lev.liv.nev.org.uk/darkpools/)
 - [ZK-SNARKS](https://eprint.iacr.org/2016/260.pdf)
-- [ZK-STARKS](https://eprint.iacr.org/2018/046.pdf) 
+- [ZK-STARKS](https://eprint.iacr.org/2018/046.pdf)
