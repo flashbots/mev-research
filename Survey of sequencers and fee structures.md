@@ -7,28 +7,28 @@ created: 2022-02-21
 
 # Consensus Stability Implications of Transaction Fee Structures and Sequencers
   
-We will study the implications of different fee structures and transaction sequencer mechanisms. We will examine cost of sensorship, dominent strategies, and look for consensus stability implications similar to deep reorgs in other protocols. We will study avalanche, solana, Algorand, Cosmos, Starknet, and Polygon. We will identify trade offs from different sequencers mechanisms and fee strucutes. We will publish a paper with our results. 
-
-
-Use this initial section to provide a ~500 word summary of the proposal. The summary should consist in a simple straightforward statement of what your hypothesis is, what methodology you intend to use, what limitations those methods may have, what implications your results may have.
+We will study the implications of different fee structures and transaction sequencer mechanisms. Because transaction ordering and fee mechanisms play a critical role in different MEV strategies, it is imperative to classify and examine the impacts of these mechanisms. We will identify the cost of censorship, dominant searcher strategies, and look for consensus stability implications similar to deep reorgs in other protocols. We will study avalanche, Solana, Algorand, Cosmos, Starknet, and Polygon. We will identify trade-offs from different sequencers mechanisms and fee structures. We will publish a paper with our results. 
 
 ## Background and Problem Statement
   
-The negative implications of deep reorg attacks were articulated clearly in [Flash Boys 2.0](https://arxiv.org/abs/1904.05234) paper. We aim examine similar concerns in a variety of other protocols. 
-  
-Provide motivation and background for the proposal, and clearly state the research questions it aims to tackle. Link to related or dependent Research Question(s) on the Flashbots Research Roadmap, and reference relevant Github Issues in this repository.
+The negative implications of deep reorg attacks were articulated clearly in [Flash Boys 2.0](https://arxiv.org/abs/1904.05234) paper. We aim to examine similar concerns in a variety of other protocols. 
 
 ## Plan and Deliverables
   
-We we examine fee protocols and sequencers in Solana, Avalanch, Algorand, Cosmos, Polygon, and Starknet. We will empirically measure cost of censorship and dominant MEV strategies on these protocols. 
+For each of the examined protocols, we will
+- Derive closed-form equations for the cost of censorship
+- Attempt to identify dominant MEV strategies
+- Identify any consensus stability implications
   
-We will produce and submit a paper for peer-reviewd publication outlining our findings in detail.
-
-Describe the planned approach to the problem, including potential time allocations and partitioning into phases. List the artifacts or intended deliverables of the proposal.
+We will then
+  
+- Evaluate the tradeoffs of different fee and sequencer mechanisms. 
+- We will produce and submit a paper for peer-reviewed publication outlining our findings in detail.
 
 ## References
 - [Flash Boys 2.0](https://arxiv.org/abs/1904.05234)
 - [Early Exploration in Solana](https://utonium.medium.com/mev-in-solana-an-early-exploration-4d7421b1f49b)
-- [Algorand White paper]()
-
-Can someone add the rest of the white papers from the listed protocols?
+- [Algorand White paper](https://arxiv.org/abs/1607.01341)
+- [Solana White paper](https://solana.com/solana-whitepaper.pdf)
+- [Avalanch White paper](https://assets.website-files.com/5d80307810123f5ffbb34d6e/6009805681b416f34dcae012_Avalanche%20Consensus%20Whitepaper.pdf)
+- [Polygon light paper](https://polygon.technology/lightpaper-polygon.pdf)
