@@ -3,11 +3,10 @@ id: 16
 title: MEV in l2 exploration
 team: @obadiaa @lakshmansankar @vaibhavchellani @tcb0 @marcellobardus @forrestnorwood
 created: 2021-06-04
-status: active
+status: completed
 ---
 
 # MEV in l2 & sidechains early exploration
-
 
 ## Background and Problem Statement
 As Ethereum's layer 1 becomes increasingly used, many applications are looking to move to outer layers of Ethereum in order to operate more efficiently (high tx throughput, lower tx fees). Each of these layers have different tx ordering rules from layer 1, different consensus mechanisms and different entities executing the ordering. Intuitively, it seems a lot of existing MEV transaction flow could move to these layers and makes MEV on such layers worth studying in further detail.
@@ -42,9 +41,6 @@ Since this is a rather large topic, we will prioritize l2s with the most adoptio
   - compare how this problem resembles cross-shard composability
   - compare how this problem resembles cross-chain composability
 
-
-
-
 ## References
 - https://ethresear.ch/t/cross-rollup-dex-with-smart-contracts-only-on-the-destination-side/8778
 - https://twitter.com/gakonst/status/1311342880146042881
@@ -55,3 +51,10 @@ Since this is a rather large topic, we will prioritize l2s with the most adoptio
 - https://twitter.com/matchaxyz/status/1400483371067723780?s=21
 - https://github.com/perpetual-protocol/perp-arbitrageur
 - https://medium.com/starkware/caspian-an-l2-powered-amm-f20e93b5421
+
+## Output
+- [Unity Is Strength: A Formalization Of Cross-Domain MEV](https://arxiv.org/abs/2112.01472)
+- [The Tradeoffs of Cross-Chain Communication](https://www.lakshmansankar.com/#/tradeoffs-ccc)
+- A draft article on L2 MEV written by @tcb0, @forrestnorwood, @marcellobardus and @obadiaa
+
+Out of the effort behind FRP-16, Flashbots is now doing research on L2 MEV, MEV on other chains and cross-domain MEV.
