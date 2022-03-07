@@ -1,15 +1,15 @@
 ---
 id: <leave blank -- will be assigned by reviewers>
 title: Consensus Stability Implications of Transaction Fee Structures and Sequencers
-team: Waylon Jepsen, William Scarbro (Add your name here), Dr. Amani Alterweh will lead the study.
+team: Waylon Jepsen, William Scarbro, Michael Boyle, Dr. Amani Alterweh will lead the study.
 created: 2022-02-21
 ---
 
 # Consensus Stability Implications of Transaction Fee Structures and Sequencers
   
-We will study the implications of different fee structures and transaction sequencer mechanisms. Because transaction ordering and fee mechanisms play a critical role in different MEV strategies, it is imperative to classify and examine the impacts of these mechanisms. We will identify the cost of censorship, dominant searcher strategies, and look for consensus stability implications similar to deep reorgs in other protocols. We will study avalanche, Solana, and Polygon. We will identify trade-offs from different sequencers mechanisms and fee structures. We will publish a paper with our results. 
+We will study the implications of different fee structures and transaction sequencer mechanisms. Because transaction ordering and fee mechanisms play a critical role in different MEV strategies, it is imperative to classify and examine the impacts of these mechanisms. We will identify the cost of censorship, dominant searcher strategies, and look for consensus stability implications similar to deep reorgs in other protocols. We will study Avalanche, Solana, and Polygon. We will identify trade-offs from different sequencers mechanisms and fee structures. We will publish a paper with our results. 
   
-If the study goes well we will extend the protocol survery to include Cosmos, Starknet, and Celo. We are open to suggestions as well. 
+If the study goes well we will extend the protocol survery to include Cosmos, Starknet, Fantom, and Celo. We are open to suggestions as well. 
 
 ## Background and Problem Statement
   
