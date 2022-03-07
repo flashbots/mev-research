@@ -7,9 +7,8 @@ created: 2022-02-21
 
 # Consensus Stability Implications of Transaction Fee Structures and Sequencers
   
-We will study the implications of different fee structures and transaction sequencer mechanisms. Because transaction ordering and fee mechanisms play a critical role in different MEV strategies, it is imperative to classify and examine the impacts of these mechanisms. We will identify the cost of censorship, dominant searcher strategies, and look for consensus stability implications similar to deep reorgs in other protocols. We will study Avalanche, Solana, and Polygon. We will identify trade-offs from different sequencers mechanisms and fee structures. We will publish our results. This will lay ground work for future peer reviewed papers.
-  
-If the study goes well we will extend the protocol survery to include Cosmos, Starknet, Fantom, and Celo. We are open to suggestions as well. 
+We will study the implications of different fee structures and transaction sequencer mechanisms. Because transaction ordering and fee mechanisms play a critical role in different MEV strategies, it is imperative to classify and examine the impacts of these mechanisms. We will identify the cost of censorship dominant searcher strategies and look for consensus stability implications similar to deep reorgs in other protocols. We will study Avalanche, Solana, and Polygon, identify trade-offs from different sequencer mechanisms and fee structures, and publish our results. This work lays the foundation for future peer-reviewed papers in this domain.
+We will extend the protocol survey to include Cosmos, Starknet, Fantom, and Celo if the study goes well. We are open to suggestions as well.
 
 ## Background and Problem Statement
   
@@ -17,10 +16,14 @@ The negative implications of deep reorg attacks were articulated clearly in [Fla
 
 ## Plan and Deliverables
   
+- We plan to begin setting up network nodes when relevant and within the constraints of our resources to assist with this study and future work. 
+  
 For each of the examined protocols, we will
-- Derive closed-form equations for the cost of censorship
-- Attempt to identify dominant MEV strategies used the in wild by examing public mempool and transaction history
-- Identify any consensus stability implications
+  
+- Identify Fee Structures and Transaction Sequencers
+- Derive closed-form equations for the cost of censorship from fee structures
+- Attempt to identify dominant MEV strategies used the in the wild by examing public mempool and transaction history
+- Identify any consensus stability implications from dominant MEV strategies and Transaction Sequencers
 
 We will then
   
