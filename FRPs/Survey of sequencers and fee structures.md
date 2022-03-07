@@ -1,7 +1,7 @@
 ---
 id: <leave blank -- will be assigned by reviewers>
-title: Consensus Stability Implications of Transaction Fee Structures and Sequencers
-team: Waylon Jepsen, William Scarbro, Michael Boyle, Dr. Amani Alterweh will lead the study.
+title: Survey of Sequencers and Fee Structures
+team: Waylon Jepsen, William Scarbro, and Michael Boyle, Dr. Amani Alterweh will lead the study.
 created: 2022-02-21
 ---
 
