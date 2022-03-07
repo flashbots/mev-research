@@ -1,7 +1,7 @@
 ---
 id: <leave blank -- will be assigned by reviewers>
 title: Consensus Stability Implications of Transaction Fee Structures and Sequencers
-team: Waylon Jepsen, (Add your name here) joint effort from Colorado State University and The University of Tennessee, Dr. Amani Alterweh will lead the study.
+team: Waylon Jepsen, William Scarbro (Add your name here) joint effort from Colorado State University and The University of Tennessee, Dr. Amani Alterweh will lead the study.
 created: 2022-02-21
 ---
 
@@ -17,9 +17,9 @@ The negative implications of deep reorg attacks were articulated clearly in [Fla
   
 For each of the examined protocols, we will
 - Derive closed-form equations for the cost of censorship
-- Attempt to identify dominant MEV strategies
+- Attempt to identify dominant MEV strategies used the in wild by examing public mempool and transaction history
 - Identify any consensus stability implications
-  
+
 We will then
   
 - Evaluate the tradeoffs of different fee and sequencer mechanisms. 
@@ -32,3 +32,4 @@ We will then
 - [Solana White paper](https://solana.com/solana-whitepaper.pdf)
 - [Avalanch White paper](https://assets.website-files.com/5d80307810123f5ffbb34d6e/6009805681b416f34dcae012_Avalanche%20Consensus%20Whitepaper.pdf)
 - [Polygon light paper](https://polygon.technology/lightpaper-polygon.pdf)
+- [An Empirical Study of Frontrunning on the Ethereum Blockchain](https://arxiv.org/abs/2102.03347)
