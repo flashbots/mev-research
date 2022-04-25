@@ -18,7 +18,7 @@ Find out more about our research [process](process.md), ongoing [FRPs](FRPs/) an
 Flashbots Research is community-centric and fully virtual. You can interact with us in several ways:
 - join us on our Discord [#mev-research](https://discord.gg/BX3DsheJyG) channel for conversations with the Flashbots community.
 - open an issue on this repository to gather input on specific MEV-related topics.
-- join the [MEV-Roasts](https://github.com/flashbots/pm/community-calls.md) where we present new ideas and get roasted by the community.
+- join the [MEV-Roasts & Community Calls](https://github.com/flashbots/pm/blob/main/recordings.md) where we present new ideas and get roasted by the community.
 - join research [workshops](workshops.md) and other ad hoc events such as research-a-thons that we run, announced in our Discord.
 
 We regularly collaborate with other research organizations. This can take many shapes such as a joint series of research workshops, a cross-organization team formation to work on a specific research question, or a joint grant program for questions that matter to both organizations. We encourage you to reach out if you'd like to discuss a collaboration. We are also actively recruiting for full-time research positions, check out the full job descriptions [here](https://flashbots.notion.site/Flashbots-Job-Board-94d53cb01ef04a9484711dacf18739e3).
