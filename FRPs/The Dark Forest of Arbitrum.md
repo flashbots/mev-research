@@ -6,28 +6,39 @@ created: 2022-06-17
 ---
 
 # Dark Forest of Arbitrum
-
-This project aims to lay the groundwork for the theoretical formalization of MEV-related phenomena on the Arbitrum network. We will formalize the Fee Mechanism and evaluate the cost of censorship. Given some block space, how much does it cost to use all block space, allowing none for anyone else? Furthermore, we will formalize the transaction ordering mechanism and what economic incentives are relevant as this is critical to all MEV activity. Additionally, we will analyze the bridge mechanisms. There is a seven-day lock period for the ETH Mainnet-Arbitrum official bridge. This seven-day period allows anyone to contest a `fraud-proof.` If a fraud-proof is challenged successfully, the validator that submitted it will get slashed, rewarding the challenger. A successful challenge will not revert the whole block but just the single transaction. We will examine these impacts on time to finality and protocols that are market-making the bridge for a more liquid bridging period. Is there an analogy between the lock-up period and the futures? What multi-chain arbitrage results from this?
+  
+We will extend MEV theory by formalizing aspects of cross domain MEV between Arbitrum One and Ethereum. We will evaluate potential MEV security threats by analyzing  consensus properties, fee mechanism, and cost of computation for Arbitrum One. We will also analyze Arbitrum One's plan to decentralize the sequencer by utilizing Chainlinks Decentralized Oracle Network (DON) and Fair Sequencing Service (FSS) Framework and what this implies for widely known MEV strategies such as arbitrage, sandwiching, and liquidations. We aim to show how MEV evolves on Layer 2 and provide mathematical formalizations supported by quantitative data analysis.
+  
 
 ## Background and Problem Statement
   
-The rules of the MEV game are well explored on the Ethereum Main-net. We aim to explore and formalize the rules of the MEV game of the layer two network of Arbitrum. 
+This research paper aims to provide mathematical formulations to analyze cross domain MEV between Ethereum and Arbitrum. Given the different mechanics and increased computational resources available on Aribtrum One, how will MEV evolve both on Arbitrum One and between Arbitrum One and Ethereum? Are there MEV exploitable security vulnerabilities in this new landscape? How will MEV further evolve as Arbitrum One continues to mature and decentralizes the sequencer via Chainlinks DON and FSS framework?
 
 ## Plan and Deliverables
   
-- We will complete a paper that will be made publically availible. We aim to submit the paper to the [Defi-Security](https://defi.security/)
+We plan on completing the paper and submitting to [Defi-Security](https://defi.security/). Deliverables include the following:
+
+- Mathematically formalize fee structures, cost of censorship, and transaction sequencers in context of cross domain MEV
+- Chainlink price feeds secure collateral between multiple blockchains including Arbitrum One and Ethereum. Formalize this form of cross domain liquidation MEV
+- Analyze mainnet block producer economic incentive to manipulate/censor Arbitrum One blocks and formalize Arbitrum One block production profitability
+- Evaluate MEV opportunities with respect to Layer 2 price feeds (Chainlink Price feeds, TWAP oracles, and reserve spot price). How does faster asset pricing on Layer 2 affect MEV on Arbitrum One? Does a faster Layer 2 (and conversly cheaper gas fees) imply more arbitrage and thus more liqudity connectivity? 
+- Evaluate MEV opportunities with respect to the official Aribtrum Bridge and more faster mechanisms such as Chainlink Proof of Reserve
+- Identify dominant MEV strategies formalized earlier by quantitative data analysis on historical data
   
-Within the context of the Arbitrum network we will:
+
   
-- Identify and formalize fee structures and transaction sequencers
-- Derive closed-form equations for the cost of censorship from fee structures
-- Attempt to identify dominant MEV strategies used the in the wild by examing public mempool and transaction history
-- Examine multi-block Arbitrage phenomena in the contexts of varrying block times between main-net and arbitrum
-- Evaluate the cost of oracle manipulation from Chainlink Price feeds and TWAP oracles
 
 ## References
 - [Flash Boys 2.0](https://arxiv.org/abs/1904.05234)
+- [Unity is Strength: A Formalization of Cross-Domain Maximal Extractable Value](https://arxiv.org/abs/2112.01472)
+- [Clockwork finance: Automated analysis of economic security in smart contracts](https://eprint.iacr.org/2021/1147.pdf)
 - [Replicating Monotonic Payoffs Without Oracles](https://arxiv.org/abs/2111.13740)
 - [An analysis of Uniswap markets](https://arxiv.org/abs/1911.03380)
-- [Clockwork finance: Automated analysis of economic security in smart contracts](https://eprint.iacr.org/2021/1147.pdf)
+- [High-Frequency Trading on Decentralized On-Chain Exchanges](https://arxiv.org/abs/2009.14021)
+- [The Blockchain Oracle Problem in Decentralized Finance—A Multivocal Approach](https://www.mdpi.com/2076-3417/11/16/7572)
+- [TWAP Oracle Attacks: Easier Done than Said?](https://eprint.iacr.org/2022/445.pdf)
 - [An Empirical Study of Frontrunning on the Ethereum Blockchain](https://arxiv.org/abs/2102.03347)
+- [Quantifying Blockchain Extractable Value: How Dark is the Forest?](https://arxiv.org/abs/2101.05511)
+- [Chainlink 2.0: Next Steps in the Evolution of Decentralized Oracle Networks](https://research.chain.link/whitepaper-v2.pdf)
+- [Order-Fair Consensus in the Permissionless Setting](https://eprint.iacr.org/2021/139)
+- [Building Scalable Decentralized Payment Systems](https://arxiv.org/abs/1904.06441)
