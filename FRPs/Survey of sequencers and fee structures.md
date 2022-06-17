@@ -1,40 +1,33 @@
 ---
 id: <leave blank -- will be assigned by reviewers>
-title: Survey of Sequencers and Fee Structures
-team: Waylon Jepsen, William Scarbro, and Michael Boyle, Dr. Amani Alterweh will lead the study.
-created: 2022-02-21
+title: The Dark Forest of Arbitrum
+team: Waylon Jepsen, Evan Kim, and Estelle Sterret.
+created: 2022-06-17
 ---
 
-# Consensus Stability Implications of Transaction Fee Structures and Sequencers
-  
-We will study the implications of different fee structures and transaction sequencer mechanisms. Because transaction ordering and fee mechanisms play a critical role in different MEV strategies, it is imperative to classify and examine the impacts of these mechanisms. We will identify the cost of censorship and dominant searcher strategies to look for consensus stability implications similar to deep reorgs in other protocols. We will study Avalanche, Solana, and Polygon, identify trade-offs from different sequencer mechanisms and fee structures, and publish our results. This work lays the foundation for future peer-reviewed papers in this domain.
-We will extend the protocol survey to include Cosmos, Starknet, Fantom, and Celo if the study goes well. We are open to suggestions as well.
+# Dark Forest of Arbitrum
+
+This project aims to lay the groundwork for the theoretical formalization of MEV-related phenomena on the Arbitrum network. We will formalize the Fee Mechanism and evaluate the cost of censorship. Given some block space, how much does it cost to use all block space, allowing none for anyone else? Furthermore, we will formalize the transaction ordering mechanism and what economic incentives are relevant as this is critical to all MEV activity. Additionally, we will analyze the bridge mechanisms. There is a seven-day lock period for the ETH Mainnet-Arbitrum official bridge. This seven-day period allows anyone to contest a `fraud-proof.` If a fraud-proof is challenged successfully, the validator that submitted it will get slashed, rewarding the challenger. A successful challenge will not revert the whole block but just the single transaction. We will examine these impacts on time to finality and protocols that are market-making the bridge for a more liquid bridging period. Is there an analogy between the lock-up period and the futures? What multi-chain arbitrage results from this?
 
 ## Background and Problem Statement
   
-The negative implications of deep reorg attacks were articulated clearly in [Flash Boys 2.0](https://arxiv.org/abs/1904.05234) paper. We aim to examine similar concerns in a variety of other protocols. 
+The rules of the MEV game are well explored on the Ethereum Main-net. We aim to explore and formalize the rules of the MEV game of the layer two network of Arbitrum. 
 
 ## Plan and Deliverables
   
-- We plan to begin setting up network nodes when relevant and within the constraints of our resources to assist with this study and future work. 
+- We will complete a paper that will be made publically availible. We aim to submit the paper to the [Defi-Security](https://defi.security/)
   
-For each of the examined protocols, we will
+Within the context of the Arbitrum network we will:
   
-- Identify Fee Structures and Transaction Sequencers
+- Identify and formalize fee structures and transaction sequencers
 - Derive closed-form equations for the cost of censorship from fee structures
 - Attempt to identify dominant MEV strategies used the in the wild by examing public mempool and transaction history
-- Identify any consensus stability implications from dominant MEV strategies and Transaction Sequencers
-
-We will then
-  
-- Evaluate the tradeoffs of different fee and sequencer mechanisms. 
-- We will produce and submit a paper for peer-reviewed publication outlining our findings in detail.
+- Examine multi-block Arbitrage phenomena in the contexts of varrying block times between main-net and arbitrum
+- Evaluate the cost of oracle manipulation from Chainlink Price feeds and TWAP oracles
 
 ## References
 - [Flash Boys 2.0](https://arxiv.org/abs/1904.05234)
-- [Early Exploration in Solana](https://utonium.medium.com/mev-in-solana-an-early-exploration-4d7421b1f49b)
-- [Algorand White paper](https://arxiv.org/abs/1607.01341)
-- [Solana White paper](https://solana.com/solana-whitepaper.pdf)
-- [Avalanch White paper](https://assets.website-files.com/5d80307810123f5ffbb34d6e/6009805681b416f34dcae012_Avalanche%20Consensus%20Whitepaper.pdf)
-- [Polygon light paper](https://polygon.technology/lightpaper-polygon.pdf)
+- [Replicating Monotonic Payoffs Without Oracles](https://arxiv.org/abs/2111.13740)
+- [An analysis of Uniswap markets](https://arxiv.org/abs/1911.03380)
+- [Clockwork finance: Automated analysis of economic security in smart contracts](https://eprint.iacr.org/2021/1147.pdf)
 - [An Empirical Study of Frontrunning on the Ethereum Blockchain](https://arxiv.org/abs/2102.03347)
