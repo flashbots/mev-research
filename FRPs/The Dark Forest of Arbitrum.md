@@ -7,12 +7,12 @@ created: 2022-06-17
 
 # Dark Forest of Arbitrum
   
-We will extend MEV theory by formalizing aspects of cross domain MEV between Arbitrum One and Ethereum. We will evaluate potential MEV security threats by analyzing  consensus properties, fee mechanism, and cost of computation for Arbitrum One. We will also analyze Arbitrum One's plan to decentralize the sequencer by utilizing Chainlinks Decentralized Oracle Network (DON) and Fair Sequencing Service (FSS) Framework and what this implies for widely known MEV strategies such as arbitrage, sandwiching, and liquidations. We aim to show how MEV evolves on Layer 2 and provide mathematical formalizations supported by quantitative data analysis.
+We will extend MEV theory by formalizing aspects of cross-domain MEV between Arbitrum One and Ethereum. We will evaluate potential MEV security threats by analyzing consensus properties, fee mechanism, and computation cost for Arbitrum One. We will also analyze Arbitrum One's plan to decentralize the sequencer by utilizing Chainlinks Decentralized Oracle Network (DON) and Fair Sequencing Service (FSS) Framework and what this implies for widely known MEV strategies such as arbitrage, sandwiching, and liquidations. We aim to show how MEV evolves on Layer 2 and provide mathematical formalizations supported by quantitative data analysis.
   
 
 ## Background and Problem Statement
   
-This research paper aims to provide mathematical formulations to analyze cross domain MEV between Ethereum and Arbitrum. Given the different mechanics and increased computational resources available on Aribtrum One, how will MEV evolve both on Arbitrum One and between Arbitrum One and Ethereum? Are there MEV exploitable security vulnerabilities in this new landscape? How will MEV further evolve as Arbitrum One continues to mature and decentralizes the sequencer via Chainlinks DON and FSS framework?
+This research paper aims to provide mathematical formulations to analyze cross-domain MEV between Ethereum and Arbitrum. Given the different mechanics and increased computational resources available on Aribtrum One, how will MEV evolve on Arbitrum One and between Arbitrum One and Ethereum? Are there MEV exploitable security vulnerabilities in this new landscape? How will MEV further develop as Arbitrum One continues to mature and decentralizes the sequencer via Chainlinks DON and FSS framework?
 
 ## Plan and Deliverables
   
