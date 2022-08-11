@@ -2,7 +2,7 @@
 id: 
 title: MEV in fixed gas price blockchains
 team:  
-created: 2022-10-11
+created: 2022-08-11
 ---
 
 # Background and Problem Statement
