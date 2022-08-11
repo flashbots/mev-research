@@ -26,6 +26,9 @@ We propose to:
 ## References
 
 [1] Daian, Philip, et al. "Flash boys 2.0: Frontrunning in decentralized exchanges, miner extractable value, and consensus instability." 2020 IEEE Symposium on Security and Privacy (SP). IEEE, 2020.
+
 [2] Why your blockchain needs an MEV solution - Hasu (Flashbots)
+
 [3] A brief Survey of MEV on Ethereum, BSC, Avalanche and Polygon in 2021 - Alex Obadia (Flashbots) 
+
 [4] https://explore.flashbots.net/ 
