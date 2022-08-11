@@ -1,7 +1,7 @@
 ---
 id: 
 title: MEV in fixed gas price blockchains
-team:  
+team:  @facuzeta
 created: 2022-08-11
 ---
 
