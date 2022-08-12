@@ -31,6 +31,22 @@ created: <2022-07-26>
  
  In our commit-reveal design, users send encrypted transactions to proposers. Based on the improved PBS, proposers will first accept and reach consensus on them. They can't do any MEV attacks because the content of transactions is hidden. After proposers confirm which transactions will be put on chain, those transactions can be revealed and sent to the builder for validation and execution. Knowing the details of transactions after being revealed, builders can process them at lower cost and better efficiency, but they can't extract MEV because their order and content have already been determined by proposers during the commit phase. In this way, users could be protected from MEV attacks when proposers commit their transactions first for consensus, and maintain transparency and usability when builders reveal their transactions to process and put them on chain.
  
+<br> 
+ 
+  The process of putting transactions on chain using our scheme is: 
+  
+  <img src="https://github.com/mryings/mev-research/blob/patch-1/scheme.jpg" width="50%">
+  
+ 1. Users commit their transactions via cryptography like threshold singature, and send to proposers;
+ 
+ 2. Proposers reach consensus on what transactions should be included in the next block and in which order via PoW or PoS;
+ 
+ 3. Builder can reveal transactions, validate and execute them according to proposers' consensus to construct the new block.
+ 
+ 4. Proposers verify the new block and append it on the chain.
+ 
+<br>
+ 
  By improving and combining PBS and commit-reveal, our solution aims at enabling usable, efficient, and reliable on-chain service that protects users' interests from MEV and regulates proposers and builders without privileges. To the best of our knowledge, our work is the first to:
 
  * improve PBS including applying commit-reveal technique into PBS to make PBS MEV resistible.
@@ -41,28 +57,33 @@ created: <2022-07-26>
  
   * design the incentive mechanism to make our solution benefit every participant on blockchain including users, proposers, and builders.
 
+<br>
+
+ Besides commit-reveal and PBS scheme, we will also explore other techinques and solutions to make our proposal not only protect users' transactions from MEV attack, but more importantly, give them the right and freedom to self-determine the block including the content and order of their transactions. Everyone should be equal and fair on blockchain without priviledges including miners to make blockchain sustainable and beneficial for everyone.
+ 
  Our timeline, budget, and deliverables could be:
  
-  * August 2022: Design the privacy-preserving and cryptography techniques including the commit-reveal scheme for better usability, efficiency, and transparency than existing MEV mitigation strategies.
+  * <b>August 2022</b> ($2,000): Design the privacy-preserving and cryptography techniques including the commit-reveal scheme for better usability, efficiency, and transparency than existing MEV mitigation strategies.
  
-  * September 2022: Improve the PBS scheme and combine it with privacy-preserving techniques to make it MEV resistible.
+  * <b>September 2022</b> ($2,000): Improve the PBS scheme and combine it with privacy-preserving techniques to make it MEV resistible.
  
-  * October 2022: Design the corresponding fee mechanism to benefit users, miners (or validators), and MEV extractors. We will prove that although no MEV attack exists, a better trading experience will bring more transactions, so they can still earn more than now.
+  * <b>October 2022</b> ($2,000): Design the corresponding fee mechanism to benefit users, miners (or validators), and MEV extractors. We will prove that although no MEV attack exists, a better trading experience will bring more transactions, so they can still earn more than now.
  
-  * November 2022: Develop the demo for our technical design and invite all users in the community to test, evaluate, and contribute to it.
+  * <b>November 2022</b> ($2,000): Develop the demo for our technical design and invite all users in the community to test, evaluate, and contribute to it.
  
-  * December 2022: Write the research report explaining our design in detail and submit it along with the demo code and testing result as deliverables.
+  * <b>December 2022</b> ($2,000): Write the research report explaining our design in detail and submit it along with the demo code and testing result as deliverables.
  
  The amount of the grant is highly flexible and negotiable. After getting the grant, the whole research process will be fully open in the community and everyone in the community is welcome to join and contribute to our research. They can also make all kinds of contributions besides research like development, testing, feedback, and promotion. The given grant will be used to reward all contributors in the community to reward their valuable contributions.
   
  
  
 ## Team Members
- Supervisor Dr.Jiahua Xu: Dr. Jiahua Xu (https://jiahua-xu.com) is a Research Project Manager at University College London Centre for Blockchain Technologies, UK. Her research interests lie primarily in blockchain economics, behavioral finance, and risk management.
+
+ <b>Supervisor Dr.Jiahua Xu</b>: Dr. Jiahua Xu (https://jiahua-xu.com) is a Research Project Manager at University College London Centre for Blockchain Technologies, UK. Her research interests lie primarily in blockchain economics, behavioral finance, and risk management.
   
- Jieliang Yin: Jieliang Yin is a graduate student studying at Carnegie Mellon University proposing this research project. He is interested in blockchain research and design and had several blockchain research and design experiences
+ <b>Jieliang Yin</b>: Jieliang Yin is a graduate student studying at Carnegie Mellon University proposing this research project. He is interested in blockchain research and design and had several blockchain research and design experiences
   
- Yebo Feng: Yebo Feng is a Ph.D. candidate in the Department of Computer and Information Science at the University of Oregon (UO), where he conducts his research in the Center for Cyber Security and Privacy. His research interests include network security, anomaly detection, DDoS defense, and distributed system security. He is the recipient of the Best Paper Award of 2019 IEEE CNS, Gurdeep Pall Graduate Student Fellowship of UO, and Ripple Research Fellowship. He has served as the reviewer of IEEE TDSC, ACM TKDD, and IEEE JSAC. He was also on the program committees of several international conferences, such as CYBER, SECURWARE, and B2C.
+ <b>Yebo Feng</b>: Yebo Feng is a Ph.D. candidate in the Department of Computer and Information Science at the University of Oregon (UO), where he conducts his research in the Center for Cyber Security and Privacy. His research interests include network security, anomaly detection, DDoS defense, and distributed system security. He is the recipient of the Best Paper Award of 2019 IEEE CNS, Gurdeep Pall Graduate Student Fellowship of UO, and Ripple Research Fellowship. He has served as the reviewer of IEEE TDSC, ACM TKDD, and IEEE JSAC. He was also on the program committees of several international conferences, such as CYBER, SECURWARE, and B2C.
  
  
  We welcome more people to join and contribute to our research and will give them corresponding returns!
