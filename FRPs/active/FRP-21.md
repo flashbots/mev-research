@@ -1,8 +1,9 @@
 ---
-id: 
+id: 21
 title: MEV in fixed gas price blockchains
 team:  @facuzeta
 created: 2022-08-11
+status: active
 ---
 
 # Background and Problem Statement
