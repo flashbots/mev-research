@@ -21,7 +21,7 @@ Suppose given the following data:
 - A random $[0,\infty]$-valued variable $T$ called the *latency*.
 - A random $\Theta$-valued process $\\{X_t\\}_{t\in [0,\infty)}$ called the *history*.
 
-From these data we construct a *random function* $\tilde\{\mathcal\{A\}\}\_\{X,T\}(i)$ that accepts input $i$, waits a random amount of time $t\sim T$ and then executes $\mathcal\{A\}$ on $i$ and the random input $X_t$. Caller utility $U_{\mathcal{A},X,T}(i) = u\circ \tilde{\mathcal{A}}_{X,T}(i)$ is then also a random function: the outcome of a randomly stopped stochastic process. The properties of this random function can be viewed as quantitative measures of the UX of the function $\mathcal{A}$.
+From these data we construct a *random function* $\tilde\{\mathcal\{A\}\}\_\{X,T\}(i)$ that accepts input $i$, waits a random amount of time $t\sim T$ and then executes $\mathcal\{A\}$ on $i$ and the random input $X_t$. Caller utility $U_{\mathcal{A},X,T}(i) = u\circ \tilde{\mathcal{A}}\_{X,T}(i)$ is then also a random function: the outcome of a randomly stopped stochastic process. The properties of this random function — e.g. expectation, variance — can be viewed as quantitative measures of the UX — utility, risk — of the function $\mathcal{A}$.
 
 This leads us to the following questions:
 
@@ -42,7 +42,7 @@ This project falls under the **protocol design** research topic. Since these mod
   - Overcollateralized lending (deposit, withdraw, borrow, repay, liquidate).
   - Any type of "one-time opportunity" such as an NFT mint.
 
-- Derive formulas for elementary properties (yield, risk, higher moments, range) of utility distributions of these models.
+- Derive formulas for elementary properties (moments, range) of utility distributions of these models.
 
 - Evaluate models in the context of:
 
