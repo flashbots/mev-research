@@ -1,3 +1,11 @@
+---
+id: 22
+title: Quantifying the Impact of Frontrunning and Randomness on UX
+team: @awmacpherson
+created: 2022-09-24
+status: active
+---
+
 # Background and problem statement
 
 ## Background
