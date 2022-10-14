@@ -1,7 +1,7 @@
 ---
 id: <leave blank -- will be assigned by reviewers>
 title: MEV on Rollups
-team: @saharAP 
+team: @saharAP @emmanuel-awosika 
 created: 2022-09-18
 ---
 
