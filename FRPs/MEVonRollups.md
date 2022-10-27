@@ -14,20 +14,19 @@ L2 solutions have come to the world based on the idea of having scalable network
 
 Some rollups (e.g., Arbitrum/Optimism) use some form of the first-come-first-serve (FCFS) ordering policy that guarantees transactions (sent to the sequencer's private mempool) are ordered as received, so that reduces MEV significantly. but it may have some consequences. Using the FCFS ordering strategy can increase the number of spam transactions to guarantee their early inclusion in the batch, and hence, it can lead to a waste of block space. On the other hand, in the FCFS approach, any transaction that enters the queue first is processed first. As a result, the network latency would be a critical issue. More specifically, it would not be fair for users with high network latency and far from the sequencer’s node as their transactions will arrive in the queue later than the others. It seems the issues mentioned will still not be resolved using decentralized sequencing with the FCFS ordering policy. Finally, to the best of my knowledge, the FCFS itself cannot prevent censoring transactions as a malicious sequencer can still prevent a transaction to include in a batch. (Arbitrum/Optimism uses some force transaction inclusion mechanisms to bypass the sequencer).
 
-The previous work in this field done in Flashbots is [4]. The focus of this research is on defining potential MEVs over interconnected blockchains, which were mentioned as cross-domain MEVs. Different situations of the topic have been well-defined and parameterized. The paper also has been specialized in extracting MEV through arbitrage, which is the most common way of getting MEV according to [explore.flashbots](https://explore.flashbots.net/). Moreover, the sequencer collusion in different domains is discussed. Here we are trying to investigate MEV challenges specific to rollups which are mostly related to the sequencers, and also trying to ask new questions during this research.
+Here we are trying to investigate MEV challenges specific to rollups which are mostly related to the sequencers, and also trying to ask new questions during this research.
 
 ## Plan and Deliverables
 
-The focus of this research is studying MEV over rollups as the most prominent approach among layer-2 solutions. Here are some of the main questions related to the objectives:
+The plan will focus on fair ordering approaches in rollup chains to reduce MEV. We try to investigate and solve some challenges on FCFS policy as one of the current promising ordering strategies. Here are the main objectives:
 
--   What are the different transaction ordering strategies in terms of using a set of permissioned sequencer nodes in rollups?
--   Can rollup nodes frontrun transactions received from users and exploit their proximity to sequencers to gain optimal transaction ordering (in terms of using a form of decentralized sequencing)? 
--   What are the second-order effects of implementing fair-ordering protocols (as a solution to reduce MEV)?
--   What are the solutions to prevent sequencers or disincentivize them to censor transactions or to leak transaction contents (from their private mempool)?  
+- To quantify the “burst period” and the “average waiting time” (if it’s possible) for a transaction to proceed in terms of using the FCFS ordering policy.
+- To evaluate the effect of FCFS policy on decentralized sequencing and to create a proof of concept for front-running
+- To document the second-order effects of using FCFS policy in rollups
+- To propose a hybrid solution based on the FCFS ordering policy and welfare-maximizing computation to find an optimal set of ordered transactions with a focus on AMM exchange transactions. 
 
 ## References
 
 1. [Validating Bridges as a Scaling Solution for Blockchains](https://eprint.iacr.org/2021/1589.pdf)
 2. [MEV and Me](https://research.paradigm.xyz/MEV)
 3. [The Sequencer and Censorship Resistance](https://developer.arbitrum.io/sequencer)
-4. [Unity Is Strength: A Formalization Of Cross-Domain MEV](https://arxiv.org/abs/2112.01472)
