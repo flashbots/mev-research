@@ -1,9 +1,9 @@
 ---
-id: 
+id: 23
 title: Welfare, AMMs and MEV
 team: @nikete @BrunoMazorra @sxysun1
 created: 2022-10-18
-status: proposed
+status: active
 ---
 
 # Welfare, AMMs and MEV
