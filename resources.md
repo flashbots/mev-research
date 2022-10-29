@@ -105,6 +105,8 @@ Below is a selection of resources from our vault to get you started on your MEV 
 
 [Surrogeth: Tricking frontrunners into being transaction relayers](https://ethresear.ch/t/surrogeth-tricking-frontrunners-into-being-transaction-relayers/6937)
 
+[Maximal Extractable Value (MEV) Protection on a DAG](https://arxiv.org/pdf/2208.00940.pdf)
+
 [B.Protocol: A Decentralized Backstop Liquidity Protocol](https://medium.com/b-protocol/b-protocol-b6dd4e3bf9c0)
 
 [Gas Now (Sparkpool): ETH Gas Price quotation system based on Pending transactions](http://www.gasnow.org)
