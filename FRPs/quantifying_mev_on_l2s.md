@@ -1,7 +1,7 @@
 ---
 id:
 title: On the quantification of MEV on L2s
-team: @IlluvatarEru
+team: @IlluvatarEru, @0xpanoramix
 created: 2022-08-10
 ---
 
@@ -30,7 +30,7 @@ We expect that most of the time is going to be spent on porting `mev-inspect-py`
 The major challenge that we see is finding a way to replay transactions on Polygon due the high frequency of transactions.
 
 ### Deliverables:
-1. Forks of `mev-inspect-py` that work for L2s
+1. Forks of `mev-inspect-py` that work for the aforementioned L2s
 2. A research paper explaining the methodology and results
 3. A presentation to the Flashbots team
 
