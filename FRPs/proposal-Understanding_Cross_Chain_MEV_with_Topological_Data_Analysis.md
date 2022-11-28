@@ -19,14 +19,14 @@ Already, TDA has delivered novel insights and I believe we are just starting to 
 ## Problem statement
 There has been very little research done to date on understanding how well-known MEV bot behaviors such as atomic arbitrage and liquidation bots comingle. There has been even less robust statistical analysis on historical blockchain data to gain further insights into MEV dynamics.  
 
-Further, classifying pattern recognition algorithms to identify new MEV behavior is complex due to the highly interconnected nature of the blockchain. TDA introduces a suite of robust topological techniques that are well suited to obtain further insights into the connectivity of MEV behavior on blockchains
+Further, classifying pattern recognition algorithms to identify new MEV behavior is complex due to the highly interconnected nature of the blockchain. TDA introduces a suite of robust topological techniques that are well suited to obtain further insights into the connectivity of MEV behavior on blockchains. Data patterns represented implicitly within dashboards such as [^mev_univ3] can be generalized to a myriad of protocols across a myriad of blockchains with TDA. 
 
 
 # Plan and deliverables
 
 ## Plan
 
-1) Create a more robust MEV address list than the current Flashbots arbitrageur list (I previously identified some critical issues that make the Flashbots list too inaccurate to use) composed of addresses that participate in atomic arbitrage and liquidations. Extend this to Arbitrum.
+1) Create a more robust MEV address list than the current Flashbots arbitrageur list (I previously identified some critical issues that make the Flashbots list too inaccurate to use) composed of addresses that participate in atomic arbitrage and liquidations. Extend this to Arbitrum. Use this list of MEV addresses and transactions as a starting point - https://github.com/duneanalytics/spellbook/pull/1703/files 
 
 2) Setup cross-chain subgraph pipeline to obtain historical data for analysis.
 
@@ -43,3 +43,5 @@ Further, classifying pattern recognition algorithms to identify new MEV behavior
 [^mev_tda]: https://github.com/Evan-Kim2028/tda_ohm_analysis/blob/main/Using_Topological_Data_Analysis_to_Identify_MEV_Behavior.pdf
 
 [^ohm_arbitrage]: https://mirror.xyz/evandekim.eth/Mc11J16dVP7Ervk1r2Sx_wkJ7dzb7Ce60Y2EpbRBlHY
+
+[^mev_univ3]: https://dune.com/alexth/uniswap-v3-mev-activity
