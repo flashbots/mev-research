@@ -47,9 +47,15 @@ Depending on how resource intensive this turns out to be, and how much time we w
 ## References
 
 [Credible commitments slides by Xin, easy](https://docs.google.com/presentation/d/1BhPNVYzIVkpiQ9dKUqBhPYY7z04tchmlcfhwf5FaWvw/edit#slide=id.g1a0413d509c_0_0)
+
 [Credible commitments slides by Xin, less easy](https://docs.google.com/presentation/d/1on6OpmjEuFQ5HQOx6b6JjWzUHZx5pBoWbxVJyKAFS_c/edit#slide=id.g179bd040f01_0_15)
+
 [MEV as a cooperative game, by Xin](https://docs.google.com/presentation/d/1_qDn-S9xHC-FTcxVsE9hV7kTw3WOSNUR9kL2i_4UFuc/edit#slide=id.g187ff1cf8c1_0_319)
+
 [Open games main repo](github.com/cyberCat-Institute)
+
 [Open games initial paper](https://arxiv.org/abs/1603.04641)
+
 [A simple model in Compositional Game Theory](github.com/20squares/ftx/)
+
 [An introductory video on the techniques we want to use](https://www.youtube.com/watch?v=Xzv54dZQZaw)
