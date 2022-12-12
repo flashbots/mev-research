@@ -1,8 +1,9 @@
 ---
-id: <leave blank -- will be assigned by reviewers>
+id: 26
 title: Credible Commitments via Open Games 
 team: 20squares
 created: 2022-12-07
+status: active
 ---
 
 # Credible Commitments via Open Games
