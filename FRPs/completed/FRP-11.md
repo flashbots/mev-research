@@ -35,7 +35,7 @@ Reference current relevant literature or past work pertaining to the research qu
 - https://docs.google.com/spreadsheets/d/1FslqTnECKvi7_l4x6lbyRhNtzW9f6CVEzwDf04zprfA/edit#gid=0
 
 ## Output
-- MEV in eth2 by [Alex Obadia](https://twitter.com/ObadiaAlex) & [Taarush Vemulapalli](https://twitter.com/taarushv) https://hackmd.io/@flashbots/mev-in-eth
+- MEV in eth2 by [Alex Obadia](https://twitter.com/ObadiaAlex) & [Taarush Vemulapalli](https://twitter.com/taarushv) https://hackmd.io/@flashbots/mev-in-eth2
 
 - eth2 research repo by [Alex Obadia](https://twitter.com/ObadiaAlex) & [Taarush Vemulapalli](https://twitter.com/taarushv) https://github.com/flashbots/eth2-research
 
