@@ -1,0 +1,37 @@
+---
+id: <leave blank -- will be assigned by reviewers>
+title: Research on MEV in L2 Blockchains
+team: Erik Zhang and Cindy Jiang + FranklinDAO (Penn Blockchain) Research Committee
+created: 2023-01-31
+---
+
+# Flashbots Research Proposal Template
+
+We hope to research a robust analysis of FlashBots that highlights the fundamental workings of its products, with an emphasis on future work in L2 MEV. Our findings would then be published in long-form format, Twitter threads, as well as in media formats such as podcasts and social media video clips, by FranklinDAO.
+
+The first part of our analysis would be a quantitative and qualitative dive into how FlashBots works. This would begin with a brief overview of FlashBots’s core products, before launching into a rigorous explanation that explores important details of MEV-Boost or the Auction Process. Quantitative details through on-chain analysis and data oracles like Dune would provide additional support to the impact of FlashBots and the design choices made by developers. The goal of this section is to go beyond existing documentation by providing additional analysis of how design choices have shaped out in practice once deployed on-chain. 
+
+The second part of our analysis would be a gaze into the future of FlashBots, with an emphasis on MEV in L2. We would give recommendations for areas of improvement in future versions of FlashBots and findings for how FlashBots fits into the broader picture of MEV in L1 scaling techniques, such as the subtle constraint differences in combatting L2 MEV vs L1 MEV and existing mitigation strategies in the market today (e.g. Optimism’s Fair Sequencing Service or using Timelock Encryption for enhanced mempool privacy). This portion of our analysis is slightly more subjective, and we would tailor it to highlight the strengths of members of our research team. For example, in the past, we have produced research on the issue of MEV in L1s and how techniques have changed with the advent of new architecture like Etheruem 2.0; this is something that we could connect to the future of FlashBots and the benefits it offers.
+
+The final section of our project is releasing the publication in a variety of media formats to maximize the discourse that it generates. Like our previous research, we typically release in the format of a long-form piece, Twitter thread, podcast, and social media clips. These are published by our FranklinDAO accounts, as well as our individual researchers. 
+
+
+## Background and Problem Statement
+The landscape of Web3 infrastructure has changed drastically over the past year due to a strong emphasis on improving scalability. Ethereum itself has released Ethereum 2.0 based on PoS, and we have seen many decentralized applications beginning to migrate to L2s like Polygon or discuss creating their own app chains on Cosmos, for example. With much of the focus being shifted to these scaling solutions, we want to consider MEV mitigation from the perspective of an L2 context and the challenges it poses. For example, some L2s are much more centralized than their respective L1s or are willing to sacrifice certain areas of security. With different assumptions and niche use cases from L1 transactions, can we still apply the exact same principles or analysis to mitigate MEV in the L2 future? If so, can we generalize this to inter-chain operability solutions like bridging? If not, what new changes can we leverage to combat this?
+
+## Plan and Deliverables
+Our research projects typically follow the timeline outlined below:
+
+In the first week, we first do preliminary research and understand, from a high-level, what the protocol does and how it relates to broader industries or philosophies in Web3. With this information, we begin to finalize a list of important sub-areas of research that we want to focus on. 
+
+We then enter the actual research portion. Members of the team typically begin with previous publications (white papers, audits, developer blogs) and do checks along the way to see if other sources and data corroborate the picture being captured. Throughout the process, we consult with other members of the team (perhaps with specialized experience) to give updates and suggestions on each other’s progress, as well as provide ideas for new viewpoints to consider and sanity-check our technical understanding.
+
+Once the research has been compiled, teams typically take 1-2 weeks to complete the writing process and formalize their findings. Drafts are submitted to committee leaders and other members of FranklinDAO along the way for feedback, and additional research is conducted if necessary as supplements. 
+
+Finally, with long-form papers finalized, the team gets together to record a series of podcasts and video clips about their research topic. These are then used to publicize the research up until the day it is officially released. The overall process can take 4-10 weeks, depending on how involved the topic is.
+
+
+## References
+https://franklindao.substack.com/
+https://twitter.com/franklin_dao 
+
