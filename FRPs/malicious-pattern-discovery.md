@@ -1,8 +1,8 @@
 ---
- id: <leave blank -- will be assigned by reviewers>
-title: <What we learn from failed transactions on Ethereum>
-team: <@Allarious Alireza Arjmand, Professor Majid Khabbazian, University of Alberta>
-created: <2023-01-23>
+id: <leave blank -- will be assigned by reviewers>
+title: What we learn from failed transactions on Ethereum
+team: Alireza Arjmand, Professor Majid Khabbazian, University of Alberta
+created: 2023-02-09
 ---
 
 # What we learn from failed transactions - Malicious pattern discovery
@@ -69,14 +69,14 @@ We need to find the answer to several questions to further continue this researc
 
 ## References
 
-### 1. Justin Drake, [Censorship Résistance and PBS](https://www.youtube.com/watch?v=XZJcZ05d-Wo&feature=youtu.be), September 2022
+###### 1. Justin Drake, [Censorship Résistance and PBS](https://www.youtube.com/watch?v=XZJcZ05d-Wo&feature=youtu.be), September 2022
 
-### 2. Alex Obadia, [Quantifying MEV: Introducing MEV-Explore v0](https://medium.com/flashbots/quantifying-mev-introducing-mev-explore-v0-5ccbee0f6d02), February 2022
+###### 2. Alex Obadia, [Quantifying MEV: Introducing MEV-Explore v0](https://medium.com/flashbots/quantifying-mev-introducing-mev-explore-v0-5ccbee0f6d02), February 2022
 
-### 3. Weizhao Tang, Lucianna Kiffer, Giulia Fanti, and Ari Juels, [Strategic Latency Reduction in Blockchain Peer-to-Peer Networks](https://arxiv.org/pdf/2205.06837.pdf), 2022
+###### 3. Weizhao Tang, Lucianna Kiffer, Giulia Fanti, and Ari Juels, [Strategic Latency Reduction in Blockchain Peer-to-Peer Networks](https://arxiv.org/pdf/2205.06837.pdf), 2022
 
-### 4. Kaihua Qin, Liyi Zhou, and Arthur Gervais, [Quantifying blockchain extractable value: How dark is the forest?](https://arxiv.org/abs/2101.05511), 2021
+###### 4. Kaihua Qin, Liyi Zhou, and Arthur Gervais, [Quantifying blockchain extractable value: How dark is the forest?](https://arxiv.org/abs/2101.05511), 2021
 
-### 5. P. Daian, S. Goldfeder, T. Kell, Y. Li, X. Zhao, I. Bentov, L. Breidenbach, and A. Juels, [Flash boys 2.0: Frontrunning in decentralized exchanges, miner extractable value, and consensus instability](https://arxiv.org/abs/1904.05234), 2020
+###### 5. P. Daian, S. Goldfeder, T. Kell, Y. Li, X. Zhao, I. Bentov, L. Breidenbach, and A. Juels, [Flash boys 2.0: Frontrunning in decentralized exchanges, miner extractable value, and consensus instability](https://arxiv.org/abs/1904.05234), 2020
 
-### 6. Dan Robinson, [Ethereum is a dark forest](https://www.paradigm.xyz/2020/08/ethereum-is-a-dark-forest), Aug 2020.
+###### 6. Dan Robinson, [Ethereum is a dark forest](https://www.paradigm.xyz/2020/08/ethereum-is-a-dark-forest), Aug 2020.
