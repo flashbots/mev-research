@@ -3,7 +3,7 @@ id: 21
 title: MEV in fixed gas price blockchains
 team:  @facuzeta
 created: 2022-08-11
-status: active
+status: completed
 ---
 
 # Background and Problem Statement
@@ -33,3 +33,7 @@ We propose to:
 [3] A brief Survey of MEV on Ethereum, BSC, Avalanche and Polygon in 2021 - Alex Obadia (Flashbots) 
 
 [4] https://explore.flashbots.net/ 
+
+## Output
+Paper: https://arxiv.org/abs/2303.04242
+Blog Post: https://collective.flashbots.net/t/frp-21-mev-in-fixed-gas-price-blockchains/1400
