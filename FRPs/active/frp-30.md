@@ -1,8 +1,9 @@
 ---
-id: <leave blank -- will be assigned by reviewers>
+id: 30
 title: Quantifying Shareable MEV
 team: Fan Zhang (Yale), Sen Yang (Yale), Xinyuan Sun (Flashbots)
 created: 2023-03-23
+status: active
 ---
 
 # Quantifying Shareable MEV
