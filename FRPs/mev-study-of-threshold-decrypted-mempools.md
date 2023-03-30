@@ -41,7 +41,6 @@ We plan to produce a paper or a blogpost with a summary of our findings.
 A few steps we plan to take as part of our study include:
 * thoroughly analyse the drawbacks and benefits of threshold-decrypted mempools (and the nuances that may exist in their different design & implementation)
 * put ourselves in the shoes of an MEV searcher (i.e. a quant trader) and think through the ways a trading opportunity can be seized in a simplified system with a threshold-decrypted mempool
-* elucidate potential mitigations to problems found and different market structures that could increase the attractiveness of such solutions
 
 While we plan to share our findings of the study above. We would also like our work to survey the problem space and and open the discussion to the broader community by surfacing what we see as interesting research questions needing further work.
 
@@ -54,6 +53,7 @@ We hope the work above can pave the way for other work and interesting questions
     - More generally, we hope see this piece of research can be an invitation to further research the tradeoffs, and the spectrum, between complete mempool privacy and mempool 'transparency'. Better understanding the tradeoffs of privacy preserving techniques on blockchains will, we believe, help projects in the industry decide the approach that best aligns with their vision and requirements, and choose between transparency/"MEV-aware" block construction, and privacy/(threshold) encrypted mempools.
 - creating a testing framework to experiment with different mempool designs through simulations
 - explore potentially deeper results that are not only specific to threshold crypto but can be generalized to all mechanisms that hides the mempool with no expressivity, also called 'complete privacy mempools'.
+- elucidate potential mitigations to problems found and different market structures that could increase the attractiveness of such solutions.
 
 
 Some deeper threads we would hope our initial study or further work hit on include consensus protocol design, leaderless block construction and security analyses of out-of-protocol threshold-decryption solutions like EigenLayer & Shutter Network versus in-protocol solutions like abci++.
