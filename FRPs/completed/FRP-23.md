@@ -1,9 +1,9 @@
 ---
 id: 23
 title: Welfare, AMMs and MEV
-team: @nikete @BrunoMazorra @sxysun1
+team: Nikete @nikete Bruno @BrunoMazorra Xinyuan @sxysun1
 created: 2022-10-18
-status: active
+status: completed
 ---
 
 # Welfare, AMMs and MEV
@@ -25,6 +25,8 @@ Consider the welfare properties of CFMM AMMs, the MEV that can be extracted and 
 
 Deliverables: a blog post with a summary of the findings and design directions, a colaborative research paper.
 
+## Output
+Paper at https://arxiv.org/pdf/2211.07220.pdf
 
 
 ## References
