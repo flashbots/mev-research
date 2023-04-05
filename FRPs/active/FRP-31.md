@@ -1,8 +1,9 @@
 ---
-id: <leave blank -- will be assigned by reviewers>
+id: 31
 title: A Study of Threshold-Decrypted Mempools, MEV and Their Benefit to Users
-team: @AntoineRondelet @obadiaa 
+team: Antoine @AntoineRondelet Alex @obadiaa 
 created: 2023-24-03
+status: active
 ---
 
 ## Background and Problem Statement
