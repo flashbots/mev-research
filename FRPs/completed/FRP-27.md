@@ -42,6 +42,7 @@ We will provide an open games model, i.e. a computational representation of the 
 
 ### Output
 [Flashbots forum post](https://collective.flashbots.net/t/frp-27-auction-simulations-under-pbs/1629)
+and
 [Github repo](https://github.com/20squares/pbs-auctions/tree/master/pbs-og)
 
 ## References
