@@ -3,7 +3,7 @@ id: 27
 title: Auction Simulations under PBS
 team: 20squares
 created: 2022-12-09
-status: active
+status: completed
 ---
 
 # Auction Simulations under PBS
@@ -39,6 +39,10 @@ Our approach has three phases:
 ### Deliverables
 
 We will provide an open games model, i.e. a computational representation of the auction setup and the relevant agents, that features the key elements and, what is key, can be easily extended in the future. In addition, we will provide outputs of the analysis and the different auction designs we investigated. The analysis will be fully replicable and should be easy to reuse.
+
+### Output
+[Flashbots forum post](https://collective.flashbots.net/t/frp-27-auction-simulations-under-pbs/1629)
+[Github repo](https://github.com/20squares/pbs-auctions/tree/master/pbs-og)
 
 ## References
 [Flashbots Auction Overview](https://docs.flashbots.net/flashbots-auction/overview)
