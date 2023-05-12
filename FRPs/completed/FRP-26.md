@@ -3,7 +3,7 @@ id: 26
 title: Credible Commitments via Open Games 
 team: 20squares
 created: 2022-12-07
-status: active
+status: completed
 ---
 
 # Credible Commitments via Open Games
@@ -44,6 +44,11 @@ We plan to deliver:
 - Documentation about what the models do, how to run and test them, and how to intepret the corresponding analytics.
 
 Depending on how resource intensive this turns out to be, and how much time we will still have available, we may entertain the possibility of scaling these models to a higher number of players. Alternatively, this can be considered a possible direction of future work.
+
+## Output
+[Flashbots forum post](https://collective.flashbots.net/t/frp-26-credible-commitments-via-open-games/1616/2) 
+and 
+[Github repo](https://github.com/20squares/credible-commitments/tree/main/credible-commitments)
 
 ## References
 
