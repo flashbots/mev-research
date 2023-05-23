@@ -1,5 +1,5 @@
 ---
-id: <leave blank -- will be assigned by reviewers>
+id: FRP-32
 title: Socioeconomic effects of cryptocurrency redistribution in a Costa Rican rural town
 team: Maité Cristina López
 created: 2023-05-02
