@@ -3,7 +3,7 @@ id: 22
 title: Quantifying the Impact of Frontrunning and Randomness on UX
 team: @awmacpherson
 created: 2022-09-24
-status: active
+status: completed
 ---
 
 # Background and problem statement
@@ -61,9 +61,9 @@ This project falls under the **protocol design** research topic. Since these mod
 
 ## Deliverables
 
-- A formal research article targeting publication in a mainstream academic journal or conference proceedings in the areas of DeFi, [crypto]economics, security, or market microstructure.
+- A formal research article targeting publication in a mainstream academic journal or conference proceedings in the areas of DeFi, [crypto]economics, security, or market microstructure. [here]: https://arxiv.org/abs/2302.01663
 - Presentation at international conferences.
-- Blog post aimed at a non-technical DeFi audience.
+- Blog post aimed at a non-technical DeFi audience. [here]: https://awmacpherson.com/posts/adversarial-queues/
 
 # References
 
