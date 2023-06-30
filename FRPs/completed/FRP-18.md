@@ -32,6 +32,8 @@ We will produce a paper and accompanying blog post(s) outlining research in the 
 - Outline threat models/implementation issues & tradeoffs for each approach in the context of Flashbots Auction.
 - Investigate ZK approaches to L1 & Flashbots Auction mempool complete privacy.
 
+## Output 
+Resulting paper: [Cryptographic Approaches to Complete Mempool Privacy](https://github.com/JBStearn/FRP-18/blob/main/Cryptographic_Approaches_to_Complete_Mempool_Privacy.pdf)
 ## Resource List
 
 - [Verifiable Delay Functions](https://eprint.iacr.org/2018/601.pdf)
