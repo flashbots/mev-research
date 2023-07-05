@@ -3,7 +3,7 @@ id: 10
 title: Mempool Privacy
 team: HashCloak
 created: 2021-02-24
-status: active
+status: completed
 ---
 
 # Mempool Privacy
@@ -19,6 +19,9 @@ The goal of this FRP is to survey privacy solutions that can be used to provide 
 - Identify practical implementation considerations and tradeoffs for relevant mempool privacy solutions
     - Focus on currently deployed blockchains
 - Inform future blockchain network designs around mempool privacy
+
+## Output
+[Flashbots Forum post](https://collective.flashbots.net/t/frp-10-distributed-blockbuilding-networks-via-secure-knapsack-auctions/1955)
 
 ## Resource List
 - [MEV Roast: Privacy](https://drive.google.com/file/d/1_4-E_i6WIDMNRDIgBIf0YiaJtm33XW9s/view)
