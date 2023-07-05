@@ -21,7 +21,7 @@ The goal of this FRP is to survey privacy solutions that can be used to provide 
 - Inform future blockchain network designs around mempool privacy
 
 ## Output
-[Flashbots Forum post](https://collective.flashbots.net/t/frp-10-distributed-blockbuilding-networks-via-secure-knapsack-auctions/1955)
+[Flashbots Forum post](https://collective.flashbots.net/t/frp-10-distributed-blockbuilding-networks-via-secure-knapsack-auctions/1955): this post proposes a way to construct distributed block builder networks using a secure knapsack solver
 
 ## Resource List
 - [MEV Roast: Privacy](https://drive.google.com/file/d/1_4-E_i6WIDMNRDIgBIf0YiaJtm33XW9s/view)
