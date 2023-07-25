@@ -12,15 +12,15 @@ If a would-be backrunner knows he has a good chance of of securing more than one
 
 1. Precisely formulate and prove the claim made in the introduction: that in the event that each backrunning agent has a single trade horizon, their dominant strategy is to set the price to that of a liquid reference market.
 
-2. Develop a taxonomy of backrun auctions in terms of the information and actions available to would-be backrunners once the slots have been allocated. Does the backrunner knows the number and contents of trades in the block, which trades they will backrun, or some function of these? Does the backrunner set a target price for each trade they handle or one for the whole block? 
+2. Develop a taxonomy of backrun auctions in terms of the information and actions available to a would-be backrunning agent when they decide their target price (or prices). Does the agent know the number and contents of trades in the block, which trades they will backrun, or some function of these? Do they set a target price for each trade they handle or one for the whole block? 
 
-   (The focus here is on the game given a possibly unknown allocation of backrun slots, rather than the mechanism of selection itself.)
+   Note that the focus here is on the game given a possibly unknown allocation of backrun slots, rather than the mechanism of selection itself.
 
 3. Exhibit quantitative protocol-level conditions under which strategies to set prices unfavourably in the hopes of gaining favourable executions in the future are uneconomical.
 
 The deliverables will be a paper discussing the findings and a shorter explanatory blog post aimed at a more general audience.
 
-The results of this work have the potential to have real impact on the information-theoretic design of future trade protection and MEV rebate protocols, as well as providing novel tools for analysis of existing venues.
+The results of this work have the potential to have real impact on the information-theoretic design of future trade protection and MEV rebate protocols. It will also provide novel tools for analysis of existing venues, for example, in modelling distributions of user outcomes as in [FRP-22](https://collective.flashbots.net/t/frp-22-outputs-adversarial-blockchain-queues-and-trading-on-a-cfmm/1269).
 
 ## References
 
