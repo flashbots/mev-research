@@ -1,8 +1,9 @@
 ---
-id: <leave blank -- will be assigned by reviewers>
+id: 35
 title: Investigating Pair Trading Opportunities as a form of MEV on the Ethereum Network
 team: Antero Eloranta
 created: 2023-07-17
+status: active
 ---
 
 # Investigating Pair Trading Opportunities as a form of MEV on the Ethereum Network
