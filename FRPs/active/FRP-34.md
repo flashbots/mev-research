@@ -1,4 +1,12 @@
-# FRP-???. Do backrun auctions protect traders?
+---
+id: 34
+title: Do backrun auctions protect traders?
+team: Andrew Macpherson
+created: 2023-07-26
+status: active
+---
+
+# FRP-34. Do backrun auctions protect traders?
 
 ## Background and problem statement
 
