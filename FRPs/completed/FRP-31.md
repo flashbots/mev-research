@@ -3,7 +3,7 @@ id: 31
 title: A Study of Threshold-Decrypted Mempools, MEV and Their Benefit to Users
 team: Antoine @AntoineRondelet Alex @obadiaa 
 created: 2023-24-03
-status: active
+status: completed
 ---
 
 ## Background and Problem Statement
@@ -58,6 +58,10 @@ We hope the work above can pave the way for other work and interesting questions
 
 
 Some deeper threads we would hope our initial study or further work hit on include consensus protocol design, leaderless block construction and security analyses of out-of-protocol threshold-decryption solutions like EigenLayer & Shutter Network versus in-protocol solutions like abci++.
+
+
+## Output 
+This project resulted in a [blog post](https://collective.flashbots.net/t/frp-31-threshold-encrypted-mempools-limitations-and-considerations/2036) and [academic paper](https://arxiv.org/abs/2307.10878) posted to Arxiv. 
 
 ## References
 
