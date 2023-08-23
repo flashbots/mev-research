@@ -3,7 +3,7 @@ id: 24
 title: On the quantification of MEV on L2s
 team: @IlluvatarEru, @0xpanoramix
 created: 2022-08-10
-status: active
+status: completed
 ---
 
 # On the quantification of MEV on L2s
