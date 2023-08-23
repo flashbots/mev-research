@@ -31,9 +31,7 @@ We expect that most of the time is going to be spent on porting `mev-inspect-py`
 The major challenge that we see is finding a way to replay transactions on Polygon due the high frequency of transactions.
 
 ### Deliverables:
-1. Forks of `mev-inspect-py` that work for the aforementioned L2s
-2. A research paper explaining the methodology and results
-3. A presentation to the Flashbots team
+A research paper [here](https://www.arthur.bagourd.com/wp-content/uploads/2023/07/FRP_24_Quantifying_MEV_On_L2s-1.pdf) and thread on the Flashbots Forum [here](https://collective.flashbots.net/t/frp-24-quantifying-mev-on-l2s/450/2)
 
 ## References
 
