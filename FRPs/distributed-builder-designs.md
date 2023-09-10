@@ -16,15 +16,18 @@ We explore possible designs for how a block builder could be trustlessly distrib
 
 Following that, we answer whether any practical constructions of such distributed block builders satisfy these requirements and can remain competitive against existing centralized builders.
 
-Concretely, this paper looks like:
+Concretely, this paper:
 1. A literature review of MEV and PBS (MEV-Boost and ePBS) architectures
-2. Defining centralized and distributed builder protocols (block building + block bidding components) 
-3. A primer on block building as an instance of the Knapsack Problem [1]
-4. A primer on block auctions
-5. Defining desiderata for distributed block builders protocols
-6. Identify the constraints our desiderata place on decentralized builder protocols and argue whether distributed builders can be competitive
-7. Formulate possible incentives for builders to collaborate to build blocks and centralize builder order flow in one decentralized protocol. This would formally validate SUAVE's raison d'être.
-8. If possible, propose concrete designs for distributed block builder protocols that fulfill our desired criteria (security, privacy, incentive compatibility). We could also answer if SUAVE's current proposed design satisfies this.
+5. Defines desiderata for distributed block builders protocols
+6. Identifies the constraints our desiderata place on decentralized builder protocols and argue whether distributed builders can be competitive against centralized builders.
+7. Formulates possible incentives for builders to collaborate to build blocks and centralize builder order flow in one decentralized protocol. This would formally validate SUAVE's raison d'être.
+8. Proposes concrete designs for distributed block builder protocols that fulfill our desired criteria (security, privacy, incentive compatibility). We could also answer if SUAVE's current proposed design satisfies this.
+
+Namely, some of these desiderata look like:
+- bundle and transaction privacy (to prevent mev-stealing)
+- low-latency (block building is highly time sensitive)
+- geographic decentralization
+- feasibility of distributed block building post-danksharding
 
 We plan to produce a research paper and a shorter blogpost with a summary of our results.
 
