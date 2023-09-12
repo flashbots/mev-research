@@ -25,8 +25,11 @@ Commitment Device should also be naturally based on the blockchain. Tokens align
       * Classic static and simultaneous-move games: Prisoner’s Dilemma (PD), Public Goods
       * Dynamic and sequential games: Harvest, Cleanup
       * Asymmetric information games: Simple Bargaining
+      * Putting one of the above games on-chain to test on LLM agent's ability in comprehending and creating smart contracts (in solidity).
    
-3. Optional: implement a commitment device framework on SUAVE
+3. Characterize the efficacy of prompt-injection attacks and ways of mitigation when other agents are not controlled by LLM but are strategic agents capable of adversarial/exploitative behavior.
+   
+4. Optional: implement a commitment device framework on SUAVE
    
 The ultimate deliverables will be a research paper elucidating the findings and a concise blog post providing explanatory insights.
 
@@ -43,3 +46,5 @@ The outcomes stemming from this study possess the potential to exert substantial
 7. Future of Decentralization, AI, and Computing Summit https://youtu.be/J5OmmgAdNg8?t=25867
 8. Training Socially Aligned Language Models in Simulated Human Society https://arxiv.org/abs/2305.16960
 9. Playing repeated games with Large Language Models  https://arxiv.org/abs/2305.16867
+10. Universal and Transferable Adversarial Attacks on Aligned Language Models https://arxiv.org/pdf/2307.15043.pdf
+11. Large Language Models as Optimizers https://github.com/Moocember/Optimization-by-PROmpting
