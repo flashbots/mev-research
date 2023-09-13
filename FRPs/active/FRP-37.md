@@ -1,8 +1,9 @@
 ---
-id: 
+id: 37
 title: Early Exploration on Distributed Block Builder Designs
 team: HashCloak
 created: 2023-08-08
+status: active
 ---
 
 # Early Exploration on Distributed Block Builder Designs
