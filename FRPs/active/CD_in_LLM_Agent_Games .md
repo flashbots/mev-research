@@ -1,9 +1,9 @@
 ---
-id: 37
+id: 
 title: Efficacy of Commitment Devices (CDs) in Multi-Agent Games Involving Large Language Model (LLM) Agents
 team: Feng Yan, Jason Hu, Will Jiang
 created: 2023-9-03
-status: active
+status: 
 ---
 
 # Efficacy of Commitment Devices (CDs) in Multi-Agent Games Involving Large Language Model (LLM) Agents
