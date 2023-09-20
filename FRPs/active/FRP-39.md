@@ -1,8 +1,9 @@
 ---
-id: <leave blank -- will be assigned by reviewers>
+id: 39
 title: Fast Private Set Intersection
 team: lichu@semiotic.ai, gokay@semiotic.ai, severiano@semiotic.ai (leader), sam@semiotic.ai, 
 created: 2023-08-16
+status: active
 ---
 
 # Even Faster Private Set Intersection
