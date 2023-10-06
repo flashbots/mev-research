@@ -1,48 +1,65 @@
 ---
 id: 37
-title: Automated mechanism design using generative AI 
+title: Automated Mechanism Design Using Generative AI in CFMM 
 team: Gil Litvin (Technion), Nadav Rubinstein (Technion), Shlomi Gibly (BGU) Xinyuan Sun (Flashbots)
 created: 2023-08-27
 status: active
 ---
 
-# Automated Mechanism Design Using Generative AI 
+# Automated Mechanism Design Using Generative AI in CFMM 
 
-# Intro
+## Intro
 
-We aim to use AI to eliminate suboptimal outcomes when trading through AMMs and DEXs by generating personalized smart contracts that enable traders to coordinate and trade with each other directly. Our goal is to utilize a dynamic AI algorithm that effectively locates relevant buyers and sellers, and recommends the optimal transactions.  We achieve this by analyzing on-chain blocks and modeling user behavior. 
+Could AI be used to propose contracts on user behalf to implement better coordination? In this proposal, we address the challenge of cooperative behaviors in selfish agents in multi-agent reinforcement learning (MARL) by proposing the use of contracting. We present a novel approach to see if agents can successfully coordinate on trading assets in a better way. Our objective is to utilize Artificial Intelligence (AI) techniques to find more efficient and optimized trading routes by enabling users to contract each other to mitigate potential losses incurred when choosing suboptimal routes.
 
 ## Background and Problem Statement
 
-The use of a simple Automated Market Maker (AMM) protocol like uniswap has gained popularity for this purpose. However, there are certain limitations that users encounter, leading to suboptimal outcomes. One such limitation is the inability of users to coordinate with each other directly on the platform. This lack of coordination hampers the effectiveness and efficiency of trading activities. To address this issue, researchers and developers are continuously exploring innovative solutions to enhance the user experience and optimize trading outcomes.
+The DeFi space has witnessed the proliferation of automated market-making protocols, including CFMMs like Uniswap. While these protocols have democratized trading, they suffer from limitations that often lead to suboptimal outcomes for users. One such limitation is the lack of direct user coordination within these platforms, resulting in less effective and efficient trading activities.
 
-For DEX that are based on AMM mechanisms, traders have to pay the fee to market makers. The anticipated revenue derived from the trades, aimed at selling your items to maximize your financial gain, is crucial to determine the most profitable outcome.Price slippage is an inevitable result of how transactions work. Excessively high slippage over a long period of time not only results in suboptimal outcomes for traders, but also may result in false fluctuations in price and inflate trading volume, making it an overestimation of the actual market demand.
+In the context of CFMM trading, users often encounter scenarios where they must pay fees to market makers. Sandwich attacks have been analyzed for specific types of automated market makers. They involve strategically placing trades to exploit price movements and maximize profits at the expense of the user's trade execution price. The revenue derived from these trades directly affects their financial gains. Additionally, price slippage is a common occurrence due to transaction mechanics. Excessive slippage can lead to suboptimal trading outcomes, false price fluctuations, and inflated trading volumes.
 
-The approach can be used to find close approximations to optimal designs from auction theory where they are known, to aid with the discovery of new optimal designs, and to scale up computational approaches to optimal, DSIC auction design.
+## Plan and Deliverables - Framing the problem with AI
 
-## Plan and Deliverables
+To address these challenges, we propose reframing the problem as an AI-enhanced asset coordination challenge within CFMM trading. We envision AI to empower users to contract each other to minimize losses associated with less favourable trading routes. We align with the spirit of Multi-Agent Reinforcement Learning (MARL), where users are modelled as reinforcement learning agents in an environment that tests if asset coordination leads to better routing of transactions for traders.
 
-The proposed experiment aims to investigate the efficacy of dynamic algorithms for understanding and optimizing trading mechanisms. Specifically automated mechanism design. 
+Each agent's objective is to maximize the output tokens they receive for their input tokens. Agents interact with a CFMM smart contract, and AI techniques are applied to facilitate the creation of contracts that enhance coordination, potentially leading to better trading routes and improved trading outcomes.
 
-This research proposes to explore the possibilities of utilizing AI as a means to learn and eliminate inefficiencies and maximize trading outcomes. Based on previous data, we will use AI models to generate mechanisms that predict user intents to connect them p2p, in batch or in ring trading method. 
+## Training of Multi-Agent Reinforcement Learning (MARL) Agents
 
-The study focuses on users' intentions, expressed as numerical values assessing various items. The results produce two number sets: one showing who receives an item; the other demonstrating the division of payment responsibilities.
- 
-the intents of users will be randomly generated and the AI's performance in optimizing the mechanism will be assessed. The primary metric for evaluation will be users' welfare.
+To investigate the efficacy of AI in enhancing asset coordination within Constant Function Market Maker (CFMM) trading, we will employ Multi-Agent Reinforcement Learning (MARL) techniques. This section outlines the training setup and experimentation options we plan to explore, each of which will be tested across a range of scenarios.
 
-The base model of the system is a transformer using pytorch.The system finds the optimal smart contract to satisfy the trading needs of predicted traders' intents. 
-The smart contract would facilitate trade and will consist of the following parameters
+### Training Options
 
-Sell Token: the address of the token that is sold
-Buy Token: the address of the token that is bought
-Third token(only in ring trade): the address of the token that is exchanged
-Sell Amount: the amount of sellToken that is sold in wei
-Buy Amount: the amount of buyToken that is bought in wei
-Receivers: the address that will receive the proceedings of the trade
-Seller address: the address that will send the proceedings of the trade
+1. Different Initial Token Holdings vs. Same Initial Token Holdings:
+- In this setup, we will explore two variations:
+-- Agents start with different initial token holdings.
+-- Agents start with the same initial token holdings.
+- These variations aim to assess the impact of agents' initial conditions on their ability to coordinate effectively.
 
+2. Randomly Chosen Contract Suggestion vs. All Agents Suggest Contracts:
+- We will test two scenarios:
+-- In each round, one agent will be randomly chosen to suggest a contract.
+-- In each round, all agents will suggest contracts.
+- This experimentation will help us understand how contract suggestion dynamics affect coordination.
 
-## References
+3. Limit on the Number of Participants in a Contract:
+- To manage computational complexity, we will set a limit of three participants per contract.
+- This constraint allows us to explore coordination patterns without overwhelming computational demands.
 
-- [Optimal Auctions Through
-Deep Learning](https://parkes.seas.harvard.edu/files/parkes/files/dutting_cacm21.pdf) by  Paul Dütting. 
+### Agent Objectives
+
+Agents in the MARL framework will aim to maximize the number of tokens while considering different priorities for token types. Specifically:
+
+- Agents will have randomly assigned priorities, with some prioritizing the first token and others the second token more.
+- These priorities will reflect agents' individual economic strategies and will be drawn randomly.
+
+### Expected Outcomes
+Through this training setup, we anticipate observing intriguing patterns of asset coordination and agent behaviour, including:
+- The emergence of coordination among agents with similar priorities.
+- The formation of groups or clusters of agents with aligned economic strategies.
+- Variations in coordination strategies based on the initial token holdings of agents.
+- Insights into whether agents with similar economics tend to coordinate more effectively.
+
+### Data Collection and Analysis
+During training, we will collect data on agent actions, rewards, and coordination patterns. We will analyse this data to gain insights into the effectiveness of AI-driven contract proposals in optimizing trading outcomes.
+In summary, our training setup for MARL agents will allow us to explore various scenarios and dynamics related to asset coordination. By systematically examining these options and their combinations, we aim to uncover valuable insights into how AI can enhance coordination among users in decentralized finance environments.
