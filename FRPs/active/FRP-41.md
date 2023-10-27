@@ -1,3 +1,11 @@
+---
+id: 41
+title: Stackelberg Attacks and Miner-Extractable Value (MEV)
+team: SSODelta 
+created: 2022-10-11
+status: active
+---
+
 # Stackelberg Attacks and Miner-Extractable Value (MEV)
 ## Background and Problem Statement
 
