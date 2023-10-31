@@ -1,8 +1,9 @@
 ---
-id: <leave blank -- will be assigned by reviewers>
+id: 40
 title: Design space for SUAVE applications in decentralized finance (DeFi)
 team: Can Kisagun
 created: 2023-10-05
+status: active
 ---
 
 # Design space for SUAVE applications in decentralized finance (DeFi)
