@@ -3,7 +3,7 @@ id: 29
 title: Research on MEV in L2 Blockchains
 team: Erik Zhang and Cindy Jiang + FranklinDAO (Penn Blockchain) Research Committee
 created: 2023-01-31
-status: active 
+status: completed
 ---
 
 # Flashbots Research Proposal Template
