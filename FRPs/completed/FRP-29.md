@@ -39,4 +39,6 @@ Finally, with long-form papers finalized, the team gets together to record a ser
 https://franklindao.substack.com/
 https://twitter.com/franklin_dao 
 
-
+## Output
+Report posted to Franklin DAO's substack: [here](https://franklindao.substack.com/p/sequencers-and-maximal-extractable#%C2%A7appendix)
+Description of results posted to the Flashbots Collective: [here](https://collective.flashbots.net/t/frp-29-research-on-mev-in-l2-blockchains/1617/2)
