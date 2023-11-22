@@ -1,5 +1,5 @@
 ---
-id: 37
+id: 42
 title: Automated Mechanism Design Using Generative AI in CFMM 
 team: Gil Litvin (Technion), Nadav Rubinstein (Technion), Shlomi Gibly (BGU) Xinyuan Sun (Flashbots)
 created: 2023-08-27
