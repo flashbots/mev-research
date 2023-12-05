@@ -5,7 +5,7 @@ The research vault is a collection of resources related to MEV research. We enco
 ## New to MEV?
 Below is a selection of resources from our vault to get you started on your MEV journey:
 
-[Ethereum is a Dark Forest by Dan Robinson](https://medium.com/@danrobinson/ethereum-is-a-dark-forest-ecc5f0505dff)
+[Ethereum is a Dark Forest by Dan Robinson](https://www.paradigm.xyz/2020/08/ethereum-is-a-dark-forest)
 
 [How To Get Front-Run on Ethereum mainnet by Scott Bigelow](https://youtu.be/UZ-NNd6yjFM)
 
@@ -15,7 +15,7 @@ Below is a selection of resources from our vault to get you started on your MEV 
 
 [Quantifying MEV: Introducing MEV-Explore v0](https://medium.com/flashbots/quantifying-mev-introducing-mev-explore-v0-5ccbee0f6d02)
 
-[MEV and Me by Charlie Noyes](https://research.paradigm.xyz/MEV)
+[MEV and Me by Charlie Noyes](https://www.paradigm.xyz/2021/02/mev-and-me)
 
 ## Vault
 [Flash Boys 2.0: Frontrunning, Transaction Reordering, and Consensus Instability in Decentralized Exchanges by Daian et. al.](https://arxiv.org/abs/1904.05234)
