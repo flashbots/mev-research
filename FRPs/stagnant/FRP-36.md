@@ -3,7 +3,7 @@ id: 36
 title: Solving the User-Searcher Trust Issues with MPC (Stage 1)
 team: Ariel Futoransky and Sergio Demian Lerner (Fairgate Labs)
 created: 2023-07-18
-status: active
+status: stagnant
 ---
 
 # Solving the User-Searcher Trust Issues with MPC (Stage 1)
