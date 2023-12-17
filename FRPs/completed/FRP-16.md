@@ -49,7 +49,7 @@ Since this is a rather large topic, we will prioritize l2s with the most adoptio
 - https://ethresear.ch/t/cross-shard-defi-composability/6268
 - https://hop.exchange/whitepaper.pdf
 - https://twitter.com/matchaxyz/status/1400483371067723780?s=21
-- https://github.com/perpetual-protocol/perp-arbitrageur
+- https://github.com/Perp-Protocol/perp-arbitrageur
 - https://medium.com/starkware/caspian-an-l2-powered-amm-f20e93b5421
 
 ## Output
