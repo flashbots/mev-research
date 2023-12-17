@@ -38,6 +38,6 @@ Project Deliverables:
 ## References
 
 1. [Validating Bridges as a Scaling Solution for Blockchains](https://eprint.iacr.org/2021/1589.pdf)
-2. [MEV and Me](https://research.paradigm.xyz/MEV)
+2. [MEV and Me](https://www.paradigm.xyz/2021/02/mev-and-me)
 3. [The Sequencer and Censorship Resistance](https://developer.arbitrum.io/sequencer)
 4. [Themis](https://eprint.iacr.org/2021/1465.pdf)

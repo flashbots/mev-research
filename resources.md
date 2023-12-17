@@ -73,7 +73,7 @@ Below is a selection of resources from our vault to get you started on your MEV 
 
 [Escaping the Dark Forest by Sam Sun](https://samczsun.com/escaping-the-dark-forest/)
 
-[MEV and Me by Charlie Noyes](https://research.paradigm.xyz/MEV)
+[MEV and Me by Charlie Noyes](https://www.paradigm.xyz/2021/02/mev-and-me)
 
 [Scaling DeFi: Layer One by Remco Bloemen](https://xn--2-umb.com/20/scaling-defi/#scaling-defi)
 
