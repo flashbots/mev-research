@@ -71,5 +71,5 @@ This project falls under the **protocol design** research topic. Since these mod
 [^budish]: https://academic.oup.com/qje/article/130/4/1547/1916146
 [^fair-ordering]: https://eprint.iacr.org/2020/269
 [^private-mempool]: https://medium.com/flashbots/announcing-flashbots-protect-9e039e9f0aa3
-[^0x]: https://www.0x.org/pdfs/0x_white_paper.pdf
+[^0x]: https://github.com/0xProject/whitepaper/blob/master/0x_white_paper.pdf
 [^speed-bump]: https://exchange.iex.io/about/speed-bump/
