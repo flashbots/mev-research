@@ -3,7 +3,7 @@ id: 25
 title: Quantifying Fairness Granularity For FCFS Chains
 team: @saharAP @emmanuel-awosika 
 created: 2022-09-18
-status: active
+status: completed
 ---
 
 # Quantifying Fairness Granularity For First-Come-First-Serve (FCFS) Chains
@@ -41,3 +41,6 @@ Project Deliverables:
 2. [MEV and Me](https://research.paradigm.xyz/MEV)
 3. [The Sequencer and Censorship Resistance](https://developer.arbitrum.io/sequencer)
 4. [Themis](https://eprint.iacr.org/2021/1465.pdf)
+
+## Outcome
+[Post on the Flashbots Forum](https://collective.flashbots.net/t/frp-25-quantifying-fairness-granularity-for-first-come-first-serve-fcfs-chains/1615)
