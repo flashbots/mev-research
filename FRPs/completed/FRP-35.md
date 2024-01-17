@@ -3,7 +3,7 @@ id: 35
 title: Investigating Pair Trading Opportunities as a form of MEV on the Ethereum Network
 team: Antero Eloranta
 created: 2023-07-17
-status: active
+status: completed
 ---
 
 # Investigating Pair Trading Opportunities as a form of MEV on the Ethereum Network
@@ -44,3 +44,6 @@ These deliverables will contribute to advancing knowledge in the field of statis
 - [Gatev, E., Goetzmann, N., & Rouwenhorst, G. (2006). Pairs Trading: Performance of a Relative-Value Arbitrage Rule. The Review of Financial Studies, 19(3), 797–827.](http://www.jstor.org/stable/3844014)
 - [Riedinger, S. (2017). Demystifying Pairs Trading: The Role of Volatility and Correlation.](https://ssrn.com/abstract=2774063)
 - [Jacobs, H. & Weber, M. (2015). On the Determinants of Pairs Trading Profitability. Journal of Financial Markets, 23(1), 75-97.](https://doi.org/10.1016/j.finmar.2014.12.001)
+
+## Outcome
+[Results post on the Flashbots Forum](https://collective.flashbots.net/t/frp-35-pair-trading-opportunities-as-a-form-of-mev/2887)
