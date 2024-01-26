@@ -3,7 +3,7 @@ id: 34
 title: Do backrun auctions protect traders?
 team: Andrew Macpherson
 created: 2023-07-26
-status: active
+status: completed
 ---
 
 # FRP-34. Do backrun auctions protect traders?
@@ -29,6 +29,9 @@ If a would-be backrunner knows he has a good chance of of securing more than one
 The deliverables will be a paper discussing the findings and a shorter explanatory blog post aimed at a more general audience.
 
 The results of this work have the potential to have real impact on the information-theoretic design of future trade protection and MEV rebate protocols. It will also provide novel tools for analysis of existing venues, for example, in modelling distributions of user outcomes as in [FRP-22](https://collective.flashbots.net/t/frp-22-outputs-adversarial-blockchain-queues-and-trading-on-a-cfmm/1269).
+
+## Outcomes
+This project resulted in a [blog post](https://awmacpherson.com/posts/backrun-auction/) and [academic paper posted to Arxiv](https://arxiv.org/abs/2401.08302). 
 
 ## References
 
