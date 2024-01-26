@@ -3,7 +3,7 @@ id: 33
 title: Attestation Stack for TEE-based Protocols
 team: Andrew Miller (hbcl), Sylvain Bellemare (hbcl)
 created: 2023-06-14
-status: active
+status: stagnant
 ---
 
 # `auditee`: Towards an Attestation Stack for TEE-based Protocols
