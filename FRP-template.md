@@ -33,7 +33,7 @@ https://iodized-grape-d73.notion.site/Frequent-Batch-Auction-on-SUAVE-5991c8856d
 In this FRP, we have set the ultimate goal of publishing a research paper. Here is a summary of the research:
 1. Theoretical Research:
 
-   - We will study analytical papers on Market Makers in trading venues such as Central Limit Order Books and Automated Market Makers (AMM) to establish a theoretical framework for market making.
+   - We will study analytical papers on Market Makers in trading venues such as Central Limit Order Books and Automated Market Makers to establish a theoretical framework for market making.
 
    - A systematic organization and, if necessary, redefinition of evaluation methodologies in market making will be undertaken.
 
