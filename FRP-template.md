@@ -1,21 +1,66 @@
 ---
 id: <leave blank -- will be assigned by reviewers>
-title: <proposal title>
-team: <team that will carry out the proposal, with a designated lead>
-created: <date created on, in yyyy-mm-dd format>
+title: Frequent Batch Auction on SUAVE
+team: Titania Research Alphaist
+created: 2024-01-30
 ---
 
-# Flashbots Research Proposal Template
+# Frequent Batch Auction on SUAVE
 
-Follow this template for new research proposals, removing this text and replacing the *Flashbots Research Proposal Template* title with your proposal's own. Open a pull request to submit your proposal, using an abbreviated title in the filename (`proposal-short_title.md`), and put the file under the `FRPs` folder.
+To date, the majority of DEXs have been based on the Automated Market Maker (AMM) mechanism used by Uniswap, Curve, and others. On the other hand, it is an undeniable fact that as AMMs have become more popular, some serious problems have arisen. For example, Sandwich Attack is a pending issue for traders, and The concept of Loss versus Rebalancing (LVR) casts doubt on the sustainability. To begin with, Blockchain is a discrete system. Creating a system predicated on continuous operation poses significant challenges. It is also extremely difficult for a decentralized system to compete with a centralized system in terms of latency. To address the above issue, we believe that implementing a Frequent Batch Auction in SUAVE can be a viable solution. 
 
-Use this initial section to provide a ~500 word summary of the proposal. The summary should consist in a simple straightforward statement of what your hypothesis is, what methodology you intend to use, what limitations those methods may have, what implications your results may have.
+The aim of this research is to address several concerns regarding Frequent Batch Auctions, such as whether Liquidity Providers can continue to provide liquidity and whether users' orders are sufficiently executed. So far, there have been few applications of FBAs, especially in the traditional financial world, but they have been adopted in Crypto, such as OrderBook DEX on Injective and DEX on SEI. We will discuss the utility of constructing a Frequent Batch Auction on SUAVE through theoretical modeling and empirical research using actual trading data.
+
 
 ## Background and Problem Statement
-Provide motivation and background for the proposal, and clearly state the research questions it aims to tackle. Link to related or dependent Research Question(s) on the Flashbots Research Roadmap, and reference relevant Github Issues in this repository.
+To solve the above problems, Uniswap, for example, proposed UniswapX, which constructs a filler network using Dutch Auction. However, Such an RFQ System also has three concerns: 
+1. Dynamic auction construction
+2. Centralization due to latency competition,
+3. Execution quality of the filler.
+
+We believe that implementing Frequent Batch Auctions on SUAVE can significantly improve the following five aspects:
+
+1. Elimination of the need for dynamic auctions
+2. Prevention of the centralization of Filler and Solver through latency competition
+3. Enhancement of execution quality
+4. Reduction in loss versus rebalancing
+5. Minimization of front running and sandwich attacks
+
+Details on individual points of discussion are omitted due to their extensive length, but they can be reviewed in my previous proposal on Frequent Batch Auction on SUAVE.
+https://iodized-grape-d73.notion.site/Frequent-Batch-Auction-on-SUAVE-5991c8856d044bfd8990fcb89629c06f
 
 ## Plan and Deliverables
-Describe the planned approach to the problem, including potential time allocations and partitioning into phases. List the artifacts or intended deliverables of the proposal.
+In this FRP, we have set the ultimate goal of publishing a research paper. Here is a summary of the research:
+1. Theoretical Research:
+
+   - We will study analytical papers on Market Makers in trading venues such as Central Limit Order Books and Automated Market Makers (AMM) to establish a theoretical framework for market making.
+
+   - A systematic organization and, if necessary, redefinition of evaluation methodologies in market making will be undertaken.
+
+   - These methodologies will be applied to CLOB, AMM, and Frequent Batch Auctions for a comparative and analytical examination of their respective characteristics.
+2. Empirical Research:
+
+   - Real trading data will be collected from Decentralized Exchanges that utilize CLOB, FBA, and AMM.
+     
+   - Using the established evaluation methodologies, this data will be analyzed to discuss the advantages and potential issues of FBA.
+
+3. Overview of Implementation:
+   - We will organize and detail the methodology, implementation process, and expected impacts of FBA implementation on the SUAVE platform.
+
+## Future work
+### Handling multiple rollups
+
+A possible design and implementation of a multi-rollup frequent batch auction using SUAVE and a shared sequencer is to aggregate the Intents of multiple rollups by using SUAVE as a mempool for multiple rollups. SUAVE can aggregate the Intents of multiple rollups by taking on the role of a mempool of multiple rollups and canceling out the transactions contained in the Intents. For example, consider the case where User A sends to SUAVE the Intents to swap 1 ETH from 10000 USDC in Arbitrum and User B sends to SUAVE the Intents to swap 1 ETH to 10000 USDC in Optimism. In this case, the two Intents are offset within SUAVE, and a transaction in which User B bridges 1 ETH from Optimism to Arbitrum and sends 1 ETH to User A and a transaction in which User A bridges 10000 USDC from Arbiturm to Optimism User A bridges 10000 USDC from Arbiturm to Optimism and sends 1 ETH to User B. Then, SUAVE generates a mega block that allows Atomic execution of the two transactions. The megablock generated by SUAVE is then sent to the shared sequencer to be sent to each rollup for atomic execution of the two transactions. The problem with this mechanism is the transactional issue of how to handle transactions that cannot be offset, and the technical issue of how to guarantee that transactions reflecting offsetting will be executed atomically.
+
 
 ## References
-Reference current relevant literature or past work pertaining to the research question(s) at stake.
+
+https://iodized-grape-d73.notion.site/Frequent-Batch-Auction-on-SUAVE-5991c8856d044bfd8990fcb89629c06f
+
+https://www.sciencedirect.com/science/article/pii/0304405X85900443
+
+https://academic.oup.com/qje/article/130/4/1547/1916146
+
+https://arxiv.org/abs/2003.10001
+
+https://anthonyleezhang.github.io/pdfs/lvr.pdf
