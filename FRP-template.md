@@ -35,7 +35,7 @@ In this FRP, we have set the ultimate goal of publishing a research paper. Here 
 
    - We will study analytical papers on Market Makers in trading venues such as Central Limit Order Books and Automated Market Makers to establish a theoretical framework for market making.
 
-   - A systematic organization and, if necessary, redefinition of evaluation methodologies in market making will be undertaken.
+   - We investigate the equilibrium dynamics of the CLOB, FBA, and AMM market designs, aiming to unravel the complexities of traders such as informed participants and market makers' optimal quoting strategies.
 
    - These methodologies will be applied to CLOB, AMM, and Frequent Batch Auctions for a comparative and analytical examination of their respective characteristics.
 2. Empirical Research:
