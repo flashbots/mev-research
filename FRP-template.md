@@ -40,7 +40,7 @@ In this FRP, we have set the ultimate goal of publishing a research paper. Here 
    - These methodologies will be applied to CLOB, AMM, and Frequent Batch Auctions for a comparative and analytical examination of their respective characteristics.
 2. Empirical Research:
 
-   - Real trading data will be collected from Decentralized Exchanges that utilize CLOB, FBA, and AMM.
+   - Real trading data will be collected from decentralized and centralized Exchanges that utilize CLOB, FBA, and AMM.
      
    - Using the established evaluation methodologies, this data will be analyzed to discuss the advantages and potential issues of FBA.
 
