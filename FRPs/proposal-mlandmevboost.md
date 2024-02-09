@@ -10,7 +10,7 @@ created: 2024-02-09
 We argue that bidding strategies during MEV-boost Auctions can be inferred using reverse engineering. 
 We build SVM (support vector machine)[1] models using the public available data provided by PBS relays. To make the picture more comprehensive, we experiment with data from sources other than the relays (market conditions, NFT events, etc.).
 
-Our plan is to identify the most relevant variables during an MEV-boost auction and infer bid values from different builders. We classify builders into categories just as in [2], but we intend to complement [2] with real-life data and investigate how realistic the classification (naive, adaptive, last-minute and bluff) of [2] is . Finally, we build a tool that can predict the evolution of an MEV-boost auction using on-the-fly data from PBS relays. 
+Our plan is to identify the most relevant variables during an MEV-boost auction and infer bid values from different builders. We classify builders into categories just as in [2], but we intend to complement [2] with real-life data and investigate how realistic the classification (naive, adaptive, last-minute and bluff) of [2] is. Finally, we build a tool that can predict the evolution of an MEV-boost auction using on-the-fly data from PBS relays. 
 
 Limitations: without actually carrying out this plan, we are unable to tell the degree of accuracy of our method.
 
