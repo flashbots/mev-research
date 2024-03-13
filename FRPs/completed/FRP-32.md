@@ -3,6 +3,7 @@ id: FRP-32
 title: Socioeconomic effects of cryptocurrency redistribution in a Costa Rican rural town
 team: Maité Cristina López
 created: 2023-05-02
+staus: completed
 ---
 
 The redistribution of cryptocurrency funds to collectives working in close relation with the land in the global south intends to enable new economic circles that are glocal, transparent, abundant, and connected to the more-than-human world. 
@@ -12,3 +13,6 @@ This research project is geared to bring forth the benefits and challenges exper
 Our main limitation is the existing gap between technological intelligence in crypto-use and local, historical understanding of economic functioning under current capitalist markets. This project hopes to bring forth awareness of current benefits and challenges of accesing cyrtocurrency funds from a community-focused, social-justice approach.
   
 Full text: https://collective.flashbots.net/t/frp-socioeconomic-effects-of-cryptocurrency-redistribution-in-a-costa-rican-rural-town/1817
+
+## Outcome: 
+Post on the Flashbots forum [here](https://collective.flashbots.net/t/frp-32-socioeconomic-effects-of-cryptocurrency-redistribution-in-the-costa-rican-rural-town-of-tinamastes/2287/4)
