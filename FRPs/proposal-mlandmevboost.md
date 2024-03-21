@@ -1,24 +1,25 @@
 ---
 id: 
-title: Machine Learning and MEV-boost Auctions
+title: Efficient Design Principles for MEV-Boost Auctions
 team: Bence Ladoczki
-created: 2024-02-09
+created: 2024-03-21
 ---
 
-# What Can Machine Learning Tell Us About MEV-boost Auctions?
+# A neural-network-based approach to the PBS landscape
 
-We argue that bidding strategies during MEV-boost Auctions can be inferred using reverse engineering. 
-We build SVM (support vector machine)[1] models using the public available data provided by PBS relays. To make the picture more comprehensive, we experiment with data from sources other than the relays (market conditions, NFT events, etc.).
+RegretNet is a neural network architecture that can generate DSIC (dominant-strategy incentive-compatible, e.g. every agent maximizes utility by bidding honestly, regardless of the other agents’ bids), IR (individually rational) auction models. Our goal is to use different bid profiles from MEV-boost auctions and with the design of efficient auctions relying on RegretNet compare the characteristics of the two models. More specifically, we use the Adam optimizer for training[2] and we train the model in different MEV-boost auction settings with known valuation distributions. As a baseline, we consider settings involving selling to one agent (e.g. 1 builder wins the auction on a certain relay) where revenue-maximizing solutions are known and evalute the trained model by making comparision to the analytical solution. 
 
-Our plan is to identify the most relevant variables during an MEV-boost auction and infer bid values from different builders. We classify builders into categories just as in [2], but we intend to complement [2] with real-life data and investigate how realistic the classification (naive, adaptive, last-minute and bluff) of [2] is. Finally, we build a tool that can predict the evolution of an MEV-boost auction using on-the-fly data from PBS relays. 
-
-Limitations: without actually carrying out this plan, we are unable to tell the degree of accuracy of our method.
+Limitations: It is known that as the number of participants increases, it becomes more and more difficult (computationally for sure) to both maximize revenue and obey the regret constraints. We perform experiments in this direction as well and report on our results.
 
 ## Background and Problem Statement
 
-Relays in the context of PBS (proposer builder separation) are responsible for the orchestration of MEV-boost auctions. Block builders battle for inclusion and they calculate their bids based on how much perceived MEV value is in the block under consideration. Bids can be queried from public relays, and the time evolution of the bids from different builders is public information. Our preliminary measurement results showed that only a handful of builders vie for inclusion on the public relays (not more than 40 on Aestus for example). Clearly, no one can determine their perceived MEV, as profitable block building strategies are kept secret. But still, our conjecture is that bidding strategies can be predicted using machine learning. Also, no rational bot bids more than the maximum expected MEV of the given block, which implies that bidding strategies must be in correlation with the block building strategies. 
+Designing revenue-maximizing auctions while ensuring strong incentive guarantees is a fundamental problem in economic theory.
 
-Notwithstanding the fact that, in 2024 over 90% of Ethereum blocks are constructed with MEV-Boost, there is a notable scarcity of literature discussing bidding strategies and auction design. This work seeks to provide a comprehensive explanation of these concepts, catering to both researchers and practitioners in the blockchain field. Our objective is to demystify the inner workings of MEV-Boost auctions, making them more understandable for a wider audience.
+A seminal work by Dütting et al.[1] on RegretNet laid down the cornerstones of a neural network-based architecture that can be utilized to design efficient auction mechanisms. The core idea behind RegretNet is that within a Bayesian auction, one knows the valuation distributions from which samples can be drawn and the allocation and payment rules can be inferred from neural networks, with a learning objective designed to maximize revenue while enforcing strategyproofness.
+
+More specifically, the allocation and payment functions are represented by neural networks with a set of learned weights. The allocation networks end with a softmax layer, to ensure that the allocation is a valid categorical distribution. The payment network ends with a sigmoid layer, outputing a value - the final payment.
+
+The training data for RegretNet is a dataset of bid profiles sampled from the valuation distribution. These are used for training by standard gradient descent methods. The goal is to maximize the payments drawn from truthful bids, subject to strategyproofness. For example, maximizing expected payment can be done by simply maximizing the mean payment over training samples. In this work, unlike prior works using synthetic bids, we collect data from PBS relays and build realistic auction models.
 
 
 ## Plan and Deliverables
@@ -26,9 +27,9 @@ Notwithstanding the fact that, in 2024 over 90% of Ethereum blocks are construct
 
 - Data collection from public PBS relays (Aestus, Agnostic Gnosis, Eden Network, Flashbots, Manifold, etc) [2 month]
 
-- Determining important features [1 week]
+- Evaluating the applicability of RegretNet as is [1 week]
 
-- SVM model building [1 month]
+- Neural network building [1 month]
 
 - Model evaluation, accuracy assessment, model improvement, fine-tuning parameters [3 weeks]
 
@@ -41,6 +42,7 @@ Notwithstanding the fact that, in 2024 over 90% of Ethereum blocks are construct
 
 ## References
 
-[1] Tang, L., & Yan, X. (2009). Support vector machine with adaptive parameters in financial time series forecasting. IEEE Transactions on Neural Networks, 20(5), 771-784.
+[1] P. Dütting, Z. Feng, H. Narasimhan, D. Parkes and S. Srivatsa Ravindranath. 2019. Optimal auctions through deep learning. International Conference on Machine Learning. 1706–1715.
 
-[2] Wu, F., Thiery, T., Leonardos, S., & Ventre, C. (2023). Strategic Bidding Wars in On-chain Auctions. arXiv preprint arXiv:2312.14510 [cs.GT].
+[2] Kingma, D. P., & Ba, J. (2015). Adam: A Method for Stochastic Optimization. In 3rd International Conference for Learning Representations, San Diego.
+
