@@ -37,7 +37,7 @@ This leads us to the following questions:
 2. Which properties of $\mathcal{A}$, $X$, and $T$ correspond to which properties of $U_{A,X,T}$? How can application designers influence them?
 3. How do existing financial applications shape up when evaluated against this list of properties? Can we design new applications with chosen sets of properties?
 
-This project falls under the **protocol design** research topic. Since these models will touch on different scheduling algorithms, there may be interaction with [FRP-21](https://github.com/flashbots/mev-research/blob/main/FRPs/active/FRP-21.md).
+This project falls under the **protocol design** research topic. Since these models will touch on different scheduling algorithms, there may be interaction with [FRP-21](https://github.com/flashbots/mev-research/blob/main/FRPs/completed/FRP-21.md).
 
 # Plan and deliverables
 
@@ -71,5 +71,5 @@ This project falls under the **protocol design** research topic. Since these mod
 [^budish]: https://academic.oup.com/qje/article/130/4/1547/1916146
 [^fair-ordering]: https://eprint.iacr.org/2020/269
 [^private-mempool]: https://medium.com/flashbots/announcing-flashbots-protect-9e039e9f0aa3
-[^0x]: https://www.0x.org/pdfs/0x_white_paper.pdf
+[^0x]: https://github.com/0xProject/whitepaper/blob/master/0x_white_paper.pdf
 [^speed-bump]: https://exchange.iex.io/about/speed-bump/

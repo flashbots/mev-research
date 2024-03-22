@@ -36,7 +36,7 @@ This project resulted in a [blog post](https://awmacpherson.com/posts/backrun-au
 ## References
 
 - BackRunMe. A backrun auction by bloXroute. https://docs.bloxroute.com/introduction/backrunme
-- MEV-share (Flashbots). https://docs.flashbots.net/flashbots-mev-share/overview
+- MEV-share (Flashbots). https://docs.flashbots.net/flashbots-mev-share/introduction
 - OFAs by Quintus. https://collective.flashbots.net/t/order-flow-auctions-and-centralisation-ii-order-flow-auctions/284
 - Blink (frontrun protection through fake transactions). https://docs.blinklabs.xyz/blink/
 - FRP 22. Adversarial blockchain queues and trading on a CFMM. https://collective.flashbots.net/t/frp-22-outputs-adversarial-blockchain-queues-and-trading-on-a-cfmm/1269
