@@ -1,3 +1,11 @@
+---
+id: 43
+title: Can Sandwich Attacks Benefit Their Victims?
+team: @benber86
+created: 2024-03-28
+status: active
+---
+
 # Can Sandwich Attacks Benefit their Victims?
 
 Sandwich attacks have caused millions of dollars of losses to unsuspecting traders and an equivalent amount of revenue to attackers. They are commonly perceived either as nefarious and akin to theft, or at most, a form of arbitrage, yet one that lacks the typical arbitrage benefit of correcting price discrepancies between markets. Yet, on rare occasions, some sandwich attacks do seem to generate better results for their victims when, in periods of high volatility, they give their victims faster execution and thus a better price.
