@@ -3,7 +3,7 @@ id: 39
 title: Fast Private Set Intersection
 team: lichu@semiotic.ai, gokay@semiotic.ai, severiano@semiotic.ai (leader), sam@semiotic.ai, 
 created: 2023-08-16
-status: active
+status: completed
 ---
 
 # Even Faster Private Set Intersection
@@ -35,3 +35,6 @@ Note that our implementation will use a Node wrapper library of Microsoft SEAL, 
 -   S. Kamara, P. Mohassel, M. Raykova, and S. Sadeghian. Scaling private set intersection to billion-element sets. In Financial Cryptography and Data Security (FC’14) , LNCS. Springer, 2014.
 -   G. Saldamli, R. Chow. "Fast Private Set Intersection", Preprint 2022
 -   Hao Chen, Kim Laine, and Peter Rindal. 2017. Fast Private Set Intersection from Homomorphic Encryption. In Proceedings of the 2017 ACM SIGSAC Conference on Computer and Communications Security (CCS '17). Association for Computing Machinery, New York, NY, USA, 1243–1255.
+
+## Outcome
+The results are shared in [this post](https://collective.flashbots.net/t/frp-30-even-faster-private-set-intersection/3304) on the Flashbots forum. 
