@@ -3,7 +3,7 @@ id: 38
 title: Efficacy of Commitment Devices (CDs) in Multi-Agent Games Involving Large Language Model (LLM) Agents
 team: Feng Yan, Jason Hu, Will Jiang
 created: 2023-9-03
-status: active
+status: completed
 ---
 
 # Efficacy of Commitment Devices (CDs) in Multi-Agent Games Involving Large Language Model (LLM) Agents
@@ -48,3 +48,6 @@ The outcomes stemming from this study possess the potential to exert substantial
 9. Playing repeated games with Large Language Models  https://arxiv.org/abs/2305.16867
 10. Universal and Transferable Adversarial Attacks on Aligned Language Models https://arxiv.org/pdf/2307.15043.pdf
 11. Large Language Models as Optimizers https://github.com/Moocember/Optimization-by-PROmpting
+
+## Outcome
+The results of this project are summarized in a post on the Flashbots forum [here](https://collective.flashbots.net/t/frp-38-efficacy-of-commitment-devices-cds-in-multi-agent-games-involving-large-language-model-llm-agents/3399?u=yan). You can find the framework and full paper on Github [here](https://github.com/WudingRoad1145/CD_LLM/tree/main).
