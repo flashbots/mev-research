@@ -3,7 +3,7 @@ id: 40
 title: Design space for SUAVE applications in decentralized finance (DeFi)
 team: Can Kisagun
 created: 2023-10-05
-status: active
+status: completed
 ---
 
 # Design space for SUAVE applications in decentralized finance (DeFi)
@@ -71,3 +71,6 @@ https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8418612
 
 ## Background
 Can Kisagun is the co-founder and former Chief Product Officer of Enigma / Secret Network. During this time, Can explored different use-cases for privacy preserving smart contract Enigma / Secret Network built, including the design space for exchanges with pre-order and post-order privacy.
+
+## Outcome
+This research resulted in a [post on the Flashbots Forum](https://collective.flashbots.net/t/frp-40-suave-s-potential-in-defi-a-focus-on-decentralized-exchanges-dex-and-auction-mechanisms/3204). 
