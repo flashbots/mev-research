@@ -1,21 +1,26 @@
 ---
 id: <leave blank -- will be assigned by reviewers>
-title: <proposal title>
-team: <team that will carry out the proposal, with a designated lead>
-created: <date created on, in yyyy-mm-dd format>
+title: <Incentive-Aligned Proposer Builder Separation Model>
+team: <Babu Pilla, (team TBC)>
+created: <2014-06-10>
 ---
 
-# Flashbots Research Proposal Template
+# Incentive-Aligned Proposer Builder Separation Model
 
-Follow this template for new research proposals, removing this text and replacing the *Flashbots Research Proposal Template* title with your proposal's own. Open a pull request to submit your proposal, using an abbreviated title in the filename (`proposal-short_title.md`), and put the file under the `FRPs` folder.
+The PBS model seems to be a promising solution to addressing MEV exploitation. The aim is to foster good MEV, which is essential for a healthy ecosystem, and avoid bad MEV, which exploits the power of being in the position of ordering transactions. However, the same old principal-agent problem applies between the proposer and builder. As such, a weaker point is the assumption of trust between participants and the incentive model.
 
-Use this initial section to provide a ~500 word summary of the proposal. The summary should consist in a simple straightforward statement of what your hypothesis is, what methodology you intend to use, what limitations those methods may have, what implications your results may have.
+We propose designing an incentive schema where builders and proposers act in their best interests, naturally protecting customers (users). Let us assume the builder is a customer (user)-facing entity; then they should be incentivised to serve the users, for example, by minimizing MEV extraction. Our preliminary work identifies an incentive scheme that motivates the builder to offer better rates for users in return for a reward if the builder provides a lower slippage. We want to expand this research with some experiments and incorporate the latest developments.
 
 ## Background and Problem Statement
-Provide motivation and background for the proposal, and clearly state the research questions it aims to tackle. Link to related or dependent Research Question(s) on the Flashbots Research Roadmap, and reference relevant Github Issues in this repository.
+
+While the primary intent of the PBS model is to protect against transaction censorship attacks and restructure the economics of MEV. However, this model engenders a competitive marketplace among its participants with a risk of centralisation with a limited number of participants. In the PBS model, block building and proposing are distinct operations open to any participants with the necessary resources. Ideally, there should not be any dependency between builders and proposers. There needs to be a balance where builders are motivated to create blocks that are profitable to users, and proposers are incentivised to choose blocks that are best for the network. Nonetheless, the current PBS architecture involves varying trust assumptions among builders, proposers, and relayers. While separating block building from validation is advantageous, the associated incentive scheme is currently underdeveloped due to these trust assumptions. The research question is: How can we minimise the trust assumptions among different participants in the PBS model?
 
 ## Plan and Deliverables
-Describe the planned approach to the problem, including potential time allocations and partitioning into phases. List the artifacts or intended deliverables of the proposal.
+
+Conduct a literature review on the latest developments in the PBS and MEV space. Seek feedback on the proposed model's practicality. Develop a testing model to evaluate certain properties of the proposed scheme. Finally, publish a journal paper.
+
+Funding will be helpful to get students to work on the implementation and testing.
 
 ## References
-Reference current relevant literature or past work pertaining to the research question(s) at stake.
+Previse work.
+- [Blockchain MEV minimisation solution with price guarantee reward](https://hackmd.io/@sxysun/shapley).
