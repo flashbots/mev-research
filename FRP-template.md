@@ -1,21 +1,26 @@
 ---
 id: <leave blank -- will be assigned by reviewers>
-title: <proposal title>
-team: <team that will carry out the proposal, with a designated lead>
-created: <date created on, in yyyy-mm-dd format>
+title: <Deferred Revelation Auction>
+team: <saguillo2000>
+created: <2024-06-21>
 ---
 
-# Flashbots Research Proposal Template
+# Credible Auctions
 
-Follow this template for new research proposals, removing this text and replacing the *Flashbots Research Proposal Template* title with your proposal's own. Open a pull request to submit your proposal, using an abbreviated title in the filename (`proposal-short_title.md`), and put the file under the `FRPs` folder.
-
-Use this initial section to provide a ~500 word summary of the proposal. The summary should consist in a simple straightforward statement of what your hypothesis is, what methodology you intend to use, what limitations those methods may have, what implications your results may have.
+Incentive compatibility for auctioneers has become a topic of interest to mechanism designers of auctions within digital marketplaces. The main goal of this project is to produce an open source smart contract with the Deferred Revelation Auction (DRA) over Ledger from Taruan et. al.
 
 ## Background and Problem Statement
-Provide motivation and background for the proposal, and clearly state the research questions it aims to tackle. Link to related or dependent Research Question(s) on the Flashbots Research Roadmap, and reference relevant Github Issues in this repository.
+
+The concept of credibility, a strong form of incentive compatibility for auctioneers, has been stated as a desired goal of auctions that range from basic transactions in blockchains and NFTs to online ad auctions. The US Department of Justice’s 2023 antitrust suit against Google effectively argues that Google’s manipulation of ad auctions from the privileged position of auctioneer caused both buyers and users harm. In a permisionless environment as it is in blockchains Tarun describes 3 main areas where this type of auction can be applied to: NFTs market, MEV and PBS. 
+
+A PoC of this protocol can ensure later open source colaboration in order to guarantee a fair price with the assets like NFTs or other types of manipulation by the auctioneer.
 
 ## Plan and Deliverables
-Describe the planned approach to the problem, including potential time allocations and partitioning into phases. List the artifacts or intended deliverables of the proposal.
+
+The plan is to start with a simple Proof of Concept written in Solidity (we can see if for Rust or other type of languages can be useful). The roadmap would be as follows:
+
+- Diagram of the auction and the different methods to be implemented.
+- Provide a first PoC with tests
 
 ## References
-Reference current relevant literature or past work pertaining to the research question(s) at stake.
+Credible, Optimal Auctions via Blockchains: https://eprint.iacr.org/2023/114.pdf , Tarun Chitra et. al.
