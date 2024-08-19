@@ -1,26 +1,26 @@
 ---
 id: <leave blank -- will be assigned by reviewers>
-title: <Deferred Revelation Auction>
+title: <CR Survey and new MEV games>
 team: <saguillo2000>
 created: <2024-06-21>
 ---
 
-# Credible Auctions
+# Censorship-Resistance Survey and new MEV games
 
-Incentive compatibility for auctioneers has become a topic of interest to mechanism designers of auctions within digital marketplaces. The main goal of this project is to produce an open source smart contract with the Deferred Revelation Auction (DRA) over Ledger from Taruan et. al.
+Multiple Concurrent Proposers has been a huge topic of discussion over the last weeks among the community. However, no survey and unified literature has been found of all the Censorship-Resistance protocols and analysis between them, as new type of games that can be played in the MCP setting.
 
 ## Background and Problem Statement
 
-The concept of credibility, a strong form of incentive compatibility for auctioneers, has been stated as a desired goal of auctions that range from basic transactions in blockchains and NFTs to online ad auctions. The US Department of Justice’s 2023 antitrust suit against Google effectively argues that Google’s manipulation of ad auctions from the privileged position of auctioneer caused both buyers and users harm. In a permisionless environment as it is in blockchains Tarun describes 3 main areas where this type of auction can be applied to: NFTs market, MEV and PBS. 
-
-A PoC of this protocol can ensure later open source colaboration in order to guarantee a fair price with the assets like NFTs or other types of manipulation by the auctioneer.
+Censorship resistance is a significant challenge facing the Ethereum community, primarily due to the monopolistic tendencies inherent in leader-based consensus mechanisms. Initially, various protocols, such as Inclusion Lists, were proposed to address this issue. However, newer protocols, such as FOCIL and BRAID, have recently emerged. Despite their potential, no comprehensive comparative studies have been conducted to analyze these protocols or to explore the new dynamics they introduce in the proposers vs. proposers scenario. Additionally, potential strategies for mitigating these emerging challenges have yet to be thoroughly examined.
 
 ## Plan and Deliverables
 
-The plan is to start with a simple Proof of Concept written in Solidity (we can see if for Rust or other type of languages can be useful). The roadmap would be as follows:
+The survey is currently being written and studying the state of the art. The roadmap would be as follows:
 
-- Diagram of the auction and the different methods to be implemented.
-- Provide a first PoC with tests
+- Current structure of the survey and discuss improvements with Flashbots researchers
+- Provide a paper, arxiv link with the survey with zero background to engage more people in the research in censorship-resistance
 
 ## References
-Credible, Optimal Auctions via Blockchains: https://eprint.iacr.org/2023/114.pdf , Tarun Chitra et. al.
+https://ethresear.ch/t/fork-choice-enforced-inclusion-lists-focil-a-simple-committee-based-inclusion-list-proposal/19870/5
+https://www.youtube.com/watch?v=mJLERWmQ2uw
+https://www.youtube.com/watch?v=SBOGdofF4u8
