@@ -41,6 +41,7 @@ The goal of this project is to minimize the overhead induced by encoding ring op
 3) Finally, implement a simplified version of an FHE-SNARK for the application described in https://writings.flashbots.net/blind-arbitrage-fhe - 40 hours
 **Languages**: Rust
 **Frameworks/Libraries**: Arkworks or Plonky3
+**Existing Components**: For 1.a, 1.b, there is a lot of existing code that I am familiar with that can be used. For (2), recent work listed as well as this new paper: https://eprint.iacr.org/2024/1684.pdf have implementations that I can use as a starting point. For (3) I can use resources from (2) as well as existing Flashbots code to understand better the MEV process. 
 
 
 ## References
