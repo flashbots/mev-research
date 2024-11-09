@@ -1,8 +1,9 @@
 ---
-id: <leave blank -- will be assigned by reviewers>
+id: 45
 title: Zero Knowledge Proofs of FHE
 team: Hadas Zeilberger and Jonathan Passerat-Palmbach
 created: 2024-10-07
+status: active
 ---
 
 # Flashbots Research Proposal
