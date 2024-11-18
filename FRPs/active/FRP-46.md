@@ -1,8 +1,9 @@
 ---
-id: <leave blank -- will be assigned by reviewers>
+id: 46
 title: App-level MEV Capture - Lending Protocols
 team: Anthias Labs - Specific team members include Charlie Ambrose, Aaron Xie, Aniruddh Yadav, Vasu Khanna
 created: 2024-10-16
+status: active
 ---
 
 # App-level MEV Capture - Lending Protocols
