@@ -1,4 +1,11 @@
-# Improving Efficiency and Robustness in Based Rollups
+---
+id: <leave blank -- will be assigned by reviewers>
+title: Improving Efficiency and Robustness in Based Rollups
+team: Davide Rezzoli
+created: 2024-12-09
+---
+
+# Flashbots Research Proposal
 
 ### Summary
 
