@@ -1,4 +1,4 @@
-# Research Proposal: Improving Efficiency and Robustness in Based Rollups
+# Improving Efficiency and Robustness in Based Rollups
 
 ### Summary
 
