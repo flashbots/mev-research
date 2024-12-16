@@ -1,8 +1,9 @@
 ---
-id: <leave blank -- will be assigned by reviewers>
+id: 47
 title: Improving Efficiency and Robustness in Based Rollups
 team: Davide Rezzoli
 created: 2024-12-09
+status: active
 ---
 
 # Flashbots Research Proposal
