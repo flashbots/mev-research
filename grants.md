@@ -40,7 +40,7 @@ FRPs should be aligned with the general research questions listed in the [topics
 As an MEV fellow, you will have full access to the Flashbots extended team and to data that can be used for research.
 
 **Is there an opportunity to deepen my involvement with Flashbots Research?**<br/>
-Absolutely! The fellowship is a great way to work part-time with the Flashbots team and for both Flashbots and yourself to decide whether we find mutual fit for working together more closely (eg. full-time researcher position). Every situation is different and we're happy to accomodate for bespoke levels of involvements - let's talk about it!
+Absolutely! The fellowship is a great way to work part-time with the Flashbots team and for both Flashbots and yourself to decide whether we find mutual fit for working together more closely (eg. full-time researcher position). Every situation is different and we're happy to accommodate for bespoke levels of involvements - let's talk about it!
 
 **What’s the point of running this program?**<br/>
 Flashbots is an open research organization, this program is a first step at building a sustainable open research community. We see this Fellowship as a funnel for talent that may be interested in working with us in the future for long term collaboration, on either part-time, or full-time basis and a social experiment in collective research coordination. In the longer term, we are aiming to build a self-sustaining research organization where all its work is made available to the public for anyone to benefit from and contribute to. Read more about who we are and our public commitments [here](https://ethresear.ch/t/flashbots-frontrunning-the-mev-crisis/8251).
