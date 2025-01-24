@@ -8,7 +8,7 @@ status: stagnant
 
 # Literature review of auction mechanism that fit in with Flashbots.
 
-The puspose of this isssue is to investigate and survey the existing literature of auction mechanism design to motivate the design of the block space and transaction ordering auctions enabled by mev-geth.
+The puspose of this issue is to investigate and survey the existing literature of auction mechanism design to motivate the design of the block space and transaction ordering auctions enabled by mev-geth.
 An mev-geth auction is different from a traditional auction in that users submit and bid on tx sequences that are, potentially, non-overlapping.
 The current implementation of mev-geth accepts only a single transacton sequence into a block, however, a more sophisticated auction mechanism might permit multiple "bundles" with interaction between winning, non-overlapping bundles.
 Therefore careful consideration is required to design a good auction mechanism for mev-geth.
