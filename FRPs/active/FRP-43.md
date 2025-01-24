@@ -25,7 +25,7 @@ One might, however, argue that the gains are illusory as the same or a better ou
 ### Plan
 - Start with a data collection phase where we use heuristics to detect such profitable sandwiches on one major DEX at first.
 - Based on analysis of the different examples collected, outline the main mechanisms by which sandwiches can result in apparent positive outcomes for the victim and draw up a typology.
-- Formalize and model the different case encountered, accounting for gas costs, DEX fees, AMM models and slippage settings to more precisly outline the conditions and the definitions of profitability under which sandwiches can be profitable for the victim.
+- Formalize and model the different case encountered, accounting for gas costs, DEX fees, AMM models and slippage settings to more precisely outline the conditions and the definitions of profitability under which sandwiches can be profitable for the victim.
 - Enhance our detection algorithm and expand it to other DEXes.
 - Quantify the volume and prevalence of these sandwiches on Ethereum mainnet.
 
