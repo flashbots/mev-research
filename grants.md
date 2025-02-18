@@ -7,7 +7,7 @@ As an MEV fellow, you are the owner of a research question(s) outlined in a rese
 
 **What are expected deliverables?**<br/>
 We expect the research questions to evolve over time and to most likely lead to more questions rather than answers. However, we ask of all fellows a few key deliverables:
-- a short article published in our [HackMD research publication](https://hackmd.io/@flashbots?tags=%5B%22research%22%5D)
+- a research blog post to the Flashbots forum or an academic paper posted to Arxiv
 - a presentation given at one of our community events
 
 **How much is the grant?**<br/>
