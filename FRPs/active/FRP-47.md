@@ -59,3 +59,7 @@ Deliverables:
 [Based rollups—superpowers from L1 sequencing](https://ethresear.ch/t/based-rollups-superpowers-from-l1-sequencing/15016)
 
 [Based Rollup Economics](https://taiko.mirror.xyz/PhlvGdIaY3-ZQ1DqI9uM5LxrWGWLAzLI84rkxhvPKmM)
+
+### Outcomes
+
+This project resulted in the post ["Understanding Based Rollups: PGA Challenges, Total Anarchy, and Potential Solutions"](https://ethresear.ch/t/understanding-based-rollups-pga-challenges-total-anarchy-and-potential-solutions/21320)
