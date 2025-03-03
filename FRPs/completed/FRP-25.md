@@ -1,7 +1,7 @@
 ---
 id: 25
 title: Quantifying Fairness Granularity For FCFS Chains
-team: @saharAP @emmanuel-awosika 
+team: saharAP, emmanuel-awosika
 created: 2022-09-18
 status: completed
 ---
@@ -44,3 +44,5 @@ Project Deliverables:
 
 ## Outcome
 [Post on the Flashbots Forum](https://collective.flashbots.net/t/frp-25-quantifying-fairness-granularity-for-first-come-first-serve-fcfs-chains/1615)
+
+[Published paper on IEEE blockchain Conference](https://ieeexplore.ieee.org/abstract/document/10664264?casa_token=K9hj8_HSX8kAAAAA:rgCxDrjVETzXrQVJuWyoge7ayJ3lqYkeiN5UuZtS8O6ImUIamN5CKiKD3Fa6jrvmQ9JlRnQmNW0)
