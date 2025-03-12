@@ -1,7 +1,7 @@
 ---
 id: <leave blank -- will be assigned by reviewers>
 title: Priority order flow
-team: Shtuka Research (team lead: Andrew W. Macpherson)
+team: Shtuka Research (team lead Andrew W. Macpherson)
 created: 2025-03-12
 ---
 
