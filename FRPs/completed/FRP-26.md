@@ -58,10 +58,10 @@ and
 
 [MEV as a cooperative game, by Xin](https://docs.google.com/presentation/d/1_qDn-S9xHC-FTcxVsE9hV7kTw3WOSNUR9kL2i_4UFuc/edit#slide=id.g187ff1cf8c1_0_319)
 
-[Open games main repo](github.com/cyberCat-Institute)
+[Open games main repo](https://github.com/cyberCat-Institute)
 
 [Open games initial paper](https://arxiv.org/abs/1603.04641)
 
-[A simple model in Compositional Game Theory](github.com/20squares/ftx/)
+[A simple model in Compositional Game Theory](https://github.com/20squares/ftx/)
 
 [An introductory video on the techniques we want to use](https://www.youtube.com/watch?v=Xzv54dZQZaw)
