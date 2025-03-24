@@ -1,8 +1,9 @@
 ---
-id: <leave blank -- will be assigned by reviewers>
+id: 49
 title: Empirical Study of Transaction Revert and MEV on L2s
-team: Daniel Marzec, Fahim Ahmed
+team: Krzysztof Gogol
 created: 2025-02-06
+status: active
 ---
 
 # Transaction Revert and MEV on L2s
