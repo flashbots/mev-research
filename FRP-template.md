@@ -23,8 +23,10 @@ The steps of the study will be following:
 - Generate a dataset containing open and finished markets, initially using Polymarket as a use case. We note the proposed approach is generic for any prediction market platform.
 - Utilize state-of-the-art text encoding models (e.g. all-mpnet-base-v2 [7]) as the input of clustering techniques (such as HDBSCAN [8] or dendrogram-based methods [9]) and semantic search techniques to group potentially related markets (e.g., those related to the U.S. presidential election).
 - Apply LLMs, empowered by RAG [10], to the grouped/clustered markets for granularly identifying and describing potential tautologies between the markets within a cluster.
+- Utilize AI models to infer probabilities of market resolutions.
 - Verify arbitrage detection methodology with simulated values for existing markets.
-- Analyze markets where arbitrage was exploited using historical order book prices, quantifying the potential profits and key players.
+- Analyze markets where arbitrage was exploited using historical order book prices, quantifying the potential profits and key players. Explore the impact of arbitrage opportunities on the liquidity of markets and their forecasting efficacy. 
+- Possible extensions include applying the methodology to other decentralized prediction markets (e.g., Hedgehog on Solana, Projection Finance on Ethereum, etc.) as well as across markets and with centralized prediction markets such as Kalshi.
 
 The results of the study will be presented in an academic paper and short blog post summarizing the key findings. Our code and data will be made public. Depending on the research findings, we will attempt to contact Polymarket to propose adding this tool to their related markets tab to help inform users of potential arbitrage risks.
 
