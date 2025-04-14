@@ -1,8 +1,9 @@
 ---
-id: <leave blank -- will be assigned by reviewers>
+id: 50
 title: Accelerating Narwhal DAGs with TEEs
 team: Jialin Li, Tianyang Tao (NUS), Abhimanyu Rawat (Advaita Labs), Shashank Motepalli (UoT), and Jonathan Heiss (TUBerlin)
 created: 2025-02-11
+status: active
 ---
 
 # Accelerating Narwhal DAGs with TEEs
