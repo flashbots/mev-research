@@ -1,8 +1,8 @@
 ---
-id: <leave blank -- will be assigned by reviewers>
+id: 51
 title: Arbitrage Detection in Prediction Markets
-team: Oriol Saguillo, Vahid Ghafouri, Lucianna Kiffer, and Guillermo Suarez-Tangil (IMDEA Networks Institute)
-created: <date created on, in yyyy-mm-dd format>
+created: 2025-04-2025
+status: active
 ---
 
 # Markets Arbitrage in Prediction Market
