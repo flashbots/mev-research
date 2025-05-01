@@ -12,7 +12,7 @@ You can read some of the research we've released on [Flashbots Writings](https:/
 ## Flashbots Research Proposals
 To fuel the collaborative nature of our research, we have a process in place for Flashbots Research Proposal (FRPs), where anybody can submit a research proposal for consideration. Upon community review, proposals will be considered for becoming part of our research, and might become eligible for a grant.
 
-Find out more about our research [process](process.md), ongoing [FRPs](FRPs/) and the [grants](grants.md) we issue. You can see more about past FRPs in the [FRP section of the Flashbots Forum](https://collective.flashbots.net/c/frp/24)). 
+Find out more about our research [process](process.md), ongoing [FRPs](FRPs/) and the [grants](grants.md) we issue. You can see more about past FRPs in the [FRP section of the Flashbots Forum](https://collective.flashbots.net/c/frp/24). 
 
 ## Resources
 - Access past recordings of research workshops and talks on the [Flashbots YouTube channel](https://www.youtube.com/channel/UCclbTgsnYUy3vmrptIqCmqQ).
