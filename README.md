@@ -15,5 +15,6 @@ To fuel the collaborative nature of our research, we have a process in place for
 Find out more about our research [process](process.md), ongoing [FRPs](FRPs/) and the [grants](grants.md) we issue. You can see more about past FRPs in the [FRP section of the Flashbots Forum](https://collective.flashbots.net/c/frp/24). 
 
 ## Resources
-- Access past recordings of research workshops and talks on the [Flashbots YouTube channel](https://www.youtube.com/channel/UCclbTgsnYUy3vmrptIqCmqQ).
-- A selection of research papers and posts on MEV topics can be found in our [research vault](resources.md).
+- Access past recordings of research workshops and talks on the [Flashbots YouTube channel](https://www.youtube.com/channel/UCclbTgsnYUy3vmrptIqCmqQ)
+- A selection of research papers and posts on MEV topics can be found in our [research vault](resources.md)
+- Join the conversation on the [Flashbots Forum](https://collective.flashbots.net/)
