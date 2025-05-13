@@ -12,7 +12,7 @@ The puspose of this issue is to investigate and survey the existing literature o
 An mev-geth auction is different from a traditional auction in that users submit and bid on tx sequences that are, potentially, non-overlapping.
 The current implementation of mev-geth accepts only a single transacton sequence into a block, however, a more sophisticated auction mechanism might permit multiple "bundles" with interaction between winning, non-overlapping bundles.
 Therefore careful consideration is required to design a good auction mechanism for mev-geth.
-In addition to surveying existing literature, it is impotant to survey auction designs in existing crypto projects so understand the practical requirements of a decentralized auction such as privacy, security, auditability, and efficiency.
+In addition to surveying existing literature, it is important to survey auction designs in existing crypto projects so understand the practical requirements of a decentralized auction such as privacy, security, auditability, and efficiency.
 
 ## Background and Problem Statement
 
@@ -22,7 +22,7 @@ The first step in answering this broad question is first surveying and evaluatin
 In order to tackle this objects is to answer the following questions:
 * In what ways do crypto auctions differ from existing literature: what are the impact of easy collusion forming on cooperative strategies and does current literature fall short of addressing this concern? Ad auctions have a similar setting, perhaps a better survey of how they deal with it? (see Methodology for survey of existing projects, i.e. industry anecdotes).
 * What assumptions can be made about the participants and their capabilities (includes a potentially malicious miner)?
-* Does expanding the auction format (from a single winning bundle to potentially multipe winning bundles) make auction design much more difficult?
+* Does expanding the auction format (from a single winning bundle to potentially multiple winning bundles) make auction design much more difficult?
 * How do current implementation auctions in crypto deal with issues such as efficiency, security, privacy, and auditability?
 * In the field of combinatorial auctions: are there existing theoretical auctions that imply constraints on our setting in terms of computability of optimal strategy?
 * In the area of computational complexity: are there computationally difficult auctions with good enough heuristic, or sub-optimal, solutions?
