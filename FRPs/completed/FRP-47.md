@@ -3,7 +3,7 @@ id: 47
 title: Improving Efficiency and Robustness in Based Rollups
 team: Davide Rezzoli
 created: 2024-12-09
-status: active
+status: completed
 ---
 
 # Flashbots Research Proposal
@@ -62,4 +62,4 @@ Deliverables:
 
 ### Outcomes
 
-This project resulted in the post ["Understanding Based Rollups: PGA Challenges, Total Anarchy, and Potential Solutions"](https://ethresear.ch/t/understanding-based-rollups-pga-challenges-total-anarchy-and-potential-solutions/21320)
+This project resulted in two posts, both shared in a Flashbots forum summary [here](https://collective.flashbots.net/t/frp-47-improving-efficiency-and-robustness-in-based-rollups/4920).
