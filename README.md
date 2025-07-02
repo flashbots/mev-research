@@ -5,9 +5,9 @@ Flashbots is a research and development organization focused on the impact MEV h
 We are building Flashbots Research as a research hub for MEV, tackling and uncovering questions relevant to the short, medium and long-term future of the ecosystem. We aim to build a sustainable research organization, where ambitious researchers can focus on the most interesting research problems, unencumbered by the friction of academia and the shackles of the industries.
 
 ## Research Topics
-Our research covers a wide array of topics centered around the MEV theme. Several of these topics are directly related to our auction system and are meant as initial explorations around problems that will eventually need to be solved for our project to ultimately succeed. Other topics are more loosely related, and are part of our wider effort to illuminate the MEV landscape to level the playing field for all actors involved.
+Our research covers a wide array of topics centered around the MEV theme. Several of these topics are directly related to our auction and privacy systems and are meant as initial explorations around problems that will eventually need to be solved for our project to ultimately succeed. Other topics are more loosely related, and are part of our wider effort to illuminate the MEV landscape to level the playing field for all actors involved.
 
-You can read some of the research we've released on [Flashbots Writings](https://writings.flashbots.net/research) and the [Flashbots Forum](https://collective.flashbots.net/c/research/20).
+You can read some of the research we've released on [Flashbots Writings](https://writings.flashbots.net/research) and the [Flashbots Forum](https://collective.flashbots.net/c/research/20). You can see our recent and ongoing work together with topics on which we hope to see community research in the [Flashbots Research Problem Database}(https://flashbots.notion.site/21f6b4a0d87680a2b08dca1eda93ff6f?v=21f6b4a0d87681ddb959000c44242e52&pvs=74).
 
 ## Flashbots Research Proposals
 To fuel the collaborative nature of our research, we have a process in place for Flashbots Research Proposal (FRPs), where anybody can submit a research proposal for consideration. Upon community review, proposals will be considered for becoming part of our research, and might become eligible for a grant.
