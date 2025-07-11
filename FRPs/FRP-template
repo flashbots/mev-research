@@ -1,0 +1,49 @@
+---
+id: <leave blank -- will be assigned by reviewers>
+title: Whale Trading in Prediction Markets
+team: Oriol Saguillo and Lucianna Kiffer (IMDEA Networks Institute)
+created: <date created on, in yyyy-mm-dd format>
+---
+
+# Alpha or Insider Trading in Prediction Markets
+
+## Background and Problem Statement
+Prediction markets [1] have gained significant momentum in the past year, fueled largely by increased interest surrounding the United States elections. This surge in attention has catalyzed the development of new prediction market protocols across various blockchain networks. Among these, Polymarket [2], built on the Polygon blockchain, has emerged as one of the most widely used platforms.
+
+These markets operate by aggregating dispersed information from users, with market prices serving as indicators of collective beliefs about future outcomes. However, this mechanism naturally raises concerns about potential misuse—specifically, whether individuals with privileged or insider information can exploit these markets for profit. Such behavior would effectively constitute a form of insider trading. A particularly notable case occurred during a period of heightened tension between the U.S. and Iran, when a so-called "whale" reportedly placed a $367,606 bet at approximately 40¢ odds, ultimately yielding a profit of over $807,925 [3]. This incident is not isolated; similar cases have been documented in [4].
+
+In addition to insider trading concerns, another critical issue has emerged within the Polymarket community: the potential for market manipulation and collusion by high-stakes participants, or "whales." Users have raised concerns [5, 6] that whales may be attempting to sabotage outcomes or engage in coordinated actions to recover losses. Given their significantly greater financial resources compared to average participants, whales may be able to influence market dynamics disproportionately—posing a serious threat to the fairness and integrity of decentralized prediction markets.
+
+This research aims to systematically investigate the prevalence and impact of such exploitative behaviors in blockchain-based prediction markets. By analyzing on-chain and active bids data, and market behavior, we seek to determine whether insider trading or whale-driven manipulation is occurring, and if so, assess its implications for the future of decentralized forecasting platforms.
+
+## Plan and Deliverables
+
+The steps of the study will be following:
+
+Build a comprehensive dataset of prediction markets, initially focusing on Polymarket. This will include:
+- All resolved markets (Polygon on-chain data of all bids), with resolution data and number of disputes (UMA)
+- Active markets, with ongoing bid data collected in real-time (from Polymarket API)
+
+Analyze patterns in market behavior, focusing on factors such as:
+- Distribution and impact of large bets across different probability ranges
+- Correlation between market confidence (e.g., >90% probability) and actual outcomes
+- Potential yield strategies in high-confidence markets supported by large bets
+- Classifications of possible patterns in the market question structure
+- Timing of large bets and when information that could sway the market first became public [7]
+
+The results of the study will be presented in an academic paper and short blog post summarizing the key findings.
+
+## References
+[1] https://www.aeaweb.org/articles?id=10.1257/0895330041371321
+
+[2] https://polymarket.com/
+
+[3] https://x.com/Polymarket/status/1936628432542060890
+
+[4] https://x.com/whalewatchpoly/status/1937194645907284190
+
+[5] https://x.com/Atlantislq/status/1940428544594563581?t=tMkHYPbvpJDjeGqUGj3KXw&s=35
+
+[6] https://x.com/GrindingPoet/status/1939041602493915364?t=Mgup-B4yEpM1JrN8GngOvA&s=19
+
+[7] https://electrek.co/2025/06/30/elon-musk-bet-tesla-delivering-robotaxi-june-lost-big/
