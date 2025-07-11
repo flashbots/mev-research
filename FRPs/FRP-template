@@ -5,7 +5,7 @@ team: Oriol Saguillo and Lucianna Kiffer (IMDEA Networks Institute)
 created: <date created on, in yyyy-mm-dd format>
 ---
 
-# Alpha or Insider Trading in Prediction Markets
+# Whale Trading in Prediction Markets
 
 ## Background and Problem Statement
 Prediction markets [1] have gained significant momentum in the past year, fueled largely by increased interest surrounding the United States elections. This surge in attention has catalyzed the development of new prediction market protocols across various blockchain networks. Among these, Polymarket [2], built on the Polygon blockchain, has emerged as one of the most widely used platforms.
