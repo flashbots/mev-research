@@ -1,8 +1,9 @@
 ---
-id: <leave blank -- will be assigned by reviewers>
+id: 53
 title: Empirical Analysis of CEX-DEX Arbitrage PnL with Bounded Liquidity
 team: Fei Wu
 created: 2025-07-15
+status: active
 ---
 
 # FRP: Empirical Analysis of CEX-DEX Arbitrage PnL with Bounded Liquidity
