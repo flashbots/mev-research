@@ -27,7 +27,7 @@ The project will produce a comprehensive report in the form of a blog post, wher
 
 ## References
 
- [1] Ran Canetti, Ivan Damg˚ard, Sebastian Kolby, Divya Ravi, and Sophia Yakoubov. “Deniable Secret Sharing”. In: IACR Cryptol. ePrint Arch. (2025). url: https://eprint.iacr.org/2025/525.
+ [1] Ran Canetti, Ivan Damgard, Sebastian Kolby, Divya Ravi, and Sophia Yakoubov. “Deniable Secret Sharing”. In: IACR Cryptol. ePrint Arch. (2025). url: https://eprint.iacr.org/2025/525.
 
  [2] Philip Daian, Steven Goldfeder, Tyler Kell, Yunqi Li, Xueyuan Zhao, Iddo Bentov, Lorenz Breidenbach, and Ari Juels. “Flash Boys 2.0: Frontrunning in Decentralized Exchanges, Miner Extractable Value, and Consensus Instability”. In: 2020 IEEE Symposium on Security and Privacy, SP 2020, San Francisco, CA, USA, May 18-21, 2020. IEEE, 2020.
 
