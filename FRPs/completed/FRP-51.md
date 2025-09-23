@@ -3,7 +3,7 @@ id: 51
 title: Arbitrage Detection in Prediction Markets
 created: 2025-04-2025
 team: Oriol Saguillo, Vahid Ghafouri, Lucianna Kiffer, and Guillermo Suarez-Tangil (IMDEA Networks Institute)
-status: active
+status: compeleted
 ---
 
 # Markets Arbitrage in Prediction Market
@@ -51,3 +51,6 @@ The results of the study will be presented in an academic paper and short blog p
 [9] https://docs.scipy.org/doc/scipy/reference/generated/scipy.cluster.hierarchy.dendrogram.html
 
 [10] https://arxiv.org/abs/2005.11401
+
+## Output
+This project resulted in the academic paper "Unravelling the Probabilistic Forest: Arbitrage in Prediction Markets," available on [Arxiv](https://arxiv.org/abs/2508.03474), and a [post on the Flashbots forum](https://collective.flashbots.net/t/arbitrage-in-prediction-markets-strategies-and-impact/5198).
