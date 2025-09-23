@@ -3,7 +3,7 @@ id: 49
 title: Empirical Study of Transaction Revert and MEV on L2s
 team: Krzysztof Gogol
 created: 2025-02-06
-status: active
+status: completed
 ---
 
 # Transaction Revert and MEV on L2s
@@ -53,3 +53,6 @@ Delivaratbles:
 - Zhu, B. Z., Wan, X., Moallemi, C. C., Robinson, D., & Bachu, B. (2024). Quantifying the Value of Revert Protection. arXiv. https://arxiv.org/abs/2410.19106
 - Flaashbots Post (2024). It’s time to talk about L2 MEV. https://collective.flashbots.net/t/it-s-time-to-talk-about-l2-mev/3593/1
 - Flashbots Dune Dashboard. Multichain Transaction Reverts. https://dune.com/flashbots/multichain-transaction-reverts
+
+## Output
+The project resulted in the paper, "When Priority Fails: Revert-Based MEV on Fast-Finality Rollups," available on (Arxiv)[https://arxiv.org/abs/2506.01462].
