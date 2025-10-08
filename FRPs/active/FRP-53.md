@@ -1,38 +1,52 @@
 ---
 id: 53
-title: Empirical Analysis of CEX-DEX Arbitrage PnL with Bounded Liquidity
+title: Free Option Problem of ePBS and Simulating Ethereum's Geographical Decentralization
 team: Fei Wu
 created: 2025-07-15
 status: active
 ---
 
-# FRP: Empirical Analysis of CEX-DEX Arbitrage PnL with Bounded Liquidity
+# FRP: Free Option Problem of ePBS and Simulating Ethereum's Geographical Decentralization
 
-Existing empirical studies typically overestimate the profit and loss (PnL) of CEX-DEX arbitrageurs by using markouts calculated with CEX mid price. Building upon our recent work, this proposed research plans to conduct an empirical analysis to have a better estimation of the realized PnL of CEX-DEX arbitrageurs and the profitability of integrated searcher-builders by accounting for the cost of liquidity.
+The purpose of this FRP is twofold. One is to study the free option problem of ePBS. The other one is to contribute to an ongoing project in collaboration with Flashbots on simulating Ethereum's geographical decentralization.
 
 ## Background and Problem Statement
-This proposal is developed based on the “Arbitrage with bounded liquidity” topic in the Flashbots Research Problem Database and a very recent work we have achieved under the The Latest in DeFi Research (TLDR) fellowship program.
+### Free Option Problem of ePBS
+EIP-7732 enshrined Proposer-Builder Separation (ePBS) has been scheduled for inclusion in the upcoming Glamsterdam upgrade. However, its dual PTC deadline design [1] and the requirement that builders publish the execution payload introduce a problem: builders have an option to prevent the payload from becoming canonical by withholding the payload/blobs if publishing the block is no longer profitable. It is known as the free option problem [2]. The research question is to understand the extent to which the ePBS free option problem will lead to missed blocks and degrade network liveness.
 
-In our recent empirical work [1], by checking the markouts calculated with the CEX mid price around the slot time for all historical CEX-DEX trades for each searcher (identified from on-chain data using heuristics), we can empirically observe that markouts typically reach their highest point before they start to drop. In other words, we know when each searcher’s information advantage (alpha signal) typically maximizes before their profit is eroded by market impact, including the impact of their own hedge trade. And assuming that the searcher starts to hedge at this time point, markouts calculated with mid price provide an upper-bound estimation of arbitrage revenue and searcher PnL.
-
-The problem with this methodology is that this (over)estimation does not account for the liquidity of the tokens and ignores the cost of hedge execution, i.e., slippage or price impact.
+### Geographical Decentralization Simulation
+Currently, Ethereum validators cluster in the EU and US East, where latency advantages persist. Beyond latency, it is important to understand whether protocol designs, such as PBS, can influence validator incentives, and consequently, Ethereum's geographical (de)centralization [3].
 
 ## Plan and Deliverables
-Several ways come to my mind for now to approach this question. The plan is to explore all these approaches and compare the results to ensure that the results are robust.
+### Free Option Problem of ePBS
+The most valuable use case of the free option is to revert (CEX-)DEX trades once the external market price moves in an unfavorable direction before the builder is about to publish the payload. We plan to model the builder’s decision process in exercising the free option and reverting DEX trades, and to identify the factors contributing to the problem—such as liquidity, price volatility, and block composition. 
 
-1. Instead of using the mid price, we can use the implementation volume-weighted average price (VWAP). This would assume that the searcher hedges their position instantly, sweeping the CEX orderbook and experiencing the maximum slippage. By doing this, we should get a lower-bound estimation of arbitrage revenue and searcher PnL. By incorporating this lower-bound estimation with the prior upper-bound estimation, we have a better understanding of the value range of searcher PnL compared to having only upper-bound overestimation.
-2. Aside from mid price or VWAP, we can also try to use time-weighted average price (TWAP) during the hedge window. TWAP should provide a more accurate estimation of the actual average execution price by accounting for part of the price impact (i.e., permanent price impact) incurred during the hedge window. Note that using TWAP does not capture the full price impact since we are essentially assuming that the hedge is executed in infinitely small slices such that these small slices do not incur any slippage (i.e., temporary price impact).
-    
-    To know TWAP, we need to know the hedge window. For low-liquid token pairs, this is easy to be derived from empirical observations in our prior work [1]. However, for high-liquid token pairs, we cannot directly derive from empirical observations. A possible solution could be to apply the Almgren‑Chriss model with some assumptions of searchers’ risk-aversion and calibrate it against empirical data to derive plausible bounds or a distribution for the hedge window.
-    
-3. We can also try to develop a hedge cost model and calibrate it against empirical data. This has been covered by [2], where the author modeled the hedge cost as quadratic (i.e., linear marginal cost) for low-liquid token pairs, which is also mentioned in the Almgren–Chriss model. For high-liquid token pairs, a simple and effective model could be that the hedge cost is linear to the trade size, i.e., the marginal cost is constant.
-4. From our earlier discussion with top CEX-DEX searchers, we were informed that the arbitrage opportunity is highly competitive among searchers recently, and the bid they put for that opportunity (i.e., coinbase transfer alongside the transaction) is very close to 100% of their expected arbitrage revenue. Our empirical work [1] validated this by showing that, the margin SCP and Wintermute keep at their searcher level and not transferred to their builder is only 10-15%. Note that 10-15% is still an overestimation since the hedge cost is not considered. This can be translated into: the difference between the best markout and their bid value is essentially their estimation of the hedge cost based on their model. We can then reverse engineer and calibrate the above hedge cost models with this data, or apply regressions to fit a hedge cost model for each token pair and apply it to other searchers. 
+Moreover, by leveraging existing data and results in our previous paper on CEX-DEX arbitrages [4], we can empirically estimate the value of the free option and the probability of the builder exercising the free option in historical blocks. This will allow us to quantitatively understand the nature and scale of the problem.
 
-With these approaches above, we should have deeper insights into CEX-DEX searchers’ realized PnL and integrated searcher-builder profitability.
 
-**Deliverable**: A paper or a post on Flashbots Collective presenting the analyses and results
+### Geographical Decentralization Simulation
+We plan to formulate an agent-based model as the foundation for a simulation framework (consider the MEV-Boost auction simulation framework [5] as an exmaple) that reproduces Ethereum validator behavior under different protocol designs (e.g., PBS vs. local block building). Through this framework, we aim to analyze how different protocol designs affect validator incentives and geographical distribution, thereby improving our understanding of how protocol design influences geographical (de)centralization dynamics.
+
+**Deliverable**: Posts on Flashbots Collective and papers
 
 ## References
-[1] Fei Wu, Danning Sui, Thomas Thiery, Mallesh Pai. “Measuring CEX-DEX Extracted Value and Searcher Profitability: The Darkest of the MEV Dark Forest”. https://arxiv.org/abs/2507.13023. Accepted by AFT 2025.
 
-[2] Christoph Schlegel. "Arbitrage with bounded Liquidity." *arXiv preprint arXiv:2507.02027* (2025). https://collective.flashbots.net/t/arbitrage-with-bounded-liquidity/5064
+[1] Anders Elowsson. Dual-deadline PTC vote in ePBS. https://notes.ethereum.org/@anderselowsson/Dual-deadlinePTCvote
+
+[2] Julian Ma, Barnabe Monnot, Francesco D’Amato, Michael Neuder, Potuz, and Terence Tsao. Free option problem. https://efdn.notion.site/Free-option-problem-837cdbf06d4c4870b79a840dd5c45a38
+
+[3] Phil Daian. Decentralized crypto needs you: to be a geographical decentralization maxi. https://collective.flashbots.net/t/decentralized-crypto-needs-you-to-be-a-geographical-decentralization-maxi/1385
+
+[4] Fei Wu, Danning Sui, Thomas Thiery, and Mallesh Pai. Measuring cex-dex extractedvalue and searcher profitability: The darkest of the mev dark forest.https://arxiv.org/abs/2507.13023
+
+[5] Fei Wu and Thomas Thiery. MEV-Boost Auction Simulation Framework. https://github.com/M1kuW1ll/MMASim
+## Outputs
+The project results in two posts on Flashbots Collective and two papers on arxiv:
+
+**The Free Option Problem in ePBS,** https://collective.flashbots.net/t/the-free-option-problem-in-epbs/5115
+
+**The Free Option Problem in ePBS, Part II,** https://collective.flashbots.net/t/the-free-option-problem-in-epbs-part-ii/5145
+
+**The Free Option Problem of ePBS,** https://arxiv.org/abs/2509.24849
+
+**Designing Ethereum's Geographical (De)Centralization Beyond the Atlantic,** https://arxiv.org/abs/2509.21475
