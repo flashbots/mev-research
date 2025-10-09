@@ -2,7 +2,7 @@
 id: <leave blank -- will be assigned by reviewers>
 title: Decentralized Proposer-as-a-Service (DPaaS)
 team: Ittai Abraham, Matthew Lentz (Lead), Chenyang Liu, and Kartik Nayak
-created: 2025-10-04
+created: 2025-10-09
 ---
 
 # Decentralized Proposer-as-a-Service (DPaaS)
