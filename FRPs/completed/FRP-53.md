@@ -3,7 +3,7 @@ id: 53
 title: Free Option Problem of ePBS and Simulating Ethereum's Geographical Decentralization
 team: Fei Wu
 created: 2025-07-15
-status: active
+status: completed
 ---
 
 # FRP: Free Option Problem of ePBS and Simulating Ethereum's Geographical Decentralization
