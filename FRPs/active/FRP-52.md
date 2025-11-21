@@ -1,6 +1,6 @@
 ---
 id: 52
-title: Trusted SILOs: Side-channel Isolated Logic Oases
+title: "Trusted SILOs: Side-channel Isolated Logic Oases"
 team: Andrea Waite & ml_sudo
 created: 2025-07-09
 status: active
