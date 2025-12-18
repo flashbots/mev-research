@@ -1,0 +1,129 @@
+---
+id: <leave blank -- will be assigned by reviewers>
+title: SoK: Proposer-Builder Separation and Beyond
+team: Oriol SAGUILLO, Prerna Prabhakar AROTE, Lucianna KIFFER  (IMDEA Networks Institute)
+created: <date created on, in yyyy-mm-dd format>
+---
+
+## Background and Problem Statement
+
+Proposer–Builder Separation (PBS) [7][11][5], together with MEV-Boost, represents the first widely adopted approach for decoupling block construction from
+block proposal in Ethereum. These mechanisms have enabled a more efficient and competitive market for block building and MEV extraction [2][28][1]. However, 
+their current realization relies predominantly on off-chain relayers, introducing non-trivial trust assumptions and creating centralization pressures
+within the block production pipeline [27][11][10]. In response to these limitations, a broad spectrum of alternative designs
+and protocol-level enhancements has been proposed. These include (but are not limited to) enshrined PBS [20][14], encrypted and privacy-preserving block
+building [13][23][12], MEV burn mechanisms [8], execution tickets [4], execution auctions [3], inclusion lists [FOCIL, AUCIL, COMIS, etc.] [26][24][25], and
+cross-domain PBS architectures [19][18][16]. Each class of design targets distinct challenges of the existing PBS model, such as reducing relayer dependence,
+mitigating censorship and liveness risks, improving incentive alignment across participants, and strengthening security guarantees for validators and order-flow
+providers.
+However, discussions of these designs, including their security assumptions and trade-offs are fragmented across blog posts, research articles, and forum
+discussions. As a result, there is no single, comprehensive resource that systematically compares these approaches or clearly outlines their shared objectives,
+design trade-offs, and remaining open challenges. The goal of this project is to compile and systematize existing PBS-related
+designs across different layers of the blockchain protocol. The project will identify and categorize the desired properties of proposer–builder separation mech-
+anisms, analyze known and potential attack vectors— Sandwich attack, Frontrunning attack [7][9], Back-running attack[21], Free-option problem[15], Timing
+game[22], Equivocation attacks [17], Bribery attack[6], etc. , and highlight open research questions. By providing a unified framework for understanding current
+proposals and their limitations across both industry and academia, this work aims to serve as a reference for researchers, protocol designers, and the broader
+blockchain community.
+
+## Plan and Deliverables
+
+The study will proceed in the following steps:
+• Compile and review existing literature on Proposer–Builder Separation (PBS), including current implementations and proposed alternative de-
+signs related to any step in the workflow from transaction submission to block validation.
+• Formalize the key properties required for a secure, efficient, and decentralized block-building system.
+• Analyze known and potential attack vectors that obstruct the realization of these properties, and discuss their implications for different PBS de-
+signs.
+• Synthesize the above analysis into a unified taxonomy of PBS design trade-offs, highlighting open problems and directions for future research
+
+## References
+
+[1] Hayden Adams, Brad Bachu, Alex Nezlobin, Sara Reynolds, Dan Robinson,
+Mark Toda, Xin Wan, Zach Wong, and Ciamac Moallemi. The protocol fee discount auction. 2025.
+[2] Orestis Alpos, Lioba Heimbach, Kartik Nayak, and Sarisht Wadhwa.
+Censorship-resistant sealed-bid auctions on blockchains. Cryptology ePrint Archive, 2025.
+[3] Jonah B. Execution auctions as an alternative to execution
+tickets. https://ethresear.ch/t/execution-auctions-as-an-alternative-to-
+execution-tickets/19894, 2024. Ethereum Research post, August 26, 2024.
+[4] Jonah Burian, Davide Crapis, and Fahad Saleh. Mev capture and decen-
+tralization in execution tickets. arXiv preprint arXiv:2408.11255, 2024.
+[5] Vitalik Buterin. Pbs- friendly fee market design.
+https://ethresear.ch/t/proposer-block-builder-separation-friendly-fee-
+market-designs/9725, October 2017. Ethereum Research post, October 17,
+2017.
+[6] Hao Chung, Elisaweta Masserova, Elaine Shi, and Sri AravindaKrishnan
+Thyagarajan. Rapidash: Foundations of side-contract-resilient fair ex-
+change. In Workshop on Cryptographic Tools for Blockchains (CTB 2024).
+Eprint, volume 1063, 2022.
+[7] Philip Daian, Steven Goldfeder, Tyler Kell, Yunqi Li, Xueyuan Zhao, Iddo
+Bentov, Lorenz Breidenbach, and Ari Juels. Flash boys 2.0: Frontrunning
+in decentralized exchanges, miner extractable value, and consensus instabil-
+ity. In 2020 IEEE symposium on security and privacy (SP), pages 910–927.
+IEEE, 2020.
+[8] Justin Drake. Mev-burn-a-simple-design. https://ethresear.ch/t/mev-
+burn-a-simple-design/15590, May 2023. Ethereum Research post, May 2,
+2023.
+[9] Shayan Eskandari, Seyedehmahsa Moosavi, and Jeremy Clark. Sok: Trans-
+parent dishonesty: front-running attacks on blockchain. In International
+Conference on Financial Cryptography and Data Security, pages 170–189.
+Springer, 2019.
+[10] Flashbots. Mev-boost. https://github.com/flashbots/mev-boost, 2022.
+Flashbot.
+[11] Lioba Heimbach, Lucianna Kiffer, Christof Ferreira Torres, and Roger Wat-
+tenhofer. Ethereum’s proposer-builder separation: Promises and realities.
+In Proceedings of the 2023 ACM on Internet Measurement Conference,
+pages 406–420, 2023.
+[12] Paul Janicot and Alex Vinyas. Private mev protection rpcs: Benchmark
+stud. arXiv preprint arXiv:2505.19708, 2025.
+[13] Alireza Kavousi, Duc V Le, Philipp Jovanovic, and George Danezis. Blind-
+perm: Efficient mev mitigation with an encrypted mempool and permuta-
+tion. Cryptology ePrint Archive, 2023.
+[14] Chenyang Liu, Ittai Abraham, Matthew Lentz, and Kartik Nayak. Dpaas:
+Improving decentralization by removing relays in ethereum pbs. Cryptology
+ePrint Archive, 2025.
+[15] Bruno Mazorra, Burak ¨Oz, Christoph Schlegel, and Fei Wu. The free option
+problem of epbs. arXiv preprint arXiv:2509.24849, 2025.
+[16] Conor McMenamin. Sok: Cross-domain mev. arXiv preprint
+arXiv:2308.04159, 2023.
+[17] Mike Neuder. Equivocation attacks in mev-boost and epbs.
+https://ethresear.ch/t/equivocation-attacks-in-mev-boost-and-
+epbs/15338, 2023. Ethereum Research post, April 18, 2023.
+[18] Alexandre Obadia, Alejo Salles, Lakshman Sankar, Tarun Chitra, Vaibhav
+Chellani, and Philip Daian. Unity is strength: A formalization of cross-
+domain maximal extractable value. arXiv preprint arXiv:2112.01472, 2021.
+[19] Burak ¨Oz, Christof Ferreira Torres, Christoph Schlegel, Bruno Mazorra,
+Jonas Gebele, Filip Rezabek, and Florian Matthes. Cross-chain arbitrage:
+The next frontier of mev in decentralized finance. Proceedings of the ACM
+on Measurement and Analysis of Computing Systems, 9(3):1–33, 2025.
+[20] potuz. epbs design constraints. https://ethresear.ch/t/epbs-design-
+constraints/18728, February 2024. Ethereum Research post, February 20,
+2024.
+[21] Kaihua Qin, Liyi Zhou, Pablo Gamito, Philipp Jovanovic, and Arthur Ger-
+vais. An empirical study of defi liquidations: Incentives, risks, and insta-
+bilities. In Proceedings of the 21st ACM internet measurement conference,
+pages 336–350, 2021.
+[22] Caspar Schwarz-Schilling, Fahad Saleh, Thomas Thiery, Jennifer Pan, Ni-
+har Shah, and Barnab´e Monnot. Time is money: Strategic timing games
+in proof-of-stake protocols. arXiv preprint arXiv:2305.09032, 2023.
+[23] James Stearn. ‘cryptographic approaches to complete mempool privacy.
+Flashbots Res., Cayman Islands, Tech. Rep. FRP-18, 2022.
+[24] Thomas Thiery. Fork-choice enforced inclusion lists (focil): A simple
+committee-based inclusion list proposal. https://ethresear.ch/t/fork-
+choice-enforced-inclusion-lists-focil-a-simple-committee-based-inclusion-
+list-proposal/19870, 2024. Ethereum Improvement Proposal, June 02,
+2024.
+[25] Francsco Thomas and Barnabe. The more, the less censored: In-
+troducing committee-enforced inclusion sets (comis) on ethereum.
+https://ethresear.ch/t/the-more-the-less-censored-introducing-committee-
+enforced-inclusion-sets-comis-on-ethereum/18835, 2024. Ethereum
+Research post, February 29, 2024.
+[26] Sarisht Wadhwa, Julian Ma, Thomas Thiery, Barnabe Monnot, Luca Zano-
+lini, Fan Zhang, and Kartik Nayak. Aucil: An inclusion list design for
+rational parties. Cryptology ePrint Archive, 2025.
+[27] Anton Wahrst¨atter, Jens Ernstberger, Aviv Yaish, Liyi Zhou, Kaihua Qin,
+Taro Tsuchiya, Sebastian Steinhorst, Davor Svetinovic, Nicolas Christin,
+Mikolaj Barczentewicz, et al. Blockchain censorship. In Proceedings of the
+ACM Web Conference 2024, pages 1632–1643, 2024.
+[28] Fei Wu, Thomas Thiery, Stefanos Leonardos, and Carmine Ventre. To
+compete or collude: Bidding incentives in ethereum block building auctions.
+In Proceedings of the 5th ACM International Conference on AI in Finance,
+pages 813–821, 2024.
