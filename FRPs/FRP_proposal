@@ -19,7 +19,7 @@ not limited to):
 • MEV burn mechanisms [8]
 • Execution tickets [4],
 • Execution auctions [3],
-• Inclusion lists [FOCIL, AUCIL, COMIS, etc.] [26][24][25],
+• Inclusion lists (FOCIL, AUCIL, COMIS, etc.) [26][24][25],
 • Cross-domain PBS architectures [19][18][16]
 
 Each class of design targets distinct challenges of the existing PBS model, such as reducing relayer dependence,
