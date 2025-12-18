@@ -10,15 +10,27 @@ created: <date created on, in yyyy-mm-dd format>
 Proposer–Builder Separation (PBS) [7][11][5], together with MEV-Boost, represents the first widely adopted approach for decoupling block construction from
 block proposal in Ethereum. These mechanisms have enabled a more efficient and competitive market for block building and MEV extraction [2][28][1]. However, 
 their current realization relies predominantly on off-chain relayers, introducing non-trivial trust assumptions and creating centralization pressures
-within the block production pipeline [27][11][10]. In response to these limitations, a broad spectrum of alternative designs
-and protocol-level enhancements has been proposed. These include (but are not limited to) enshrined PBS [20][14], encrypted and privacy-preserving block
-building [13][23][12], MEV burn mechanisms [8], execution tickets [4], execution auctions [3], inclusion lists [FOCIL, AUCIL, COMIS, etc.] [26][24][25], and
-cross-domain PBS architectures [19][18][16]. Each class of design targets distinct challenges of the existing PBS model, such as reducing relayer dependence,
+within the block production pipeline [27][11][10]. 
+
+In response to these limitations, a broad spectrum of alternative designs and protocol-level enhancements has been proposed. These include (but are
+not limited to):
+• Enshrined PBS[20][14]
+• Encrypted and Privacy-preserving block building [13][23][12]
+• MEV burn mechanisms [8]
+• Execution tickets [4],
+• Execution auctions [3],
+• Inclusion lists [FOCIL, AUCIL, COMIS, etc.] [26][24][25],
+• Cross-domain PBS architectures [19][18][16]
+
+Each class of design targets distinct challenges of the existing PBS model, such as reducing relayer dependence,
 mitigating censorship and liveness risks, improving incentive alignment across participants, and strengthening security guarantees for validators and order-flow
 providers.
+
 However, discussions of these designs, including their security assumptions and trade-offs are fragmented across blog posts, research articles, and forum
 discussions. As a result, there is no single, comprehensive resource that systematically compares these approaches or clearly outlines their shared objectives,
-design trade-offs, and remaining open challenges. The goal of this project is to compile and systematize existing PBS-related
+design trade-offs, and remaining open challenges. 
+
+The goal of this project is to compile and systematize existing PBS-related
 designs across different layers of the blockchain protocol. The project will identify and categorize the desired properties of proposer–builder separation mech-
 anisms, analyze known and potential attack vectors— Sandwich attack, Frontrunning attack [7][9], Back-running attack[21], Free-option problem[15], Timing
 game[22], Equivocation attacks [17], Bribery attack[6], etc. , and highlight open research questions. By providing a unified framework for understanding current
@@ -28,6 +40,7 @@ blockchain community.
 ## Plan and Deliverables
 
 The study will proceed in the following steps:
+
 • Compile and review existing literature on Proposer–Builder Separation (PBS), including current implementations and proposed alternative de-
 signs related to any step in the workflow from transaction submission to block validation.
 • Formalize the key properties required for a secure, efficient, and decentralized block-building system.
