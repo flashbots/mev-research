@@ -156,6 +156,12 @@ Both entities collaborate to:
 
 ## The Team
 
-**Bence Ladoczki**: He is a researcher working at the intersection of blockchain systems, distributed networks, and applied machine learning. His work focuses on the security, scalability, and economic mechanisms of decentralized systems, particularly Ethereum, MEV, randomness, and cross-chain protocols. In parallel, he has contributed to high-performance scientific computing and quantum chemistry methods, as well as machine learning applications in multimedia and video streaming. Overall, his research combines theoretical modeling with empirical analysis to address real-world challenges in complex computational systems. Recently he published a paper on the manipulability of the distributed randomness generator of the beacon chain and analysed the problem using MDPs.
+**Bence Ladoczki**: He is a researcher working at the intersection of blockchain systems, distributed networks, and applied machine learning. His work focuses on the security, scalability, and economic mechanisms of decentralized systems, particularly Ethereum, MEV, randomness, and cross-chain protocols. In parallel, he has contributed to high-performance scientific computing and quantum chemistry methods, as well as machine learning applications in multimedia and video streaming. Overall, his research combines theoretical modeling with empirical analysis to address real-world challenges in complex computational systems. Recently he published a paper on the manipulability of the distributed randomness generator of the beacon chain and analysed the problem using MDPs[1].
 
 **Dr. Leonardo Bautista-Gomez**: Dr. Leonardo Bautista-Gomez is the founder and leader of MigaLabs. He is also a Core Researcher for Ethereum. He has been collaborating with the Ethereum Foundation for over seven years, receiving multiple research grants from the EF and other institutions. He has over a decade of research experience in supercomputers, deep learning, and blockchain technology. He has published more than 50 scientific articles. He has received multiple international academic awards, including the IEEE TCSC Award for Excellence in Scalable Computing and the ACM/IEEE George Michael Memorial High Performance Computing Fellowship. He did his Ph.D. at the Tokyo Institute of Technology and his Master's at the Pierre & Marie Curie University Paris 6.
+
+
+**References**
+
+[1] Ábel Nagy, János Tapolcai, István András Seres, and Bence Ladóczki. 2025. Forking the RANDAO: Manipulating Ethereum's Distributed Randomness Beacon. In *Proceedings of the 2025 ACM SIGSAC Conference on Computer and Communications Security (CCS '25)*. Association for Computing Machinery, New York, NY, USA, 873–887. https://doi.org/10.1145/3719027.3744852
+
