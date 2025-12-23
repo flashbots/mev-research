@@ -8,7 +8,7 @@ Recent proposals from Flashbots and other MEV researchers suggest using Fully Ho
 
 This proposal aims to rigorously quantify how much MEV extraction remains possible under FHE and to characterise the strategies an economically rational attacker would use in probabilistic settings where only the post-trade AMM state is visible. This research combines empirical analysis of blockchain data with formal Markov Decision Process (MDP) modelling.
 
-## 2. Background
+## 2. Background and Problem Statement
 
 ### 2.1 MEV and AMMs
 
@@ -48,7 +48,7 @@ Answering these requires both (1) empirical reconstruction of historical MEV opp
 
 This collaboration leverages the complementary strengths of MigaLabs (empirical blockchain data analysis) and Bence Ladoczki (formal MDP modeling) to produce the first quantitative and strategic analysis of MEV in encrypted transaction environments.
 
-## 4. Methodology
+## 4. Plan and Deliverables
 
 The project consists of two major components, each performed by a different entity.
 
