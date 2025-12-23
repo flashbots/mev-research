@@ -1,3 +1,9 @@
+---
+id: 
+title: Evaluating MEV Resistance of FHE-Protected AMMs
+team: MigaLabs
+created: 2025-12-23 
+---
 # Evaluating MEV Resistance of FHE-Protected AMMs
 
 ## 1. Introduction
