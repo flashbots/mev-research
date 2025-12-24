@@ -120,7 +120,7 @@ Define:
 - **States**: AMM pre-trade and post-trade distributions, price-path distributions, mempool conditions, and market indicators.
 - **Actions**: Probabilistic choices of backrun trade size and timing, constrained by capital and gas limits.
 - **Transition Probabilities**: Derived from the empirical distribution of trade impacts and liquidity conditions obtained from MigaLabs' dataset.
-- **Rewards**: Expected backrun profit (arb size minus gas costs a trading fees).
+- **Rewards**: Expected backrun profit (arb size minus gas costs and trading fees).
 
 #### 4.2.2 Solving for Optimal Strategies
 
