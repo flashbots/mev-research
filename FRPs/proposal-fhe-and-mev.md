@@ -65,7 +65,7 @@ MigaLabs leads all data-driven and simulation tasks.
 
 #### 4.1.1 Historical Data Collection
 
-- Collect a full year of Ethereum blocks (or another target chain).
+- Collect a full year of blockchain blocks.
 - Extract all transactions interacting with major AMMs (e.g., Uniswap v2/v3, Curve, Balancer).
 - Build a structured dataset including block number, tx index, calldata, gas data, and decoded swap parameters.
 
