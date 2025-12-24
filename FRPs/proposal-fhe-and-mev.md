@@ -10,7 +10,7 @@ created: 2025-12-23
 
 Decentralised Finance (DeFi) relies heavily on Automated Market Makers (AMMs) for on-chain token exchange. However, AMMs remain vulnerable to Miner/Maximal Extractable Value (MEV) attacks, particularly frontrunning and backrunning strategies that exploit users' pending transactions in public mempools. These attacks degrade user experience by increasing slippage, creating unstable execution conditions, and enabling extractive arbitrage that costs users millions of dollars annually.
 
-Recent proposals from Flashbots and other MEV researchers suggest using Fully Homomorphic Encryption (FHE) to protect the contents of pending transactions. FHE hides critical information—such as trade direction, amount, and slippage—from mempool observers, making classical frontrunning orders dramatically more difficult to execute. However, even under FHE, backrunning opportunities remain: once a transaction is executed inside the block builder's environment, the resulting AMM state (updated reserves and implied prices) becomes visible to the builder, potentially enabling post-trade arbitrage.
+Recent proposals from Flashbots and other MEV researchers suggest using Fully Homomorphic Encryption (FHE) to protect the contents of pending transactions. FHE hides critical information—such as trade direction, amount, and slippage—from mempool observers, making classical frontrunning orders significantly more difficult to execute. However, even under FHE, backrunning opportunities remain: once a transaction is executed inside the block builder's environment, the resulting AMM state (updated reserves and implied prices) becomes visible to the builder, potentially enabling post-trade arbitrage.
 
 This proposal aims to rigorously quantify how much MEV extraction remains possible under FHE and to characterise the strategies an economically rational attacker would use in probabilistic settings where only the post-trade AMM state is visible. This research combines empirical analysis of blockchain data with formal Markov Decision Process (MDP) modelling.
 
@@ -20,10 +20,11 @@ This proposal aims to rigorously quantify how much MEV extraction remains possib
 
 Automated Market Makers (e.g., Uniswap v2/v3, Curve) maintain token reserves following deterministic functions. User trades modify reserves, changing the implied exchange rate. MEV attackers—searchers, builders, or validators—exploit these predictable state transitions for profit.
 
-Two key attack types:
+The most common attacks types are:
 
 - **Frontrunning**: Attacker inserts a trade before the victim to benefit from the price impact.
 - **Backrunning**: Attacker arbitrages after the victim's trade restores the AMM price to global market levels.
+- **Sandwich**: A combination of the above two.
 
 ### 2.2 FHE for Mempool Privacy
 
@@ -33,7 +34,7 @@ Fully Homomorphic Encryption provides a cryptographic method for encrypting tran
 - The block builder decrypts them inside a secure environment.
 - Only the post-execution state becomes public.
 
-This eliminates pre-trade visibility for attackers (mitigating frontrunning) but does not hide post-trade AMM reserves (leaving backrunning partially viable).
+This eliminates pre-trade visibility for attackers (mitigating frontrunning) but does not hide post-trade AMM reserves (leaving backrunning partially viable). We argue that frontrun attacks remain feasible in a probabilistic setting.
 
 ### 2.3 MDPs in Blockchain Adversarial Modeling
 
