@@ -38,7 +38,7 @@ This eliminates pre-trade visibility for attackers (mitigating frontrunning) but
 
 ### 2.3 MDPs in Blockchain Adversarial Modeling
 
-MDPs have been previously used to model economic attacks (e.g., RANDAO manipulation). In these settings, each state corresponds to observable blockchain parameters; actions correspond to the choice of attack parameters; and the Bellman optimality equation provides the attacker's optimal strategy over time. This framework is well-suited to model probabilistic MEV extraction when attackers face uncertainty about encrypted user trades.
+MDPs have been previously used to model economic attacks (e.g., RANDAO manipulation) [1]. In these settings, each state corresponds to observable blockchain parameters; actions correspond to the choice of attack parameters; and the Bellman optimality equation provides the attacker's optimal strategy over time. The MDP framework is well-suited to model probabilistic MEV extraction when attackers face uncertainty about encrypted user trades.
 
 ## 3. Motivation
 
