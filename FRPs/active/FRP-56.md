@@ -1,8 +1,9 @@
 ---
-id:
+id: 56
 title: MEV Value Chains Across L2 Sequencing Designs
 team: Ruizhe Jia (Stanford MS&E, Lead), Shihao Yu (SMU)
 created: 2026-01-16
+status: active
 ---
 
 # MEV Value Chains Across L2 Sequencing Designs
