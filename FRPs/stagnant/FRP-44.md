@@ -1,6 +1,6 @@
 | id | title | team | created | status |
 | --- | --- | --- | --- | --- |
-| 44 | Mechanisms of Blockchain-based Dark Pools | Muhammad Yusuf | 2024-7-29 | active |
+| 44 | Mechanisms of Blockchain-based Dark Pools | Muhammad Yusuf | 2024-7-29 | stagnant |
 
 # **Background and Problem Statement**
 
