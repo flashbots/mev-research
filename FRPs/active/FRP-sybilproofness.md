@@ -26,9 +26,13 @@ No existing analysis combines Sybil attacks with the full strategy space identif
 We model both paradigms as instances of a common abstraction: *capacity-constrained allocation mechanisms for transaction inclusion*. Sybils correspond to **false-name deviations** that perturb the mechanism’s participant set and can change equilibrium allocations and effective prices. Our working definition of Sybil resistance is **stake-neutrality**: for fixed total stake \(S\), an operator’s expected payoff, marginal inclusion probability, and induced equilibrium price impact is minimal when stake is split across \(B\) identities.
 
 To establish proposer welfare, we choose to adopt a General Equilibrium (GE) [9] (because inclusion fees, block rewards, and mempool congestion jointly determine equilibrium prices and bribery costs) with three concrete outputs: 
- (a) welfare decomposition across transaction submitters, includers, proposers/builders, and committee members, for both FOCIL under [6]’s TFMs and AUCIL
- (b) equilibrium prices and how identity creation perturbs them — for FOCIL this includes the block producer’s fake-transaction strategy, for AUCIL the effect of false-name bidding on Phase-II outcomes 
- (c) strategyproofness-in-the-large [11] for AUCIL, yielding computable bounds on manipulation gain in large markets.
+
+ 1. Welfare decomposition across transaction submitters, includers, proposers/builders, and committee members, for both FOCIL under [6]’s TFMs and AUCIL
+
+ 2. Equilibrium prices and how identity creation perturbs them — for FOCIL this includes the block producer’s fake-transaction strategy, for AUCIL the effect of false-name bidding on Phase-II outcomes 
+
+ 3. Strategyproofness-in-the-large [11] for AUCIL, yielding computable bounds on manipulation gain in large markets.
+
 We treat committee size \(k\) as a design variable (even for FOCIL since k = 16 is still a placeholder and needs more research): for target tolerances \((\epsilon,\delta)\), we bound a deviation-gain (regret) term \(R(k,N,B)\) and a price-distortion term \(\Delta p(k,N,B)\), where \(N\) is market scale and \(B\) is the attacker’s identity budget, and recommend the smallest \(k\) such that \(R \le \epsilon\) and \(\Delta p \le \delta\). We model the attacker as a single economic operator with a hidden type \(\theta\) (censorship value, coordination capacity, identity cost) and compute comparative statics as \(B\) increases, we evaluate under both thin-tailed and fat-tailed attacker-size assumptions [13,14].
 
 For **FOCIL**, we formalize and extend [6]’s full strategy space (including fake-transaction injection) in the presence of Sybils and derive how [6]’s censorship cost bounds degrade with identity budget \(B\), bribery attack by Sybil participants and identify design knobs (committee size \(k\), fee-split rules, reward/penalty normalization). Our main approach is to test FOCIL's TFM in the presence of Sybils as a fraction of the IL committee and their ability to bribe honest members given attacker budget. We think of this as a hybrid Sybil-bribery attack where the budget needed to conduct a bribery attack lowers given greater fraction of attacker participation in the committee.
