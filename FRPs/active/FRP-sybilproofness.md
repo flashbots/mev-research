@@ -33,7 +33,7 @@ To establish proposer welfare, we choose to adopt a General Equilibrium (GE) [9]
 
  3. Strategyproofness-in-the-large [11] for AUCIL, yielding computable bounds on manipulation gain in large markets.
 
-We treat committee size \(k\) as a design variable (even for FOCIL since k = 16 is still a placeholder and needs more research): for target tolerances \((\epsilon,\delta)\), we bound a deviation-gain (regret) term \(R(k,N,B)\) and a price-distortion term \(\Delta p(k,N,B)\), where \(N\) is market scale and \(B\) is the attacker’s identity budget, and recommend the smallest \(k\) such that \(R \le \epsilon\) and \(\Delta p \le \delta\). We model the attacker as a single economic operator with a hidden type \(\theta\) (censorship value, coordination capacity, identity cost) and compute comparative statics as \(B\) increases, we evaluate under both thin-tailed and fat-tailed attacker-size assumptions [13,14].
+We treat committee size (k) as a design variable (even for FOCIL since k = 16 is still a placeholder and needs more research): for target tolerances \((\epsilon,\delta)\), we bound a deviation-gain (regret) term \(R(k,N,B)\) and a price-distortion term \(\Delta p(k,N,B)\), where \(N\) is market scale and \(B\) is the attacker’s identity budget, and recommend the smallest \(k\) such that \(R \le \epsilon\) and \(\Delta p \le \delta\). We model the attacker as a single economic operator with a hidden type \(\theta\) (censorship value, coordination capacity, identity cost) and compute comparative statics as \(B\) increases, we evaluate under both thin-tailed and fat-tailed attacker-size assumptions [13,14].
 
 For **FOCIL**, we formalize and extend [6]’s full strategy space (including fake-transaction injection) in the presence of Sybils and derive how [6]’s censorship cost bounds degrade with identity budget \(B\), bribery attack by Sybil participants and identify design knobs (committee size \(k\), fee-split rules, reward/penalty normalization). Our main approach is to test FOCIL's TFM in the presence of Sybils as a fraction of the IL committee and their ability to bribe honest members given attacker budget. We think of this as a hybrid Sybil-bribery attack where the budget needed to conduct a bribery attack lowers given greater fraction of attacker participation in the committee.
 
@@ -65,7 +65,10 @@ The project is organized in four phases totalling to approximately ~5-6 months t
 
 ## Final Deliverables
 
-- **Research paper** with formal results and a design-implications section covering: (i) how FOCIL and AUCIL resist Sybil attacks differently, with attention to the economic attack paths in [6] (ii) general design principles for Sybil-robust IL mechanisms (iii) parameter recommendations for committee sizing under Sybil risk (iv) failure modes to avoid in future IL designs (e.g. Relay ILs [15]). We hope to aim Ethereum Technical Conferences and Academic Conferences like AFT, MARBLE and ACM to publish our paper.
+- **Research paper** with formal results and a design-implications section covering: (i) how FOCIL and AUCIL resist Sybil attacks differently, with attention to the economic attack paths in [6] (ii) general design principles for Sybil-robust IL mechanisms (iii) parameter recommendations for committee sizing under Sybil risk (iv) failure modes to avoid in future IL designs (e.g. Relay ILs [15]). 
+
+- **Conferences** We aim Ethereum Tokyo Conference 2026 and Academic Conferences like AFT 2026 and MARBLE 2026 to publish our paper and to disseminate our results.
+
 - **Open-source artifacts:** Lean 4 code for key lemmas and theorems and scripts/notebooks for parameter sweeps and stress tests.
 
 ## References
