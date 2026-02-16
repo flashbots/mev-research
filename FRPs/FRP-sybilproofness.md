@@ -1,7 +1,7 @@
 ---
 id: <leave blank -- will be assigned by reviewers>
 title: Sybil Resistance in Inclusion List Mechanisms: FOCIL and AUCIL
-team: Abhimanyu Nag (MITACS Fellow, University of Alberta) [lead], Sarisht Wadhwa (Duke University) [advisor]
+team: Abhimanyu Nag (University of Alberta) [lead], Sarisht Wadhwa (Duke University) [advisor]
 created: 2026-01-26
 ---
 
