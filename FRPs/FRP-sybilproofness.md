@@ -2,14 +2,14 @@
 id: <leave blank -- will be assigned by reviewers>
 title: Sybil Resistance in Inclusion List Mechanisms: FOCIL and AUCIL
 team: Abhimanyu Nag (University of Alberta) [lead], Sarisht Wadhwa (Duke University) [advisor]
-created: 2026-01-26
+created: 2026-02-16
 ---
 
 # Sybil Resistance in Inclusion List Mechanisms: FOCIL and AUCIL
 
 ## Background and Problem Statement
 
-Inclusion lists (ILs) [4] are emerging as a critical censorship resistance primitive for Ethereum under proposer-builder separation (PBS) [3]. Two design paradigms have been developed: **FOCIL** [1], which relies on consensus enforcement with fixed per-slot participants and no explicit pricing, and **AUCIL** [2], which relies on economic incentives with strategic participation and explicit price formation. With FOCIL (EIP-7805) proposed to headline the forthcoming Hegota upgrade [5], the robustness of IL designs is an immediate concern. Crucially, neither paradigm is fully Sybil-proof or bribery-proof.
+Inclusion lists (ILs) [4] are emerging as a critical censorship resistance primitive for Ethereum under proposer-builder separation (PBS) [3]. Two major design paradigms have been developed: **FOCIL** [1], which relies on consensus enforcement with fixed per-slot participants and no explicit pricing, and **AUCIL** [2], which relies on economic incentives with strategic participation and explicit price formation. With FOCIL (EIP-7805) proposed to headline the forthcoming Hegota upgrade [5], the robustness of IL designs is an immediate concern. Crucially, neither paradigm is fully Sybil-proof or bribery-proof.
 
 FOCIL is resistant to Sybils at the identity layer where its 1 out of $\(k\)$ honesty assumption and random committee sampling make full committee capture statistically impractical (e.g. for $\(k=16\)$ and adversarial stake fraction $\(\alpha=0.3\)$, single-slot capture probability $\(\approx 0.3^{16} \approx 4 \times 10^{-9}\)$ ) [17]. The vulnerability is therefore economic. Stouka et al. [6] design transaction fee mechanisms (TFMs) for FOCIL and show that unconditional inclusion lists can significantly increase the minimum bribe needed to censor a transaction but only if the block producer’s strategy space excludes adding fake transactions to the mempool. When fake transaction strategies are included, the cost of bribing under conditional and unconditional lists becomes similar, because injecting fake transactions that are later invalidated is the cheapest deviation for omitting a transaction from an inclusion list (Section 7, [6]). Moreover, the censorship cost bounds in [6] are equilibrium-dependent: there is no single fee split that maximizes resistance for all transactions, and users do not pay committee fees in equilibrium unless someone else does. Thus FOCIL is Sybil proof by trust guarantees but has not been tested for Sybil + bribery proofness as a TFM design problem.
 
@@ -18,14 +18,14 @@ AUCIL [2] by Wadhwa et al. on the other hand, addresses these gaps by explicitly
 No existing analysis combines Sybil attacks with the full strategy space identified in [6]. We study how Sybil resistance manifests differently across these two paradigms and what design patterns yield robust guarantees under identity elasticity. This aligns with the Flashbots research agenda on **Mechanism Design under Sybils** [8]. Building on TFM literature [19,20], our central research questions are:
 
 1. How does the choice between FOCIL and AUCIL shape the mechanism’s vulnerability to Sybil attacks, and what are the implications for PBS TFM design?
-2. What are the fundamental economic trade-offs between these FOCIL and AUCIL under identity elasticity — where does each break, and why?
+2. What are the fundamental economic trade-offs between these FOCIL and AUCIL under identity elasticity? Where does each break, and why?
 3. What design patterns across both paradigms provide robust Sybil resistance? And what might be optimal for Ethereum's future?
 
 ## Approach
 
 We model both paradigms as instances of a common abstraction: *capacity-constrained allocation mechanisms for transaction inclusion*. Sybils correspond to **false-name deviations** that perturb the mechanism’s participant set and can change equilibrium allocations and effective prices. Our working definition of Sybil resistance is **stake-neutrality**: for fixed total stake $\(S\)$, an operator’s expected payoff, marginal inclusion probability, and induced equilibrium price impact is minimal when stake is split across $\(B\)$ identities.
 
-To establish proposer welfare, we choose to adopt a General Equilibrium (GE) [9] (because inclusion fees, block rewards, and mempool congestion jointly determine equilibrium prices and bribery costs) with three concrete outputs: 
+To establish proposer welfare, we choose to adopt a market equilibrium [9] methodology similar to [12] because inclusion fees, block rewards, and mempool congestion jointly determine equilibrium prices and bribery costs. We plan for three concrete outputs: 
 
  1. Welfare decomposition across transaction submitters, includers, proposers/builders, and committee members, for both FOCIL under [6]’s TFMs and AUCIL
 
