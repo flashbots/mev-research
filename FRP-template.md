@@ -6,7 +6,7 @@ created: <date created on, in yyyy-mm-dd format>
 ---
 
 # Flashbots Research Proposal Template
-
+## Please note that FRP is currently paused, so new submissions will not be processed. 
 Follow this template for new research proposals, removing this text and replacing the *Flashbots Research Proposal Template* title with your proposal's own. Open a pull request to submit your proposal, using an abbreviated title in the filename (`proposal-short_title.md`), and put the file under the `FRPs` folder.
 
 Use this initial section to provide a ~500 word summary of the proposal. The summary should consist in a simple straightforward statement of what your hypothesis is, what methodology you intend to use, what limitations those methods may have, what implications your results may have.
