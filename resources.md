@@ -109,7 +109,9 @@ Below is a selection of resources from our vault to get you started on your MEV 
 
 [B.Protocol: A Decentralized Backstop Liquidity Protocol](https://medium.com/b-protocol/b-protocol-b6dd4e3bf9c0)
 
-[Gas Now (Sparkpool): ETH Gas Price quotation system based on Pending transactions](http://www.gasnow.org)
+[Etherscan Gas Tracker](https://etherscan.io/gastracker) (the original `gasnow.org` Sparkpool service is no longer active)
+
+[OpenChainBench gas estimation benchmark: live comparison of gas oracle accuracy across providers, measured as the gap between each oracle's estimate and the realized priority fee](https://openchainbench.com/benchmarks/gas-estimation)
 
 [Blocknative Mempool Explorer](https://explorer.blocknative.com/)
 
