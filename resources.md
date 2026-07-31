@@ -99,6 +99,8 @@ Below is a selection of resources from our vault to get you started on your MEV 
 
 [Phantom TX: a dark pool for Ethereum transactions](http://phantomtx.com)
 
+[ClearTrace: DEX execution-quality and MEV sandwich-exposure dashboards across Ethereum, Base, Arbitrum, Optimism](https://cleartracedata.com)
+
 [Candyshop: a smart transaction batching service that extracts value by controlling transaction ordering]( https://www.notion.so/CandyShop-Quick-Overview-517b726b0e1c4f06b3fe88f0a0ee1577)
 
 [Scrooge-McEtherface: attack tool that loots Ether from vulnerable smart contracts](https://github.com/b-mueller/scrooge-mcetherface)
