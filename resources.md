@@ -111,6 +111,8 @@ Below is a selection of resources from our vault to get you started on your MEV 
 
 [Gas Now (Sparkpool): ETH Gas Price quotation system based on Pending transactions](http://www.gasnow.org)
 
+[OpenChainBench](https://openchainbench.com) - Live benchmarks for MEV-protection RPC endpoints (Flashbots Protect, MEV Blocker, Merkle) and block builder latency across regions. Continuous measurements, open methodology, MIT licensed.
+
 [Blocknative Mempool Explorer](https://explorer.blocknative.com/)
 
 [Geth Wiki](https://geth.ethereum.org/docs/)
