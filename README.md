@@ -10,7 +10,7 @@ Our research covers a wide array of topics centered around the MEV theme. Severa
 You can read some of the research we've released on [Flashbots Writings](https://writings.flashbots.net/research) and the [Flashbots Forum](https://collective.flashbots.net/c/research/20). You can see our recent and ongoing work together with topics on which we hope to see community research in the [Flashbots Research Problem Database](https://flashbots.notion.site/21f6b4a0d87680a2b08dca1eda93ff6f?v=21f6b4a0d87681ddb959000c44242e52&pvs=74).
 
 ## Flashbots Research Proposals
-To fuel the collaborative nature of our research, we have a process in place for Flashbots Research Proposal (FRPs), where anybody can submit a research proposal for consideration. Upon community review, proposals will be considered for becoming part of our research, and might become eligible for a grant.
+To fuel the collaborative nature of our research, we have a process in place for Flashbots Research Proposal (FRPs), where anybody can submit a research proposal for consideration. Upon community review, proposals will be considered for becoming part of our research, and might become eligible for a grant. *Please note that grant giving through FRP is currently paused, but we remain open to collaboration through the program.*
 
 Find out more about our research [process](process.md), ongoing [FRPs](FRPs/) and the [grants](grants.md) we issue. You can see more about past FRPs in the [FRP section of the Flashbots Forum](https://collective.flashbots.net/c/frp/24). 
 
