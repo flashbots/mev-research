@@ -1,7 +1,5 @@
 # Flashbots Research Publications
 
-Papers, protocol writings, and forum research from the Flashbots research team.
-
 A searchable version of this list is at **https://flashbots.github.io/mev-research/**. The underlying data is in [`docs/publications.json`](docs/publications.json) and [`docs/publications.csv`](docs/publications.csv) — both are free to consume.
 
 Authors tagged *(Flashbots)* are Flashbots-affiliated. Where no author in a row is tagged, all authors are Flashbots.
