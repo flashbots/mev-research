@@ -2,22 +2,43 @@
   {
     "category": "Flashbots Writings",
     "title": "Why Location Choice Matters",
-    "date": "2026-08-08",
-    "authors": "Burak Öz, Fei Wu, Luis Correia, Sen Yang, Bruno Mazorra",
+    "date": "2026-08-09",
+    "authors": "Burak Öz (Flashbots), Fei Wu (Flashbots), Luis Correia (Flashbots), Sen Yang, Bruno Mazorra (Flashbots), Stefanos Leonardos",
     "url": "https://writings.flashbots.net/why-location-choice-matters"
+  },
+  {
+    "category": "Flashbots Collective Forum Posts",
+    "title": "To Wait or To Probe: Arbitrage Competition on High-Throughput Blockchains",
+    "date": "2026-06-08",
+    "authors": "Fei Wu, Burak Öz",
+    "url": "https://collective.flashbots.net/t/to-wait-or-to-probe-arbitrage-competition-on-high-throughput-blockchains/5759"
   },
   {
     "category": "Academic Papers",
     "title": "The Price of Decentralization in Block Building",
     "date": "2026-06-01",
-    "authors": "Burak Öz (Flashbots), Fei Wu (Flashbots), Luis Correia (Flashbots), Sen Yang (Flashbots), Bruno Mazorra (Flashbots), Stefanos Leonardos",
+    "authors": "Burak Öz (Flashbots), Fei Wu (Flashbots), Luis Correia (Flashbots), Sen Yang, Bruno Mazorra (Flashbots), Stefanos Leonardos",
     "url": "https://arxiv.org/abs/2606.01874"
   },
   {
     "category": "Academic Papers",
-    "title": "Just-in-Time Resale in an Ahead-of-Time Auction: An Event Study",
-    "date": "2026-03-23",
+    "title": "To Wait or To Probe: Arbitrage Competition on High-Throughput Blockchains",
+    "date": "2026-05-30",
+    "authors": "Fei Wu, Burak Öz",
+    "url": "https://arxiv.org/abs/2606.00720"
+  },
+  {
+    "category": "Flashbots Collective Forum Posts",
+    "title": "When Ahead-of-Time Allocation Fails: The Transition to Kairos",
+    "date": "2026-03-31",
     "authors": "Burak Öz (Flashbots), Christoph Schlegel (Flashbots), Akaki Mamageishvili",
+    "url": "https://collective.flashbots.net/t/when-ahead-of-time-allocation-fails-the-transition-to-kairos/5640"
+  },
+  {
+    "category": "Academic Papers",
+    "title": "Just-in-Time Resale in an Ahead-of-Time Auction for Faster Execution",
+    "date": "2026-03-20",
+    "authors": "Burak Öz (Flashbots), Christoph Schlegel (Flashbots), Akaki Mamageishvili, Ali Taslimi",
     "url": "https://arxiv.org/abs/2603.20175"
   },
   {
@@ -40,13 +61,6 @@
     "date": "2026-02-17",
     "authors": "",
     "url": "https://writings.flashbots.net/network-anonymized-mempools"
-  },
-  {
-    "category": "Academic Papers",
-    "title": "Geographical Centralization Resilience in Ethereum’s Block-Building Paradigms",
-    "date": "2026-01-19",
-    "authors": "Sen Yang, Burak Öz (Flashbots), Fei Wu, Fan Zhang",
-    "url": "https://arxiv.org/abs/2509.21475"
   },
   {
     "category": "Academic Papers",
@@ -119,18 +133,25 @@
     "url": "https://arxiv.org/abs/2510.12469"
   },
   {
+    "category": "Flashbots Collective Forum Posts",
+    "title": "Prisoners of Geography 2.0: How Protocol Shapes Where Validators Run",
+    "date": "2025-10-06",
+    "authors": "Sen Yang (Flashbots), Burak Öz (Flashbots), Fei Wu (Flashbots), Fan Zhang",
+    "url": "https://collective.flashbots.net/t/prisoners-of-geography-2-0-how-protocol-shapes-where-validators-run/5308"
+  },
+  {
     "category": "Academic Papers",
     "title": "The Free Option Problem of ePBS",
     "date": "2025-09-29",
-    "authors": "Bruno Mazorra, Burak Öz, Christoph Schlegel, Quintus Kilbourn",
+    "authors": "Bruno Mazorra, Burak Öz, Christoph Schlegel, Fei Wu",
     "url": "https://arxiv.org/abs/2509.24849"
   },
   {
     "category": "Academic Papers",
-    "title": "Geographic Decentralization Simulation",
+    "title": "Geographical Centralization Resilience in Ethereum’s Block-Building Paradigms",
     "date": "2025-09-25",
-    "authors": "Burak Öz, Sen Yang",
-    "url": "https://arxiv.org/abs/2509.21475v2"
+    "authors": "Sen Yang (Flashbots), Burak Öz (Flashbots), Fei Wu (Flashbots), Fan Zhang",
+    "url": "https://arxiv.org/abs/2509.21475"
   },
   {
     "category": "Academic Papers",
@@ -267,9 +288,9 @@
   },
   {
     "category": "Academic Papers",
-    "title": "Cross-Chain Arbitrage",
+    "title": "Cross-Chain Arbitrage: The Next Frontier of MEV in Decentralized Finance",
     "date": "2025-01-28",
-    "authors": "Burak Öz, Bruno Mazorra, Christoph Schlegel",
+    "authors": "Burak Öz (Flashbots), Christof Ferreira Torres, Christoph Schlegel (Flashbots), Bruno Mazorra (Flashbots), Jonas Gebele, Filip Rezabek (Flashbots), Florian Matthes",
     "url": "https://arxiv.org/abs/2501.17335"
   },
   {
@@ -388,7 +409,7 @@
     "category": "Academic Papers",
     "title": "A Study of MEV Extraction Techniques on a First-Come-First-Served Blockchain",
     "date": "2023-08-12",
-    "authors": "Burak Öz (Flashbots), Jonas Gebele, Parshant Singh, Filip Rezabek, Florian Matthes",
+    "authors": "Burak Öz (Flashbots), Jonas Gebele, Parshant Singh, Filip Rezabek (Flashbots), Florian Matthes",
     "url": "https://arxiv.org/abs/2308.06513"
   },
   {
