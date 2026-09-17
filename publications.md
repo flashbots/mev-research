@@ -1,5 +1,7 @@
 # Flashbots Research Publications
 
+Papers, protocol writings, and forum research from the Flashbots research team.
+
 A searchable version of this list is at **https://flashbots.github.io/mev-research/**. The underlying data is in [`docs/publications.json`](docs/publications.json) and [`docs/publications.csv`](docs/publications.csv) — both are free to consume.
 
 Authors tagged *(Flashbots)* are Flashbots-affiliated. Where no author in a row is tagged, all authors are Flashbots.
@@ -12,18 +14,18 @@ To add a publication, edit `ROWS` in [`tools/build_publications.py`](tools/build
 
 | Date | Title | Authors |
 | --- | --- | --- |
-| Jun 1, 2026 | [The Price of Decentralization in Block Building](https://arxiv.org/abs/2606.01874) | Burak Öz (Flashbots), Fei Wu (Flashbots), Luis Correia (Flashbots), Sen Yang (Flashbots), Bruno Mazorra (Flashbots), Stefanos Leonardos |
-| Mar 23, 2026 | [Just-in-Time Resale in an Ahead-of-Time Auction: An Event Study](https://arxiv.org/abs/2603.20175) | Burak Öz (Flashbots), Christoph Schlegel (Flashbots), Akaki Mamageishvili |
+| Jun 1, 2026 | [The Price of Decentralization in Block Building](https://arxiv.org/abs/2606.01874) | Burak Öz (Flashbots), Fei Wu (Flashbots), Luis Correia (Flashbots), Sen Yang, Bruno Mazorra (Flashbots), Stefanos Leonardos |
+| May 30, 2026 | [To Wait or To Probe: Arbitrage Competition on High-Throughput Blockchains](https://arxiv.org/abs/2606.00720) | Fei Wu, Burak Öz |
+| Mar 20, 2026 | [Just-in-Time Resale in an Ahead-of-Time Auction for Faster Execution](https://arxiv.org/abs/2603.20175) | Burak Öz (Flashbots), Christoph Schlegel (Flashbots), Akaki Mamageishvili, Ali Taslimi |
 | Feb 25, 2026 | [Timing Games: Probabilistic Backrunning and Spam](https://arxiv.org/abs/2602.22032) | Bruno Mazorra (Flashbots), Christoph Schlegel (Flashbots), Akaki Mamageishvili |
-| Jan 19, 2026 | [Geographical Centralization Resilience in Ethereum’s Block-Building Paradigms](https://arxiv.org/abs/2509.21475) | Sen Yang, Burak Öz (Flashbots), Fei Wu, Fan Zhang |
 | Jan 2, 2026 | [The CoinAlg Bind: Profitability-Fairness Tradeoffs in Collective Investment Algorithms](https://arxiv.org/abs/2601.00523) | Andrés Fábrega, James Austgen, Samuel Breckenridge, Jay Yu, Amy Zhao, Sarah Allen (Flashbots), Aditya Saraf, Ari Juels |
 | Dec 5, 2025 | [Time/Space Tradeoffs for Generic Attacks on Delay Functions](https://link.springer.com/chapter/10.1007/978-3-032-12290-2_15) | Kasper Green Larsen, Mark Simkin (Flashbots) |
 | Nov 23, 2025 | [TimeBoost: Do Ahead-of-Time Auctions Work?](https://arxiv.org/abs/2511.18328) | Akaki Mamageishvili, Christoph Schlegel (Flashbots), Ko Sunghun, Jinsuk Park, Ali Taslimi |
 | Oct 24, 2025 | [Conditional Recall](https://arxiv.org/abs/2510.21904) | Christoph Schlegel, Xinyuan Sun |
 | Oct 22, 2025 | [Cross-Chain Sealed-Bid Auctions Using Confidential Compute Blockchains](https://arxiv.org/abs/2510.19491) | Jonas Gebele, Timm Mutzel, Burak Öz (Flashbots), Florian Matthes |
 | Oct 14, 2025 | [Attestation of Host Networking Stack for TEEs](https://arxiv.org/abs/2510.12469) | Filip Rezabek, Moe Mahhouk |
-| Sep 29, 2025 | [The Free Option Problem of ePBS](https://arxiv.org/abs/2509.24849) | Bruno Mazorra, Burak Öz, Christoph Schlegel, Quintus Kilbourn |
-| Sep 25, 2025 | [Geographic Decentralization Simulation](https://arxiv.org/abs/2509.21475v2) | Burak Öz, Sen Yang |
+| Sep 29, 2025 | [The Free Option Problem of ePBS](https://arxiv.org/abs/2509.24849) | Bruno Mazorra, Burak Öz, Christoph Schlegel, Fei Wu |
+| Sep 25, 2025 | [Geographical Centralization Resilience in Ethereum’s Block-Building Paradigms](https://arxiv.org/abs/2509.21475) | Sen Yang (Flashbots), Burak Öz (Flashbots), Fei Wu (Flashbots), Fan Zhang |
 | Aug 19, 2025 | [Differentially Private Aggregate Hints in MEV-Share](https://arxiv.org/abs/2508.14284) | Jonathan Passerat-Palmbach, Sarisht Wadhwa |
 | Jul 29, 2025 | [Silent Threshold Encryption with One-Shot Adaptive Security](https://ia.cr/2025/1384) | Mathias Hall-Andersen, Mark Simkin (Flashbots), Benedikt Wagner |
 | Jul 2, 2025 | [Arbitrage with Bounded Liquidity](https://arxiv.org/abs/2507.02027) | Christoph Schlegel, Quintus Kilbourn |
@@ -32,7 +34,7 @@ To add a publication, edit `ROWS` in [`tools/build_publications.py`](tools/build
 | Apr 18, 2025 | [Robust Distributed Arrays: Provably Secure Networking for Data Availability Sampling](https://arxiv.org/abs/2504.13757) | Dankrad Feist, Gottfried Herold, Mark Simkin (Flashbots), Benedikt Wagner |
 | Apr 14, 2025 | [Encrypted Backruns](https://fc25.ifca.ai/preproceedings/238.pdf) | Jonathan Passerat-Palmbach |
 | Feb 11, 2025 | [NDAI Agreements](https://arxiv.org/abs/2502.07924) | Matthew Stephenson, Andrew Miller (Flashbots), Xyn Sun (Flashbots), Bhargav Annem, Rohan Parikh |
-| Jan 28, 2025 | [Cross-Chain Arbitrage](https://arxiv.org/abs/2501.17335) | Burak Öz, Bruno Mazorra, Christoph Schlegel |
+| Jan 28, 2025 | [Cross-Chain Arbitrage: The Next Frontier of MEV in Decentralized Finance](https://arxiv.org/abs/2501.17335) | Burak Öz (Flashbots), Christof Ferreira Torres, Christoph Schlegel (Flashbots), Bruno Mazorra (Flashbots), Jonas Gebele, Filip Rezabek (Flashbots), Florian Matthes |
 | Dec 3, 2024 | [Liquefaction: Privately Liquefying Blockchain Assets](https://arxiv.org/abs/2412.02634) | James Austgen, Andrés Fábrega, Mahimna Kelkar, Dani Vilardell, Sarah Allen (Flashbots), Kushal Babel, Jay Yu, Ari Juels |
 | Jul 19, 2024 | [On Sybil-proof Mechanisms](https://arxiv.org/abs/2407.14485) | Minghao Pan (Flashbots), Bruno Mazorra (Flashbots), Christoph Schlegel (Flashbots), Akaki Mamageishvili |
 | Jul 18, 2024 | [Who Wins Ethereum Block Building Auctions and Why?](https://arxiv.org/abs/2407.13931) | Burak Öz (Flashbots), Danning Sui (Flashbots), Thomas Thiery, Florian Matthes |
@@ -41,7 +43,7 @@ To add a publication, edit `ROWS` in [`tools/build_publications.py`](tools/build
 | Jan 15, 2024 | [Playing the MEV Game on a First-Come-First-Served Blockchain](https://arxiv.org/abs/2401.07992) | Burak Öz (Flashbots), Jonas Gebele, Parshant Singh, Filip Rezabek (Flashbots), Florian Matthes |
 | Nov 14, 2023 | [Cooperative AI via Decentralized Commitment Devices](https://arxiv.org/abs/2311.07815) | Xinyuan Sun (Flashbots), Davide Crapis, Matt Stephenson, Barnabé Monnot, Thomas Thiery, Jonathan Passerat-Palmbach (Flashbots) |
 | Nov 6, 2023 | [DAO Decentralization: Voting-Bloc Entropy, Bribery, and Dark DAOs](https://arxiv.org/abs/2311.03530) | James Austgen, Andrés Fábrega, Sarah Allen (Flashbots), Kushal Babel, Mahimna Kelkar, Ari Juels |
-| Aug 12, 2023 | [A Study of MEV Extraction Techniques on a First-Come-First-Served Blockchain](https://arxiv.org/abs/2308.06513) | Burak Öz (Flashbots), Jonas Gebele, Parshant Singh, Filip Rezabek, Florian Matthes |
+| Aug 12, 2023 | [A Study of MEV Extraction Techniques on a First-Come-First-Served Blockchain](https://arxiv.org/abs/2308.06513) | Burak Öz (Flashbots), Jonas Gebele, Parshant Singh, Filip Rezabek (Flashbots), Florian Matthes |
 | Jul 11, 2023 | [Time Moves Faster When There is Nothing You Anticipate: The Role of Time in MEV Rewards](https://arxiv.org/abs/2307.05814) | Burak Öz (Flashbots), Benjamin Kraner, Nicolò Vallarano, Bingle Stegmann Kruger, Florian Matthes, Claudio Juan Tessone |
 
 ## Flashbots Writings
@@ -50,7 +52,7 @@ To add a publication, edit `ROWS` in [`tools/build_publications.py`](tools/build
 
 | Date | Title | Authors |
 | --- | --- | --- |
-| Aug 8, 2026 | [Why Location Choice Matters](https://writings.flashbots.net/why-location-choice-matters) | Burak Öz, Fei Wu, Luis Correia, Sen Yang, Bruno Mazorra |
+| Aug 9, 2026 | [Why Location Choice Matters](https://writings.flashbots.net/why-location-choice-matters) | Burak Öz (Flashbots), Fei Wu (Flashbots), Luis Correia (Flashbots), Sen Yang, Bruno Mazorra (Flashbots), Stefanos Leonardos |
 | Feb 17, 2026 | [Network Anonymized Mempools](https://writings.flashbots.net/network-anonymized-mempools) | _not listed_ |
 | Jun 2, 2025 | [Scalable Oblivious Accesses to Blockchain Data](https://writings.flashbots.net/scalable-oblivious-accesses-to-blockchain-data) | Afonso Tinoco (Flashbots), Tianyao Gu, Elaine Shi, Andrew Miller (Flashbots) |
 | Nov 8, 2024 | [ZTEE - Trustless Supply Chains](https://writings.flashbots.net/ZTEE2-Supply-Chains) | Quintus Kilbourn (Flashbots), Sylvain Bellemare, Bunnie, Michael Gao |
@@ -58,13 +60,16 @@ To add a publication, edit `ROWS` in [`tools/build_publications.py`](tools/build
 
 ## Flashbots Collective Forum Posts
 
-17 entries.
+20 entries.
 
 | Date | Title | Authors |
 | --- | --- | --- |
+| Jun 8, 2026 | [To Wait or To Probe: Arbitrage Competition on High-Throughput Blockchains](https://collective.flashbots.net/t/to-wait-or-to-probe-arbitrage-competition-on-high-throughput-blockchains/5759) | Fei Wu, Burak Öz |
+| Mar 31, 2026 | [When Ahead-of-Time Allocation Fails: The Transition to Kairos](https://collective.flashbots.net/t/when-ahead-of-time-allocation-fails-the-transition-to-kairos/5640) | Burak Öz (Flashbots), Christoph Schlegel (Flashbots), Akaki Mamageishvili |
 | Mar 13, 2026 | [Timing Games: Probabilistic backrunning and spam](https://collective.flashbots.net/t/timing-games-probabilistic-backrunning-and-spam/5614) | Bruno Mazorra (Flashbots), Christoph Schlegel (Flashbots), Akaki Mamageishvili |
 | Dec 18, 2025 | [A Consensus Layer Client Diversity Snapshot](https://collective.flashbots.net/t/a-consensus-layer-client-diversity-snapshot/5431) | Data Always |
 | Dec 16, 2025 | [How the MEV Supply Chain Reacts to Circuit Breakers](https://collective.flashbots.net/t/how-the-mev-supply-chain-reacts-to-circuit-breakers/5439) | Data Always |
+| Oct 6, 2025 | [Prisoners of Geography 2.0: How Protocol Shapes Where Validators Run](https://collective.flashbots.net/t/prisoners-of-geography-2-0-how-protocol-shapes-where-validators-run/5308) | Sen Yang (Flashbots), Burak Öz (Flashbots), Fei Wu (Flashbots), Fan Zhang |
 | Aug 4, 2025 | [The Free Option Problem in ePBS, Part II](https://collective.flashbots.net/t/the-free-option-problem-in-epbs-part-ii/5145) | Christoph Schlegel, Fei Wu, Burak Öz, Bruno Mazorra |
 | Jul 23, 2025 | [An MEV Perspective on Glamsterdam](https://collective.flashbots.net/t/an-mev-perspective-on-glamsterdam/5116) | Data Always, Hasu |
 | Jul 23, 2025 | [The Free Option Problem in ePBS](https://collective.flashbots.net/t/the-free-option-problem-in-epbs/5115) | Christoph Schlegel, Bruno Mazorra |
@@ -100,4 +105,4 @@ To add a publication, edit `ROWS` in [`tools/build_publications.py`](tools/build
 
 ---
 
-_57 publications. Generated by `tools/build_publications.py`; edit that file, not this one._
+_60 publications. Generated by `tools/build_publications.py`; edit that file, not this one._
