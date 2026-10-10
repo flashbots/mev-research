@@ -1,0 +1,57 @@
+# Current Flashbots research team, used by tools/fetch_publications.py to
+# find new publications. Remove people when they leave: papers are tagged
+# "(Flashbots)" from the affiliations printed on them (arXiv HTML, ePrint),
+# so past work stays correctly attributed. Only papers that print no
+# affiliations fall back to tagging whoever is listed here.
+#
+#   name:     as it appears on papers (accents optional for matching)
+#   aliases:  other spellings used on papers
+#   forums:   Discourse username per forum
+#   github:   GitHub handle, @-mentioned on fetcher PRs listing their work
+
+- name: Burak Öz
+  github: boz1
+  aliases: [Burak Oez]
+  forums: {collective.flashbots.net: boz1, ethresear.ch: boz1}
+- name: Christoph Schlegel
+  github: jcschlegel
+  aliases: [Jan Christoph Schlegel]
+  forums: {collective.flashbots.net: Christoph, ethresear.ch: jcschlegel}
+- name: Bruno Mazorra
+  github: BrunoMazorra
+  forums: {collective.flashbots.net: 0xSybil, ethresear.ch: BrunoMazorra}
+- name: Mark Simkin
+  github: msimkin
+- name: Sarah Allen
+  github: sarahalle
+  forums: {collective.flashbots.net: sarah.allen}
+- name: Andrew Miller
+  github: amiller
+  forums: {collective.flashbots.net: socrates1024}
+- name: Filip Rezabek
+  github: rezabfil-sec
+- name: Luis Correia
+  github: LuisVCorreia
+  forums: {collective.flashbots.net: luiscorreia}
+- name: Xinyuan Sun
+  github: sxysun
+  aliases: [Xyn Sun]
+- name: Quintus Kilbourn
+  github: quintuskilbourn
+  forums: {collective.flashbots.net: Quintus}
+- name: Moe Mahhouk
+  github: MoeMahhouk
+  forums: {collective.flashbots.net: Moe}
+- name: Jonathan Passerat-Palmbach
+  github: jopasserat
+  forums: {collective.flashbots.net: jonathan, ethresear.ch: jopasserat}
+- name: Leo Arias
+  github: come-maiz
+  forums: {collective.flashbots.net: guayabyte}
+- name: Data Always
+  github: dataalways
+  forums: {collective.flashbots.net: dataalways, ethresear.ch: tripoli}
+- name: Phil Daian
+  github: pdaian
+  aliases: [Philip Daian]
+  forums: {collective.flashbots.net: phil, ethresear.ch: phil}

@@ -15,7 +15,7 @@ To fuel the collaborative nature of our research, we have a process in place for
 Find out more about our research [process](process.md), ongoing [FRPs](FRPs/) and the [grants](grants.md) we issue. You can see more about past FRPs in the [FRP section of the Flashbots Forum](https://collective.flashbots.net/c/frp/24). 
 
 ## Resources
-- An index of recent publications by the Flashbots Research team is at [research.flashbots.net](https://research.flashbots.net/). To add or fix an entry, edit [publications.yaml](publications.yaml) or [publications-manual.yaml](publications-manual.yaml); the site rebuilds on merge to `main`.
+- An index of recent publications by the Flashbots Research team is at [research.flashbots.net](https://research.flashbots.net/). To add or fix an entry, edit [publications.yaml](publications.yaml) or [publications-manual.yaml](publications-manual.yaml); the site rebuilds on merge to `main`. A monthly workflow opens a PR with new candidates from arXiv, IACR ePrint, the Collective and ethresear.ch forums, and writings.flashbots.net.
 - Access past recordings of research workshops and talks on the [Flashbots YouTube channel](https://www.youtube.com/channel/UCclbTgsnYUy3vmrptIqCmqQ)
 - A selection of research papers and posts on MEV topics can be found in our [research vault](resources.md)
 - Join the conversation on the [Flashbots Forum](https://collective.flashbots.net/)
