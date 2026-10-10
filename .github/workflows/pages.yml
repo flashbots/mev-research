@@ -1,0 +1,44 @@
+name: Publish site
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: write  # commit publications.md
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install pyyaml
+      - run: cp -r docs _site && python3 tools/build_publications.py _site
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+      - id: deployment
+        uses: actions/deploy-pages@v4
+      # Through the API rather than git push: main requires signed commits, and
+      # API commits are signed by GitHub. The file is generated from the YAML
+      # just reviewed and merged. Commits by this token start no workflow.
+      - name: Commit publications.md if it changed
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          git diff --quiet -- publications.md || gh api -X PUT "repos/${{ github.repository }}/contents/publications.md" \
+            -f message="publications.md: regenerate" -f branch="${{ github.ref_name }}" \
+            -f sha="$(git rev-parse HEAD:publications.md)" -f content="$(base64 -w0 publications.md)"
