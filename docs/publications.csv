@@ -1,5 +1,9 @@
 category,title,date,authors,url
+Academic Papers,Competing Auctions in Intermediated Markets,2026-10-02,"Bruno Mazorra (Flashbots), Minghao Pan (Flashbots), Christoph Schlegel (Flashbots)",https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.AFT.2026.19
+Academic Papers,The price of anarchy in the max-distance network creation game is not constant,2026-09-15,Christoph Schlegel (Flashbots),https://arxiv.org/abs/2609.17395
+Academic Papers,Bi-Compositional Division Rules,2026-09-01,Christoph Schlegel (Flashbots),https://arxiv.org/abs/2609.01489
 Flashbots Writings,Why Location Choice Matters,2026-08-09,"Burak Öz (Flashbots), Fei Wu (Flashbots), Luis Correia (Flashbots), Sen Yang, Bruno Mazorra (Flashbots), Stefanos Leonardos",https://writings.flashbots.net/why-location-choice-matters
+Academic Papers,Axioms for Constant Function Market Makers,2026-06-25,"Christoph Schlegel (Flashbots), Mateusz Kwaśnicki, Akaki Mamageishvili",https://onlinelibrary.wiley.com/doi/10.1111/mafi.70041
 Flashbots Collective Forum Posts,To Wait or To Probe: Arbitrage Competition on High-Throughput Blockchains,2026-06-08,"Fei Wu, Burak Öz",https://collective.flashbots.net/t/to-wait-or-to-probe-arbitrage-competition-on-high-throughput-blockchains/5759
 Academic Papers,The Price of Decentralization in Block Building,2026-06-01,"Burak Öz (Flashbots), Fei Wu (Flashbots), Luis Correia (Flashbots), Sen Yang, Bruno Mazorra (Flashbots), Stefanos Leonardos",https://arxiv.org/abs/2606.01874
 Academic Papers,To Wait or To Probe: Arbitrage Competition on High-Throughput Blockchains,2026-05-30,"Fei Wu, Burak Öz",https://arxiv.org/abs/2606.00720
@@ -55,7 +59,11 @@ Flashbots Collective Forum Posts,Pricing Execution Rights when Rewards are Mean 
 Academic Papers,OCash: Fully Anonymous Payments between Blockchain Light Clients,2024-02-15,"Adam Blatchley Hansen, Jesper Buus Nielsen, Mark Simkin (Flashbots)",https://ia.cr/2024/246
 Academic Papers,Playing the MEV Game on a First-Come-First-Served Blockchain,2024-01-15,"Burak Öz (Flashbots), Jonas Gebele, Parshant Singh, Filip Rezabek (Flashbots), Florian Matthes",https://arxiv.org/abs/2401.07992
 Flashbots Collective Forum Posts,When to Sell Your Blocks,2023-12-14,Quintus Kilbourn,https://collective.flashbots.net/t/when-to-sell-your-blocks/2814
+Academic Papers,Transaction Ordering Auctions,2023-12-04,Jan Christoph Schlegel (Flashbots),https://arxiv.org/abs/2312.02055
 Academic Papers,Cooperative AI via Decentralized Commitment Devices,2023-11-14,"Xinyuan Sun (Flashbots), Davide Crapis, Matt Stephenson, Barnabé Monnot, Thomas Thiery, Jonathan Passerat-Palmbach (Flashbots)",https://arxiv.org/abs/2311.07815
 Academic Papers,"DAO Decentralization: Voting-Bloc Entropy, Bribery, and Dark DAOs",2023-11-06,"James Austgen, Andrés Fábrega, Sarah Allen (Flashbots), Kushal Babel, Mahimna Kelkar, Ari Juels",https://arxiv.org/abs/2311.03530
+Academic Papers,Buying Time: Latency Racing vs. Bidding for Transaction Ordering,2023-10-18,"Akaki Mamageishvili, Mahimna Kelkar, Jan Christoph Schlegel (Flashbots), Edward W. Felten",https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.AFT.2023.23
+Academic Papers,Shared Sequencing and Latency Competition as a Noisy Contest,2023-10-03,"Akaki Mamageishvili, Jan Christoph Schlegel (Flashbots)",https://arxiv.org/abs/2310.02390
 Academic Papers,A Study of MEV Extraction Techniques on a First-Come-First-Served Blockchain,2023-08-12,"Burak Öz (Flashbots), Jonas Gebele, Parshant Singh, Filip Rezabek (Flashbots), Florian Matthes",https://arxiv.org/abs/2308.06513
 Academic Papers,Time Moves Faster When There is Nothing You Anticipate: The Role of Time in MEV Rewards,2023-07-11,"Burak Öz (Flashbots), Benjamin Kraner, Nicolò Vallarano, Bingle Stegmann Kruger, Florian Matthes, Claudio Juan Tessone",https://arxiv.org/abs/2307.05814
+Academic Papers,Would Friedman Burn your Tokens?,2023-06-29,"Aggelos Kiayias, Philip Lazos, Jan Christoph Schlegel (Flashbots)",https://arxiv.org/abs/2306.17025
