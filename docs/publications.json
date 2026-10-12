@@ -1,10 +1,38 @@
 [
   {
+    "category": "Academic Papers",
+    "title": "Competing Auctions in Intermediated Markets",
+    "date": "2026-10-02",
+    "authors": "Bruno Mazorra (Flashbots), Minghao Pan (Flashbots), Christoph Schlegel (Flashbots)",
+    "url": "https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.AFT.2026.19"
+  },
+  {
+    "category": "Academic Papers",
+    "title": "The price of anarchy in the max-distance network creation game is not constant",
+    "date": "2026-09-15",
+    "authors": "Christoph Schlegel (Flashbots)",
+    "url": "https://arxiv.org/abs/2609.17395"
+  },
+  {
+    "category": "Academic Papers",
+    "title": "Bi-Compositional Division Rules",
+    "date": "2026-09-01",
+    "authors": "Christoph Schlegel (Flashbots)",
+    "url": "https://arxiv.org/abs/2609.01489"
+  },
+  {
     "category": "Flashbots Writings",
     "title": "Why Location Choice Matters",
     "date": "2026-08-09",
     "authors": "Burak Öz (Flashbots), Fei Wu (Flashbots), Luis Correia (Flashbots), Sen Yang, Bruno Mazorra (Flashbots), Stefanos Leonardos",
     "url": "https://writings.flashbots.net/why-location-choice-matters"
+  },
+  {
+    "category": "Academic Papers",
+    "title": "Axioms for Constant Function Market Makers",
+    "date": "2026-06-25",
+    "authors": "Christoph Schlegel (Flashbots), Mateusz Kwaśnicki, Akaki Mamageishvili",
+    "url": "https://onlinelibrary.wiley.com/doi/10.1111/mafi.70041"
   },
   {
     "category": "Flashbots Collective Forum Posts",
@@ -393,6 +421,13 @@
   },
   {
     "category": "Academic Papers",
+    "title": "Transaction Ordering Auctions",
+    "date": "2023-12-04",
+    "authors": "Jan Christoph Schlegel (Flashbots)",
+    "url": "https://arxiv.org/abs/2312.02055"
+  },
+  {
+    "category": "Academic Papers",
     "title": "Cooperative AI via Decentralized Commitment Devices",
     "date": "2023-11-14",
     "authors": "Xinyuan Sun (Flashbots), Davide Crapis, Matt Stephenson, Barnabé Monnot, Thomas Thiery, Jonathan Passerat-Palmbach (Flashbots)",
@@ -407,6 +442,20 @@
   },
   {
     "category": "Academic Papers",
+    "title": "Buying Time: Latency Racing vs. Bidding for Transaction Ordering",
+    "date": "2023-10-18",
+    "authors": "Akaki Mamageishvili, Mahimna Kelkar, Jan Christoph Schlegel (Flashbots), Edward W. Felten",
+    "url": "https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.AFT.2023.23"
+  },
+  {
+    "category": "Academic Papers",
+    "title": "Shared Sequencing and Latency Competition as a Noisy Contest",
+    "date": "2023-10-03",
+    "authors": "Akaki Mamageishvili, Jan Christoph Schlegel (Flashbots)",
+    "url": "https://arxiv.org/abs/2310.02390"
+  },
+  {
+    "category": "Academic Papers",
     "title": "A Study of MEV Extraction Techniques on a First-Come-First-Served Blockchain",
     "date": "2023-08-12",
     "authors": "Burak Öz (Flashbots), Jonas Gebele, Parshant Singh, Filip Rezabek (Flashbots), Florian Matthes",
@@ -418,5 +467,12 @@
     "date": "2023-07-11",
     "authors": "Burak Öz (Flashbots), Benjamin Kraner, Nicolò Vallarano, Bingle Stegmann Kruger, Florian Matthes, Claudio Juan Tessone",
     "url": "https://arxiv.org/abs/2307.05814"
+  },
+  {
+    "category": "Academic Papers",
+    "title": "Would Friedman Burn your Tokens?",
+    "date": "2023-06-29",
+    "authors": "Aggelos Kiayias, Philip Lazos, Jan Christoph Schlegel (Flashbots)",
+    "url": "https://arxiv.org/abs/2306.17025"
   }
 ]
