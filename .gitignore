@@ -1,0 +1,4 @@
+# build outputs of tools/build_publications.py
+docs/publications.json
+docs/publications.csv
+__pycache__/

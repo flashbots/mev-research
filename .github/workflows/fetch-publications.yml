@@ -1,0 +1,37 @@
+name: Fetch new publications
+
+on:
+  schedule:
+    - cron: "0 7 1 * *"  # 1st of the month, 07:00 UTC
+  workflow_dispatch:
+    inputs:
+      since:
+        description: "Look back to YYYY-MM-DD (default: 45 days ago)"
+        required: false
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install pyyaml
+      - run: python3 tools/fetch_publications.py ${{ inputs.since }} > "$RUNNER_TEMP/pr-body.md"
+      - run: cat "$RUNNER_TEMP/pr-body.md" >> "$GITHUB_STEP_SUMMARY"
+      # validate the result the same way the site build does
+      - run: python3 tools/build_publications.py "$RUNNER_TEMP/site"
+      - uses: peter-evans/create-pull-request@v7
+        with:
+          branch: bot/new-publications
+          delete-branch: true
+          sign-commits: true  # main requires signed commits
+          add-paths: publications.yaml
+          commit-message: "publications: new candidates from monthly fetch"
+          title: "New publications (monthly fetch)"
+          body-path: ${{ runner.temp }}/pr-body.md
