@@ -27,14 +27,16 @@
 - category: Academic Papers
   title: The Price of Decentralization in Block Building
   date: 2026-06-01
-  authors: Burak Öz (Flashbots), Fei Wu, Luis Correia (Flashbots), Sen Yang, Bruno Mazorra (Flashbots), Stefanos Leonardos
-  url: https://arxiv.org/abs/2606.01874
+  authors: Burak Öz (Flashbots), Fei Wu (Flashbots), Luis Correia (Flashbots), Sen Yang, Bruno Mazorra (Flashbots), Stefanos Leonardos
+  url: https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.AFT.2026.25
+  also: https://arxiv.org/abs/2606.01874
   venue: AFT 2026
 - category: Academic Papers
   title: 'To Wait or To Probe: Arbitrage Competition on High-Throughput Blockchains'
   date: 2026-05-30
-  authors: Fei Wu, Burak Öz (Flashbots)
-  url: https://arxiv.org/abs/2606.00720
+  authors: Fei Wu (Flashbots), Burak Öz (Flashbots)
+  url: https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.AFT.2026.24
+  also: https://arxiv.org/abs/2606.00720
   venue: AFT 2026
 - category: Flashbots Collective Forum Posts
   title: 'When Ahead-of-Time Allocation Fails: The Transition to Kairos'
@@ -45,7 +47,8 @@
   title: Just-in-Time Resale in an Ahead-of-Time Auction for Faster Execution
   date: 2026-03-20
   authors: Burak Öz (Flashbots), Christoph Schlegel (Flashbots), Akaki Mamageishvili, Ali Taslimi
-  url: https://arxiv.org/abs/2603.20175
+  url: https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.AFT.2026.20
+  also: https://arxiv.org/abs/2603.20175
   venue: AFT 2026
 - category: Academic Papers
   title: 'Timing Games: Probabilistic Backrunning and Spam'
@@ -96,7 +99,9 @@
   title: Cross-Chain Sealed-Bid Auctions Using Confidential Compute Blockchains
   date: 2025-10-22
   authors: Jonas Gebele, Timm Mutzel, Burak Öz (Flashbots), Florian Matthes
-  url: https://arxiv.org/abs/2510.19491
+  url: https://dl.acm.org/doi/10.1145/3733815.3764043
+  also: https://arxiv.org/abs/2510.19491
+  venue: CCS DeFi 2025
 - category: Academic Papers
   title: 'Proof of Cloud: Data Center Execution Assurance for Confidential VMs'
   date: 2025-10-14
@@ -113,7 +118,9 @@
   title: Geographical Centralization Resilience in Ethereum’s Block-Building Paradigms
   date: 2025-09-25
   authors: Sen Yang (Flashbots), Burak Öz (Flashbots), Fei Wu (Flashbots), Fan Zhang
-  url: https://arxiv.org/abs/2509.21475
+  url: https://dl.acm.org/doi/abs/10.1145/3805637
+  also: https://arxiv.org/abs/2509.21475
+  venue: SIGMETRICS 2026
 - category: Academic Papers
   title: Differentially Private Aggregate Hints in MEV-Share
   date: 2025-08-19
@@ -185,7 +192,9 @@
   title: 'Cross-Chain Arbitrage: The Next Frontier of MEV in Decentralized Finance'
   date: 2025-01-28
   authors: Burak Öz (Flashbots), Christof Ferreira Torres, Christoph Schlegel (Flashbots), Bruno Mazorra (Flashbots), Jonas Gebele, Filip Rezabek (Flashbots), Florian Matthes
-  url: https://arxiv.org/abs/2501.17335
+  url: https://dl.acm.org/doi/abs/10.1145/3771566
+  also: https://arxiv.org/abs/2501.17335
+  venue: SIGMETRICS 2026
 - category: Flashbots Collective Forum Posts
   title: The Role of Relays in Reorgs
   date: 2024-12-20
@@ -231,7 +240,8 @@
   title: Who Wins Ethereum Block Building Auctions and Why?
   date: 2024-07-18
   authors: Burak Öz, Danning Sui (Flashbots), Thomas Thiery, Florian Matthes
-  url: https://arxiv.org/abs/2407.13931
+  url: https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.AFT.2024.22
+  also: https://arxiv.org/abs/2407.13931
   venue: AFT 2024
 - category: Academic Papers
   title: Searcher Competition in Block Building
@@ -300,6 +310,7 @@
   date: 2026-09-23
   authors: Lioba Heimbach, Ozan Solmaz, Burak Öz (Flashbots), Christof Ferreira Torres
   url: https://arxiv.org/abs/2609.28115
+  venue: preprint
 - category: Academic Papers
   title: 'Crypto x AI, AI x Crypto: A Survey'
   date: 2026-06-11
