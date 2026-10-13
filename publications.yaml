@@ -1,0 +1,456 @@
+# Flashbots Research publications. The monthly fetcher workflow appends new
+# candidates here via a PR; edits by hand are fine too. For entries the
+# fetcher cannot find, prefer publications-manual.yaml.
+#
+# The site (research.flashbots.net) is built from this file by
+# .github/workflows/pages.yml; nothing generated is committed.
+# Order does not matter, the site sorts by date.
+#
+# Fields: category, title, date (YYYY-MM-DD), authors, url (what the site
+#   links to), and optionally:
+#   venue  papers only: where it was published ("AFT 2026"), or "preprint"
+#          if it will stay one (the fetcher then stops looking)
+#   also   another version of the same work, e.g. the long read on
+#          writings.flashbots.net for a paper, shown as a second link. One
+#          entry per work: swap url and also to change which one leads.
+# Categories: Academic Papers, Flashbots Writings,
+#   Flashbots Collective Forum Posts, ethresear.ch Post
+# Tag every Flashbots-affiliated author with "(Flashbots)"; the site
+# underlines exactly those.
+# Quote any value containing ": " (e.g. title: 'A: B'), or YAML will not parse.
+
+- category: Flashbots Writings
+  title: Why Location Choice Matters
+  date: 2026-08-09
+  authors: Burak Öz (Flashbots), Fei Wu, Luis Correia (Flashbots), Sen Yang, Bruno Mazorra (Flashbots), Stefanos Leonardos
+  url: https://writings.flashbots.net/why-location-choice-matters
+- category: Academic Papers
+  title: The Price of Decentralization in Block Building
+  date: 2026-06-01
+  authors: Burak Öz (Flashbots), Fei Wu (Flashbots), Luis Correia (Flashbots), Sen Yang, Bruno Mazorra (Flashbots), Stefanos Leonardos
+  url: https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.AFT.2026.25
+  also: https://arxiv.org/abs/2606.01874
+  venue: AFT 2026
+- category: Academic Papers
+  title: 'To Wait or To Probe: Arbitrage Competition on High-Throughput Blockchains'
+  date: 2026-05-30
+  authors: Fei Wu (Flashbots), Burak Öz (Flashbots)
+  url: https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.AFT.2026.24
+  also: https://arxiv.org/abs/2606.00720
+  venue: AFT 2026
+- category: Flashbots Collective Forum Posts
+  title: 'When Ahead-of-Time Allocation Fails: The Transition to Kairos'
+  date: 2026-03-31
+  authors: Burak Öz (Flashbots), Christoph Schlegel (Flashbots), Akaki Mamageishvili
+  url: https://collective.flashbots.net/t/when-ahead-of-time-allocation-fails-the-transition-to-kairos/5640
+- category: Academic Papers
+  title: Just-in-Time Resale in an Ahead-of-Time Auction for Faster Execution
+  date: 2026-03-20
+  authors: Burak Öz (Flashbots), Christoph Schlegel (Flashbots), Akaki Mamageishvili, Ali Taslimi
+  url: https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.AFT.2026.20
+  also: https://arxiv.org/abs/2603.20175
+  venue: AFT 2026
+- category: Academic Papers
+  title: 'Timing Games: Probabilistic Backrunning and Spam'
+  date: 2026-02-25
+  authors: Bruno Mazorra (Flashbots), Christoph Schlegel (Flashbots), Akaki Mamageishvili
+  url: https://arxiv.org/abs/2602.22032
+- category: Flashbots Writings
+  title: Network Anonymized Mempools
+  date: 2026-02-17
+  authors: ''
+  url: https://writings.flashbots.net/network-anonymized-mempools
+- category: Academic Papers
+  title: 'The CoinAlg Bind: Profitability-Fairness Tradeoffs in Collective Investment Algorithms'
+  date: 2026-01-02
+  authors: Andrés Fábrega, James Austgen, Samuel Breckenridge, Jay Yu, Amy Zhao, Sarah Allen (Flashbots), Aditya Saraf, Ari Juels
+  url: https://arxiv.org/abs/2601.00523
+- category: Flashbots Collective Forum Posts
+  title: A Consensus Layer Client Diversity Snapshot
+  date: 2025-12-18
+  authors: Data Always (Flashbots)
+  url: https://collective.flashbots.net/t/a-consensus-layer-client-diversity-snapshot/5431
+- category: Flashbots Collective Forum Posts
+  title: How the MEV Supply Chain Reacts to Circuit Breakers
+  date: 2025-12-16
+  authors: Data Always (Flashbots)
+  url: https://collective.flashbots.net/t/how-the-mev-supply-chain-reacts-to-circuit-breakers/5439
+- category: ethresear.ch Post
+  title: Trustless Payments
+  date: 2025-12-10
+  authors: Bruno Mazorra (Flashbots), Christoph Schlegel (Flashbots), Quintus Kilbourn (Flashbots), Burak Öz (Flashbots), Luis Correia (Flashbots)
+  url: https://ethresear.ch/t/trustless-payments/23635
+- category: Academic Papers
+  title: 'TimeBoost: Do Ahead-of-Time Auctions Work?'
+  date: 2025-11-23
+  authors: Akaki Mamageishvili, Christoph Schlegel (Flashbots), Ko Sunghun, Jinsuk Park, Ali Taslimi
+  url: https://arxiv.org/abs/2511.18328
+- category: ethresear.ch Post
+  title: Dynamic Penalties for ePBS
+  date: 2025-11-19
+  authors: Christoph Schlegel (Flashbots), Bruno Mazorra (Flashbots)
+  url: https://ethresear.ch/t/dynamic-penalties-for-epbs/23472
+- category: Academic Papers
+  title: Conditional Recall
+  date: 2025-10-24
+  authors: Christoph Schlegel (Flashbots), Xinyuan Sun (Flashbots)
+  url: https://arxiv.org/abs/2510.21904
+- category: Academic Papers
+  title: Cross-Chain Sealed-Bid Auctions Using Confidential Compute Blockchains
+  date: 2025-10-22
+  authors: Jonas Gebele, Timm Mutzel, Burak Öz (Flashbots), Florian Matthes
+  url: https://dl.acm.org/doi/10.1145/3733815.3764043
+  also: https://arxiv.org/abs/2510.19491
+  venue: CCS DeFi 2025
+- category: Academic Papers
+  title: 'Proof of Cloud: Data Center Execution Assurance for Confidential VMs'
+  date: 2025-10-14
+  authors: Filip Rezabek (Flashbots), Moe Mahhouk (Flashbots), Andrew Miller (Flashbots), Quintus Kilbourn (Flashbots), Georg Carle, Jonathan Passerat-Palmbach (Flashbots)
+  url: https://arxiv.org/abs/2510.12469
+  venue: preprint
+- category: Academic Papers
+  title: The Free Option Problem of ePBS
+  date: 2025-09-29
+  authors: Bruno Mazorra (Flashbots), Burak Öz (Flashbots), Christoph Schlegel (Flashbots), Fei Wu (Flashbots)
+  url: https://arxiv.org/abs/2509.24849
+  venue: FC 2026
+- category: Academic Papers
+  title: Geographical Centralization Resilience in Ethereum’s Block-Building Paradigms
+  date: 2025-09-25
+  authors: Sen Yang (Flashbots), Burak Öz (Flashbots), Fei Wu (Flashbots), Fan Zhang
+  url: https://dl.acm.org/doi/abs/10.1145/3805637
+  also: https://arxiv.org/abs/2509.21475
+  venue: SIGMETRICS 2026
+- category: Academic Papers
+  title: Differentially Private Aggregate Hints in MEV-Share
+  date: 2025-08-19
+  authors: Jonathan Passerat-Palmbach (Flashbots), Sarisht Wadhwa (Flashbots)
+  url: https://arxiv.org/abs/2508.14284
+  venue: preprint
+- category: Flashbots Collective Forum Posts
+  title: The Free Option Problem in ePBS, Part II
+  date: 2025-08-04
+  authors: Christoph Schlegel (Flashbots), Fei Wu (Flashbots), Burak Öz (Flashbots), Bruno Mazorra (Flashbots)
+  url: https://collective.flashbots.net/t/the-free-option-problem-in-epbs-part-ii/5145
+- category: Academic Papers
+  title: Silent Threshold Encryption with One-Shot Adaptive Security
+  date: 2025-07-29
+  authors: Mathias Hall-Andersen, Mark Simkin (Flashbots), Benedikt Wagner
+  url: https://ia.cr/2025/1384
+- category: Flashbots Collective Forum Posts
+  title: An MEV Perspective on Glamsterdam
+  date: 2025-07-23
+  authors: Data Always (Flashbots), Hasu (Flashbots)
+  url: https://collective.flashbots.net/t/an-mev-perspective-on-glamsterdam/5116
+- category: Flashbots Collective Forum Posts
+  title: Detecting Cross-Chain Arbitrages in the Wild
+  date: 2025-07-22
+  authors: Burak Öz (Flashbots)
+  url: https://collective.flashbots.net/t/detecting-cross-chain-arbitrages-in-the-wild/5107
+- category: Academic Papers
+  title: Arbitrage with Bounded Liquidity
+  date: 2025-07-02
+  authors: Christoph Schlegel (Flashbots), Quintus Kilbourn (Flashbots)
+  url: https://arxiv.org/abs/2507.02027
+- category: Flashbots Collective Forum Posts
+  title: Defining Geographic Decentralisation
+  date: 2025-06-27
+  authors: Phil Daian (Flashbots)
+  url: https://collective.flashbots.net/t/geographic-decentralisation-research-directions/5040
+- category: Flashbots Collective Forum Posts
+  title: The LVR Gap for Random Block Times
+  date: 2025-06-26
+  authors: Christoph Schlegel (Flashbots)
+  url: https://collective.flashbots.net/t/the-lvr-gap-for-random-block-times-a-quick-and-useful-approximation/5038
+- category: Academic Papers
+  title: Narrowing the Gap between TEEs Threat Model and Deployment Strategies
+  date: 2025-06-17
+  authors: Filip Rezabek (Flashbots), Jonathan Passerat-Palmbach (Flashbots), Moe Mahhouk (Flashbots), Frieder Erdmann (Flashbots), Andrew Miller (Flashbots)
+  url: https://arxiv.org/abs/2506.14964
+  venue: SysTEX 2025
+- category: Flashbots Writings
+  title: Scalable Oblivious Accesses to Blockchain Data
+  date: 2025-06-02
+  authors: Afonso Tinoco (Flashbots), Tianyao Gu, Elaine Shi, Andrew Miller (Flashbots)
+  url: https://writings.flashbots.net/scalable-oblivious-accesses-to-blockchain-data
+- category: Academic Papers
+  title: 'Robust Distributed Arrays: Provably Secure Networking for Data Availability Sampling'
+  date: 2025-04-18
+  authors: Dankrad Feist, Gottfried Herold, Mark Simkin (Flashbots), Benedikt Wagner
+  url: https://arxiv.org/abs/2504.13757
+- category: Flashbots Collective Forum Posts
+  title: The Block Auction Arms Race
+  date: 2025-03-03
+  authors: Data Always (Flashbots)
+  url: https://collective.flashbots.net/t/the-block-auction-infrastructure-race/4734
+- category: Academic Papers
+  title: NDAI Agreements
+  date: 2025-02-11
+  authors: Matthew Stephenson, Andrew Miller (Flashbots), Xyn Sun (Flashbots), Bhargav Annem, Rohan Parikh
+  url: https://arxiv.org/abs/2502.07924
+- category: Academic Papers
+  title: 'Cross-Chain Arbitrage: The Next Frontier of MEV in Decentralized Finance'
+  date: 2025-01-28
+  authors: Burak Öz (Flashbots), Christof Ferreira Torres, Christoph Schlegel (Flashbots), Bruno Mazorra (Flashbots), Jonas Gebele, Filip Rezabek (Flashbots), Florian Matthes
+  url: https://dl.acm.org/doi/abs/10.1145/3771566
+  also: https://arxiv.org/abs/2501.17335
+  venue: SIGMETRICS 2026
+- category: Flashbots Collective Forum Posts
+  title: The Role of Relays in Reorgs
+  date: 2024-12-20
+  authors: Data Always (Flashbots)
+  url: https://collective.flashbots.net/t/the-role-of-relays-in-reorgs/4247
+- category: Academic Papers
+  title: 'Liquefaction: Privately Liquefying Blockchain Assets'
+  date: 2024-12-03
+  authors: James Austgen, Andrés Fábrega, Mahimna Kelkar, Dani Vilardell, Sarah Allen (Flashbots), Kushal Babel, Jay Yu, Ari Juels
+  url: https://arxiv.org/abs/2412.02634
+- category: Flashbots Writings
+  title: ZTEE - Trustless Supply Chains
+  date: 2024-11-08
+  authors: Quintus Kilbourn (Flashbots), Sylvain Bellemare, Bunnie, Michael Gao
+  url: https://writings.flashbots.net/ZTEE2-Supply-Chains
+- category: Flashbots Writings
+  title: Zero Trust Execution Environments
+  date: 2024-10-11
+  authors: Quintus Kilbourn (Flashbots), Sylvain Bellemare, Jonathan Passerat-Palmbach (Flashbots), Andrew Miller (Flashbots)
+  url: https://writings.flashbots.net/ZTEE
+- category: ethresear.ch Post
+  title: Understanding Minimum Blob Base Fees
+  date: 2024-09-25
+  authors: Data Always (Flashbots)
+  url: https://ethresear.ch/t/understanding-minimum-blob-base-fees/20489
+- category: Flashbots Collective Forum Posts
+  title: Proposing Rights Allocation “SoK”
+  date: 2024-09-13
+  authors: Christoph Schlegel (Flashbots), Quintus Kilbourn (Flashbots)
+  url: https://collective.flashbots.net/t/isolating-attesters-from-mev/3837
+- category: Flashbots Collective Forum Posts
+  title: 'Inelastic vs. Elastic Supply: Why PoS Could Be Less Centralizing Than Execution Tickets'
+  date: 2024-09-02
+  authors: Christoph Schlegel (Flashbots)
+  url: https://collective.flashbots.net/t/inelastic-vs-elastic-supply-why-proof-of-stake-could-be-less-centralizing-than-execution-tickets/3816
+- category: Academic Papers
+  title: On Sybil-proof Mechanisms
+  date: 2024-07-19
+  authors: Minghao Pan (Flashbots), Bruno Mazorra (Flashbots), Christoph Schlegel (Flashbots), Akaki Mamageishvili
+  url: https://arxiv.org/abs/2407.14485
+  venue: AFT 2026
+- category: Academic Papers
+  title: Who Wins Ethereum Block Building Auctions and Why?
+  date: 2024-07-18
+  authors: Burak Öz, Danning Sui (Flashbots), Thomas Thiery, Florian Matthes
+  url: https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.AFT.2024.22
+  also: https://arxiv.org/abs/2407.13931
+  venue: AFT 2024
+- category: Academic Papers
+  title: Searcher Competition in Block Building
+  date: 2024-07-10
+  authors: Akaki Mamageishvili, Christoph Schlegel (Flashbots), Benny Sudakov, Danning Sui (Flashbots)
+  url: https://arxiv.org/abs/2407.07474
+  venue: AFT 2024
+- category: Flashbots Collective Forum Posts
+  title: Pricing Execution Rights when Rewards are Mean Reverting
+  date: 2024-06-30
+  authors: Christoph Schlegel (Flashbots)
+  url: https://collective.flashbots.net/t/pricing-execution-rights-when-rewards-are-mean-reverting/3618
+- category: Academic Papers
+  title: 'OCash: Fully Anonymous Payments between Blockchain Light Clients'
+  date: 2024-02-15
+  authors: Adam Blatchley Hansen, Jesper Buus Nielsen, Mark Simkin (Flashbots)
+  url: https://ia.cr/2024/246
+- category: Flashbots Collective Forum Posts
+  title: When to Sell Your Blocks
+  date: 2023-12-14
+  authors: Quintus Kilbourn (Flashbots)
+  url: https://collective.flashbots.net/t/when-to-sell-your-blocks/2814
+- category: Academic Papers
+  title: Cooperative AI via Decentralized Commitment Devices
+  date: 2023-11-14
+  authors: Xinyuan Sun (Flashbots), Davide Crapis, Matt Stephenson, Barnabé Monnot, Thomas Thiery, Jonathan Passerat-Palmbach (Flashbots)
+  url: https://arxiv.org/abs/2311.07815
+  venue: NeurIPS 2023 - Multi-Agent Security Workshop
+- category: Academic Papers
+  title: 'DAO Decentralization: Voting-Bloc Entropy, Bribery, and Dark DAOs'
+  date: 2023-11-06
+  authors: James Austgen, Andrés Fábrega, Sarah Allen (Flashbots), Kushal Babel, Mahimna Kelkar, Ari Juels
+  url: https://arxiv.org/abs/2311.03530
+- category: Flashbots Writings
+  title: 'decentralized building: wat do?'
+  date: 2026-02-14
+  authors: ''
+  url: https://writings.flashbots.net/decentralized-building-wat-do
+- category: Flashbots Writings
+  title: MEV and the Limits of Scaling
+  date: 2025-06-16
+  authors: Robert Miller (Flashbots)
+  url: https://writings.flashbots.net/mev-and-the-limits-of-scaling
+- category: Flashbots Writings
+  title: Parallel block building
+  date: 2024-11-05
+  authors: Robert Miller (Flashbots)
+  url: https://writings.flashbots.net/parallel-builder
+- category: Flashbots Writings
+  title: State of Wallets 2024
+  date: 2024-10-04
+  authors: ''
+  url: https://writings.flashbots.net/state-of-wallets-2024
+- category: Flashbots Writings
+  title: 'Sirrah: Speedrunning a TEE Coprocessor'
+  date: 2024-01-25
+  authors: Andrew Miller (Flashbots)
+  url: https://writings.flashbots.net/suave-tee-coprocessor
+- category: Flashbots Writings
+  title: Illuminating Ethereum's Order Flow Landscape
+  date: 2024-01-17
+  authors: Angela Lu (Flashbots)
+  url: https://writings.flashbots.net/illuminate-the-order-flow
+- category: Academic Papers
+  title: 'No Place to Hide: An Analysis on Protected Order Flow Sandwich Attacks'
+  date: 2026-09-23
+  authors: Lioba Heimbach, Ozan Solmaz, Burak Öz (Flashbots), Christof Ferreira Torres
+  url: https://arxiv.org/abs/2609.28115
+  also: https://x.com/boez95/status/2107121962086535449
+  venue: preprint
+- category: Academic Papers
+  title: 'Crypto x AI, AI x Crypto: A Survey'
+  date: 2026-06-11
+  authors: Sarah Allen (Flashbots), Pranay Anchuri, James Austgen, Maryam Bahrani, Samuel Breckenridge, Aaron Buchwald, Christian Cachin, Andrés Fábrega, Jared Fernandez, James Hsin-yu Chiang, Marwa Mouallem, Roi Bar-Zur, Neil DeSilva, Ittay Eyal, Giulia Fanti, Ari Juels, Andrew Miller (Flashbots), Christian Sillaber, Dani Vilardell, Pramod Viswanath, Wenhao Wang, Matt Weinberg, Sen Yang, Jianzhu Yao, Fan Zhang
+  url: https://arxiv.org/abs/2606.13892
+- category: Academic Papers
+  title: Competing Auctions in Intermediated Markets
+  date: 2026-06-04
+  authors: Bruno Mazorra (Flashbots), Minghao Pan (Flashbots), Christoph Schlegel (Flashbots)
+  url: https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.AFT.2026.19
+  also: https://arxiv.org/abs/2606.06633
+  venue: AFT 2026
+- category: Academic Papers
+  title: 'Voting-Bloc Entropy: A New Metric for DAO Decentralization'
+  date: 2025-09-26
+  authors: Andrés Fábrega, Amy Zhao, Jay Yu, James Austgen, Sarah Allen (Flashbots), Kushal Babel, Mahimna Kelkar, Ari Juels
+  url: https://arxiv.org/abs/2509.22620
+  venue: USENIX Security 2025
+- category: Academic Papers
+  title: 'Cycles Protocol: A Peer-to-Peer Electronic Clearing System'
+  date: 2025-07-30
+  authors: Ethan Buchman, Paolo Dini, Shoaib Ahmed, Andrew Miller (Flashbots), Tomaž Fleischman
+  url: https://arxiv.org/abs/2507.22309
+- category: Academic Papers
+  title: 'PROF: Protected Order Flow in a Profit-Seeking World'
+  date: 2024-08-05
+  authors: Kushal Babel, Nerla Jean-Louis, Yan Ji, Ujval Misra, Mahimna Kelkar, Kosala Yapa Mudiyanselage, Andrew Miller (Flashbots), Ari Juels
+  url: https://arxiv.org/abs/2408.02303
+  venue: EuroS&P 2026
+- category: Academic Papers
+  title: Transaction Ordering Auctions
+  date: 2023-12-04
+  authors: Christoph Schlegel (Flashbots)
+  url: https://arxiv.org/abs/2312.02055
+- category: Academic Papers
+  title: 'Mempool Privacy: An Economic Perspective'
+  date: 2023-07-20
+  authors: Antoine Rondelet, Quintus Kilbourn (Flashbots)
+  url: https://arxiv.org/abs/2307.10878
+- category: Academic Papers
+  title: 'SoK: Encrypted Mempools Through the MEV Lens'
+  date: 2026-08-09
+  authors: Jonathan Passerat-Palmbach (Flashbots)
+  url: https://eprint.iacr.org/2026/1643
+  venue: AFT 2026
+- category: Academic Papers
+  title: 'Scale, Round, Break: Simple Leakage Attacks on Secret Sharing Schemes'
+  date: 2026-04-28
+  authors: Katharina Boudgoust, Mark Simkin (Flashbots)
+  url: https://eprint.iacr.org/2026/833
+  venue: ASIACRYPT 2026
+- category: Academic Papers
+  title: Oblivious Ciphertext Compression via Linear Codes
+  date: 2026-02-19
+  authors: Pascal Giorgi, Bruno Grenet, Mark Simkin (Flashbots)
+  url: https://eprint.iacr.org/2026/329
+  venue: EUROCRYPT 2026
+- category: Flashbots Collective Forum Posts
+  title: A Take on Quick Slots
+  date: 2026-09-03
+  authors: Burak Öz (Flashbots)
+  url: https://collective.flashbots.net/t/a-take-on-quick-slots/5979
+- category: Flashbots Collective Forum Posts
+  title: The Economics of Shared Sequencing
+  date: 2023-10-05
+  authors: Christoph Schlegel (Flashbots)
+  url: https://collective.flashbots.net/t/the-economics-of-shared-sequencing/2514
+- category: Flashbots Collective Forum Posts
+  title: Batching, Bidding and Latency
+  date: 2023-08-29
+  authors: Christoph Schlegel (Flashbots)
+  url: https://collective.flashbots.net/t/batching-bidding-and-latency/2301
+- category: Flashbots Collective Forum Posts
+  title: 'TEE-enabled Social Games: An Experiment with Bobu’s Magic Show'
+  date: 2024-10-11
+  authors: Andrew Miller (Flashbots)
+  url: https://collective.flashbots.net/t/tee-enabled-social-games-an-experiment-with-bobu-s-magic-show/3963
+- category: Flashbots Collective Forum Posts
+  title: Why wait for the slow train?
+  date: 2024-06-22
+  authors: Andrew Miller (Flashbots)
+  url: https://collective.flashbots.net/t/why-wait-for-the-slow-train/3576
+- category: Flashbots Collective Forum Posts
+  title: Demystifying remote attestation by taking it on-chain
+  date: 2023-11-10
+  authors: Andrew Miller (Flashbots)
+  url: https://collective.flashbots.net/t/demystifying-remote-attestation-by-taking-it-on-chain/2629
+- category: Flashbots Collective Forum Posts
+  title: Notes on the SGX TCB Recovery after Downfall
+  date: 2023-08-26
+  authors: Andrew Miller (Flashbots)
+  url: https://collective.flashbots.net/t/notes-on-the-sgx-tcb-recovery-after-downfall/2270
+- category: Flashbots Collective Forum Posts
+  title: 'Loose SEAL: Enabling Crash-Tolerant TDX Applications by Utilizing SGX Sealing Provider Sidecar'
+  date: 2024-12-18
+  authors: Moe Mahhouk (Flashbots)
+  url: https://collective.flashbots.net/t/loose-seal-enabling-crash-tolerant-tdx-applications-by-utilizing-sgx-sealing-provider-sidecar/4243
+- category: Flashbots Collective Forum Posts
+  title: Building Secure Ethereum Blocks on Minimal Intel TDX Confidential VMs
+  date: 2024-08-22
+  authors: Moe Mahhouk (Flashbots)
+  url: https://collective.flashbots.net/t/building-secure-ethereum-blocks-on-minimal-intel-tdx-confidential-vms/3795
+- category: Flashbots Collective Forum Posts
+  title: When Frontrunning is Alchemy
+  date: 2026-04-07
+  authors: Data Always (Flashbots)
+  url: https://collective.flashbots.net/t/when-frontrunning-is-alchemy/5648
+- category: Flashbots Collective Forum Posts
+  title: The Geography of Block Building
+  date: 2025-11-07
+  authors: Data Always (Flashbots)
+  url: https://collective.flashbots.net/t/the-geography-of-block-building/5367
+- category: ethresear.ch Post
+  title: Trustless payments and relays
+  date: 2026-06-08
+  authors: Christoph Schlegel (Flashbots)
+  url: https://ethresear.ch/t/trustless-payments-and-relays/25125
+- category: Flashbots Collective Forum Posts
+  title: 5 post capitalist experiments to be better infomed for MEV redistribution
+  date: 2024-06-13
+  authors: Leo Arias (Flashbots)
+  url: https://collective.flashbots.net/t/5-post-capitalist-experiments-to-be-better-infomed-for-mev-redistribution/3548
+- category: Academic Papers
+  title: The price of anarchy in the max-distance network creation game is not constant
+  date: 2026-09-15
+  authors: Christoph Schlegel (Flashbots)
+  url: https://arxiv.org/abs/2609.17395
+- category: Academic Papers
+  title: Bi-Compositional Division Rules
+  date: 2026-09-01
+  authors: Christoph Schlegel (Flashbots)
+  url: https://arxiv.org/abs/2609.01489
+- category: Academic Papers
+  title: Threat Vectors and the State of the Art in Defense Methods for Security in Neurotechnology
+  date: 2026-07-11
+  authors: Bryce-Allen Bagley, Nathaniel Rose, Quintus Kilbourn (Flashbots), Matthew Canham
+  url: https://arxiv.org/abs/2607.10451
+- category: Academic Papers
+  title: Shared Sequencing and Latency Competition as a Noisy Contest
+  date: 2023-10-03
+  authors: Akaki Mamageishvili, Jan Christoph Schlegel (Flashbots)
+  url: https://arxiv.org/abs/2310.02390

@@ -1,0 +1,83 @@
+# Hand-maintained publications, merged with publications.yaml at build time.
+#
+# Use this file for anything the monthly fetcher (tools/fetch_publications.py)
+# cannot find: venues other than arXiv / ePrint / the two Discourse forums /
+# writings.flashbots.net, or when a source is down. The fetcher never writes
+# here, and skips anything already listed here.
+#
+# Same structure as publications.yaml. A URL may appear in only one of the
+# two files (the build fails otherwise). Quote any value containing ": ".
+# Example:
+#
+# - category: Academic Papers
+#   title: Some Paper Title
+#   date: 2026-01-31
+#   authors: Jane Doe (Flashbots), John Roe
+#   url: https://example.org/paper
+#   venue: AFT 2026                       # optional, see publications.yaml
+#   also: https://writings.flashbots.net/a-long-read   # optional, see publications.yaml
+
+# Not on a fetched source (publisher pages), or forum posts by former team
+# members, whose handles the fetcher no longer searches.
+- category: Academic Papers
+  title: Axioms for Constant Function Market Makers
+  date: 2026-06-25
+  authors: Christoph Schlegel (Flashbots), Mateusz Kwaśnicki, Akaki Mamageishvili
+  url: https://onlinelibrary.wiley.com/doi/10.1111/mafi.70041
+  venue: Mathematical Finance
+- category: Academic Papers
+  title: 'Buying Time: Latency Racing vs. Bidding for Transaction Ordering'
+  date: 2023-10-18
+  authors: Akaki Mamageishvili, Mahimna Kelkar, Jan Christoph Schlegel (Flashbots), Edward W. Felten
+  url: https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.AFT.2023.23
+  venue: AFT 2023
+- category: Academic Papers
+  title: Would Friedman Burn your Tokens?
+  date: 2023-06-29
+  authors: Aggelos Kiayias, Philip Lazos, Jan Christoph Schlegel (Flashbots)
+  url: https://arxiv.org/abs/2306.17025
+- category: Academic Papers
+  title: Time/Space Tradeoffs for Generic Attacks on Delay Functions
+  date: 2025-12-05
+  authors: Kasper Green Larsen, Mark Simkin (Flashbots)
+  url: https://link.springer.com/chapter/10.1007/978-3-032-12290-2_15
+  venue: TCC 2025
+- category: Academic Papers
+  title: Maximal Extractable Value in Batch Auctions
+  date: 2025-07-02
+  authors: Mengqian Zhang, Yuhao Li, Xinyuan Sun (Flashbots), Elynn Chen, Xi Chen
+  url: https://dl.acm.org/doi/10.1145/3736252.3742581
+  venue: EC 2025
+- category: Academic Papers
+  title: 'Leveraging Homomorphic Encryption for Maximally Extractable Value (MEV) Mitigation: Enabling Blind Arbitrage on Decentralised Exchanges'
+  date: 2025-04-14
+  authors: Jonathan Passerat-Palmbach (Flashbots)
+  url: https://fc25.ifca.ai/preproceedings/238.pdf
+  also: https://writings.flashbots.net/blind-arbitrage-fhe
+  venue: FC 2025
+- category: Academic Papers
+  title: 'Mind the Gap: Where TEE Attestations Fall Short and Why We Need Proof of Cloud'
+  date: 2026-04-12
+  authors: Filip Rezabek (Flashbots), Jonathan Passerat-Palmbach (Flashbots)
+  url: https://writings.flashbots.net/mind-the-gap-tee-poc
+  also: https://systex-workshop.github.io/2026/papers/systex26-paper66.pdf
+  venue: SysTEX 2026
+
+# Carried over from the previous list though the fetcher wouldn't find them:
+# papers printing no Flashbots affiliation, posts in the Collective's
+# Research > References subforum, and a mental map
+- category: Flashbots Collective Forum Posts
+  title: Fugitive Nodes
+  date: 2025-06-19
+  authors: Leo Arias (Flashbots)
+  url: https://collective.flashbots.net/t/fugitive-nodes/4773
+- category: Flashbots Collective Forum Posts
+  title: RISC-V Explorations
+  date: 2025-06-19
+  authors: Leo Arias (Flashbots)
+  url: https://collective.flashbots.net/t/risc-v/4793
+- category: Excalidraw
+  title: Counter Mapping
+  date: 2025-06-19
+  authors: Leo Arias (Flashbots)
+  url: https://link.excalidraw.com/l/7Qr2ek3pfMQ/91UiAs0EApG

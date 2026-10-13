@@ -1,0 +1,70 @@
+# URLs the monthly fetcher must never propose again: candidates a reviewer
+# rejected (not research, not Flashbots work, ...). To reject one, delete it
+# from the bot PR and add its URL here, optionally with a comment saying why.
+#
+# - https://collective.flashbots.net/t/some-topic/1234  # not research
+
+# rejected from the 2023-07 backfill (not research, events, product news, not Flashbots work)
+- https://arxiv.org/abs/2310.16190
+- https://arxiv.org/abs/2311.09856
+- https://arxiv.org/abs/2311.14625
+- https://arxiv.org/abs/2402.06414
+- https://arxiv.org/abs/2411.03887
+- https://arxiv.org/abs/2511.07503
+- https://arxiv.org/abs/2603.23745
+- https://collective.flashbots.net/t/all-the-forms-to-fill-to-get-funding/5674
+- https://collective.flashbots.net/t/blockchain-projects-working-with-trusted-execution-environments/3539
+- https://collective.flashbots.net/t/countermapping/5589
+- https://collective.flashbots.net/t/crowdsourcing-ideas-tech-tree/4171
+- https://collective.flashbots.net/t/draft-sensuous-nature/2988
+- https://collective.flashbots.net/t/ethereum-next/3345
+- https://collective.flashbots.net/t/flashbox-incident-report-april-30-2026/5686
+- https://collective.flashbots.net/t/flashwares-i-tees-feat-intel-sgx/3405
+- https://collective.flashbots.net/t/flashwares-ii-end-to-end-useful-enclave-in-gramine-python-intro-to-controlled-channel-attacks/3432
+- https://collective.flashbots.net/t/frp-unconference/2969
+- https://collective.flashbots.net/t/funding-a-rebel-node-in-the-south-a-journal/3071
+- https://collective.flashbots.net/t/geographic-decentralization-salon-sbc-25/5143
+- https://collective.flashbots.net/t/guayabyte-in-the-ecotone/4134
+- https://collective.flashbots.net/t/is-it-hard-to-give-away-money/3148
+- https://collective.flashbots.net/t/non-violent-technologies/5784
+- https://collective.flashbots.net/t/panetiere-frequently-asked-questions/5904
+- https://collective.flashbots.net/t/pbs-and-alternatives-wiki/2034
+- https://collective.flashbots.net/t/project-t-tee-reading-list/3566
+- https://collective.flashbots.net/t/re-distribution-study-circle-session-2-july-2023-premises-of-capitalistic-ethereum/2181
+- https://collective.flashbots.net/t/re-distribution-study-circle-session-3-august-2023-universal-basic-income/2211
+- https://collective.flashbots.net/t/re-distribution-study-circle-session-4-october-2023-governance/2396
+- https://collective.flashbots.net/t/re-distribution-study-circle-session-5-november-2023-other-sciences/2725
+- https://collective.flashbots.net/t/response-ability-study-club/5837
+- https://collective.flashbots.net/t/santa-teresa-ethereum-post-capitalist-beach-hub/5676
+- https://collective.flashbots.net/t/sipeed-licheepi-4a/4086
+- https://collective.flashbots.net/t/tee-wiki/2019
+- https://collective.flashbots.net/t/the-mev-workshop-at-the-science-of-blockchain-conference-2023-mev-sbc-23/2038
+- https://collective.flashbots.net/t/the-mev-workshop-at-the-science-of-blockchain-conference-2024-mev-sbc-24/3527
+- https://collective.flashbots.net/t/the-mev-workshop-at-the-science-of-blockchain-conference-2025-mev-sbc-25/4880
+- https://collective.flashbots.net/t/the-mev-workshop-at-the-science-of-blockchain-conference-2026-mev-sbc-26/5636
+- https://collective.flashbots.net/t/trustless-tee-forum/4853
+- https://collective.flashbots.net/t/trustless-tee-list-of-open-pdks/4158
+- https://collective.flashbots.net/t/trustless-tee-salon-colab-with-ulyssean/5030
+- https://collective.flashbots.net/t/trustless-tee-update-august-24/3763
+- https://collective.flashbots.net/t/weaving-an-open-redistribution-research-journal/3268
+- https://ethresear.ch/t/the-influence-of-cefi-defi-arbitrage-on-mev-boost-auction-bid-profiles/17258
+- https://writings.flashbots.net/2m-protect-users
+- https://writings.flashbots.net/builder-playground
+- https://writings.flashbots.net/flashbots-superchain
+- https://writings.flashbots.net/frp-year-in-review
+- https://writings.flashbots.net/introducing-rollup-boost
+- https://writings.flashbots.net/mevm-suave-centauri-and-beyond
+- https://writings.flashbots.net/migrating-to-buildernet
+- https://writings.flashbots.net/open-sourcing-flashbots-mev-share-node
+- https://writings.flashbots.net/open-sourcing-rbuilder
+- https://writings.flashbots.net/preparing-for-dencun
+- https://writings.flashbots.net/unichain-mainnet
+- https://collective.flashbots.net/t/replicatoor-upgrade-controlled-migration-module-for-dstack/4148
+- https://collective.flashbots.net/t/half-baked-ideas-someone-should-build/2540
+- https://collective.flashbots.net/t/ethereum-decentralization-monitoring-central/4108
+- https://collective.flashbots.net/t/burning-ether-towards-ecosystemic-accountability-maybe/2201
+- https://collective.flashbots.net/t/tees-on-chain/5353
+- https://arxiv.org/abs/2401.07992
+- https://arxiv.org/abs/2308.06513
+- https://arxiv.org/abs/2307.05814
+- https://collective.flashbots.net/t/prisoners-of-geography-2-0-how-protocol-shapes-where-validators-run/5308
