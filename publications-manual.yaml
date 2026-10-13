@@ -42,11 +42,6 @@
   authors: Kasper Green Larsen, Mark Simkin (Flashbots)
   url: https://link.springer.com/chapter/10.1007/978-3-032-12290-2_15
   venue: TCC 2025
-- category: Flashbots Collective Forum Posts
-  title: 'Prisoners of Geography 2.0: How Protocol Shapes Where Validators Run'
-  date: 2025-10-06
-  authors: Sen Yang (Flashbots), Burak Öz (Flashbots), Fei Wu (Flashbots), Fan Zhang
-  url: https://collective.flashbots.net/t/prisoners-of-geography-2-0-how-protocol-shapes-where-validators-run/5308
 - category: Academic Papers
   title: Maximal Extractable Value in Batch Auctions
   date: 2025-07-02
@@ -71,21 +66,6 @@
 # Carried over from the previous list though the fetcher wouldn't find them:
 # papers printing no Flashbots affiliation, posts in the Collective's
 # Research > References subforum, and a mental map
-- category: Academic Papers
-  title: 'Playing the MEV Game on a First-Come-First-Served Blockchain'
-  date: 2024-01-15
-  authors: Burak Öz (Flashbots), Jonas Gebele, Parshant Singh, Filip Rezabek (Flashbots), Florian Matthes
-  url: https://arxiv.org/abs/2401.07992
-- category: Academic Papers
-  title: A Study of MEV Extraction Techniques on a First-Come-First-Served Blockchain
-  date: 2023-08-12
-  authors: Burak Öz (Flashbots), Jonas Gebele, Parshant Singh, Filip Rezabek (Flashbots), Florian Matthes
-  url: https://arxiv.org/abs/2308.06513
-- category: Academic Papers
-  title: 'Time Moves Faster When There is Nothing You Anticipate: The Role of Time in MEV Rewards'
-  date: 2023-07-11
-  authors: Burak Öz (Flashbots), Benjamin Kraner, Nicolò Vallarano, Bingle Stegmann Kruger, Florian Matthes, Claudio Juan Tessone
-  url: https://arxiv.org/abs/2307.05814
 - category: Flashbots Collective Forum Posts
   title: Fugitive Nodes
   date: 2025-06-19
