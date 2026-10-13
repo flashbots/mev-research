@@ -8,11 +8,11 @@ Authors tagged *(Flashbots)* are Flashbots-affiliated.
 
 ## Academic Papers
 
-50 entries.
+47 entries.
 
 | Date | Title | Authors |
 | --- | --- | --- |
-| 2026-09-23 | [No Place to Hide: An Analysis on Protected Order Flow Sandwich Attacks](https://arxiv.org/abs/2609.28115) | Lioba Heimbach, Ozan Solmaz, Burak Öz (Flashbots), Christof Ferreira Torres |
+| 2026-09-23 | [No Place to Hide: An Analysis on Protected Order Flow Sandwich Attacks](https://arxiv.org/abs/2609.28115) · [also](https://x.com/boez95/status/2107121962086535449) | Lioba Heimbach, Ozan Solmaz, Burak Öz (Flashbots), Christof Ferreira Torres |
 | 2026-09-15 | [The price of anarchy in the max-distance network creation game is not constant](https://arxiv.org/abs/2609.17395) | Christoph Schlegel (Flashbots) |
 | 2026-09-01 | [Bi-Compositional Division Rules](https://arxiv.org/abs/2609.01489) | Christoph Schlegel (Flashbots) |
 | 2026-08-09 | [SoK: Encrypted Mempools Through the MEV Lens](https://eprint.iacr.org/2026/1643) · *AFT 2026* | Jonathan Passerat-Palmbach (Flashbots) |
@@ -52,15 +52,12 @@ Authors tagged *(Flashbots)* are Flashbots-affiliated.
 | 2024-07-18 | [Who Wins Ethereum Block Building Auctions and Why?](https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.AFT.2024.22) · *AFT 2024* · [also](https://arxiv.org/abs/2407.13931) | Burak Öz, Danning Sui (Flashbots), Thomas Thiery, Florian Matthes |
 | 2024-07-10 | [Searcher Competition in Block Building](https://arxiv.org/abs/2407.07474) · *AFT 2024* | Akaki Mamageishvili, Christoph Schlegel (Flashbots), Benny Sudakov, Danning Sui (Flashbots) |
 | 2024-02-15 | [OCash: Fully Anonymous Payments between Blockchain Light Clients](https://ia.cr/2024/246) | Adam Blatchley Hansen, Jesper Buus Nielsen, Mark Simkin (Flashbots) |
-| 2024-01-15 | [Playing the MEV Game on a First-Come-First-Served Blockchain](https://arxiv.org/abs/2401.07992) | Burak Öz (Flashbots), Jonas Gebele, Parshant Singh, Filip Rezabek (Flashbots), Florian Matthes |
 | 2023-12-04 | [Transaction Ordering Auctions](https://arxiv.org/abs/2312.02055) | Christoph Schlegel (Flashbots) |
 | 2023-11-14 | [Cooperative AI via Decentralized Commitment Devices](https://arxiv.org/abs/2311.07815) · *NeurIPS 2023 - Multi-Agent Security Workshop* | Xinyuan Sun (Flashbots), Davide Crapis, Matt Stephenson, Barnabé Monnot, Thomas Thiery, Jonathan Passerat-Palmbach (Flashbots) |
 | 2023-11-06 | [DAO Decentralization: Voting-Bloc Entropy, Bribery, and Dark DAOs](https://arxiv.org/abs/2311.03530) | James Austgen, Andrés Fábrega, Sarah Allen (Flashbots), Kushal Babel, Mahimna Kelkar, Ari Juels |
 | 2023-10-18 | [Buying Time: Latency Racing vs. Bidding for Transaction Ordering](https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.AFT.2023.23) · *AFT 2023* | Akaki Mamageishvili, Mahimna Kelkar, Jan Christoph Schlegel (Flashbots), Edward W. Felten |
 | 2023-10-03 | [Shared Sequencing and Latency Competition as a Noisy Contest](https://arxiv.org/abs/2310.02390) | Akaki Mamageishvili, Jan Christoph Schlegel (Flashbots) |
-| 2023-08-12 | [A Study of MEV Extraction Techniques on a First-Come-First-Served Blockchain](https://arxiv.org/abs/2308.06513) | Burak Öz (Flashbots), Jonas Gebele, Parshant Singh, Filip Rezabek (Flashbots), Florian Matthes |
 | 2023-07-20 | [Mempool Privacy: An Economic Perspective](https://arxiv.org/abs/2307.10878) | Antoine Rondelet, Quintus Kilbourn (Flashbots) |
-| 2023-07-11 | [Time Moves Faster When There is Nothing You Anticipate: The Role of Time in MEV Rewards](https://arxiv.org/abs/2307.05814) | Burak Öz (Flashbots), Benjamin Kraner, Nicolò Vallarano, Bingle Stegmann Kruger, Florian Matthes, Claudio Juan Tessone |
 | 2023-06-29 | [Would Friedman Burn your Tokens?](https://arxiv.org/abs/2306.17025) | Aggelos Kiayias, Philip Lazos, Jan Christoph Schlegel (Flashbots) |
 
 ## Flashbots Writings
@@ -83,7 +80,7 @@ Authors tagged *(Flashbots)* are Flashbots-affiliated.
 
 ## Flashbots Collective Forum Posts
 
-29 entries.
+28 entries.
 
 | Date | Title | Authors |
 | --- | --- | --- |
@@ -93,7 +90,6 @@ Authors tagged *(Flashbots)* are Flashbots-affiliated.
 | 2025-12-18 | [A Consensus Layer Client Diversity Snapshot](https://collective.flashbots.net/t/a-consensus-layer-client-diversity-snapshot/5431) | Data Always (Flashbots) |
 | 2025-12-16 | [How the MEV Supply Chain Reacts to Circuit Breakers](https://collective.flashbots.net/t/how-the-mev-supply-chain-reacts-to-circuit-breakers/5439) | Data Always (Flashbots) |
 | 2025-11-07 | [The Geography of Block Building](https://collective.flashbots.net/t/the-geography-of-block-building/5367) | Data Always (Flashbots) |
-| 2025-10-06 | [Prisoners of Geography 2.0: How Protocol Shapes Where Validators Run](https://collective.flashbots.net/t/prisoners-of-geography-2-0-how-protocol-shapes-where-validators-run/5308) | Sen Yang (Flashbots), Burak Öz (Flashbots), Fei Wu (Flashbots), Fan Zhang |
 | 2025-08-04 | [The Free Option Problem in ePBS, Part II](https://collective.flashbots.net/t/the-free-option-problem-in-epbs-part-ii/5145) | Christoph Schlegel (Flashbots), Fei Wu (Flashbots), Burak Öz (Flashbots), Bruno Mazorra (Flashbots) |
 | 2025-07-23 | [An MEV Perspective on Glamsterdam](https://collective.flashbots.net/t/an-mev-perspective-on-glamsterdam/5116) | Data Always (Flashbots), Hasu (Flashbots) |
 | 2025-07-22 | [Detecting Cross-Chain Arbitrages in the Wild](https://collective.flashbots.net/t/detecting-cross-chain-arbitrages-in-the-wild/5107) | Burak Öz (Flashbots) |

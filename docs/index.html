@@ -223,7 +223,7 @@ function render(){
       <div class="body">
         <h2><a href="${esc(p.url)}" target="_blank" rel="noopener">${esc(p.title)}</a></h2>
         <p class="authors">${renderAuthors(p.authors)}</p>
-        <p class="meta">${esc(p.category)}${reviewed(p) ? ` <em>·</em> <span class="venue">${esc(p.venue)}</span>` : ""} <em>·</em> ${esc(host(p.url))}${p.also ? ` <em>·</em> <a href="${esc(p.also)}" target="_blank" rel="noopener">${host(p.also) === "writings.flashbots.net" ? "Long read" : "Paper"} ↗</a>` : ""}</p>
+        <p class="meta">${esc(p.category)}${reviewed(p) ? ` <em>·</em> <span class="venue">${esc(p.venue)}</span>` : ""} <em>·</em> ${esc(host(p.url))}${p.also ? ` <em>·</em> <a href="${esc(p.also)}" target="_blank" rel="noopener">${["writings.flashbots.net","x.com"].includes(host(p.also)) ? "Long read" : "Paper"} ↗</a>` : ""}</p>
       </div>
     </article>`;
   }
