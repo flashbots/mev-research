@@ -68,6 +68,8 @@ Below is a selection of resources from our vault to get you started on your MEV 
 
 [TXSPECTOR: Uncovering Attacks in Ethereum from Transactions](https://par.nsf.gov/servlets/purl/10211571)
 
+[Werracle: Sub-Cent Intra-Block AI Reflex Oracles and Flash-Loan Circuit Breakers for EVM Smart Contracts by Dağlı et. al.](https://arxiv.org/abs/2609.30719)
+
 ## Miscellaneous Gems
 [Ethereum is a Dark Forest by Dan Robinson](https://medium.com/@danrobinson/ethereum-is-a-dark-forest-ecc5f0505dff)
 
