@@ -1,6 +1,20 @@
 [
   {
     "category": "Academic Papers",
+    "title": "Path-Independent Deleveraging Rules",
+    "date": "2026-11-19",
+    "authors": "Christoph Schlegel (Flashbots), Akaki Mamageishvili",
+    "url": "https://arxiv.org/abs/2611.26623"
+  },
+  {
+    "category": "Academic Papers",
+    "title": "The Geography of (Concurrent) Block Proposing",
+    "date": "2026-10-13",
+    "authors": "Ciamac C. Moallemi, Mallesh M. Pai, Dan Robinson, Christoph Schlegel (Flashbots)",
+    "url": "https://arxiv.org/abs/2610.18812"
+  },
+  {
+    "category": "Academic Papers",
     "title": "Competing Auctions in Intermediated Markets",
     "date": "2026-10-02",
     "authors": "Bruno Mazorra (Flashbots), Minghao Pan (Flashbots), Christoph Schlegel (Flashbots)",
