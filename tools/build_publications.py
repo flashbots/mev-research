@@ -21,6 +21,12 @@ ER = "ethresear.ch Post"
 EX = "Excalidraw"
 
 ROWS = [
+    (AP, "Path-Independent Deleveraging Rules", "2026-11-19",
+     "Christoph Schlegel (Flashbots), Akaki Mamageishvili",
+     "https://arxiv.org/abs/2611.26623"),
+    (AP, "The Geography of (Concurrent) Block Proposing", "2026-10-13",
+     "Ciamac C. Moallemi, Mallesh M. Pai, Dan Robinson, Christoph Schlegel (Flashbots)",
+     "https://arxiv.org/abs/2610.18812"),
     (AP, "The price of anarchy in the max-distance network creation game is not constant", "2026-09-15",
      "Christoph Schlegel (Flashbots)",
      "https://arxiv.org/abs/2609.17395"),
